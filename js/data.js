@@ -977,7 +977,17 @@ const gameData = {
       { en: "Backpack", pt: "Mochila", emoji: "🎒" },
       { en: "School", pt: "Escola", emoji: "🏫" },
       { en: "Eraser", pt: "Borracha", emoji: "🧼" },
-      { en: "Notebook", pt: "Caderno", emoji: "📓" }
+      { en: "Notebook", pt: "Caderno", emoji: "📓" },
+      { en: "Pen", pt: "Caneta", emoji: "🖊️" },
+      { en: "Ruler", pt: "Régua", emoji: "📏" },
+      { en: "Board", pt: "Quadro Negro", emoji: "⬛" },
+      { en: "Student", pt: "Aluno(a)", emoji: "🧑‍🎓" },
+      { en: "Scissors", pt: "Tesoura", emoji: "✂️" },
+      { en: "Glue", pt: "Cola", emoji: "🧴" },
+      { en: "Paper", pt: "Papel", emoji: "📄" },
+      { en: "Calculator", pt: "Calculadora", emoji: "🧮" },
+      { en: "Crayon", pt: "Giz de cera", emoji: "🖍️" },
+      { en: "Classroom", pt: "Sala de Aula", emoji: "🚪" }
     ],
     story: [{ text: "Welcome to school, let's learn new words!" }],
     matching: [
