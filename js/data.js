@@ -964,6 +964,50 @@ const gameData = {
         nalaMsg: 'Great job! 🏆'
       }
     ]
+  },
+  school: {
+    title: "School",
+    bgImage: "url('images/bg-school.png')",
+    emoji: "🏫",
+    flashcards: [
+      { en: "Pencil", pt: "Lápis", emoji: "✏️" },
+      { en: "Book", pt: "Livro", emoji: "📖" },
+      { en: "Teacher", pt: "Professor(a)", emoji: "👩‍🏫" },
+      { en: "Desk", pt: "Carteira", emoji: "🪑" },
+      { en: "Backpack", pt: "Mochila", emoji: "🎒" },
+      { en: "School", pt: "Escola", emoji: "🏫" },
+      { en: "Eraser", pt: "Borracha", emoji: "🧼" },
+      { en: "Notebook", pt: "Caderno", emoji: "📓" }
+    ],
+    story: [{ text: "Welcome to school, let's learn new words!" }],
+    matching: [
+      { word: "Pencil", emoji: "✏️" },
+      { word: "Book", emoji: "📖" },
+      { word: "Teacher", emoji: "👩‍🏫" },
+      { word: "Desk", emoji: "🪑" },
+      { word: "Backpack", emoji: "🎒" },
+      { word: "School", emoji: "🏫" }
+    ],
+    sentence: [
+      { words: ["I", "have", "a", "pencil"], translation: "Eu tenho um lápis" },
+      { words: ["The", "teacher", "is", "here"], translation: "O professor está aqui" }
+    ],
+    spelling: ["pencil", "book", "school", "desk"],
+    garden: ["pencil", "book", "school", "desk"],
+    fetch: [
+      { id: "pencil", name: "Pencil", emoji: "✏️", correct: true },
+      { id: "book", name: "Book", emoji: "📖", correct: true },
+      { id: "apple", name: "Apple", emoji: "🍎", correct: false }
+    ],
+    quiz: [
+      {
+        question: 'Como se diz <span class="quiz-highlight">"Livro"</span> em inglês?',
+        options: ['Pencil', 'Book', 'Desk', 'Eraser'],
+        correct: 1,
+        explanation: 'Exato! "Book" é livro! 📖',
+        nalaMsg: 'Good job! 🌟'
+      }
+    ]
   }
 };
 

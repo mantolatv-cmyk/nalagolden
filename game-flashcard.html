@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Word Flip — English with Nala 🐕✨</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="quiz.css" />
+  <style>
+    .flashcard-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 40vh;
+    }
+    .flashcard {
+      width: 100%;
+      max-width: 320px;
+      height: 220px;
+      perspective: 1000px;
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+    .flashcard-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transform-style: preserve-3d;
+      border-radius: 20px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    }
+    .flashcard.flipped .flashcard-inner {
+      transform: rotateY(180deg);
+    }
+    .flashcard-front, .flashcard-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 4px solid var(--purple-300);
+      font-size: 2.2rem;
+      font-weight: 800;
+    }
+    .flashcard-front {
+      color: var(--purple-800);
+    }
+    .flashcard-back {
+      color: var(--pink-600);
+      transform: rotateY(180deg);
+      background: var(--purple-50);
+      border-color: var(--pink-400);
+    }
+    .flashcard-emoji {
+      font-size: 4rem;
+      margin-bottom: 15px;
+    }
+    .instruction-text {
+      font-size: 1.2rem;
+      color: var(--purple-700);
+      margin-bottom: 20px;
+      font-weight: 800;
+      text-align: center;
+    }
+    .dark-bg .instruction-text {
+      color: var(--white);
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body class="quiz-body">
+
+  <header class="quiz-header glass-header" id="quiz-header">
+    <div class="quiz-header-inner glass-header">
+      <a href="module-hub.html" class="quiz-back-btn" id="quiz-back-btn">
+        <span class="back-arrow">←</span>
+        <span class="back-text">Voltar</span>
+      </a>
+      <div class="quiz-progress-wrapper">
+        <div class="quiz-progress-bar" id="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="quiz-progress-fill" style="width: 0%"></div>
+        </div>
+        <span class="quiz-progress-text" id="quiz-progress-text">0 / 0</span>
+      </div>
+      <div class="quiz-score" id="quiz-score">
+        <span class="score-icon">🦴</span>
+        <span class="quiz-score-value" id="quiz-score-value">0</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="quiz-main" id="quiz-main">
+    <div class="quiz-screen active" id="flashcard-screen">
+      <div class="quiz-card" id="quiz-card" style="padding-top: 30px;">
+        
+        <div class="quiz-module-badge" id="quiz-module-badge" style="margin-bottom: 20px;">
+          <span>📇</span> Word Flip
+        </div>
+
+        <div class="instruction-text" id="instruction-text">
+          Clique no cartão para ver a tradução!
+        </div>
+
+        <div class="flashcard-container">
+          <div class="flashcard" id="flashcard" onclick="flipCard()">
+            <div class="flashcard-inner">
+              <div class="flashcard-front" id="flashcard-front">
+                <div class="flashcard-emoji" id="fc-emoji-front">✏️</div>
+                <div id="fc-word-en">Pencil</div>
+              </div>
+              <div class="flashcard-back" id="flashcard-back">
+                <div class="flashcard-emoji" id="fc-emoji-back">✏️</div>
+                <div id="fc-word-pt">Lápis</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="quiz-next-btn hidden" id="next-btn" onclick="nextCard()" style="margin: 0 auto; display: flex;">
+          Próxima Palavra
+          <span class="next-arrow">→</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div class="quiz-screen" id="quiz-results-screen">
+      <div class="quiz-results-card" id="quiz-results-card">
+        <div class="results-mascot">
+          <img src="images/nala-celebrate.png" alt="Nala comemorando" class="results-mascot-img" />
+        </div>
+        <h2 class="results-title">Incrível! 🎉</h2>
+        <p class="results-subtitle" style="text-align: center; margin-bottom: 30px; font-size: 1.2rem; font-weight: 700; color: var(--purple-700);">Você aprendeu todas as palavras desta lição!</p>
+        <button class="quiz-next-btn" style="margin: 0 auto;" onclick="window.location.href=document.getElementById('quiz-back-btn').href">
+          Voltar ao Menu
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="remove_score.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'school';
+    const moduleData = gameData[currentModule] || gameData['school'];
+    
+    // Configurar o botão de voltar
+    document.getElementById('quiz-back-btn').href = `module-hub.html?module=${currentModule}`;
+    document.getElementById('quiz-module-badge').innerHTML = `<span>${moduleData.emoji}</span> ${moduleData.title} — Word Flip`;
+
+    // Carregar flashcards (se não houver flashcards definidos no módulo, tenta usar os dados de matching)
+    let flashcards = moduleData.flashcards;
+    if (!flashcards && moduleData.matching) {
+      flashcards = moduleData.matching.map(m => ({ en: m.word, pt: "???", emoji: m.emoji }));
+    }
+    if (!flashcards) flashcards = [{ en: "No words", pt: "Sem palavras", emoji: "❓" }];
+
+    let currentIndex = 0;
+    let score = 0;
+    
+    function updateProgress() {
+      const progress = ((currentIndex + 1) / flashcards.length) * 100;
+      document.getElementById('quiz-progress-fill').style.width = `${progress}%`;
+      document.getElementById('quiz-progress-text').innerText = `${currentIndex + 1} / ${flashcards.length}`;
+    }
+
+    function loadCard() {
+      const cardData = flashcards[currentIndex];
+      const card = document.getElementById('flashcard');
+      const nextBtn = document.getElementById('next-btn');
+      
+      // Reseta a rotação do card
+      card.classList.remove('flipped');
+      nextBtn.classList.add('hidden');
+      
+      // Pequeno timeout para permitir que a animação de "desvirar" ocorra antes de trocar o texto
+      setTimeout(() => {
+        document.getElementById('fc-emoji-front').innerText = cardData.emoji;
+        document.getElementById('fc-emoji-back').innerText = cardData.emoji;
+        document.getElementById('fc-word-en').innerText = cardData.en;
+        document.getElementById('fc-word-pt').innerText = cardData.pt;
+      }, 200); 
+      
+      updateProgress();
+    }
+
+    function flipCard() {
+      const card = document.getElementById('flashcard');
+      if (!card.classList.contains('flipped')) {
+        card.classList.add('flipped');
+        document.getElementById('next-btn').classList.remove('hidden');
+        
+        // Adiciona pontuação apenas na primeira vez que vira
+        score += 10;
+        document.getElementById('quiz-score-value').innerText = score;
+      }
+    }
+
+    function nextCard() {
+      currentIndex++;
+      if (currentIndex < flashcards.length) {
+        loadCard();
+      } else {
+        document.getElementById('flashcard-screen').classList.remove('active');
+        document.getElementById('quiz-results-screen').classList.add('active');
+      }
+    }
+
+    // Inicia o jogo
+    window.addEventListener('DOMContentLoaded', () => {
+       loadCard();
+    });
+  </script>
+</body>
+</html>
