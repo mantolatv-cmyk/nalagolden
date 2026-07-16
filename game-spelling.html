@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Spelling Scramble — English with Nala 🐕✨</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .spelling-container {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 40px 24px;
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+    }
+    .spelling-img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+    .word-preview {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 40px;
+      min-height: 60px;
+    }
+    .letter-slot {
+      width: 50px;
+      height: 60px;
+      border: 3px solid var(--purple-200);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--purple-800);
+      text-transform: uppercase;
+      background: var(--purple-50);
+    }
+    .letter-slot.filled {
+      background: var(--purple-100);
+      border-color: var(--purple-400);
+    }
+    .scrambled-letters {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .letter-btn {
+      width: 60px;
+      height: 60px;
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--white);
+      background: var(--purple-600);
+      border: none;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s;
+      text-transform: uppercase;
+    }
+    .letter-btn:hover {
+      transform: translateY(-3px);
+      background: var(--purple-700);
+    }
+    .letter-btn.used {
+      visibility: hidden;
+    }
+    .controls {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .control-btn {
+      padding: 12px 24px;
+      font-size: 1.2rem;
+      font-weight: 800;
+      border: none;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      color: var(--white);
+    }
+  </style>
+</head>
+<body class="light-mode" style="background-color: var(--purple-50);">
+  <header class="quiz-header glass-header">
+    <a href="module-hub.html" class="quiz-back-btn">
+      <span aria-hidden="true">⬅️</span>
+      <span class="sr-only">Voltar</span>
+    </a>
+    <div class="quiz-progress-bar-container glass-panel">
+      <h2 id="header-title" style="color:var(--white); margin:0; font-family: 'Outfit', sans-serif; font-size: 1.5rem;">Spelling Scramble</h2>
+    </div>
+  </header>
+  <main>
+    <div class="spelling-container glass-panel">
+      <img src="images/nala-celebrate.png" class="spelling-img" alt="Nala">
+      <h1 style="color: var(--purple-800); font-family: 'Outfit', sans-serif;">Desembaralhe as letras!</h1>
+      
+      <div class="word-preview" id="word-preview"></div>
+      <div class="scrambled-letters" id="scrambled-letters"></div>
+      
+      <div class="controls">
+        <button id="btn-clear" class="control-btn" style="background: var(--slate-500);">Limpar</button>
+      </div>
+    </div>
+  </main>
+  <script src="js/data.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
+    const moduleData = gameData[currentModule] || gameData['colors'];
+    
+    let currentWordIndex = 0;
+    const words = moduleData.spelling;
+    let selectedLetters = [];
+
+    const previewEl = document.getElementById('word-preview');
+    const lettersEl = document.getElementById('scrambled-letters');
+    const btnClear = document.getElementById('btn-clear');
+
+    function renderWord() {
+      const currentWord = words[currentWordIndex];
+      selectedLetters = [];
+      previewEl.innerHTML = '';
+      lettersEl.innerHTML = '';
+
+      // Create slots
+      for (let i = 0; i < currentWord.length; i++) {
+        const slot = document.createElement('div');
+        slot.className = 'letter-slot';
+        previewEl.appendChild(slot);
+      }
+
+      // Shuffle letters
+      const shuffled = currentWord.split('').sort(() => 0.5 - Math.random());
+      
+      shuffled.forEach((letter, idx) => {
+        const btn = document.createElement('button');
+        btn.className = 'letter-btn scroll-reveal';
+        btn.innerText = letter;
+        btn.addEventListener('click', () => {
+          btn.classList.add('used');
+          selectedLetters.push({ letter, btn });
+          updatePreview();
+        });
+        lettersEl.appendChild(btn);
+      });
+
+      setTimeout(() => {
+        document.querySelectorAll('.scroll-reveal').forEach(el => el.classList.add('revealed'));
+      }, 50);
+    }
+
+    function updatePreview() {
+      const slots = previewEl.children;
+      const currentWord = words[currentWordIndex];
+      
+      for (let i = 0; i < currentWord.length; i++) {
+        if (selectedLetters[i]) {
+          slots[i].innerText = selectedLetters[i].letter;
+          slots[i].classList.add('filled');
+        } else {
+          slots[i].innerText = '';
+          slots[i].classList.remove('filled');
+        }
+      }
+
+      if (selectedLetters.length === currentWord.length) {
+        checkWord();
+      }
+    }
+
+    function checkWord() {
+      const currentWord = words[currentWordIndex];
+      const formedWord = selectedLetters.map(item => item.letter).join('');
+      
+      if (formedWord.toLowerCase() === currentWord.toLowerCase()) {
+        setTimeout(() => {
+          if (currentWordIndex < words.length - 1) {
+            alert('Perfeito! 🎉 Vamos para a próxima!');
+            currentWordIndex++;
+            renderWord();
+          } else {
+            alert('Você soletrou tudo! 🏆 Voltando ao Hub...');
+            window.location.href = 'module-hub.html';
+          }
+        }, 500);
+      } else {
+        setTimeout(() => {
+          alert('Ops! Tente novamente. 🐕');
+          clearLetters();
+        }, 500);
+      }
+    }
+
+    function clearLetters() {
+      selectedLetters.forEach(item => item.btn.classList.remove('used'));
+      selectedLetters = [];
+      updatePreview();
+    }
+
+    btnClear.addEventListener('click', clearLetters);
+    renderWord();
+  </script>
+</body>
+</html>

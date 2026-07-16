@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English with Nala — Aprenda Inglês Brincando! 🐕✨</title>
+  <meta name="description" content="Aprenda inglês de um jeito divertido com a Nala, uma Golden Retriever muito simpática! Jogos, quizzes e aventuras para crianças." />
+  <meta name="author" content="English with Nala" />
+  <meta name="keywords" content="aprender inglês crianças, inglês para crianças, Nala Golden Retriever, jogos educativos, quiz inglês" />
+  <meta property="og:title" content="English with Nala — Aprenda Inglês Brincando!" />
+  <meta property="og:description" content="Aprenda inglês de um jeito divertido com a Nala! Jogos, quizzes e trilhas de aprendizado para crianças brasileiras." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="English with Nala — Aprenda Inglês Brincando!" />
+  <meta name="twitter:description" content="Aprenda inglês de um jeito divertido com a Nala! Jogos, quizzes e trilhas de aprendizado para crianças brasileiras." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ✦ Sparkle Particles ✦ -->
+  <div class="sparkle-container" aria-hidden="true">
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+  </div>
+
+  <!-- 🐾 Floating Paw Prints 🐾 -->
+  <div class="paw-container" aria-hidden="true">
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+  </div>
+
+  <!-- ============================================
+       HEADER / NAVIGATION
+       ============================================ -->
+  <header class="header" id="app-header">
+    <div class="header-inner">
+      <a href="#" class="logo" id="logo-link">
+        <img src="images/nala-logo.png" alt="Nala the Golden Retriever" class="logo-icon" />
+        <span class="logo-text">English with <span>Nala</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-desktop">
+        <a href="#home" class="nav-link active" id="nav-home">Início</a>
+        <a href="#trail" class="nav-link" id="nav-trail">Trilha</a>
+        <a href="#activities" class="nav-link" id="nav-activities">Atividades</a>
+        <a href="#about" class="nav-link" id="nav-about">Sobre</a>
+      </nav>
+
+
+
+      <!-- Profile Icon -->
+      <div class="profile-icon" id="profile-icon">
+        <span class="profile-avatar">👧</span>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu de navegação">
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="nav-mobile" id="nav-mobile">
+      <a href="#home" class="nav-link" id="nav-mobile-home">Início</a>
+      <a href="#trail" class="nav-link" id="nav-mobile-trail">Trilha</a>
+      <a href="#activities" class="nav-link" id="nav-mobile-activities">Atividades</a>
+      <a href="#about" class="nav-link" id="nav-mobile-about">Sobre</a>
+    </nav>
+  </header>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="paw-icon">🐾</span>
+          Aprender inglês é uma aventura!
+        </div>
+        <h1 class="hero-title" id="hero-title">
+          Hello, <span class="highlight">Laís</span>!<br />
+          Let's learn English today?
+        </h1>
+        <p class="hero-subtitle" id="hero-subtitle">
+          Eu sou a Nala e vou te ensinar inglês de um jeito super divertido! 
+          Vamos jogar, cantar e descobrir palavras novas juntos! 🐕✨
+        </p>
+        <a href="#trail" class="hero-cta" id="hero-cta">
+          <span class="cta-sparkle">✨</span>
+          Começar a Aprender!
+        </a>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="hero-image-glow" aria-hidden="true"></div>
+        <img
+          src="images/nala-celebrate.png"
+          alt="Nala a Golden Retriever pulando de alegria com confetes e estrelas ao redor"
+          class="hero-image"
+          id="hero-image"
+        />
+        <!-- Speech Bubble -->
+        <div class="speech-bubble" id="speech-bubble">
+          <p>Hello! Vamos aprender<br />inglês juntos? 🐾</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       LEARNING TRAIL SECTION
+       ============================================ -->
+  <section class="section trail-section" id="trail">
+    <div class="section-header">
+      <div class="section-icon" aria-hidden="true">🗺️</div>
+      <h2 class="section-title" id="trail-title">Trilha de Aprendizado</h2>
+      <p class="section-subtitle">Siga a trilha e desbloqueie novas lições! Cada módulo é uma nova aventura com a Nala!</p>
+    </div>
+
+    <div class="trail-grid">
+      <!-- Trail Card 1 — Colors (Unlocked) -->
+      <a href="module-hub.html?module=colors" class="trail-card scroll-reveal unlocked" id="trail-card-colors">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-colors.png" alt="Nala ensinando cores com respingos de tinta" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title">🎨 Colors</h3>
+          <p class="trail-card-desc">Aprenda todas as cores em inglês com jogos interativos e histórias!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag">Cores</span>
+            <span class="trail-card-status completed">3/4 lições</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Trail Card 2 — Animals (Unlocked) -->
+      <a href="module-hub.html?module=animals" class="trail-card scroll-reveal unlocked" id="trail-card-animals">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-animals.png" alt="Nala com seus amigos animais" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 50%"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title">🐾 Animals</h3>
+          <p class="trail-card-desc">Conheça os amigos da Nala e aprenda os nomes dos animais!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag">Animais</span>
+            <span class="trail-card-status in-progress">2/4 lições</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Trail Card 3 — Numbers (Unlocked) -->
+      <a href="module-hub.html?module=numbers" class="trail-card scroll-reveal unlocked" id="trail-card-numbers">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-numbers.png" alt="Nala contando com números coloridos" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 25%"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title">🔢 Numbers</h3>
+          <p class="trail-card-desc">1, 2, 3… aprenda os números em inglês com jogos de contagem!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag">Números</span>
+            <span class="trail-card-status in-progress">1/4 lições</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Trail Card 4 — Family (Unlocked) -->
+      <a href="module-hub.html?module=family" class="trail-card scroll-reveal unlocked" id="trail-card-family">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-family.png" alt="Nala com uma família de desenho" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title">👨‍👩‍👧‍👦 Family</h3>
+          <p class="trail-card-desc">Aprenda a dizer mamãe, papai, irmão e muito mais em inglês!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag">Família</span>
+            <span class="trail-card-status new">Nova!</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Trail Card 5 — Foods (Unlocked) -->
+      <a href="module-hub.html?module=foods" class="trail-card scroll-reveal unlocked" id="trail-card-foods">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-food.png" alt="Nala com comidas deliciosas" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title">🍎 Foods</h3>
+          <p class="trail-card-desc">Aprenda o nome das comidas e bebidas favoritas em inglês!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag">Comidas</span>
+            <span class="trail-card-status new">Nova!</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Trail Card 6 — Body Parts (Unlocked) -->
+      <a href="module-hub.html?module=body" class="trail-card scroll-reveal unlocked" id="trail-card-body">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-body.png" alt="Nala mostrando partes do corpo" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title">🧍 Body Parts</h3>
+          <p class="trail-card-desc">Head, shoulders, knees and toes! Aprenda as partes do corpo!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag">Corpo</span>
+            <span class="trail-card-status new">Nova!</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Trail Card 7 — School & Class (New) -->
+      <a href="module-hub.html?module=school" class="trail-card scroll-reveal unlocked" id="trail-card-school">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-school.png" alt="Materiais escolares na mesa com uma mochila" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title">🎒 School & Class</h3>
+          <p class="trail-card-desc">Backpack, pen, eraser... Vamos aprender o material escolar!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag">Escola</span>
+            <span class="trail-card-status new">Nova!</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Trail Card 8 — Daily Routine (New) -->
+      <a href="module-hub.html?module=routine" class="trail-card scroll-reveal unlocked" id="trail-card-routine">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-routine.png" alt="Nala escovando os dentes" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title">⏰ Daily Routine</h3>
+          <p class="trail-card-desc">Wake up, play, sleep! Vamos aprender os verbos do dia a dia!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag">Ações</span>
+            <span class="trail-card-status new">Nova!</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Trail Card 9 — My Weekend (New) -->
+      <a href="module-hub.html?module=past" class="trail-card scroll-reveal unlocked" id="trail-card-past">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-past.png" alt="Nala vendo álbum de memórias" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title">📸 My Weekend</h3>
+          <p class="trail-card-desc">Played, went, ate... O que a Nala fez ontem? Aprenda o Passado!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag">Passado</span>
+            <span class="trail-card-status new">Nova!</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TRAIL B1 SECTION
+       ============================================ -->
+  <section class="section trail-section" id="trail-b1" style="background: linear-gradient(180deg, var(--white), var(--purple-50));">
+    <div class="section-header">
+      <div class="section-icon" aria-hidden="true">🚀</div>
+      <h2 class="section-title" id="trail-b1-title">Trilha Intermediária (B1)</h2>
+      <p class="section-subtitle">Aventuras mais avançadas! Aprenda o Present Perfect e os Conditionals!</p>
+    </div>
+
+    <div class="trail-grid" id="trail-grid-b1">
+      <!-- Trail Card 10 — Travel & World (B1) -->
+      <a href="module-hub.html?module=travel" class="trail-card scroll-reveal unlocked" id="trail-card-travel">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-travel.png" alt="Nala piloto no aeroporto" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 0%; background: linear-gradient(90deg, var(--gold-400), var(--gold-600));"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title" style="color: var(--gold-600);">✈️ Travel & World</h3>
+          <p class="trail-card-desc">Have you ever flown? Explore o mundo e o Present Perfect!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag" style="background: var(--gold-100); color: var(--gold-600);">B1 - Viagens</span>
+            <span class="trail-card-status new" style="color: var(--gold-500); background: var(--gold-100); box-shadow: none;">B1 Nível!</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Trail Card 11 — Environment & Nature (B1) -->
+      <a href="module-hub.html?module=eco" class="trail-card scroll-reveal unlocked" id="trail-card-eco">
+        <div class="trail-card-thumb">
+          <img src="images/thumb-eco.png" alt="Nala plantando e reciclando" loading="lazy" decoding="async" />
+          <div class="trail-card-progress">
+            <div class="progress-bar" style="width: 0%; background: linear-gradient(90deg, var(--gold-400), var(--gold-600));"></div>
+          </div>
+        </div>
+        <div class="trail-card-body">
+          <h3 class="trail-card-title" style="color: var(--gold-600);">🌍 Save the Planet</h3>
+          <p class="trail-card-desc">If we recycle... Aprenda a cuidar do planeta e os Condicionais!</p>
+          <div class="trail-card-footer">
+            <span class="trail-card-tag" style="background: var(--gold-100); color: var(--gold-600);">B1 - Ecologia</span>
+            <span class="trail-card-status new" style="color: var(--gold-500); background: var(--gold-100); box-shadow: none;">B1 Nível!</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ACTIVITIES / PRINTABLES SECTION
+       ============================================ -->
+  <section class="section activities-section" id="activities">
+    <div class="section-header">
+      <div class="section-icon" aria-hidden="true">🎮</div>
+      <h2 class="section-title" id="activities-title">Atividades Divertidas</h2>
+      <p class="section-subtitle">Jogos, flashcards e muito mais para praticar o que você aprendeu!</p>
+    </div>
+
+    <div class="activities-grid">
+      <!-- Activity Card 1 — Quiz Rápido -->
+      <article class="activity-card scroll-reveal" id="activity-card-quiz">
+        <div class="activity-card-image">
+          <div class="activity-icon-big">🧠</div>
+          <span class="activity-card-badge">Popular</span>
+        </div>
+        <div class="activity-card-body">
+          <h3 class="activity-card-title">🧠 Quiz Rápido</h3>
+          <p class="activity-card-desc">Teste o que você aprendeu! Responda perguntas rápidas e ganhe ossinhos!</p>
+          <a href="quiz.html" class="activity-btn" id="activity-quiz-btn" aria-label="Jogar Quiz Rápido">
+            <span class="btn-icon">🎮</span>
+            Jogar Agora
+          </a>
+        </div>
+      </article>
+
+      <!-- Activity Card 2 — Flashcards -->
+      <article class="activity-card scroll-reveal" id="activity-card-flashcards">
+        <div class="activity-card-image">
+          <div class="activity-icon-big">🃏</div>
+          <span class="activity-card-badge">Novo</span>
+        </div>
+        <div class="activity-card-body">
+          <h3 class="activity-card-title">🃏 Flashcards Mágicos</h3>
+          <p class="activity-card-desc">Vire as cartas e descubra novas palavras em inglês com a Nala!</p>
+          <a href="#" class="activity-btn" id="activity-flashcards-btn" aria-label="Jogar Flashcards">
+            <span class="btn-icon">✨</span>
+            Jogar Agora
+          </a>
+        </div>
+      </article>
+
+      <!-- Activity Card 3 — Memory Match -->
+      <article class="activity-card scroll-reveal" id="activity-card-memory">
+        <div class="activity-card-image">
+          <div class="activity-icon-big">🎯</div>
+          <span class="activity-card-badge">Grátis</span>
+        </div>
+        <div class="activity-card-body">
+          <h3 class="activity-card-title">🎯 Jogo da Memória</h3>
+          <p class="activity-card-desc">Encontre os pares e aprenda vocabulário novo com este jogo divertido!</p>
+          <a href="#" class="activity-btn" id="activity-memory-btn" aria-label="Jogar Jogo da Memória">
+            <span class="btn-icon">🎲</span>
+            Jogar Agora
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer" id="about">
+    <div class="footer-inner">
+      <p class="footer-message">
+        Até a próxima aventura! <span class="paw-emoji">🐾</span>
+      </p>
+      <p class="footer-sub">
+        A Nala adora aprender com você! Volte logo para mais aventuras em inglês! ✨
+      </p>
+
+      <div class="footer-social">
+        <a href="#" class="social-link" id="social-youtube" aria-label="YouTube">🎬</a>
+        <a href="#" class="social-link" id="social-instagram" aria-label="Instagram">📷</a>
+        <a href="#" class="social-link" id="social-tiktok" aria-label="TikTok">🎵</a>
+        <a href="#" class="social-link" id="social-email" aria-label="Email">📧</a>
+      </div>
+
+      <div class="footer-divider" aria-hidden="true"></div>
+
+      <nav class="footer-links">
+        <a href="#home" class="footer-link">Início</a>
+        <a href="#trail" class="footer-link">Trilha</a>
+        <a href="#activities" class="footer-link">Atividades</a>
+        <a href="#about" class="footer-link">Sobre</a>
+      </nav>
+
+      <p class="footer-copy">
+        Feito com <span class="heart">♥</span> por English with Nala · © 2026 · Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       JAVASCRIPT — Interactions & Animations
+       ============================================ -->
+  <script>
+    // === Header scroll effect ===
+    const header = document.getElementById('app-header');
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      if (currentScroll > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+      lastScroll = currentScroll;
+    });
+
+    // === Mobile menu toggle ===
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMobile = document.getElementById('nav-mobile');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      navMobile.classList.toggle('open');
+    });
+
+    // Close mobile menu on link click
+    document.querySelectorAll('.nav-mobile .nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.classList.remove('active');
+        navMobile.classList.remove('open');
+      });
+    });
+
+    // === Active nav link based on scroll ===
+    const sections = document.querySelectorAll('section[id], footer[id]');
+    const navLinks = document.querySelectorAll('.nav-links .nav-link');
+
+    function updateActiveNav() {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        if (window.pageYOffset >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateActiveNav);
+
+    // === Scroll Reveal (Intersection Observer) ===
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -80px 0px',
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.scroll-reveal').forEach(el => {
+      observer.observe(el);
+    });
+
+    // === Smooth scroll for anchor links ===
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          const headerOffset = 80;
+          const elementPosition = target.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // === Activity button feedback ===
+    document.querySelectorAll('.activity-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        if (this.getAttribute('href') === '#') {
+          e.preventDefault();
+          const originalText = this.innerHTML;
+          this.innerHTML = '<span class="btn-icon">✅</span> Em breve!';
+          this.style.background = 'linear-gradient(135deg, #5CD85C, #3DB83D)';
+          setTimeout(() => {
+            this.innerHTML = originalText;
+            this.style.background = '';
+          }, 2000);
+        }
+      });
+    });
+
+    // === Locked card feedback ===
+    document.querySelectorAll('.trail-card.locked').forEach(card => {
+      card.addEventListener('click', () => {
+        card.classList.add('shake');
+        setTimeout(() => card.classList.remove('shake'), 600);
+      });
+    });
+
+    // === Save module to localStorage to prevent loss on redirect ===
+    document.querySelectorAll('.trail-card.unlocked').forEach(card => {
+      card.addEventListener('click', () => {
+        const href = card.getAttribute('href');
+        if (href && href.includes('?module=')) {
+          const moduleName = href.split('?module=')[1];
+          localStorage.setItem('selectedModule', moduleName);
+        }
+      });
+    });
+
+    // === Score animation on load ===
+    const scoreValue = document.getElementById('score-value');
+    let currentScore = 0;
+    const targetScore = 127;
+    const scoreInterval = setInterval(() => {
+      currentScore += 3;
+      if (currentScore >= targetScore) {
+        currentScore = targetScore;
+        clearInterval(scoreInterval);
+      }
+      scoreValue.textContent = currentScore;
+    }, 30);
+
+    // === Speech bubble animation ===
+    const speechBubble = document.getElementById('speech-bubble');
+    const messages = [
+      "Hello! Vamos aprender<br>inglês juntos? 🐾",
+      "You're doing great!<br>Continue assim! ⭐",
+      "Let's learn new<br>words today! 📚",
+      "I love learning<br>with you! 💛"
+    ];
+    let msgIndex = 0;
+
+    setInterval(() => {
+      speechBubble.classList.add('fade-out');
+      setTimeout(() => {
+        msgIndex = (msgIndex + 1) % messages.length;
+        speechBubble.querySelector('p').innerHTML = messages[msgIndex];
+        speechBubble.classList.remove('fade-out');
+      }, 400);
+    }, 4000);
+
+    // === Console welcome message ===
+    console.log('%c🐕 Bem-vindo ao mundo da Nala! ✨', 'font-size: 18px; color: #7C3AED; font-weight: bold;');
+    console.log('%cAprenda inglês brincando!', 'font-size: 14px; color: #A78BFA;');
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story Time — English with Nala 🐕✨</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .chat-container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .chat-header {
+      background: var(--purple-700);
+      color: var(--white);
+      padding: 15px 20px;
+      text-align: center;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+    .chat-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      background: var(--purple-50);
+      /* Let the chat body expand so the user scrolls the whole page instead */
+    }
+    .chat-msg {
+      display: flex;
+      flex-direction: column;
+      max-width: 85%;
+      animation: slideUp 0.4s ease;
+    }
+    .chat-msg.left {
+      align-self: flex-start;
+    }
+    .chat-msg.right {
+      align-self: flex-end;
+    }
+    .chat-bubble {
+      padding: 15px 20px;
+      border-radius: 20px;
+      font-family: 'Nunito', sans-serif;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .chat-msg.left .chat-bubble {
+      background: var(--white);
+      color: var(--purple-900);
+      border-bottom-left-radius: 0;
+    }
+    .chat-msg.right .chat-bubble {
+      background: var(--purple-500);
+      color: var(--white);
+      border-bottom-right-radius: 0;
+    }
+    .chat-photo {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .chat-text {
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin-bottom: 5px;
+    }
+    .chat-translation {
+      font-size: 1.1rem;
+      opacity: 0.8;
+      font-weight: 600;
+    }
+    .chat-msg.right .chat-translation {
+      color: var(--purple-100);
+    }
+    .chat-msg.left .chat-translation {
+      color: var(--slate-500);
+    }
+    .speaker-name {
+      font-size: 0.9rem;
+      font-weight: 800;
+      margin-bottom: 5px;
+      color: var(--purple-400);
+      padding: 0 10px;
+    }
+    .chat-msg.right .speaker-name {
+      text-align: right;
+      color: var(--purple-700);
+    }
+    
+    @keyframes slideUp { 
+      from { opacity: 0; transform: translateY(20px); } 
+      to { opacity: 1; transform: translateY(0); } 
+    }
+  </style>
+</head>
+<body class="light-mode" style="background-color: var(--purple-50);">
+  <header class="quiz-header glass-header">
+    <a href="module-hub.html" class="quiz-back-btn">
+      <span aria-hidden="true">⬅️</span>
+      <span class="sr-only">Voltar</span>
+    </a>
+    <div class="quiz-progress-bar-container">
+      <h2 id="header-title" style="color:var(--white); margin:0; font-family: 'Outfit', sans-serif; font-size: 1.5rem;">Story Time</h2>
+    </div>
+  </header>
+
+  <main>
+    <div class="chat-container glass-panel">
+      <div class="chat-header" id="chat-header-title">
+        Story Time
+      </div>
+      <div class="chat-body" id="chat-body">
+        <!-- Chat bubbles go here -->
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:20px; margin-bottom: 40px;">
+       <a href="module-hub.html" style="background:var(--purple-600); color:white; padding:15px 30px; text-decoration:none; border-radius:30px; font-family: 'Outfit', sans-serif; font-weight:800; display:inline-block; font-size: 1.2rem; box-shadow: var(--shadow-md); transition: transform 0.2s;">
+         Finalizar Leitura ⭐
+       </a>
+    </div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
+    const moduleData = gameData[currentModule] || gameData['colors'];
+    const stories = moduleData.story;
+    
+    document.getElementById('chat-header-title').innerText = `Story Time: ${moduleData.title}`;
+    
+    const chatBody = document.getElementById('chat-body');
+    
+    stories.forEach((page, index) => {
+      const isLeft = index % 2 === 0;
+      const alignClass = isLeft ? 'left' : 'right';
+      
+      // Let's assume the child is named Laís (as requested previously)
+      const speakerName = isLeft ? 'Nala 🐕' : 'Laís 👧';
+      
+      const msgDiv = document.createElement('div');
+      msgDiv.className = `chat-msg ${alignClass}`;
+      
+      // Delay animation for a cool cascade effect when opening the page
+      msgDiv.style.animationDelay = `${index * 0.4}s`;
+      msgDiv.style.opacity = '0'; // Initial state for animation
+      msgDiv.style.animationFillMode = 'forwards';
+      
+      msgDiv.innerHTML = `
+        <div class="speaker-name">${speakerName}</div>
+        <div class="chat-bubble">
+          <div class="chat-text">${page.text}</div>
+        </div>
+      `;
+      
+      chatBody.appendChild(msgDiv);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Matching Pairs — English with Nala 🐕✨</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .matching-container {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 0 24px;
+    }
+    .matching-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 15px;
+      margin-top: 30px;
+    }
+    @media (max-width: 600px) {
+      .matching-grid { grid-template-columns: repeat(4, 1fr); gap: 8px; }
+      .memory-card .front-face { font-size: 1.2rem !important; }
+    }
+    .memory-card {
+      aspect-ratio: 1;
+      position: relative;
+      cursor: pointer;
+      transform-style: preserve-3d;
+      transition: transform 0.5s;
+    }
+    .memory-card.flip {
+      transform: rotateY(180deg);
+    }
+    .memory-card.matched {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s 0.5s, opacity 0.5s linear;
+    }
+    .front-face, .back-face {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: var(--radius-lg);
+      backface-visibility: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 900;
+      box-shadow: var(--shadow-sm);
+    }
+    .front-face {
+      background: var(--white);
+      color: var(--purple-800);
+      transform: rotateY(180deg);
+    }
+    .back-face {
+      background: linear-gradient(135deg, var(--purple-500), var(--purple-700));
+      color: var(--white);
+      font-size: 3rem;
+    }
+  </style>
+</head>
+<body class="light-mode" style="background-color: var(--purple-50);">
+  <header class="quiz-header glass-header">
+    <a href="module-hub.html" class="quiz-back-btn">
+      <span aria-hidden="true">⬅️</span>
+      <span class="sr-only">Voltar</span>
+    </a>
+    <div class="quiz-progress-bar-container">
+      <h2 id="header-title" style="color:var(--white); margin:0; font-family: 'Outfit', sans-serif; font-size: 1.5rem;">Matching Pairs</h2>
+    </div>
+  </header>
+  <main>
+    <div class="matching-container glass-panel">
+      <h1 id="matching-title" style="color: var(--purple-800); font-family: 'Outfit', sans-serif;">Encontre os pares!</h1>
+      <div class="matching-grid" id="matching-grid"></div>
+    </div>
+  </main>
+  <script src="js/data.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
+    const moduleData = gameData[currentModule] || gameData['colors'];
+    
+    document.getElementById('matching-title').innerText = `Encontre os pares de ${moduleData.title}!`;
+
+    // Select first 4 pairs to make an 8-card grid
+    let pairs = moduleData.matching.slice(0, 10);
+    let cardsArray = [];
+    pairs.forEach(pair => {
+      cardsArray.push({ type: pair.word, content: pair.word });
+      cardsArray.push({ type: pair.word, content: pair.emoji });
+    });
+    
+    // Shuffle
+    cardsArray.sort(() => 0.5 - Math.random());
+
+    const grid = document.getElementById('matching-grid');
+    cardsArray.forEach((card, index) => {
+      const cardEl = document.createElement('div');
+      cardEl.className = 'memory-card scroll-reveal';
+      cardEl.dataset.type = card.type;
+      
+      // Adjust font size if word is too long
+      const isText = card.content.length > 2;
+      const fontStyle = isText ? 'font-size: 1.5rem;' : 'font-size: 3rem;';
+
+      cardEl.innerHTML = `
+        <div class="front-face" style="${fontStyle}">${card.content}</div>
+        <div class="back-face">${index + 1}</div>
+      `;
+      grid.appendChild(cardEl);
+      cardEl.addEventListener('click', flipCard);
+    });
+
+    setTimeout(() => {
+      document.querySelectorAll('.scroll-reveal').forEach(el => el.classList.add('revealed'));
+    }, 100);
+
+    let hasFlippedCard = false;
+    let lockBoard = false;
+    let firstCard, secondCard;
+    let matches = 0;
+
+    function flipCard() {
+      if (lockBoard) return;
+      if (this === firstCard) return;
+
+      this.classList.add('flip');
+
+      if (!hasFlippedCard) {
+        hasFlippedCard = true;
+        firstCard = this;
+        return;
+      }
+
+      secondCard = this;
+      checkForMatch();
+    }
+
+    function checkForMatch() {
+      let isMatch = firstCard.dataset.type === secondCard.dataset.type;
+
+      if (isMatch) {
+        disableCards();
+        matches++;
+        if (matches === pairs.length) {
+          setTimeout(() => {
+            alert('Você encontrou todos os pares! 🎉 Voltando ao Hub...');
+            window.location.href = 'module-hub.html';
+          }, 1000);
+        }
+      } else {
+        unflipCards();
+      }
+    }
+
+    function disableCards() {
+      setTimeout(() => {
+        firstCard.classList.add('matched');
+        secondCard.classList.add('matched');
+        resetBoard();
+      }, 800);
+    }
+
+    function unflipCards() {
+      lockBoard = true;
+      setTimeout(() => {
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
+        resetBoard();
+      }, 1200);
+    }
+
+    function resetBoard() {
+      [hasFlippedCard, lockBoard] = [false, false];
+      [firstCard, secondCard] = [null, null];
+    }
+  </script>
+</body>
+</html>

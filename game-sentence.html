@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Build a Sentence — English with Nala 🐕✨</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .sentence-container {
+      max-width: 900px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 50px 24px;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.8);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      position: relative;
+    }
+    .sentence-translation {
+      font-family: 'Nunito', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--purple-700);
+      margin-bottom: 30px;
+      text-shadow: 0 2px 5px rgba(255,255,255,0.8);
+    }
+    .drop-zone {
+      min-height: 100px;
+      border: 3px dashed var(--purple-400);
+      border-radius: var(--radius-md);
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+      margin-bottom: 40px;
+      background: rgba(255, 255, 255, 0.6);
+      flex-wrap: wrap;
+      box-shadow: inset 0 5px 15px rgba(0,0,0,0.05);
+    }
+    .word-bank {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .word-btn {
+      padding: 15px 30px;
+      font-size: 1.6rem;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      color: var(--white);
+      background: linear-gradient(135deg, var(--purple-500), var(--purple-700));
+      border: none;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(100, 43, 115, 0.3);
+      transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .word-btn:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 10px 20px rgba(100, 43, 115, 0.5);
+      background: linear-gradient(135deg, var(--purple-400), var(--purple-600));
+    }
+    .word-btn.used {
+      opacity: 0.3;
+      transform: scale(0.9);
+      pointer-events: none;
+      box-shadow: none;
+    }
+    .btn-action {
+      padding: 15px 30px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--white);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    .btn-action:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    /* Success Modal Styles */
+    .success-modal {
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.5s;
+    }
+    .success-modal.show {
+      opacity: 1;
+      pointer-events: all;
+    }
+    .success-content {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      padding: 50px;
+      border-radius: var(--radius-lg);
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+      border: 1px solid rgba(255,255,255,0.8);
+      transform: scale(0.8);
+      transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .success-modal.show .success-content {
+      transform: scale(1);
+    }
+    .success-content img {
+      width: 180px;
+      margin-bottom: 20px;
+      animation: heroFloat 3s infinite ease-in-out;
+    }
+    .success-content h2 {
+      color: var(--purple-800);
+      font-family: 'Outfit', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .success-content p {
+      color: var(--purple-700);
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body class="light-mode" style="background-color: var(--purple-50); background-image: url('images/bg-colors.png'); background-size: cover; background-position: center; background-attachment: fixed;">
+  <header class="quiz-header glass-header">
+    <a href="module-hub.html" class="quiz-back-btn" style="text-decoration:none; padding: 10px 20px; border-radius: 50px; background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); display: flex; align-items: center; gap: 8px;">
+      <span aria-hidden="true" style="font-size: 1.2rem;">⬅️</span>
+      <span style="font-weight: 800; color: var(--white); font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 1px;">Voltar</span>
+    </a>
+    <div class="quiz-progress-bar-container">
+      <h2 id="header-title" style="color:var(--white); margin:0; font-family: 'Outfit', sans-serif; font-size: 1.5rem;">Build a Sentence</h2>
+    </div>
+  </header>
+  <main>
+    <div class="sentence-container">
+      <img src="images/nala-celebrate.png" alt="Nala" style="width:140px; margin-bottom: 20px; filter: drop-shadow(0 10px 10px rgba(0,0,0,0.2)); animation: heroFloat 4s infinite ease-in-out;">
+      <h1 style="color: var(--purple-800); font-family: 'Outfit', sans-serif; font-size: 2.5rem; text-shadow: 0 2px 5px rgba(255,255,255,0.8);">Forme a frase!</h1>
+      <p id="translation-text" class="sentence-translation"></p>
+      
+      <div class="drop-zone" id="drop-zone"></div>
+      <div class="word-bank" id="word-bank"></div>
+      
+      <div style="margin-top: 40px; display: flex; justify-content: center; gap: 20px;">
+        <button id="btn-clear" class="btn-action" style="background: var(--slate-500);">Limpar Tudo</button>
+        <button id="btn-check" class="btn-action" style="background: linear-gradient(135deg, var(--green), #2E8B57); display:none;">Verificar Frase ✔️</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal Intermediário (Correto) -->
+  <div id="correct-modal" class="success-modal">
+    <div class="success-content">
+      <img src="images/nala-celebrate.png" alt="Nala Feliz">
+      <h2 style="background: linear-gradient(135deg, var(--green), #2E8B57); -webkit-background-clip: text;">Correto! 🎉</h2>
+      <p>Você formou a frase perfeitamente!</p>
+      <button id="btn-next" class="btn-action" style="background: linear-gradient(135deg, var(--gold-400), var(--gold-600)); color: var(--purple-900); padding: 15px 40px; font-size: 1.3rem;">Próxima Frase</button>
+    </div>
+  </div>
+
+  <!-- Modal Erro -->
+  <div id="error-modal" class="success-modal">
+    <div class="success-content">
+      <h2 style="background: linear-gradient(135deg, #e74c3c, #c0392b); -webkit-background-clip: text;">Ops! 🐕</h2>
+      <p>A frase está incorreta. Tente reorganizar as palavras!</p>
+      <button id="btn-retry" class="btn-action" style="background: var(--slate-600); padding: 15px 40px; font-size: 1.3rem;">Tentar Novamente</button>
+    </div>
+  </div>
+
+  <!-- Modal Final -->
+  <div id="success-modal" class="success-modal">
+    <div class="success-content">
+      <img src="images/nala-celebrate.png" alt="Nala Comemorando">
+      <h2>Você é Incrível! 🏆</h2>
+      <p>Todas as frases foram formadas com sucesso!</p>
+      <a href="module-hub.html" class="btn-action" style="display:inline-block; text-decoration:none; background: linear-gradient(135deg, var(--gold-400), var(--gold-600)); color: var(--purple-900); padding: 15px 40px; font-size: 1.3rem;">Voltar ao Menu</a>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
+    const moduleData = gameData[currentModule] || gameData['colors'];
+    
+    if(moduleData.bgImage) {
+      document.body.style.backgroundImage = moduleData.bgImage;
+    }
+
+    // Make back button go back to correct module
+    document.querySelector('.quiz-back-btn').href = `module-hub.html?module=${currentModule}`;
+    document.querySelector('.btn-action[href="module-hub.html"]').href = `module-hub.html?module=${currentModule}`;
+
+    let currentSentenceIndex = 0;
+    const sentences = moduleData.sentence;
+    let selectedWords = [];
+
+    const transEl = document.getElementById('translation-text');
+    const dropZone = document.getElementById('drop-zone');
+    const wordBank = document.getElementById('word-bank');
+    const btnClear = document.getElementById('btn-clear');
+    const btnCheck = document.getElementById('btn-check');
+    
+    const correctModal = document.getElementById('correct-modal');
+    const errorModal = document.getElementById('error-modal');
+    const successModal = document.getElementById('success-modal');
+    const btnNext = document.getElementById('btn-next');
+    const btnRetry = document.getElementById('btn-retry');
+
+    function renderSentence() {
+      const sentenceObj = sentences[currentSentenceIndex];
+      transEl.innerHTML = `"${sentenceObj.translation}"`;
+      
+      dropZone.innerHTML = '';
+      wordBank.innerHTML = '';
+      selectedWords = [];
+      btnCheck.style.display = 'none';
+
+      // Shuffle words
+      const shuffledWords = [...sentenceObj.words].sort(() => 0.5 - Math.random());
+
+      shuffledWords.forEach((word, idx) => {
+        const btn = document.createElement('button');
+        // REMOVIDO o .scroll-reveal para evitar o bug de invisibilidade
+        btn.className = 'word-btn';
+        btn.innerText = word;
+        btn.dataset.index = idx;
+        
+        btn.addEventListener('click', () => {
+          btn.classList.add('used');
+          selectedWords.push({ word, btn });
+          updateDropZone();
+        });
+        
+        wordBank.appendChild(btn);
+      });
+    }
+
+    function updateDropZone() {
+      dropZone.innerHTML = '';
+      selectedWords.forEach((item, idx) => {
+        const btn = document.createElement('button');
+        btn.className = 'word-btn';
+        btn.innerText = item.word;
+        btn.style.background = 'linear-gradient(135deg, var(--gold-400), var(--gold-600))';
+        btn.style.color = 'var(--purple-900)';
+        
+        btn.addEventListener('click', () => {
+          // Remove from selected
+          selectedWords.splice(idx, 1);
+          item.btn.classList.remove('used');
+          updateDropZone();
+        });
+        
+        dropZone.appendChild(btn);
+      });
+
+      const sentenceObj = sentences[currentSentenceIndex];
+      if (selectedWords.length === sentenceObj.words.length) {
+        btnCheck.style.display = 'block';
+      } else {
+        btnCheck.style.display = 'none';
+      }
+    }
+
+    btnClear.addEventListener('click', () => {
+      selectedWords.forEach(item => item.btn.classList.remove('used'));
+      selectedWords = [];
+      updateDropZone();
+    });
+
+    btnCheck.addEventListener('click', () => {
+      const sentenceObj = sentences[currentSentenceIndex];
+      const formedSentence = selectedWords.map(item => item.word).join(' ');
+      const correctSentence = sentenceObj.words.join(' ');
+
+      if (formedSentence === correctSentence) {
+        if (currentSentenceIndex < sentences.length - 1) {
+          correctModal.classList.add('show');
+        } else {
+          successModal.classList.add('show');
+        }
+      } else {
+        errorModal.classList.add('show');
+      }
+    });
+
+    btnNext.addEventListener('click', () => {
+      correctModal.classList.remove('show');
+      currentSentenceIndex++;
+      renderSentence();
+    });
+
+    btnRetry.addEventListener('click', () => {
+      errorModal.classList.remove('show');
+    });
+
+    renderSentence();
+  </script>
+</body>
+</html>

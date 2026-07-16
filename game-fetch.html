@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch with Nala — English with Nala 🐕✨</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .fetch-container {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 40px 24px;
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+    }
+    .nala-dropzone {
+      width: 250px;
+      height: 250px;
+      margin: 0 auto 30px auto;
+      border: 4px dashed transparent;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+      position: relative;
+    }
+    .nala-dropzone.dragover {
+      border-color: var(--purple-400);
+      background: var(--purple-50);
+      transform: scale(1.05);
+    }
+    .nala-img {
+      width: 100%;
+      pointer-events: none;
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .fetch-prompt {
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: var(--purple-800);
+      font-family: 'Outfit', sans-serif;
+      margin-bottom: 30px;
+    }
+    .fetch-target {
+      color: var(--orange);
+      text-transform: uppercase;
+    }
+    .items-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .draggable-item {
+      width: 80px;
+      height: 80px;
+      font-size: 3rem;
+      background: var(--white);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: grab;
+      border: 2px solid var(--purple-200);
+      transition: transform 0.2s;
+    }
+    .draggable-item:active {
+      cursor: grabbing;
+      transform: scale(0.9);
+    }
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-10px); }
+      75% { transform: translateX(10px); }
+    }
+  </style>
+</head>
+<body class="light-mode" style="background-color: var(--purple-50);">
+  <header class="quiz-header glass-header">
+    <a href="module-hub.html" class="quiz-back-btn">
+      <span aria-hidden="true">⬅️</span>
+      <span class="sr-only">Voltar</span>
+    </a>
+    <div class="quiz-progress-bar-container glass-panel">
+      <h2 id="header-title" style="color:var(--white); margin:0; font-family: 'Outfit', sans-serif; font-size: 1.5rem;">Fetch with Nala</h2>
+    </div>
+  </header>
+  <main>
+    <div class="fetch-container glass-panel">
+      <div class="fetch-prompt">
+        Dê para a Nala: <span class="fetch-target" id="fetch-target"></span>
+      </div>
+      
+      <div class="nala-dropzone" id="nala-dropzone">
+        <img src="images/nala-celebrate.png" alt="Nala" class="nala-img" id="nala-img">
+      </div>
+      
+      <div class="items-container glass-panel" id="items-container"></div>
+    </div>
+  </main>
+  
+  <script src="js/data.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
+    const moduleData = gameData[currentModule] || gameData['colors'];
+    
+    let items = [...moduleData.fetch];
+    let currentTarget = null;
+    
+    const targetEl = document.getElementById('fetch-target');
+    const itemsContainer = document.getElementById('items-container');
+    const nalaDropzone = document.getElementById('nala-dropzone');
+    const nalaImg = document.getElementById('nala-img');
+
+    const correctItems = items.filter(item => item.correct);
+    let targetQueue = [...correctItems].sort(() => 0.5 - Math.random());
+
+    function nextRound() {
+      if (targetQueue.length === 0) {
+        alert('A Nala pegou tudo! Bom trabalho! 🐕🎾 Voltando ao Hub...');
+        window.location.href = 'module-hub.html';
+        return;
+      }
+
+      currentTarget = targetQueue.shift();
+      targetEl.innerText = currentTarget.name;
+      
+      renderItems();
+    }
+
+    function renderItems() {
+      itemsContainer.innerHTML = '';
+      
+      const displayItems = [...items].sort(() => 0.5 - Math.random());
+      
+      displayItems.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'draggable-item scroll-reveal';
+        div.draggable = true;
+        div.innerText = item.emoji;
+        div.dataset.id = item.id;
+        
+        div.addEventListener('dragstart', (e) => {
+          e.dataTransfer.setData('text/plain', item.id);
+          setTimeout(() => div.style.opacity = '0.5', 0);
+        });
+        
+        div.addEventListener('dragend', () => {
+          div.style.opacity = '1';
+        });
+        
+        // Touch support for mobile (basic)
+        div.addEventListener('touchstart', (e) => {
+          // Touch drag and drop is complex in pure JS without libraries,
+          // but we can make clicking work as a fallback for mobile.
+          if(window.innerWidth <= 768) {
+            handleDrop(item.id);
+          }
+        }, {passive: true});
+
+        itemsContainer.appendChild(div);
+      });
+      
+      setTimeout(() => {
+        document.querySelectorAll('.scroll-reveal').forEach(el => el.classList.add('revealed'));
+      }, 50);
+    }
+
+    nalaDropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      nalaDropzone.classList.add('dragover');
+    });
+
+    nalaDropzone.addEventListener('dragleave', () => {
+      nalaDropzone.classList.remove('dragover');
+    });
+
+    nalaDropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      nalaDropzone.classList.remove('dragover');
+      const draggedId = e.dataTransfer.getData('text/plain');
+      handleDrop(draggedId);
+    });
+
+    function handleDrop(id) {
+      if (id === currentTarget.id) {
+        nalaImg.style.transform = 'scale(1.2) rotate(-5deg)';
+        setTimeout(() => nalaImg.style.transform = 'scale(1) rotate(0)', 400);
+        
+        items = items.filter(i => i.id !== currentTarget.id);
+        
+        setTimeout(() => {
+          nextRound();
+        }, 600);
+      } else {
+        nalaDropzone.style.animation = 'shake 0.5s ease';
+        setTimeout(() => nalaDropzone.style.animation = 'none', 500);
+      }
+    }
+
+    nextRound();
+  </script>
+</body>
+</html>

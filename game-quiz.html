@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz — English with Nala 🐕✨</title>
+  <meta name="description" content="Teste seus conhecimentos de inglês com quizzes divertidos da Nala!" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body class="quiz-body">
+
+  <!-- ✦ Sparkle Particles ✦ -->
+  <div class="sparkle-container" aria-hidden="true">
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+  </div>
+
+  <!-- 🐾 Floating Paw Prints 🐾 -->
+  <div class="paw-container" aria-hidden="true">
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+  </div>
+
+  <!-- ============================================
+       QUIZ HEADER
+       ============================================ -->
+  <header class="quiz-header glass-header" id="quiz-header">
+    <div class="quiz-header-inner glass-header">
+      <a href="module-hub.html" class="quiz-back-btn" id="quiz-back-btn">
+        <span class="back-arrow">←</span>
+        <span class="back-text">Voltar</span>
+      </a>
+
+      <div class="quiz-progress-wrapper">
+        <div class="quiz-progress-bar" id="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="quiz-progress-fill" style="width: 20%"></div>
+        </div>
+        <span class="quiz-progress-text" id="quiz-progress-text">1 / 5</span>
+      </div>
+
+      <div class="quiz-score" id="quiz-score">
+        <span class="score-icon">🦴</span>
+        <span class="quiz-score-value" id="quiz-score-value">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================
+       QUIZ MAIN CONTENT
+       ============================================ -->
+  <main class="quiz-main" id="quiz-main">
+
+    <!-- Quiz Question Screen -->
+    <div class="quiz-screen active" id="quiz-question-screen">
+      <div class="quiz-card" id="quiz-card">
+        
+        <!-- Module Badge -->
+        <div class="quiz-module-badge" id="quiz-module-badge">
+          <span>🎨</span> Colors — Lição 1
+        </div>
+
+        <!-- Nala Mascot Area -->
+        <div class="quiz-mascot-area">
+          <img src="images/nala-quiz.png" alt="Nala incentivando você" class="quiz-mascot-img" id="quiz-mascot-img" />
+          <div class="quiz-speech" id="quiz-speech">
+            <p>Você consegue! 💪</p>
+          </div>
+        </div>
+
+        <!-- Question -->
+        <div class="quiz-question" id="quiz-question">
+          <h2 class="quiz-question-text" id="quiz-question-text">
+            Como se diz <span class="quiz-highlight">"Cachorro"</span> em inglês?
+          </h2>
+        </div>
+
+        <!-- Answer Options -->
+        <div class="quiz-options" id="quiz-options">
+          <button class="quiz-option" id="quiz-option-0" data-correct="false" onclick="selectAnswer(this)">
+            <span class="option-letter">A</span>
+            <span class="option-text">Cat</span>
+          </button>
+          <button class="quiz-option" id="quiz-option-1" data-correct="true" onclick="selectAnswer(this)">
+            <span class="option-letter">B</span>
+            <span class="option-text">Dog</span>
+          </button>
+          <button class="quiz-option" id="quiz-option-2" data-correct="false" onclick="selectAnswer(this)">
+            <span class="option-letter">C</span>
+            <span class="option-text">Bird</span>
+          </button>
+          <button class="quiz-option" id="quiz-option-3" data-correct="false" onclick="selectAnswer(this)">
+            <span class="option-letter">D</span>
+            <span class="option-text">Fish</span>
+          </button>
+        </div>
+
+        <!-- Feedback Area (hidden by default) -->
+        <div class="quiz-feedback hidden" id="quiz-feedback">
+          <div class="feedback-icon" id="feedback-icon">✅</div>
+          <p class="feedback-text" id="feedback-text">Parabéns! "Dog" é cachorro em inglês!</p>
+        </div>
+
+        <!-- Next Button (hidden by default) -->
+        <button class="quiz-next-btn hidden" id="quiz-next-btn" onclick="nextQuestion()">
+          Próxima Pergunta
+          <span class="next-arrow">→</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Quiz Results Screen (hidden by default) -->
+    <div class="quiz-screen" id="quiz-results-screen">
+      <div class="quiz-results-card" id="quiz-results-card">
+        
+        <div class="results-mascot">
+          <img src="images/nala-celebrate.png" alt="Nala comemorando" class="results-mascot-img" />
+        </div>
+
+        <div class="results-stars" id="results-stars">
+          <span class="result-star filled">⭐</span>
+          <span class="result-star filled">⭐</span>
+          <span class="result-star filled">⭐</span>
+        </div>
+
+        <h2 class="results-title" id="results-title">Incrível! 🎉</h2>
+        <p class="results-subtitle" id="results-subtitle">Você mandou super bem nessa lição!</p>
+
+        <div class="results-stats">
+          <div class="result-stat" id="result-stat-correct">
+            <span class="stat-value">4</span>
+            <span class="stat-label">Acertos</span>
+          </div>
+          <div class="result-stat" id="result-stat-wrong">
+            <span class="stat-value">1</span>
+            <span class="stat-label">Erros</span>
+          </div>
+          <div class="result-stat" id="result-stat-bones">
+            <span class="stat-value">🦴 40</span>
+            <span class="stat-label">Ossinhos</span>
+          </div>
+        </div>
+
+        <div class="results-actions">
+          <button class="results-btn primary" id="results-btn-retry" onclick="restartQuiz()">
+            <span>🔄</span> Tentar de Novo
+          </button>
+          <a href="index.html" class="results-btn secondary" id="results-btn-home">
+            <span>🏠</span> Voltar ao Início
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Confetti Container -->
+  <div class="confetti-container" id="confetti-container" aria-hidden="true"></div>
+
+  <!-- ============================================
+       QUIZ JAVASCRIPT
+       ============================================ -->
+  <script src="js/data.js"></script>
+  <script>
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
+    const moduleData = gameData[currentModule] || gameData['colors'];
+    const quizData = moduleData.quiz;
+
+    let currentQuestion = 0;
+    let score = 0;
+    let correctAnswers = 0;
+    let answered = false;
+
+    const progressFill = document.getElementById('quiz-progress-fill');
+    const progressText = document.getElementById('quiz-progress-text');
+    const questionText = document.getElementById('quiz-question-text');
+    const optionsContainer = document.getElementById('quiz-options');
+    const feedbackArea = document.getElementById('quiz-feedback');
+    const feedbackIcon = document.getElementById('feedback-icon');
+    const feedbackText = document.getElementById('feedback-text');
+    const nextBtn = document.getElementById('quiz-next-btn');
+    const scoreValue = document.getElementById('quiz-score-value');
+    const mascotImg = document.getElementById('quiz-mascot-img');
+    const quizSpeech = document.getElementById('quiz-speech');
+    const questionScreen = document.getElementById('quiz-question-screen');
+    const resultsScreen = document.getElementById('quiz-results-screen');
+
+    function loadQuestion() {
+      answered = false;
+      const q = quizData[currentQuestion];
+      
+      // Update progress
+      const progress = ((currentQuestion + 1) / quizData.length) * 100;
+      progressFill.style.width = progress + '%';
+      progressText.textContent = `${currentQuestion + 1} / ${quizData.length}`;
+
+      // Update question
+      questionText.innerHTML = q.question;
+
+      // Update options
+      const letters = ['A', 'B', 'C', 'D'];
+      optionsContainer.innerHTML = '';
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'quiz-option';
+        btn.id = `quiz-option-${i}`;
+        btn.dataset.correct = (i === q.correct).toString();
+        btn.onclick = () => selectAnswer(btn);
+        btn.innerHTML = `
+          <span class="option-letter">${letters[i]}</span>
+          <span class="option-text">${opt}</span>
+        `;
+        optionsContainer.appendChild(btn);
+      });
+
+      // Reset feedback
+      feedbackArea.classList.add('hidden');
+      nextBtn.classList.add('hidden');
+      
+      // Reset Nala speech
+      quizSpeech.querySelector('p').textContent = 'Você consegue! 💪';
+      mascotImg.src = 'images/nala-quiz.png';
+
+      // Animate card entry
+      const card = document.getElementById('quiz-card');
+      card.classList.remove('animate-in');
+      void card.offsetWidth; // Force reflow
+      card.classList.add('animate-in');
+    }
+
+    function selectAnswer(btn) {
+      if (answered) return;
+      answered = true;
+
+      const isCorrect = btn.dataset.correct === 'true';
+      const q = quizData[currentQuestion];
+
+      // Mark selected
+      btn.classList.add('selected');
+
+      // Show correct/wrong states
+      document.querySelectorAll('.quiz-option').forEach(opt => {
+        opt.disabled = true;
+        if (opt.dataset.correct === 'true') {
+          opt.classList.add('correct');
+        } else if (opt === btn && !isCorrect) {
+          opt.classList.add('wrong');
+        }
+      });
+
+      // Update feedback
+      if (isCorrect) {
+        correctAnswers++;
+        score += 10;
+        scoreValue.textContent = score;
+        feedbackIcon.textContent = '✅';
+        feedbackText.textContent = q.explanation;
+        feedbackArea.className = 'quiz-feedback correct';
+        quizSpeech.querySelector('p').textContent = q.nalaMsg;
+        mascotImg.src = 'images/nala-celebrate.png';
+        
+        // Mini celebration
+        createMiniConfetti();
+      } else {
+        feedbackIcon.textContent = '❌';
+        feedbackText.textContent = `Não foi dessa vez... A resposta certa é "${q.options[q.correct]}"!`;
+        feedbackArea.className = 'quiz-feedback wrong';
+        quizSpeech.querySelector('p').textContent = 'Tenta de novo! 💜';
+      }
+
+      feedbackArea.classList.remove('hidden');
+      nextBtn.classList.remove('hidden');
+
+      // Update next button text on last question
+      if (currentQuestion === quizData.length - 1) {
+        nextBtn.innerHTML = 'Ver Resultado <span class="next-arrow">🏆</span>';
+      }
+    }
+
+    function nextQuestion() {
+      currentQuestion++;
+      if (currentQuestion >= quizData.length) {
+        showResults();
+      } else {
+        loadQuestion();
+      }
+    }
+
+    function showResults() {
+      questionScreen.classList.remove('active');
+      resultsScreen.classList.add('active');
+
+      // Update stats
+      document.querySelector('#result-stat-correct .stat-value').textContent = correctAnswers;
+      document.querySelector('#result-stat-wrong .stat-value').textContent = quizData.length - correctAnswers;
+      document.querySelector('#result-stat-bones .stat-value').textContent = `🦴 ${score}`;
+
+      // Stars based on performance
+      const starsContainer = document.getElementById('results-stars');
+      const percentage = correctAnswers / quizData.length;
+      let starCount = 1;
+      if (percentage >= 0.8) starCount = 3;
+      else if (percentage >= 0.5) starCount = 2;
+
+      starsContainer.innerHTML = '';
+      for (let i = 0; i < 3; i++) {
+        const star = document.createElement('span');
+        star.className = `result-star ${i < starCount ? 'filled' : 'empty'}`;
+        star.textContent = i < starCount ? '⭐' : '☆';
+        star.style.animationDelay = `${i * 0.2}s`;
+        starsContainer.appendChild(star);
+      }
+
+      // Title based on performance
+      const resultsTitle = document.getElementById('results-title');
+      const resultsSubtitle = document.getElementById('results-subtitle');
+      if (percentage >= 0.8) {
+        resultsTitle.textContent = 'Incrível! 🎉';
+        resultsSubtitle.textContent = 'Você mandou super bem nessa lição!';
+      } else if (percentage >= 0.5) {
+        resultsTitle.textContent = 'Muito bem! 👏';
+        resultsSubtitle.textContent = 'Continue praticando e você vai arrasar!';
+      } else {
+        resultsTitle.textContent = 'Não desista! 💪';
+        resultsSubtitle.textContent = 'Vamos tentar de novo? A Nala acredita em você!';
+      }
+
+      // Big confetti celebration
+      createConfetti();
+    }
+
+    function restartQuiz() {
+      currentQuestion = 0;
+      score = 0;
+      correctAnswers = 0;
+      scoreValue.textContent = '0';
+      resultsScreen.classList.remove('active');
+      questionScreen.classList.add('active');
+      loadQuestion();
+    }
+
+    // === Confetti Effects ===
+    function createMiniConfetti() {
+      const container = document.getElementById('confetti-container');
+      for (let i = 0; i < 15; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti-piece';
+        confetti.style.left = Math.random() * 100 + '%';
+        confetti.style.animationDelay = Math.random() * 0.5 + 's';
+        confetti.style.background = ['#7C3AED', '#FBBF24', '#22C55E', '#EF4444', '#A78BFA', '#FCD34D'][Math.floor(Math.random() * 6)];
+        container.appendChild(confetti);
+        setTimeout(() => confetti.remove(), 2000);
+      }
+    }
+
+    function createConfetti() {
+      const container = document.getElementById('confetti-container');
+      for (let i = 0; i < 60; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti-piece big';
+        confetti.style.left = Math.random() * 100 + '%';
+        confetti.style.animationDelay = Math.random() * 1 + 's';
+        confetti.style.animationDuration = (Math.random() * 2 + 2) + 's';
+        confetti.style.background = ['#7C3AED', '#FBBF24', '#22C55E', '#EF4444', '#A78BFA', '#FCD34D', '#C4B5FD', '#F59E0B'][Math.floor(Math.random() * 8)];
+        confetti.style.width = (Math.random() * 8 + 4) + 'px';
+        confetti.style.height = (Math.random() * 8 + 4) + 'px';
+        container.appendChild(confetti);
+        setTimeout(() => confetti.remove(), 4000);
+      }
+    }
+
+    // Initialize
+    loadQuestion();
+  </script>
+
+</body>
+</html>

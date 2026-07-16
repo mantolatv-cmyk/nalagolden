@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nala's Game Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .hub-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 0 24px;
+    }
+    .hub-mascot {
+      width: 180px;
+      margin-bottom: 20px;
+      animation: heroFloat 4s infinite ease-in-out;
+      filter: drop-shadow(0px 20px 15px rgba(0, 0, 0, 0.3));
+    }
+    .hub-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 40px;
+      background: linear-gradient(135deg, var(--purple-700), var(--gold-500));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    .dark-bg .hub-title {
+      background: linear-gradient(135deg, var(--white), var(--gold-200)) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6) !important;
+    }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+    }
+    .game-card {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: var(--radius-lg);
+      text-decoration: none;
+      color: var(--purple-800);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.8);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .game-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: -100%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(to right, transparent, rgba(255,255,255,0.8), transparent);
+      transform: skewX(-20deg);
+      transition: 0.5s;
+    }
+    .game-card:hover::before {
+      left: 150%;
+    }
+    .game-card:hover {
+      transform: translateY(-12px) scale(1.02);
+      box-shadow: 0 20px 40px rgba(100, 43, 115, 0.2), 0 0 20px rgba(255, 215, 0, 0.4);
+      border-color: var(--gold-400);
+      background: rgba(255, 255, 255, 0.7);
+    }
+    .icon-container {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.4));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      border: 1px solid rgba(255,255,255,0.8);
+      transition: transform 0.3s;
+    }
+    .game-card:hover .icon-container {
+      transform: scale(1.1) rotate(5deg);
+      background: linear-gradient(135deg, var(--gold-100), rgba(255,255,255,0.6));
+    }
+    .game-icon {
+      font-size: 3.5rem;
+    }
+    .game-name {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 1.4rem;
+      margin: 0;
+      text-shadow: 0 2px 5px rgba(255,255,255,0.8);
+    }
+    .dark-bg .game-name {
+      color: var(--purple-900);
+    }
+  </style>
+</head>
+<body class="light-mode" style="background-color: var(--purple-50);">
+  <header class="quiz-header glass-header">
+    <a href="index.html" class="quiz-back-btn" style="text-decoration:none; padding: 10px 20px; border-radius: 50px; background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); display: flex; align-items: center; gap: 8px;">
+      <span aria-hidden="true" style="font-size: 1.2rem;">⬅️</span>
+      <span style="font-weight: 800; color: var(--white); font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 1px;">Voltar</span>
+    </a>
+    <div class="quiz-progress-bar-container">
+      <h2 id="header-title" style="color:var(--white); margin:0; font-family: 'Outfit', sans-serif; font-size: 1.5rem;">Game Hub</h2>
+    </div>
+    
+  </header>
+
+  <main>
+    <div class="hub-container">
+      <img src="images/nala-celebrate.png" alt="Nala Comemorando" class="hub-mascot">
+      <h1 class="hub-title" id="hub-welcome">Let's play! O que vamos jogar hoje?</h1>
+      
+      <div class="games-grid" id="games-grid">
+        <!-- Jogos serão injetados aqui -->
+      </div>
+    </div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
+    
+    // Fallback if module doesn't exist
+    const moduleData = gameData[currentModule] || gameData['colors'];
+
+    document.getElementById('header-title').innerText = `${moduleData.title} ${moduleData.emoji}`;
+    document.getElementById('hub-welcome').innerText = `Let's practice ${moduleData.title}! O que vamos jogar?`;
+
+    const games = [
+      { id: 'story', name: 'Story Time', icon: '📖', file: 'game-story.html' },
+      { id: 'quiz', name: 'Quiz Time', icon: '❓', file: 'game-quiz.html' },
+      { id: 'matching', name: 'Matching Pairs', icon: '🃏', file: 'game-matching.html' },
+      { id: 'sentence', name: 'Build a Sentence', icon: '🧩', file: 'game-sentence.html' },
+      { id: 'spelling', name: 'Spelling Scramble', icon: '🔤', file: 'game-spelling.html' },
+      { id: 'garden', name: 'Word Garden', icon: '🌻', file: 'game-garden.html' },
+      { id: 'fetch', name: 'Fetch with Nala', icon: '🎾', file: 'game-fetch.html' }
+    ];
+
+    const grid = document.getElementById('games-grid');
+    games.forEach(game => {
+      const a = document.createElement('a');
+      a.href = `${game.file}?module=${currentModule}`;
+      a.className = 'game-card scroll-reveal';
+      a.innerHTML = `
+        <div class="icon-container">
+          <span class="game-icon">${game.icon}</span>
+        </div>
+        <h3 class="game-name">${game.name}</h3>
+      `;
+      
+      // Save intent before navigating (fixes redirect bugs)
+      a.addEventListener('click', () => {
+        localStorage.setItem('selectedModule', currentModule);
+      });
+      
+      grid.appendChild(a);
+    });
+
+    // Reveal animation logic
+    setTimeout(() => {
+      document.querySelectorAll('.scroll-reveal').forEach(el => el.classList.add('revealed'));
+    }, 100);
+  </script>
+</body>
+</html>

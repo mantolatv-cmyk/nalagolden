@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Word Garden — English with Nala 🐕✨</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .garden-container {
+      max-width: 900px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 50px 24px;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.8);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+    .garden-prompt {
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: var(--purple-800);
+      font-family: 'Outfit', sans-serif;
+      margin-bottom: 40px;
+      text-shadow: 0 2px 10px rgba(255,255,255,0.8);
+    }
+    .garden-target {
+      color: #0056b3;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 5px 20px;
+      border-radius: var(--radius-md);
+      border: 3px solid #0056b3;
+      text-transform: uppercase;
+      display: inline-block;
+      transform: rotate(-2deg);
+      box-shadow: 0 4px 15px rgba(0, 86, 179, 0.2);
+      font-weight: 900;
+    }
+    .flowers-area {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      min-height: 250px;
+      margin-bottom: 20px;
+    }
+    .flower-btn {
+      width: 130px;
+      height: 130px;
+      background: var(--white);
+      border-radius: 50%;
+      border: 5px solid var(--pink-300);
+      cursor: pointer;
+      font-size: 1.3rem;
+      font-weight: 900;
+      color: var(--purple-900);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      text-transform: capitalize;
+      box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
+    }
+    .flower-btn:hover {
+      transform: scale(1.15) rotate(8deg);
+      filter: drop-shadow(0 15px 20px rgba(255, 105, 180, 0.4));
+    }
+    .flower-btn.wrong {
+      animation: shake 0.5s ease;
+      filter: grayscale(1) opacity(0.6);
+      cursor: not-allowed;
+    }
+    .flower-btn.correct-poof {
+      animation: correctPoof 0.6s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    @keyframes correctPoof {
+      0% { transform: scale(1); filter: brightness(1); }
+      50% { transform: scale(1.4); filter: brightness(1.5) sepia(1) hue-rotate(50deg); opacity: 1; }
+      100% { transform: scale(0); opacity: 0; }
+    }
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-10px) rotate(-5deg); }
+      75% { transform: translateX(10px) rotate(5deg); }
+    }
+    
+    /* Success Modal Styles */
+    .success-modal {
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.5s;
+    }
+    .success-modal.show {
+      opacity: 1;
+      pointer-events: all;
+    }
+    .success-content {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      padding: 50px;
+      border-radius: var(--radius-lg);
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+      border: 1px solid rgba(255,255,255,0.8);
+      transform: scale(0.8);
+      transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .success-modal.show .success-content {
+      transform: scale(1);
+    }
+    .success-content img {
+      width: 180px;
+      margin-bottom: 20px;
+      animation: heroFloat 3s infinite ease-in-out;
+    }
+    .success-content h2 {
+      color: var(--purple-800);
+      font-family: 'Outfit', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .success-content p {
+      color: var(--purple-700);
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    .btn-return {
+      display: inline-block;
+      padding: 15px 40px;
+      background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+      color: var(--purple-900);
+      text-decoration: none;
+      font-weight: 900;
+      border-radius: 50px;
+      font-size: 1.3rem;
+      transition: all 0.3s;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 10px 20px rgba(255, 215, 0, 0.3);
+    }
+    .btn-return:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(255, 215, 0, 0.5);
+    }
+  </style>
+</head>
+<body class="light-mode" style="background-color: var(--purple-50); background-image: url('images/bg-colors.png'); background-size: cover; background-position: center; background-attachment: fixed;">
+  <header class="quiz-header glass-header">
+    <a href="module-hub.html" class="quiz-back-btn" style="text-decoration:none; padding: 10px 20px; border-radius: 50px; background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); display: flex; align-items: center; gap: 8px;">
+      <span aria-hidden="true" style="font-size: 1.2rem;">⬅️</span>
+      <span style="font-weight: 800; color: var(--white); font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 1px;">Voltar</span>
+    </a>
+    <div class="quiz-progress-bar-container">
+      <h2 id="header-title" style="color:var(--white); margin:0; font-family: 'Outfit', sans-serif; font-size: 1.5rem;">Word Garden</h2>
+    </div>
+  </header>
+  <main>
+    <div class="garden-container">
+      <img src="images/nala-celebrate.png" alt="Nala" style="width: 120px; margin-bottom: 20px; animation: heroFloat 4s infinite ease-in-out;">
+      <div class="garden-prompt">
+        Colha a flor: <span class="garden-target" id="target-word"></span>
+      </div>
+      <div class="flowers-area" id="flowers-area"></div>
+    </div>
+  </main>
+
+  <div id="success-modal" class="success-modal">
+    <div class="success-content">
+      <img src="images/nala-celebrate.png" alt="Nala Comemorando">
+      <h2>Jardim Completo! 🌻</h2>
+      <p>Você encontrou todas as palavras mágicas!</p>
+      <a href="module-hub.html" class="btn-return">Voltar ao Menu</a>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
+    const moduleData = gameData[currentModule] || gameData['colors'];
+    
+    // Update background image
+    if(moduleData.bgImage) {
+      document.body.style.backgroundImage = moduleData.bgImage;
+    }
+
+    let words = [...moduleData.garden];
+    let targetWord = "";
+
+    const targetEl = document.getElementById('target-word');
+    const flowersArea = document.getElementById('flowers-area');
+    const successModal = document.getElementById('success-modal');
+
+    // Make back button go back to correct module
+    document.querySelector('.quiz-back-btn').href = `module-hub.html?module=${currentModule}`;
+    document.querySelector('.btn-return').href = `module-hub.html?module=${currentModule}`;
+
+    // Simple dictionary for translations
+    const dict = {
+      "red": "Vermelho", "blue": "Azul", "yellow": "Amarelo", "green": "Verde", "pink": "Rosa", "orange": "Laranja", "purple": "Roxo", "black": "Preto", "white": "Branco", "brown": "Marrom",
+      "dog": "Cachorro", "cat": "Gato", "bird": "Pássaro", "fish": "Peixe", "rabbit": "Coelho", "turtle": "Tartaruga", "horse": "Cavalo", "cow": "Vaca", "pig": "Porco", "sheep": "Ovelha",
+      "mathematics": "Matemática", "geography": "Geografia", "literature": "Literatura", "assignment": "Trabalho", "calculator": "Calculadora", "laboratory": "Laboratório", "experiment": "Experimento", "education": "Educação", "textbook": "Livro Did.", "chemistry": "Química",
+      "pencil": "Lápis", "eraser": "Borracha", "notebook": "Caderno", "ruler": "Régua", "backpack": "Mochila", "desk": "Carteira", "board": "Lousa", "pen": "Caneta",
+      "one": "Um", "two": "Dois", "three": "Três", "four": "Quatro", "five": "Cinco", "six": "Seis", "seven": "Sete", "eight": "Oito", "nine": "Nove", "ten": "Dez",
+      "mother": "Mãe", "father": "Pai", "brother": "Irmão", "sister": "Irmã", "grandmother": "Avó", "grandfather": "Avô", "aunt": "Tia", "uncle": "Tio", "cousin": "Primo"
+    };
+
+    function nextRound() {
+      if (words.length === 0) {
+        successModal.classList.add('show');
+        return;
+      }
+
+      flowersArea.innerHTML = '';
+      
+      // Shuffle words and pick a target
+      words.sort(() => 0.5 - Math.random());
+      targetWord = words[0];
+      
+      // Show Portuguese translation
+      const ptWord = dict[targetWord.toLowerCase()] || targetWord;
+      targetEl.innerText = ptWord;
+      
+      const currentFlowers = [...words].sort(() => 0.5 - Math.random());
+      
+      currentFlowers.forEach((word) => {
+        const btn = document.createElement('button');
+        btn.className = 'flower-btn';
+        btn.innerText = word;
+        
+        btn.addEventListener('click', () => {
+          if (word === targetWord) {
+            btn.classList.add('correct-poof');
+            setTimeout(() => {
+              words = words.filter(w => w !== targetWord);
+              nextRound();
+            }, 500); // Wait for poof animation to finish
+          } else {
+            btn.classList.add('wrong');
+          }
+        });
+        
+        flowersArea.appendChild(btn);
+      });
+    }
+
+    nextRound();
+  </script>
+</body>
+</html>
