@@ -55,12 +55,21 @@
     .front-face {
       background: var(--white);
       color: var(--purple-800);
-      transform: rotateY(180deg);
+      transform: rotateY(180deg) translateZ(1px);
+      z-index: 1;
     }
     .back-face {
       background: linear-gradient(135deg, var(--purple-500), var(--purple-700));
       color: var(--white);
       font-size: 3rem;
+      transform: rotateY(0deg) translateZ(2px);
+      z-index: 2;
+    }
+    .memory-card.flip .back-face {
+      z-index: 1;
+    }
+    .memory-card.flip .front-face {
+      z-index: 2;
     }
   </style>
 </head>
