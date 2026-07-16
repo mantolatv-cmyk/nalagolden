@@ -97,12 +97,29 @@
     
     document.getElementById('matching-title').innerText = `Encontre os pares de ${moduleData.title}!`;
 
-    // Select first 4 pairs to make an 8-card grid
-    let pairs = moduleData.matching.slice(0, 10);
+    // Ensure we always have exactly 10 pairs (20 cards)
+    let basePairs = moduleData.matching;
+    let pairs = [];
+    let shuffledBase = [...basePairs].sort(() => 0.5 - Math.random());
+    
+    let cloneCount = 0;
+    while(pairs.length < 10) {
+      for(let pair of shuffledBase) {
+        if(pairs.length < 10) {
+          pairs.push({ 
+            word: pair.word, 
+            emoji: pair.emoji, 
+            uniqueId: pair.word + "_" + cloneCount 
+          });
+        }
+      }
+      cloneCount++;
+    }
+
     let cardsArray = [];
     pairs.forEach(pair => {
-      cardsArray.push({ type: pair.word, content: pair.word });
-      cardsArray.push({ type: pair.word, content: pair.emoji });
+      cardsArray.push({ type: pair.uniqueId, content: pair.word });
+      cardsArray.push({ type: pair.uniqueId, content: pair.emoji });
     });
     
     // Shuffle
