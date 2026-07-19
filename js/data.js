@@ -980,7 +980,7 @@ const gameData = {
       { en: "Notebook", pt: "Caderno", emoji: "📓" },
       { en: "Pen", pt: "Caneta", emoji: "🖊️" },
       { en: "Ruler", pt: "Régua", emoji: "📏" },
-      { en: "Board", pt: "Quadro Negro", emoji: "⬛" },
+      { en: "Board", pt: "Quadro", emoji: "⬛" },
       { en: "Student", pt: "Aluno(a)", emoji: "🧑‍🎓" },
       { en: "Scissors", pt: "Tesoura", emoji: "✂️" },
       { en: "Glue", pt: "Cola", emoji: "🧴" },
@@ -989,34 +989,91 @@ const gameData = {
       { en: "Crayon", pt: "Giz de cera", emoji: "🖍️" },
       { en: "Classroom", pt: "Sala de Aula", emoji: "🚪" }
     ],
-    story: [{ text: "Welcome to school, let's learn new words!" }],
+    story: [
+      { text: "Hi Nala! Today is my first day of school!" },
+      { text: "Woof! That's so exciting! Did you pack your Backpack?" },
+      { text: "Yes! I have my Notebook and my Book." },
+      { text: "Don't forget your Pencil and Pen to write." },
+      { text: "Oh, right! And my Eraser too." },
+      { text: "What else do you need for the Classroom?" },
+      { text: "I need Scissors to cut Paper." },
+      { text: "And some Glue to stick things together!" },
+      { text: "Exactly! Oh, and my Crayon to draw beautiful pictures." },
+      { text: "Will you learn math? You might need a Calculator!" },
+      { text: "Yes, and a Ruler to measure things." },
+      { text: "Your Teacher will be so happy to see you!" },
+      { text: "I can't wait to sit at my Desk and meet every Student." },
+      { text: "Have a great day at School! Woof!" }
+    ],
     matching: [
       { word: "Pencil", emoji: "✏️" },
       { word: "Book", emoji: "📖" },
       { word: "Teacher", emoji: "👩‍🏫" },
       { word: "Desk", emoji: "🪑" },
       { word: "Backpack", emoji: "🎒" },
-      { word: "School", emoji: "🏫" }
+      { word: "School", emoji: "🏫" },
+      { word: "Eraser", emoji: "🧼" },
+      { word: "Notebook", emoji: "📓" },
+      { word: "Pen", emoji: "🖊️" },
+      { word: "Ruler", emoji: "📏" },
+      { word: "Board", emoji: "⬛" },
+      { word: "Student", emoji: "🧑‍🎓" },
+      { word: "Scissors", emoji: "✂️" },
+      { word: "Glue", emoji: "🧴" },
+      { word: "Paper", emoji: "📄" }
     ],
     sentence: [
       { words: ["I", "have", "a", "pencil"], translation: "Eu tenho um lápis" },
-      { words: ["The", "teacher", "is", "here"], translation: "O professor está aqui" }
+      { words: ["The", "teacher", "is", "here"], translation: "O professor está aqui" },
+      { words: ["My", "backpack", "is", "blue"], translation: "Minha mochila é azul" },
+      { words: ["Open", "your", "book"], translation: "Abra seu livro" },
+      { words: ["I", "need", "an", "eraser"], translation: "Eu preciso de uma borracha" },
+      { words: ["The", "desk", "is", "clean"], translation: "A carteira está limpa" },
+      { words: ["Write", "in", "the", "notebook"], translation: "Escreva no caderno" },
+      { words: ["I", "use", "a", "pen"], translation: "Eu uso uma caneta" },
+      { words: ["Look", "at", "the", "board"], translation: "Olhe para o quadro" },
+      { words: ["She", "is", "a", "student"], translation: "Ela é uma aluna" },
+      { words: ["We", "go", "to", "school"], translation: "Nós vamos para a escola" },
+      { words: ["Cut", "with", "the", "scissors"], translation: "Corte com a tesoura" },
+      { words: ["I", "have", "some", "glue"], translation: "Eu tenho um pouco de cola" },
+      { words: ["Measure", "with", "a", "ruler"], translation: "Meça com a régua" }
     ],
-    spelling: ["pencil", "book", "school", "desk"],
-    garden: ["pencil", "book", "school", "desk"],
+    spelling: ["pencil", "book", "teacher", "desk", "backpack", "school", "eraser", "notebook", "pen", "ruler", "board", "student", "scissors", "glue", "paper"],
+    garden: ["pencil", "book", "teacher", "desk", "backpack", "school", "eraser", "notebook", "pen", "ruler", "board", "student", "scissors", "glue", "paper"],
     fetch: [
       { id: "pencil", name: "Pencil", emoji: "✏️", correct: true },
       { id: "book", name: "Book", emoji: "📖", correct: true },
-      { id: "apple", name: "Apple", emoji: "🍎", correct: false }
+      { id: "teacher", name: "Teacher", emoji: "👩‍🏫", correct: true },
+      { id: "desk", name: "Desk", emoji: "🪑", correct: true },
+      { id: "backpack", name: "Backpack", emoji: "🎒", correct: true },
+      { id: "school", name: "School", emoji: "🏫", correct: true },
+      { id: "eraser", name: "Eraser", emoji: "🧼", correct: true },
+      { id: "notebook", name: "Notebook", emoji: "📓", correct: true },
+      { id: "pen", name: "Pen", emoji: "🖊️", correct: true },
+      { id: "ruler", name: "Ruler", emoji: "📏", correct: true },
+      { id: "board", name: "Board", emoji: "⬛", correct: true },
+      { id: "student", name: "Student", emoji: "🧑‍🎓", correct: true },
+      { id: "scissors", name: "Scissors", emoji: "✂️", correct: true },
+      { id: "glue", name: "Glue", emoji: "🧴", correct: true },
+      { id: "apple", name: "Apple", emoji: "🍎", correct: false },
+      { id: "dog", name: "Dog", emoji: "🐕", correct: false },
+      { id: "burger", name: "Burger", emoji: "🍔", correct: false }
     ],
     quiz: [
-      {
-        question: 'Como se diz <span class="quiz-highlight">"Livro"</span> em inglês?',
-        options: ['Pencil', 'Book', 'Desk', 'Eraser'],
-        correct: 1,
-        explanation: 'Exato! "Book" é livro! 📖',
-        nalaMsg: 'Good job! 🌟'
-      }
+      { question: 'Como se diz <span class="quiz-highlight">"Livro"</span> em inglês?', options: ['Pencil', 'Book', 'Desk', 'Eraser'], correct: 1, explanation: 'Exato! "Book" é livro! 📖', nalaMsg: 'Good job! 🌟' },
+      { question: 'O que significa <span class="quiz-highlight">"Pencil"</span>?', options: ['Borracha', 'Mochila', 'Lápis', 'Caneta'], correct: 2, explanation: 'Correto! "Pencil" é lápis! ✏️', nalaMsg: 'Awesome! 🎉' },
+      { question: 'Como se diz <span class="quiz-highlight">"Professor(a)"</span>?', options: ['Student', 'Teacher', 'School', 'Ruler'], correct: 1, explanation: 'Isso! "Teacher" é professor ou professora! 👩‍🏫', nalaMsg: 'You rock! 🐾' },
+      { question: 'Traduza para o inglês: <span class="quiz-highlight">"Carteira"</span>.', options: ['Desk', 'Board', 'Chair', 'Backpack'], correct: 0, explanation: 'Perfeito! "Desk" é a mesa escolar! 🪑', nalaMsg: 'Brilliant! ⭐' },
+      { question: 'Qual destas opções significa <span class="quiz-highlight">"Mochila"</span>?', options: ['Notebook', 'Paper', 'Backpack', 'Glue'], correct: 2, explanation: 'Acertou! "Backpack" é mochila! 🎒', nalaMsg: 'Great work! 🐶' },
+      { question: 'O que é uma <span class="quiz-highlight">"Eraser"</span>?', options: ['Régua', 'Tesoura', 'Cola', 'Borracha'], correct: 3, explanation: 'Isso aí! "Eraser" é para apagar! 🧼', nalaMsg: 'Fantastic! 🚀' },
+      { question: 'Como se escreve <span class="quiz-highlight">"Caderno"</span>?', options: ['Notebook', 'Book', 'Paper', 'Board'], correct: 0, explanation: 'Muito bem! "Notebook" é caderno! 📓', nalaMsg: 'Super! 🏆' },
+      { question: 'Se você precisa escrever à tinta, você usa uma:', options: ['Pencil', 'Crayon', 'Pen', 'Scissors'], correct: 2, explanation: 'Isso mesmo! "Pen" é caneta! 🖊️', nalaMsg: 'Good! 🌟' },
+      { question: 'Para medir algo, usamos uma <span class="quiz-highlight">"Régua"</span>. Tradução:', options: ['Glue', 'Ruler', 'Board', 'Calculator'], correct: 1, explanation: 'Exato! "Ruler" é régua! 📏', nalaMsg: 'Awesome! 🎉' },
+      { question: 'O professor escreve no <span class="quiz-highlight">"Quadro"</span>. Palavra:', options: ['Paper', 'Desk', 'Board', 'Notebook'], correct: 2, explanation: 'Correto! "Board" é o quadro negro! ⬛', nalaMsg: 'You rock! 🐾' },
+      { question: 'Qual palavra significa <span class="quiz-highlight">"Aluno(a)"</span>?', options: ['Teacher', 'Student', 'School', 'Classroom'], correct: 1, explanation: 'Perfeito! "Student" é aluno! 🧑‍🎓', nalaMsg: 'Brilliant! ⭐' },
+      { question: 'O que significa <span class="quiz-highlight">"Scissors"</span>?', options: ['Tesoura', 'Cola', 'Papel', 'Lápis'], correct: 0, explanation: 'Acertou! "Scissors" significa tesoura! ✂️', nalaMsg: 'Great work! 🐶' },
+      { question: 'Para colar algo, você precisa de:', options: ['Crayon', 'Eraser', 'Glue', 'Pen'], correct: 2, explanation: 'Isso! "Glue" é cola! 🧴', nalaMsg: 'Fantastic! 🚀' },
+      { question: 'Como se diz <span class="quiz-highlight">"Escola"</span> em inglês?', options: ['Classroom', 'School', 'Teacher', 'Student'], correct: 1, explanation: 'Muito bem! "School" é escola! 🏫', nalaMsg: 'Super! 🏆' }
     ]
   }
 };
