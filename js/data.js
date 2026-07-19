@@ -453,7 +453,11 @@ const gameData = {
       { text: "I never skip my English studies in the evening." },
       { text: "Consistency is crucial for language learning!" },
       { text: "I prefer to unwind by reading a novel before bed." },
-      { text: "Finally, I turn off the lights and fall asleep." }
+      { text: "Finally, I turn off the lights and fall asleep." },
+      { text: "How is your schedule for tomorrow?" },
+      { text: "I hope you have time to work out too!" },
+      { text: "Don't forget to prepare a good breakfast." },
+      { text: "Let's organize our tasks and unwind later!" }
     ],
     matching: [
       { word: "Work out", emoji: "🏋️" },
@@ -465,65 +469,65 @@ const gameData = {
       { word: "Unwind", emoji: "🧘" },
       { word: "Consistency", emoji: "📈" },
       { word: "Refresh", emoji: "🚿" },
-      { word: "Fall asleep", emoji: "😴" }
+      { word: "Fall asleep", emoji: "😴" },
+      { word: "Wake up", emoji: "🌅" },
+      { word: "Shower", emoji: "🛀" },
+      { word: "Breakfast", emoji: "🥐" },
+      { word: "Evening", emoji: "🌆" }
     ],
     sentence: [
       { words: ["I", "work", "out", "every", "morning"], translation: "Eu malho toda manhã" },
       { words: ["She", "prepares", "a", "healthy", "breakfast"], translation: "Ela prepara um café da manhã saudável" },
       { words: ["My", "commute", "is", "very", "fast"], translation: "Meu trajeto é muito rápido" },
       { words: ["We", "organize", "our", "daily", "schedule"], translation: "Nós organizamos nossa rotina diária" },
-      { words: ["I", "need", "to", "unwind", "now"], translation: "Eu preciso relaxar agora" }
+      { words: ["I", "need", "to", "unwind", "now"], translation: "Eu preciso relaxar agora" },
+      { words: ["Wake", "up", "early", "today"], translation: "Acorde cedo hoje" },
+      { words: ["Take", "a", "refreshing", "shower"], translation: "Tome um banho revigorante" },
+      { words: ["Get", "dressed", "for", "school"], translation: "Vista-se para a escola" },
+      { words: ["Consistency", "is", "very", "important"], translation: "A consistência é muito importante" },
+      { words: ["Fall", "asleep", "quickly", "tonight"], translation: "Adormeça rapidamente esta noite" },
+      { words: ["I", "study", "in", "the", "evening"], translation: "Eu estudo à noite" },
+      { words: ["Prepare", "your", "own", "breakfast"], translation: "Prepare seu próprio café da manhã" },
+      { words: ["Organize", "your", "desk", "now"], translation: "Organize sua mesa agora" },
+      { words: ["My", "schedule", "is", "full", "today"], translation: "Minha agenda está cheia hoje" }
     ],
-    spelling: ["workout", "commute", "prepare", "schedule", "organize", "unwind", "refresh", "dressed", "healthy", "always"],
-    garden: ["workout", "commute", "prepare", "schedule", "organize", "unwind", "refresh", "healthy"],
+    spelling: ["workout", "commute", "prepare", "schedule", "organize", "unwind", "refresh", "dressed", "healthy", "always", "wakeup", "shower", "breakfast", "evening"],
+    garden: ["workout", "commute", "prepare", "schedule", "organize", "unwind", "refresh", "healthy", "wakeup", "shower", "breakfast", "evening", "dressed", "always"],
     fetch: [
       { id: "dumbbell", name: "Work out", emoji: "🏋️", correct: true },
       { id: "calendar", name: "Schedule", emoji: "📅", correct: true },
       { id: "shirt", name: "Get Dressed", emoji: "👔", correct: true },
       { id: "bus", name: "Commute", emoji: "🚌", correct: true },
-      { id: "car", name: "Car", emoji: "🚗", correct: false },
-      { id: "flower", name: "Flower", emoji: "🌸", correct: false },
       { id: "shower", name: "Shower", emoji: "🚿", correct: true },
       { id: "bed", name: "Fall Asleep", emoji: "🛏️", correct: true },
-      { id: "pan", name: "Prepare Food", emoji: "🍳", correct: true },
-      { id: "moon", name: "Moon", emoji: "🌙", correct: false }
+      { id: "pan", name: "Prepare", emoji: "🍳", correct: true },
+      { id: "files", name: "Organize", emoji: "🗂️", correct: true },
+      { id: "meditate", name: "Unwind", emoji: "🧘", correct: true },
+      { id: "chart", name: "Consistency", emoji: "📈", correct: true },
+      { id: "sunrise", name: "Wake up", emoji: "🌅", correct: true },
+      { id: "croissant", name: "Breakfast", emoji: "🥐", correct: true },
+      { id: "city", name: "Evening", emoji: "🌆", correct: true },
+      { id: "bath", name: "Refresh", emoji: "🛀", correct: true },
+      { id: "car", name: "Car", emoji: "🚗", correct: false },
+      { id: "flower", name: "Flower", emoji: "🌸", correct: false },
+      { id: "moon", name: "Moon", emoji: "🌙", correct: false },
+      { id: "soccer", name: "Soccer", emoji: "⚽", correct: false }
     ],
     quiz: [
-      {
-        question: 'O que o Phrasal Verb <span class="quiz-highlight">"Work out"</span> significa?',
-        options: ['Trabalhar fora', 'Malhar / Fazer exercício', 'Dormir', 'Comer'],
-        correct: 1,
-        explanation: 'Exato! "Work out" significa se exercitar ou malhar! 🏋️',
-        nalaMsg: 'Let\'s move! 💪'
-      },
-      {
-        question: 'O que fazemos quando vamos nos <span class="quiz-highlight">"Get dressed"</span>?',
-        options: ['Escovar os dentes', 'Tomar banho', 'Nos vestir', 'Ler um livro'],
-        correct: 2,
-        explanation: 'Isso! "Get dressed" é o ato de se vestir! 👔',
-        nalaMsg: 'Muito bem! 🎉'
-      },
-      {
-        question: 'A palavra <span class="quiz-highlight">"Commute"</span> se refere a:',
-        options: ['O trajeto diário (ex: casa-trabalho)', 'Um computador', 'Uma conversa', 'Uma refeição'],
-        correct: 0,
-        explanation: 'Perfeito! "Commute" é o deslocamento diário habitual! 🚌',
-        nalaMsg: 'Awesome! 🌟'
-      },
-      {
-        question: 'O que significa <span class="quiz-highlight">"Unwind"</span> no fim do dia?',
-        options: ['Correr', 'Relaxar / Descontrair', 'Estudar', 'Limpar'],
-        correct: 1,
-        explanation: 'Isso mesmo! "Unwind" é relaxar após um dia cheio! 🧘',
-        nalaMsg: 'Time to chill! ☕'
-      },
-      {
-        question: 'Como dizemos <span class="quiz-highlight">"Cronograma/Agenda"</span> em inglês?',
-        options: ['Clock', 'Calendar', 'Schedule', 'Time'],
-        correct: 2,
-        explanation: 'Correto! "Schedule" é a sua agenda ou cronograma! 📅',
-        nalaMsg: 'Great job! 🏆'
-      }
+      { question: 'O que o Phrasal Verb <span class="quiz-highlight">"Work out"</span> significa?', options: ['Trabalhar fora', 'Malhar / Fazer exercício', 'Dormir', 'Comer'], correct: 1, explanation: 'Exato! "Work out" significa se exercitar ou malhar! 🏋️', nalaMsg: 'Let\'s move! 💪' },
+      { question: 'O que fazemos quando vamos nos <span class="quiz-highlight">"Get dressed"</span>?', options: ['Escovar os dentes', 'Tomar banho', 'Nos vestir', 'Ler um livro'], correct: 2, explanation: 'Isso! "Get dressed" é o ato de se vestir! 👔', nalaMsg: 'Muito bem! 🎉' },
+      { question: 'A palavra <span class="quiz-highlight">"Commute"</span> se refere a:', options: ['O trajeto diário', 'Um computador', 'Uma conversa', 'Uma refeição'], correct: 0, explanation: 'Perfeito! "Commute" é o deslocamento diário! 🚌', nalaMsg: 'Awesome! 🌟' },
+      { question: 'O que significa <span class="quiz-highlight">"Unwind"</span> no fim do dia?', options: ['Correr', 'Relaxar / Descontrair', 'Estudar', 'Limpar'], correct: 1, explanation: 'Isso mesmo! "Unwind" é relaxar! 🧘', nalaMsg: 'Time to chill! ☕' },
+      { question: 'Como dizemos <span class="quiz-highlight">"Cronograma/Agenda"</span> em inglês?', options: ['Clock', 'Calendar', 'Schedule', 'Time'], correct: 2, explanation: 'Correto! "Schedule" é a agenda! 📅', nalaMsg: 'Great job! 🏆' },
+      { question: 'Traduzir: <span class="quiz-highlight">"Prepare a healthy breakfast"</span>', options: ['Coma um pão saudável', 'Prepare um café da manhã saudável', 'Compre um café', 'Faça um almoço'], correct: 1, explanation: 'Exato! Breakfast é café da manhã! 🥐', nalaMsg: 'Delicious! 😋' },
+      { question: 'O que significa a palavra <span class="quiz-highlight">"Organize"</span>?', options: ['Tocar música', 'Dormir', 'Brincar', 'Organizar'], correct: 3, explanation: 'Acertou! Organize é organizar! 🗂️', nalaMsg: 'Perfect! ⭐' },
+      { question: 'Quando dizemos <span class="quiz-highlight">"Fall asleep"</span>, estamos prestes a:', options: ['Cair', 'Adormecer', 'Acordar', 'Levantar'], correct: 1, explanation: 'Isso! Fall asleep é pegar no sono! 😴', nalaMsg: 'Sweet dreams! 🌙' },
+      { question: 'A palavra <span class="quiz-highlight">"Consistency"</span> é importante para os estudos. Significa:', options: ['Inteligência', 'Consistência', 'Sorte', 'Tempo'], correct: 1, explanation: 'Correto! Consistência! 📈', nalaMsg: 'Keep going! 🚀' },
+      { question: 'O oposto de "Fall asleep" é:', options: ['Wake up', 'Get dressed', 'Unwind', 'Commute'], correct: 0, explanation: 'Exatamente! Wake up é acordar! 🌅', nalaMsg: 'Good morning! ☀️' },
+      { question: 'Para tomar banho, usamos o:', options: ['Breakfast', 'Shower', 'Evening', 'Schedule'], correct: 1, explanation: 'Shower é banho! 🚿', nalaMsg: 'So fresh! 💧' },
+      { question: 'O período da <span class="quiz-highlight">"Noite"</span> em inglês (antes de dormir) é:', options: ['Morning', 'Afternoon', 'Evening', 'Night'], correct: 2, explanation: 'Evening é o comecinho da noite ou fim de tarde! 🌆', nalaMsg: 'Nice! 🌇' },
+      { question: 'O que significa <span class="quiz-highlight">"Refresh"</span>?', options: ['Refrescar/Renovar', 'Cansar', 'Correr', 'Vestir'], correct: 0, explanation: 'Isso! Refresh é refrescar! 🛀', nalaMsg: 'Awesome! 🌊' },
+      { question: 'O que fazemos no <span class="quiz-highlight">"Breakfast"</span>?', options: ['Dormimos', 'Trabalhamos', 'Tomamos café da manhã', 'Tomamos banho'], correct: 2, explanation: 'Breakfast é o desjejum! 🥐', nalaMsg: 'Yummy! 🍳' }
     ]
   },
   past: {
