@@ -443,6 +443,22 @@ const gameData = {
     title: "Daily Routine",
     bgImage: "url('images/bg-routine.png')",
     emoji: "⏰",
+    flashcards: [
+      { en: "Work out", pt: "Malhar", emoji: "🏋️" },
+      { en: "Get dressed", pt: "Vestir-se", emoji: "👔" },
+      { en: "Commute", pt: "Trajeto", emoji: "🚌" },
+      { en: "Prepare", pt: "Preparar", emoji: "🍳" },
+      { en: "Schedule", pt: "Agenda", emoji: "📅" },
+      { en: "Organize", pt: "Organizar", emoji: "🗂️" },
+      { en: "Unwind", pt: "Relaxar", emoji: "🧘" },
+      { en: "Consistency", pt: "Consistência", emoji: "📈" },
+      { en: "Refresh", pt: "Refrescar", emoji: "🚿" },
+      { en: "Fall asleep", pt: "Adormecer", emoji: "😴" },
+      { en: "Wake up", pt: "Acordar", emoji: "🌅" },
+      { en: "Shower", pt: "Banho", emoji: "🛀" },
+      { en: "Breakfast", pt: "Café da Manhã", emoji: "🥐" },
+      { en: "Evening", pt: "Noite", emoji: "🌆" }
+    ],
     story: [
       { text: "My daily routine is quite busy, Laís!" },
       { text: "I usually wake up at 6 AM and work out immediately." },
