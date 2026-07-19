@@ -388,7 +388,23 @@ const gameData = {
       { words: ["She", "needs", "a", "calculator", "now"], translation: "Ela precisa de uma calculadora agora" }
     ],
     spelling: ["pencil", "eraser", "notebook", "ruler", "backpack", "desk", "board", "calculator", "textbook", "pen"],
-    garden: ["pencil", "eraser", "notebook", "ruler", "backpack", "desk", "board", "calculator", "textbook", "pen"],
+    garden: [
+      { word: "Pencil", question: "What object do you use to draw or write and can be erased?" },
+      { word: "Book", question: "What do you read to learn stories and facts?" },
+      { word: "Teacher", question: "Who is the person that helps you learn at school?" },
+      { word: "Desk", question: "Where do you sit and place your notebook during class?" },
+      { word: "Backpack", question: "What do you wear on your back to carry your school supplies?" },
+      { word: "School", question: "Where do you go every morning to learn and meet friends?" },
+      { word: "Eraser", question: "What do you use to rub out a mistake made with a pencil?" },
+      { word: "Notebook", question: "Where do you write down your notes during class?" },
+      { word: "Pen", question: "What do you use to write that uses permanent ink?" },
+      { word: "Ruler", question: "What tool helps you draw straight lines and measure things?" },
+      { word: "Board", question: "Where does the teacher write for the whole class to see?" },
+      { word: "Student", question: "Who are you when you are learning in a classroom?" },
+      { word: "Scissors", question: "What do you use to cut paper for art projects?" },
+      { word: "Glue", question: "What sticky liquid do you use to attach pieces of paper together?" },
+      { word: "Paper", question: "What thin material do you draw or write on?" }
+    ],
     fetch: [
       { id: "calculator", name: "Calculator", emoji: "🧮", correct: true },
       { id: "microscope", name: "Microscope", emoji: "🔬", correct: true },
@@ -508,7 +524,22 @@ const gameData = {
       { words: ["My", "schedule", "is", "full", "today"], translation: "Minha agenda está cheia hoje" }
     ],
     spelling: ["workout", "commute", "prepare", "schedule", "organize", "unwind", "refresh", "dressed", "healthy", "always", "wakeup", "shower", "breakfast", "evening"],
-    garden: ["workout", "commute", "prepare", "schedule", "organize", "unwind", "refresh", "healthy", "wakeup", "shower", "breakfast", "evening", "dressed", "always"],
+    garden: [
+      { word: "Work out", question: "What do you do at the gym to stay strong and healthy?" },
+      { word: "Get dressed", question: "What do you do when you put on your clothes in the morning?" },
+      { word: "Commute", question: "How do you call the journey between your home and work or school?" },
+      { word: "Prepare", question: "What do you do when you get your backpack ready for the next day?" },
+      { word: "Schedule", question: "Where do you write down your plans and appointments?" },
+      { word: "Organize", question: "What do you do to keep your desk neat and tidy?" },
+      { word: "Unwind", question: "What do you do to relax after a very busy day?" },
+      { word: "Consistency", question: "What is it called when you practice English every single day?" },
+      { word: "Refresh", question: "How do you feel after taking a nice cool shower?" },
+      { word: "Wake up", question: "What is the very first thing you do in the morning when your alarm rings?" },
+      { word: "Shower", question: "Where do you go to wash your body with water and soap?" },
+      { word: "Breakfast", question: "What is the first and most important meal of the day?" },
+      { word: "Evening", question: "What part of the day comes after the afternoon and before night?" },
+      { word: "Always", question: "What word means 'every time' or 'all the time'?" }
+    ],
     fetch: [
       { id: "dumbbell", name: "Work out", emoji: "🏋️", correct: true },
       { id: "calendar", name: "Schedule", emoji: "📅", correct: true },

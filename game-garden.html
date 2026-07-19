@@ -173,7 +173,7 @@
   <main>
     <div class="garden-container">
       <img src="images/nala-celebrate.png" alt="Nala" style="width: 120px; margin-bottom: 20px; animation: heroFloat 4s infinite ease-in-out;">
-      <div class="garden-prompt">
+      <div class="garden-prompt" id="prompt-container">
         Colha a flor: <span class="garden-target" id="target-word"></span>
       </div>
       <div class="flowers-area" id="flowers-area"></div>
@@ -233,19 +233,27 @@
       words.sort(() => 0.5 - Math.random());
       targetWord = words[0];
       
-      // Show Portuguese translation
-      const ptWord = dict[targetWord.toLowerCase()] || targetWord;
-      targetEl.innerText = ptWord;
+      // Render prompt based on format
+      const promptContainer = document.getElementById('prompt-container');
+      if (typeof targetWord === 'object') {
+        promptContainer.innerHTML = `<div style="font-size: 1.8rem; margin-bottom: 20px; line-height: 1.4; color: var(--purple-800); text-shadow: 0 1px 3px rgba(255,255,255,0.8);">${targetWord.question}</div>`;
+      } else {
+        const ptWord = dict[targetWord.toLowerCase()] || targetWord;
+        promptContainer.innerHTML = `Colha a flor: <span class="garden-target">${ptWord}</span>`;
+      }
       
       const currentFlowers = [...words].sort(() => 0.5 - Math.random());
       
-      currentFlowers.forEach((word) => {
+      currentFlowers.forEach((item) => {
+        const flowerWord = typeof item === 'object' ? item.word : item;
+        const targetValue = typeof targetWord === 'object' ? targetWord.word : targetWord;
+
         const btn = document.createElement('button');
         btn.className = 'flower-btn';
-        btn.innerText = word;
+        btn.innerText = flowerWord;
         
         btn.addEventListener('click', () => {
-          if (word === targetWord) {
+          if (flowerWord === targetValue) {
             btn.classList.add('correct-poof');
             setTimeout(() => {
               words = words.filter(w => w !== targetWord);
