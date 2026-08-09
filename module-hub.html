@@ -132,7 +132,7 @@
     </div>
   </main>
 
-  <script src="js/data.js"></script>
+  <script src="js/data.js?v=3"></script>
   <script>
     const urlParams = new URLSearchParams(window.location.search);
     const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
@@ -151,7 +151,9 @@
       { id: 'sentence', name: 'Build a Sentence', icon: '🧩', file: 'game-sentence.html' },
       { id: 'spelling', name: 'Spelling Scramble', icon: '🔤', file: 'game-spelling.html' },
       { id: 'garden', name: 'Word Garden', icon: '🌻', file: 'game-garden.html' },
-      { id: 'fetch', name: 'Fetch with Nala', icon: '🎾', file: 'game-fetch.html' }
+      { id: 'fetch', name: 'Fetch with Nala', icon: '🎾', file: 'game-fetch.html' },
+      { id: 'truefalse', name: 'True or False', icon: '✅', file: 'game-truefalse.html' },
+      { id: 'speaking', name: 'Speaking Practice', icon: '🎙️', file: 'game-speaking.html' }
     ];
 
     const grid = document.getElementById('games-grid');

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>True or False — English with Nala 🐕✅❌</title>
+  <meta name="description" content="Descubra se as frases em inglês são verdadeiras ou falsas com a Nala!" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="quiz.css" />
+  <style>
+    /* === True or False Specific Styles === */
+
+    .tf-statement {
+      font-family: 'Nunito', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--purple-900);
+      text-align: center;
+      line-height: 1.6;
+      padding: 20px 24px;
+      background: linear-gradient(135deg, rgba(124, 58, 237, 0.06), rgba(245, 158, 11, 0.06));
+      border-radius: var(--radius-lg);
+      border: 2px solid var(--purple-100);
+      margin: 16px 0 24px;
+      position: relative;
+    }
+
+    .tf-statement::before {
+      content: '"';
+      position: absolute;
+      top: -8px;
+      left: 16px;
+      font-size: 3rem;
+      color: var(--purple-200);
+      font-family: Georgia, serif;
+      line-height: 1;
+    }
+
+    .tf-statement::after {
+      content: '"';
+      position: absolute;
+      bottom: -20px;
+      right: 16px;
+      font-size: 3rem;
+      color: var(--purple-200);
+      font-family: Georgia, serif;
+      line-height: 1;
+    }
+
+    .tf-buttons {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-top: 24px;
+    }
+
+    .tf-btn {
+      flex: 1;
+      max-width: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 18px 24px;
+      border: 3px solid transparent;
+      border-radius: var(--radius-xl);
+      font-family: 'Nunito', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 900;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .tf-btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s ease;
+    }
+
+    .tf-btn:hover::before {
+      left: 100%;
+    }
+
+    .tf-btn-true {
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+      color: white;
+      box-shadow: 0 6px 20px rgba(34, 197, 94, 0.35);
+    }
+
+    .tf-btn-true:hover:not(:disabled) {
+      transform: translateY(-4px) scale(1.03);
+      box-shadow: 0 10px 30px rgba(34, 197, 94, 0.45);
+    }
+
+    .tf-btn-false {
+      background: linear-gradient(135deg, #ef4444, #dc2626);
+      color: white;
+      box-shadow: 0 6px 20px rgba(239, 68, 68, 0.35);
+    }
+
+    .tf-btn-false:hover:not(:disabled) {
+      transform: translateY(-4px) scale(1.03);
+      box-shadow: 0 10px 30px rgba(239, 68, 68, 0.45);
+    }
+
+    .tf-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: scale(0.95);
+    }
+
+    .tf-btn.selected-correct {
+      opacity: 1;
+      border-color: #22c55e;
+      transform: scale(1.05);
+      box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.3), 0 8px 25px rgba(34, 197, 94, 0.4);
+      animation: pulseCorrect 0.6s ease;
+    }
+
+    .tf-btn.selected-wrong {
+      opacity: 1;
+      border-color: #ef4444;
+      transform: scale(1.05);
+      box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.3), 0 8px 25px rgba(239, 68, 68, 0.4);
+      animation: shakeWrong 0.5s ease;
+    }
+
+    @keyframes pulseCorrect {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1.05); }
+    }
+
+    @keyframes shakeWrong {
+      0%, 100% { transform: translateX(0) scale(1.05); }
+      20% { transform: translateX(-8px) scale(1.05); }
+      40% { transform: translateX(8px) scale(1.05); }
+      60% { transform: translateX(-6px) scale(1.05); }
+      80% { transform: translateX(6px) scale(1.05); }
+    }
+
+    .tf-btn .tf-icon {
+      font-size: 1.6rem;
+    }
+
+    .tf-hint {
+      text-align: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--purple-400);
+      margin-top: 8px;
+      font-style: italic;
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .tf-statement {
+        font-size: 1.1rem;
+        padding: 16px 18px;
+      }
+      .tf-btn {
+        font-size: 1.1rem;
+        padding: 14px 18px;
+      }
+      .tf-buttons {
+        gap: 12px;
+      }
+    }
+  </style>
+</head>
+<body class="quiz-body">
+
+  <!-- ✦ Sparkle Particles ✦ -->
+  <div class="sparkle-container" aria-hidden="true">
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+    <div class="sparkle"></div>
+  </div>
+
+  <!-- 🐾 Floating Paw Prints 🐾 -->
+  <div class="paw-container" aria-hidden="true">
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+    <div class="paw-print">🐾</div>
+  </div>
+
+  <!-- ============================================
+       HEADER
+       ============================================ -->
+  <header class="quiz-header glass-header" id="quiz-header">
+    <div class="quiz-header-inner">
+      <a href="module-hub.html" class="quiz-back-btn" id="quiz-back-btn">
+        <span class="back-arrow">←</span>
+        <span class="back-text">Voltar</span>
+      </a>
+
+      <div class="quiz-progress-wrapper">
+        <div class="quiz-progress-bar" id="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="quiz-progress-fill" style="width: 12.5%"></div>
+        </div>
+        <span class="quiz-progress-text" id="quiz-progress-text">1 / 8</span>
+      </div>
+
+      <div class="quiz-score" id="quiz-score">
+        <span class="score-icon">🦴</span>
+        <span class="quiz-score-value" id="quiz-score-value">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================
+       MAIN CONTENT
+       ============================================ -->
+  <main class="quiz-main" id="quiz-main">
+
+    <!-- Question Screen -->
+    <div class="quiz-screen active" id="tf-question-screen">
+      <div class="quiz-card" id="tf-card">
+
+        <!-- Module Badge -->
+        <div class="quiz-module-badge" id="tf-module-badge">
+          <span>🎨</span> Colors — True or False
+        </div>
+
+        <!-- Nala Mascot Area -->
+        <div class="quiz-mascot-area">
+          <img src="images/nala-quiz.png" alt="Nala te desafiando" class="quiz-mascot-img" id="tf-mascot-img" />
+          <div class="quiz-speech" id="tf-speech">
+            <p>Is this true or false? 🤔</p>
+          </div>
+        </div>
+
+        <!-- Statement -->
+        <div class="tf-statement" id="tf-statement">
+          The sky is usually blue.
+        </div>
+
+        <!-- True / False Buttons -->
+        <div class="tf-buttons" id="tf-buttons">
+          <button class="tf-btn tf-btn-true" id="tf-btn-true" onclick="selectAnswer(true)">
+            <span class="tf-icon">✅</span>
+            <span>True</span>
+          </button>
+          <button class="tf-btn tf-btn-false" id="tf-btn-false" onclick="selectAnswer(false)">
+            <span class="tf-icon">❌</span>
+            <span>False</span>
+          </button>
+        </div>
+
+        <p class="tf-hint" id="tf-hint">Leia a frase com atenção e escolha!</p>
+
+        <!-- Feedback Area (hidden by default) -->
+        <div class="quiz-feedback hidden" id="tf-feedback">
+          <div class="feedback-icon" id="tf-feedback-icon">✅</div>
+          <p class="feedback-text" id="tf-feedback-text">Parabéns!</p>
+        </div>
+
+        <!-- Next Button (hidden by default) -->
+        <button class="quiz-next-btn hidden" id="tf-next-btn" onclick="nextQuestion()">
+          Próxima Pergunta
+          <span class="next-arrow">→</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Screen (hidden by default) -->
+    <div class="quiz-screen" id="tf-results-screen">
+      <div class="quiz-results-card" id="tf-results-card">
+
+        <div class="results-mascot">
+          <img src="images/nala-celebrate.png" alt="Nala comemorando" class="results-mascot-img" />
+        </div>
+
+        <div class="results-stars" id="results-stars">
+          <span class="result-star filled">⭐</span>
+          <span class="result-star filled">⭐</span>
+          <span class="result-star filled">⭐</span>
+        </div>
+
+        <h2 class="results-title" id="results-title">Incrível! 🎉</h2>
+        <p class="results-subtitle" id="results-subtitle">Você mandou super bem!</p>
+
+        <div class="results-stats">
+          <div class="result-stat" id="result-stat-correct">
+            <span class="stat-value">8</span>
+            <span class="stat-label">Acertos</span>
+          </div>
+          <div class="result-stat" id="result-stat-wrong">
+            <span class="stat-value">0</span>
+            <span class="stat-label">Erros</span>
+          </div>
+          <div class="result-stat" id="result-stat-bones">
+            <span class="stat-value">🦴 80</span>
+            <span class="stat-label">Ossinhos</span>
+          </div>
+        </div>
+
+        <div class="results-actions">
+          <button class="results-btn primary" id="results-btn-retry" onclick="restartGame()">
+            <span>🔄</span> Tentar de Novo
+          </button>
+          <a href="module-hub.html" class="results-btn secondary" id="results-btn-home">
+            <span>🏠</span> Voltar ao Menu
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Confetti Container -->
+  <div class="confetti-container" id="confetti-container" aria-hidden="true"></div>
+
+  <!-- ============================================
+       JAVASCRIPT
+       ============================================ -->
+  <script src="js/data.js?v=3"></script>
+  <script>
+
+    const urlParams = new URLSearchParams(window.location.search);
+    let rawModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
+    let currentModule = String(rawModule).toLowerCase().trim();
+
+    // Map common aliases
+    if (currentModule === 'school-class' || currentModule === 'schoolclass') {
+      currentModule = 'school_class';
+    }
+
+    let moduleData = gameData[currentModule];
+
+    // Fallback matching if exact key isn't present directly
+    if (!moduleData) {
+      const foundKey = Object.keys(gameData).find(k => k.toLowerCase() === currentModule || (gameData[k].title && gameData[k].title.toLowerCase().includes(currentModule)));
+      moduleData = foundKey ? gameData[foundKey] : (gameData['colors'] || Object.values(gameData)[0]);
+    }
+
+    let tfData = (moduleData && Array.isArray(moduleData.truefalse) && moduleData.truefalse.length > 0)
+      ? moduleData.truefalse.map(q => ({
+          statement: q.statement || q.question,
+          answer: typeof q.answer !== 'undefined' ? q.answer : (q.correct === 0),
+          explanation: q.explanation || '',
+          nalaMsg: q.nalaMsg || ''
+        }))
+      : [];
+
+    // Secondary fallback: check any available module with truefalse data
+    if (tfData.length === 0) {
+      for (const key in gameData) {
+        if (Array.isArray(gameData[key].truefalse) && gameData[key].truefalse.length > 0) {
+          tfData = gameData[key].truefalse.map(q => ({
+            statement: q.statement || q.question,
+            answer: typeof q.answer !== 'undefined' ? q.answer : (q.correct === 0),
+            explanation: q.explanation || '',
+            nalaMsg: q.nalaMsg || ''
+          }));
+          moduleData = gameData[key];
+          break;
+        }
+      }
+    }
+
+    // Shuffle the data
+    const shuffledData = [...tfData].sort(() => Math.random() - 0.5);
+
+    let currentQuestion = 0;
+    let score = 0;
+    let correctAnswers = 0;
+    let answered = false;
+
+    // DOM Elements
+    const progressFill = document.getElementById('quiz-progress-fill');
+    const progressText = document.getElementById('quiz-progress-text');
+    const statementEl = document.getElementById('tf-statement');
+    const feedbackArea = document.getElementById('tf-feedback');
+    const feedbackIcon = document.getElementById('tf-feedback-icon');
+    const feedbackText = document.getElementById('tf-feedback-text');
+    const nextBtn = document.getElementById('tf-next-btn');
+    const scoreValue = document.getElementById('quiz-score-value');
+    const mascotImg = document.getElementById('tf-mascot-img');
+    const tfSpeech = document.getElementById('tf-speech');
+    const questionScreen = document.getElementById('tf-question-screen');
+    const resultsScreen = document.getElementById('tf-results-screen');
+    const btnTrue = document.getElementById('tf-btn-true');
+    const btnFalse = document.getElementById('tf-btn-false');
+    const hintEl = document.getElementById('tf-hint');
+    const backBtn = document.getElementById('quiz-back-btn');
+    const homeBtn = document.getElementById('results-btn-home');
+
+    // Set back links
+    backBtn.href = `module-hub.html?module=${currentModule}`;
+    homeBtn.href = `module-hub.html?module=${currentModule}`;
+
+    // Update module badge
+    document.getElementById('tf-module-badge').innerHTML = `<span>${moduleData.emoji}</span> ${moduleData.title} — True or False`;
+
+    function loadQuestion() {
+      answered = false;
+      const q = shuffledData[currentQuestion];
+
+      // Update progress
+      const progress = ((currentQuestion + 1) / shuffledData.length) * 100;
+      progressFill.style.width = progress + '%';
+      progressText.textContent = `${currentQuestion + 1} / ${shuffledData.length}`;
+
+      // Update statement
+      statementEl.textContent = q.statement;
+
+      // Reset buttons
+      btnTrue.disabled = false;
+      btnFalse.disabled = false;
+      btnTrue.className = 'tf-btn tf-btn-true';
+      btnFalse.className = 'tf-btn tf-btn-false';
+
+      // Reset feedback
+      feedbackArea.classList.add('hidden');
+      nextBtn.classList.add('hidden');
+      hintEl.style.display = 'block';
+
+      // Reset Nala speech
+      tfSpeech.querySelector('p').textContent = 'Is this true or false? 🤔';
+      mascotImg.src = 'images/nala-quiz.png';
+
+      // Animate card entry
+      const card = document.getElementById('tf-card');
+      card.classList.remove('animate-in');
+      void card.offsetWidth;
+      card.classList.add('animate-in');
+    }
+
+    function selectAnswer(userAnswer) {
+      if (answered) return;
+      answered = true;
+
+      const q = shuffledData[currentQuestion];
+      const isCorrect = userAnswer === q.answer;
+
+      // Disable buttons
+      btnTrue.disabled = true;
+      btnFalse.disabled = true;
+      hintEl.style.display = 'none';
+
+      // Highlight selected button
+      const selectedBtn = userAnswer ? btnTrue : btnFalse;
+
+      if (isCorrect) {
+        selectedBtn.classList.add('selected-correct');
+        correctAnswers++;
+        score += 10;
+        scoreValue.textContent = score;
+        feedbackIcon.textContent = '✅';
+        feedbackText.textContent = q.explanation;
+        feedbackArea.className = 'quiz-feedback correct';
+        tfSpeech.querySelector('p').textContent = 'Amazing! You got it! ⭐';
+        mascotImg.src = 'images/nala-celebrate.png';
+        createMiniConfetti();
+      } else {
+        selectedBtn.classList.add('selected-wrong');
+        feedbackIcon.textContent = '❌';
+        feedbackText.textContent = q.explanation;
+        feedbackArea.className = 'quiz-feedback wrong';
+        tfSpeech.querySelector('p').textContent = 'Oops! Let\'s learn! 💜';
+      }
+
+      feedbackArea.classList.remove('hidden');
+      nextBtn.classList.remove('hidden');
+
+      // Update next button text on last question
+      if (currentQuestion === shuffledData.length - 1) {
+        nextBtn.innerHTML = 'Ver Resultado <span class="next-arrow">🏆</span>';
+      }
+    }
+
+    function nextQuestion() {
+      currentQuestion++;
+      if (currentQuestion >= shuffledData.length) {
+        showResults();
+      } else {
+        loadQuestion();
+      }
+    }
+
+    function showResults() {
+      questionScreen.classList.remove('active');
+      resultsScreen.classList.add('active');
+
+      // Update stats
+      document.querySelector('#result-stat-correct .stat-value').textContent = correctAnswers;
+      document.querySelector('#result-stat-wrong .stat-value').textContent = shuffledData.length - correctAnswers;
+      document.querySelector('#result-stat-bones .stat-value').textContent = `🦴 ${score}`;
+
+      // Stars based on performance
+      const starsContainer = document.getElementById('results-stars');
+      const percentage = correctAnswers / shuffledData.length;
+      let starCount = 1;
+      if (percentage >= 0.8) starCount = 3;
+      else if (percentage >= 0.5) starCount = 2;
+
+      starsContainer.innerHTML = '';
+      for (let i = 0; i < 3; i++) {
+        const star = document.createElement('span');
+        star.className = `result-star ${i < starCount ? 'filled' : 'empty'}`;
+        star.textContent = i < starCount ? '⭐' : '☆';
+        star.style.animationDelay = `${i * 0.2}s`;
+        starsContainer.appendChild(star);
+      }
+
+      // Title based on performance
+      const resultsTitle = document.getElementById('results-title');
+      const resultsSubtitle = document.getElementById('results-subtitle');
+      if (percentage >= 0.8) {
+        resultsTitle.textContent = 'Incrível! 🎉';
+        resultsSubtitle.textContent = 'Você sabe muito bem o que é verdade e mentira!';
+      } else if (percentage >= 0.5) {
+        resultsTitle.textContent = 'Muito bem! 👏';
+        resultsSubtitle.textContent = 'Continue praticando e você vai arrasar!';
+      } else {
+        resultsTitle.textContent = 'Não desista! 💪';
+        resultsSubtitle.textContent = 'Vamos tentar de novo? A Nala acredita em você!';
+      }
+
+      // Big confetti celebration
+      createConfetti();
+    }
+
+    function restartGame() {
+      currentQuestion = 0;
+      score = 0;
+      correctAnswers = 0;
+      scoreValue.textContent = '0';
+
+      // Re-shuffle
+      shuffledData.sort(() => Math.random() - 0.5);
+
+      resultsScreen.classList.remove('active');
+      questionScreen.classList.add('active');
+      loadQuestion();
+    }
+
+    // === Confetti Effects ===
+    function createMiniConfetti() {
+      const container = document.getElementById('confetti-container');
+      for (let i = 0; i < 15; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti-piece';
+        confetti.style.left = Math.random() * 100 + '%';
+        confetti.style.animationDelay = Math.random() * 0.5 + 's';
+        confetti.style.background = ['#7C3AED', '#FBBF24', '#22C55E', '#EF4444', '#A78BFA', '#FCD34D'][Math.floor(Math.random() * 6)];
+        container.appendChild(confetti);
+        setTimeout(() => confetti.remove(), 2000);
+      }
+    }
+
+    function createConfetti() {
+      const container = document.getElementById('confetti-container');
+      for (let i = 0; i < 60; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti-piece big';
+        confetti.style.left = Math.random() * 100 + '%';
+        confetti.style.animationDelay = Math.random() * 1 + 's';
+        confetti.style.animationDuration = (Math.random() * 2 + 2) + 's';
+        confetti.style.background = ['#7C3AED', '#FBBF24', '#22C55E', '#EF4444', '#A78BFA', '#FCD34D', '#C4B5FD', '#F59E0B'][Math.floor(Math.random() * 8)];
+        confetti.style.width = (Math.random() * 8 + 4) + 'px';
+        confetti.style.height = (Math.random() * 8 + 4) + 'px';
+        container.appendChild(confetti);
+        setTimeout(() => confetti.remove(), 4000);
+      }
+    }
+
+    // Initialize
+    if (shuffledData.length > 0) {
+      loadQuestion();
+    } else {
+      statementEl.textContent = 'Nenhuma pergunta disponível para este módulo.';
+      btnTrue.disabled = true;
+      btnFalse.disabled = true;
+    }
+  </script>
+
+</body>
+</html>

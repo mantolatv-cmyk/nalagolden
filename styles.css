@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+.hidden {
+  display: none !important;
+}
+
 :root {
   /* Primary Colors */
   --purple-900: #3B0764;
@@ -159,42 +163,32 @@ a {
   top: 0;
   z-index: 100;
   padding: 12px 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Back Button Premium Styles */
 .quiz-back-btn {
-  position: absolute;
-  left: 20px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 6px;
   padding: 8px 16px;
-  background: var(--purple-800);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: var(--radius-full);
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 700;
   color: white;
   transition: all 0.3s ease;
   box-shadow: var(--shadow-sm);
-  border: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-.quiz-back-btn::after {
-  content: "Voltar";
-  margin-left: 8px;
-  font-family: 'Outfit', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  white-space: nowrap;
 }
 
 .quiz-back-btn:hover {
   background: var(--gold-400);
   color: var(--purple-900);
   border-color: var(--gold-400);
-  transform: translateX(-6px);
+  transform: translateX(-3px);
   box-shadow: var(--shadow-md);
 }
 
