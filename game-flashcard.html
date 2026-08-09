@@ -117,11 +117,11 @@
             <div class="flashcard-inner">
               <div class="flashcard-front" id="flashcard-front">
                 <div class="flashcard-emoji" id="fc-emoji-front">✏️</div>
-                <div id="fc-word-en">Pencil</div>
+                <div id="fc-word-en">Lápis</div>
               </div>
               <div class="flashcard-back" id="flashcard-back">
                 <div class="flashcard-emoji" id="fc-emoji-back">✏️</div>
-                <div id="fc-word-pt">Lápis</div>
+                <div id="fc-word-pt">Pencil</div>
               </div>
             </div>
           </div>
@@ -189,8 +189,8 @@
       setTimeout(() => {
         document.getElementById('fc-emoji-front').innerText = cardData.emoji;
         document.getElementById('fc-emoji-back').innerText = cardData.emoji;
-        document.getElementById('fc-word-en').innerText = cardData.en;
-        document.getElementById('fc-word-pt').innerText = cardData.pt;
+        document.getElementById('fc-word-en').innerText = cardData.pt; // Front
+        document.getElementById('fc-word-pt').innerText = cardData.en; // Back
       }, 200); 
       
       updateProgress();
