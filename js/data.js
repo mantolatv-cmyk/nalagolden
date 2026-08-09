@@ -407,7 +407,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! The sky is usually blue. 🔵",
-        "nalaMsg": "Good try!"
+        "nalaMsg": "Good try!",
+        "translation": "Vermelho é a cor do céu."
       },
       {
         "question": "A banana is yellow.",
@@ -417,7 +418,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Bananas are yellow. 🍌",
-        "nalaMsg": "Yummy!"
+        "nalaMsg": "Yummy!",
+        "translation": "Uma banana é amarela."
       },
       {
         "question": "Pink is a mixture of red and white.",
@@ -427,7 +429,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Red + White = Pink! 💖",
-        "nalaMsg": "Great job!"
+        "nalaMsg": "Great job!",
+        "translation": "Rosa é uma mistura de vermelho e branco."
       },
       {
         "question": "Grass is blue.",
@@ -437,7 +440,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Grass is green. 🌿",
-        "nalaMsg": "Keep going!"
+        "nalaMsg": "Keep going!",
+        "translation": "A grama é azul."
       },
       {
         "question": "Snow is white.",
@@ -447,7 +451,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Snow is white. ❄️",
-        "nalaMsg": "Perfect!"
+        "nalaMsg": "Perfect!",
+        "translation": "A neve é branca."
       },
       {
         "question": "Oranges are orange.",
@@ -457,7 +462,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🍊",
-        "nalaMsg": "Good!"
+        "nalaMsg": "Good!",
+        "translation": "Laranjas são laranjas."
       },
       {
         "question": "Water is usually black.",
@@ -467,7 +473,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Water is clear or looks blue.",
-        "nalaMsg": "Nice try!"
+        "nalaMsg": "Nice try!",
+        "translation": "A água geralmente é preta."
       },
       {
         "question": "A stop sign is red.",
@@ -477,7 +484,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🛑",
-        "nalaMsg": "Stop!"
+        "nalaMsg": "Stop!",
+        "translation": "Uma placa de pare é vermelha."
       },
       {
         "question": "The moon is made of green cheese.",
@@ -487,7 +495,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It's made of rock.",
-        "nalaMsg": "Haha!"
+        "nalaMsg": "Haha!",
+        "translation": "A lua é feita de queijo verde."
       },
       {
         "question": "Zebras are black and white.",
@@ -497,7 +506,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🦓",
-        "nalaMsg": "Stripes!"
+        "nalaMsg": "Stripes!",
+        "translation": "Zebras são pretas e brancas."
       }
     ]
   },
@@ -907,7 +917,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! A cat says meow. 🐱",
-        "nalaMsg": "Woof woof!"
+        "nalaMsg": "Woof woof!",
+        "translation": "Um cachorro diz \"Miau\"."
       },
       {
         "question": "A bird can fly.",
@@ -917,7 +928,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Birds have wings and can fly. 🐦",
-        "nalaMsg": "So high!"
+        "nalaMsg": "So high!",
+        "translation": "Um pássaro pode voar."
       },
       {
         "question": "Fish live in trees.",
@@ -927,7 +939,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Fish live in the water. 🐟",
-        "nalaMsg": "Splash!"
+        "nalaMsg": "Splash!",
+        "translation": "Peixes vivem em árvores."
       },
       {
         "question": "A turtle walks very fast.",
@@ -937,7 +950,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Turtles are known for walking slowly. 🐢",
-        "nalaMsg": "Slow and steady!"
+        "nalaMsg": "Slow and steady!",
+        "translation": "Uma tartaruga anda muito rápido."
       },
       {
         "question": "A tiger has stripes.",
@@ -947,7 +961,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Tigers have beautiful orange and black stripes. 🐅",
-        "nalaMsg": "Roar!"
+        "nalaMsg": "Roar!",
+        "translation": "Um tigre tem listras."
       },
       {
         "question": "A snake has four legs.",
@@ -957,7 +972,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Snakes have no legs. 🐍",
-        "nalaMsg": "Slither!"
+        "nalaMsg": "Slither!",
+        "translation": "Uma cobra tem quatro pernas."
       },
       {
         "question": "Pigs like to roll in the mud.",
@@ -967,7 +983,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! It keeps them cool. 🐷",
-        "nalaMsg": "Oink!"
+        "nalaMsg": "Oink!",
+        "translation": "Porcos gostam de rolar na lama."
       },
       {
         "question": "A cow says 'Moo'.",
@@ -977,7 +994,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🐄",
-        "nalaMsg": "Moo!"
+        "nalaMsg": "Moo!",
+        "translation": "Uma vaca diz 'Muu'."
       },
       {
         "question": "Frogs live in the desert.",
@@ -987,7 +1005,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! They like wet places. 🐸",
-        "nalaMsg": "Ribbit!"
+        "nalaMsg": "Ribbit!",
+        "translation": "Sapos vivem no deserto."
       },
       {
         "question": "Bears sleep a lot in winter.",
@@ -997,7 +1016,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! It's called hibernation. 🐻",
-        "nalaMsg": "Sleepy!"
+        "nalaMsg": "Sleepy!",
+        "translation": "Ursos dormem muito no inverno."
       }
     ]
   },
@@ -1395,7 +1415,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 1, then 2. 🔢",
-        "nalaMsg": "Spot on!"
+        "nalaMsg": "Spot on!",
+        "translation": "Dois vem depois de um."
       },
       {
         "question": "Five is smaller than three.",
@@ -1405,7 +1426,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Five is bigger than three. 🖐️",
-        "nalaMsg": "Count with me!"
+        "nalaMsg": "Count with me!",
+        "translation": "Cinco é menor que três."
       },
       {
         "question": "Ten is the last number on your fingers.",
@@ -1415,7 +1437,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! We usually have 10 fingers. 👐",
-        "nalaMsg": "High ten!"
+        "nalaMsg": "High ten!",
+        "translation": "Dez é o último número nos seus dedos."
       },
       {
         "question": "Three plus two is six.",
@@ -1425,7 +1448,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! 3 + 2 = 5. 🧮",
-        "nalaMsg": "Try again!"
+        "nalaMsg": "Try again!",
+        "translation": "Três mais dois são seis."
       },
       {
         "question": "Seven is a lucky number for many people.",
@@ -1435,7 +1459,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Many people think 7 is lucky! 🍀",
-        "nalaMsg": "Lucky you!"
+        "nalaMsg": "Lucky you!",
+        "translation": "Sete é um número de sorte para muitas pessoas."
       },
       {
         "question": "Ten is more than twenty.",
@@ -1445,7 +1470,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! 20 > 10. 🔢",
-        "nalaMsg": "Math time!"
+        "nalaMsg": "Math time!",
+        "translation": "Dez é mais que vinte."
       },
       {
         "question": "A triangle has three sides.",
@@ -1455,7 +1481,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🔺",
-        "nalaMsg": "Geometry!"
+        "nalaMsg": "Geometry!",
+        "translation": "Um triângulo tem três lados."
       },
       {
         "question": "Zero means nothing.",
@@ -1465,7 +1492,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 0️⃣",
-        "nalaMsg": "Empty!"
+        "nalaMsg": "Empty!",
+        "translation": "Zero significa nada."
       },
       {
         "question": "Fifty is a very small number.",
@@ -1475,7 +1503,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It's quite big.",
-        "nalaMsg": "Big numbers!"
+        "nalaMsg": "Big numbers!",
+        "translation": "Cinquenta é um número muito pequeno."
       },
       {
         "question": "A week has seven days.",
@@ -1485,7 +1514,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 📅",
-        "nalaMsg": "Seven!"
+        "nalaMsg": "Seven!",
+        "translation": "Uma semana tem sete dias."
       }
     ]
   },
@@ -1886,7 +1916,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 👩‍👧",
-        "nalaMsg": "Family love!"
+        "nalaMsg": "Family love!",
+        "translation": "Uma mãe é uma parente do sexo feminino."
       },
       {
         "question": "A brother is your sister.",
@@ -1896,7 +1927,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! A brother is a boy. 👦",
-        "nalaMsg": "Nice!"
+        "nalaMsg": "Nice!",
+        "translation": "Um irmão é sua irmã."
       },
       {
         "question": "Grandpa is your father's father.",
@@ -1906,7 +1938,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! (Or your mother's father). 👴",
-        "nalaMsg": "Wise choice!"
+        "nalaMsg": "Wise choice!",
+        "translation": "O vovô é o pai do seu pai."
       },
       {
         "question": "An aunt is your brother.",
@@ -1916,7 +1949,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! An aunt is your parent's sister. 👩",
-        "nalaMsg": "Almost!"
+        "nalaMsg": "Almost!",
+        "translation": "Uma tia é seu irmão."
       },
       {
         "question": "Cousins are part of the family.",
@@ -1926,7 +1960,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! We love our cousins. 👦👧",
-        "nalaMsg": "Yay!"
+        "nalaMsg": "Yay!",
+        "translation": "Primos fazem parte da família."
       },
       {
         "question": "Your father is a man.",
@@ -1936,7 +1971,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 👨",
-        "nalaMsg": "Dad!"
+        "nalaMsg": "Dad!",
+        "translation": "Seu pai é um homem."
       },
       {
         "question": "A grandmother is a young girl.",
@@ -1946,7 +1982,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! She is an older woman. 👵",
-        "nalaMsg": "Wise!"
+        "nalaMsg": "Wise!",
+        "translation": "Uma avó é uma garota jovem."
       },
       {
         "question": "Your parents are your mother and father.",
@@ -1956,7 +1993,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 👩‍❤️‍👨",
-        "nalaMsg": "Family!"
+        "nalaMsg": "Family!",
+        "translation": "Seus pais são sua mãe e seu pai."
       },
       {
         "question": "An uncle is your sister.",
@@ -1966,7 +2004,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! An uncle is your parent's brother. 👨",
-        "nalaMsg": "Try again!"
+        "nalaMsg": "Try again!",
+        "translation": "Um tio é sua irmã."
       },
       {
         "question": "A family lives together.",
@@ -1976,7 +2015,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Usually they do. 🏠",
-        "nalaMsg": "Cozy!"
+        "nalaMsg": "Cozy!",
+        "translation": "Uma família mora junto."
       }
     ]
   },
@@ -2777,7 +2817,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Breakfast is in the morning. 🥞",
-        "nalaMsg": "Good morning!"
+        "nalaMsg": "Good morning!",
+        "translation": "Nós geralmente tomamos café da manhã à noite."
       },
       {
         "question": "You should brush your teeth every day.",
@@ -2787,7 +2828,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! It keeps them clean and healthy. 🪥",
-        "nalaMsg": "Shiny smile!"
+        "nalaMsg": "Shiny smile!",
+        "translation": "Você deve escovar os dentes todos os dias."
       },
       {
         "question": "We go to sleep in the morning.",
@@ -2797,7 +2839,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! We go to sleep at night. 🌙",
-        "nalaMsg": "Sweet dreams!"
+        "nalaMsg": "Sweet dreams!",
+        "translation": "Nós vamos dormir de manhã."
       },
       {
         "question": "Taking a shower makes you clean.",
@@ -2807,7 +2850,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🚿",
-        "nalaMsg": "Splish splash!"
+        "nalaMsg": "Splish splash!",
+        "translation": "Tomar banho te deixa limpo."
       },
       {
         "question": "Lunch is the meal we eat in the middle of the day.",
@@ -2817,7 +2861,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🍲",
-        "nalaMsg": "Yummy!"
+        "nalaMsg": "Yummy!",
+        "translation": "O almoço é a refeição que comemos no meio do dia."
       },
       {
         "question": "You wear pajamas to school.",
@@ -2827,7 +2872,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! You wear clothes or a uniform. 👕",
-        "nalaMsg": "No sleeping in class!"
+        "nalaMsg": "No sleeping in class!",
+        "translation": "Você usa pijama para a escola."
       },
       {
         "question": "Breakfast is the first meal of the day.",
@@ -2837,7 +2883,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🥞",
-        "nalaMsg": "Morning!"
+        "nalaMsg": "Morning!",
+        "translation": "O café da manhã é a primeira refeição do dia."
       },
       {
         "question": "You wash your hands before eating.",
@@ -2847,7 +2894,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! It's very important. 🧼",
-        "nalaMsg": "Clean hands!"
+        "nalaMsg": "Clean hands!",
+        "translation": "Você lava as mãos antes de comer."
       },
       {
         "question": "The sun goes down in the morning.",
@@ -2857,7 +2905,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It goes down in the evening. 🌇",
-        "nalaMsg": "Sunset!"
+        "nalaMsg": "Sunset!",
+        "translation": "O sol se põe de manhã."
       },
       {
         "question": "You brush your teeth to keep them clean.",
@@ -2867,7 +2916,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🪥",
-        "nalaMsg": "Shiny!"
+        "nalaMsg": "Shiny!",
+        "translation": "Você escova os dentes para mantê-los limpos."
       }
     ]
   },
@@ -3277,7 +3327,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 📅",
-        "nalaMsg": "Time traveler!"
+        "nalaMsg": "Time traveler!",
+        "translation": "Ontem significa o dia antes de hoje."
       },
       {
         "question": "\"I played\" is something happening right now.",
@@ -3287,7 +3338,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It happened in the past. 🎮",
-        "nalaMsg": "Look back!"
+        "nalaMsg": "Look back!",
+        "translation": "\"Eu joguei\" é algo acontecendo agora mesmo."
       },
       {
         "question": "Dinosaurs lived in the past.",
@@ -3297,7 +3349,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Millions of years ago. 🦖",
-        "nalaMsg": "Roar!"
+        "nalaMsg": "Roar!",
+        "translation": "Dinossauros viveram no passado."
       },
       {
         "question": "Tomorrow is part of the past.",
@@ -3307,7 +3360,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Tomorrow is the future. 🔮",
-        "nalaMsg": "Think ahead!"
+        "nalaMsg": "Think ahead!",
+        "translation": "Amanhã faz parte do passado."
       },
       {
         "question": "\"She went\" is the past of \"She goes\".",
@@ -3317,7 +3371,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🚶‍♀️",
-        "nalaMsg": "Good grammar!"
+        "nalaMsg": "Good grammar!",
+        "translation": "\"Ela foi\" é o passado de \"Ela vai\"."
       },
       {
         "question": "Yesterday was the day before today.",
@@ -3327,7 +3382,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🔙",
-        "nalaMsg": "Past tense!"
+        "nalaMsg": "Past tense!",
+        "translation": "Ontem foi o dia antes de hoje."
       },
       {
         "question": "'I am playing' is in the past.",
@@ -3337,7 +3393,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It's happening right now. ⏳",
-        "nalaMsg": "Present!"
+        "nalaMsg": "Present!",
+        "translation": "'Eu estou jogando' está no passado."
       },
       {
         "question": "Dinosaurs are from the past.",
@@ -3347,7 +3404,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🦖",
-        "nalaMsg": "Roar!"
+        "nalaMsg": "Roar!",
+        "translation": "Dinossauros são do passado."
       },
       {
         "question": "Next year is part of the past.",
@@ -3357,7 +3415,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It is the future. 🔮",
-        "nalaMsg": "Wait for it!"
+        "nalaMsg": "Wait for it!",
+        "translation": "O próximo ano faz parte do passado."
       },
       {
         "question": "'Walked' is a past tense word.",
@@ -3367,7 +3426,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🚶",
-        "nalaMsg": "-ed ending!"
+        "nalaMsg": "-ed ending!",
+        "translation": "'Andou' é uma palavra no tempo passado."
       }
     ]
   },
@@ -3776,7 +3836,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🍎",
-        "nalaMsg": "Healthy choice!"
+        "nalaMsg": "Healthy choice!",
+        "translation": "Uma maçã é uma fruta."
       },
       {
         "question": "Milk comes from chickens.",
@@ -3786,7 +3847,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Milk usually comes from cows. 🐄",
-        "nalaMsg": "Moo!"
+        "nalaMsg": "Moo!",
+        "translation": "Leite vem de galinhas."
       },
       {
         "question": "Pizza is usually round.",
@@ -3796,7 +3858,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🍕",
-        "nalaMsg": "Delicious!"
+        "nalaMsg": "Delicious!",
+        "translation": "Pizza é geralmente redonda."
       },
       {
         "question": "Carrots are blue.",
@@ -3806,7 +3869,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Carrots are orange. 🥕",
-        "nalaMsg": "Crunch!"
+        "nalaMsg": "Crunch!",
+        "translation": "Cenouras são azuis."
       },
       {
         "question": "Water is a drink.",
@@ -3816,7 +3880,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 💧",
-        "nalaMsg": "Stay hydrated!"
+        "nalaMsg": "Stay hydrated!",
+        "translation": "Água é uma bebida."
       },
       {
         "question": "A lemon is very sweet.",
@@ -3826,7 +3891,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Lemons are sour. 🍋",
-        "nalaMsg": "Pucker up!"
+        "nalaMsg": "Pucker up!",
+        "translation": "Um limão é muito doce."
       },
       {
         "question": "Ice cream is cold.",
@@ -3836,7 +3902,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🍦",
-        "nalaMsg": "Brrr!"
+        "nalaMsg": "Brrr!",
+        "translation": "Sorvete é frio."
       },
       {
         "question": "We eat soup with a fork.",
@@ -3846,7 +3913,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! We eat soup with a spoon. 🥄",
-        "nalaMsg": "Silly!"
+        "nalaMsg": "Silly!",
+        "translation": "Nós comemos sopa com um garfo."
       },
       {
         "question": "An apple can be red or green.",
@@ -3856,7 +3924,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🍎🍏",
-        "nalaMsg": "Yum!"
+        "nalaMsg": "Yum!",
+        "translation": "Uma maçã pode ser vermelha ou verde."
       },
       {
         "question": "Chocolate is a type of meat.",
@@ -3866,7 +3935,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It's a sweet treat. 🍫",
-        "nalaMsg": "Not meat!"
+        "nalaMsg": "Not meat!",
+        "translation": "Chocolate é um tipo de carne."
       }
     ]
   },
@@ -4269,7 +4339,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 👀",
-        "nalaMsg": "I see you!"
+        "nalaMsg": "I see you!",
+        "translation": "Nós usamos nossos olhos para ver."
       },
       {
         "question": "We have four arms.",
@@ -4279,7 +4350,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! We have two arms. 💪",
-        "nalaMsg": "High five!"
+        "nalaMsg": "High five!",
+        "translation": "Nós temos quatro braços."
       },
       {
         "question": "Your nose is used for smelling.",
@@ -4289,7 +4361,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 👃",
-        "nalaMsg": "Sniff sniff!"
+        "nalaMsg": "Sniff sniff!",
+        "translation": "Seu nariz é usado para cheirar."
       },
       {
         "question": "You have ten toes on one foot.",
@@ -4299,7 +4372,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! You have five toes on one foot. 🦶",
-        "nalaMsg": "Wiggle them!"
+        "nalaMsg": "Wiggle them!",
+        "translation": "Você tem dez dedos em um pé."
       },
       {
         "question": "Hair grows on your head.",
@@ -4309,7 +4383,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 💇‍♀️",
-        "nalaMsg": "Looking good!"
+        "nalaMsg": "Looking good!",
+        "translation": "O cabelo cresce na sua cabeça."
       },
       {
         "question": "You have ten heads.",
@@ -4319,7 +4394,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! You have one head. 🗣️",
-        "nalaMsg": "Crazy!"
+        "nalaMsg": "Crazy!",
+        "translation": "Você tem dez cabeças."
       },
       {
         "question": "Your hair grows on your head.",
@@ -4329,7 +4405,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 💇",
-        "nalaMsg": "Style!"
+        "nalaMsg": "Style!",
+        "translation": "Seu cabelo cresce na sua cabeça."
       },
       {
         "question": "We smell things with our ears.",
@@ -4339,7 +4416,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! We smell with our nose. 👃",
-        "nalaMsg": "Sniff!"
+        "nalaMsg": "Sniff!",
+        "translation": "Nós cheiramos as coisas com nossas orelhas."
       },
       {
         "question": "A tooth is inside your mouth.",
@@ -4349,7 +4427,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🦷",
-        "nalaMsg": "Bite!"
+        "nalaMsg": "Bite!",
+        "translation": "Um dente fica dentro da sua boca."
       },
       {
         "question": "Your feet are at the end of your legs.",
@@ -4359,7 +4438,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🦶",
-        "nalaMsg": "Step!"
+        "nalaMsg": "Step!",
+        "translation": "Seus pés ficam no final das suas pernas."
       }
     ]
   },
@@ -4768,7 +4848,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! ✈️",
-        "nalaMsg": "Up high!"
+        "nalaMsg": "Up high!",
+        "translation": "Um avião voa no céu."
       },
       {
         "question": "A boat drives on the road.",
@@ -4778,7 +4859,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! A boat floats on water. ⛵",
-        "nalaMsg": "Ahoy!"
+        "nalaMsg": "Ahoy!",
+        "translation": "Um barco dirige na estrada."
       },
       {
         "question": "A passport is needed to travel to some countries.",
@@ -4788,7 +4870,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🛂",
-        "nalaMsg": "Stamp it!"
+        "nalaMsg": "Stamp it!",
+        "translation": "Um passaporte é necessário para viajar para alguns países."
       },
       {
         "question": "A train uses wings to fly.",
@@ -4798,7 +4881,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! A train travels on tracks. 🚂",
-        "nalaMsg": "Choo choo!"
+        "nalaMsg": "Choo choo!",
+        "translation": "Um trem usa asas para voar."
       },
       {
         "question": "Suitcases are used to pack clothes.",
@@ -4808,7 +4892,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🧳",
-        "nalaMsg": "Ready to go!"
+        "nalaMsg": "Ready to go!",
+        "translation": "Malas são usadas para embalar roupas."
       },
       {
         "question": "You need a passport to travel to another country.",
@@ -4818,7 +4903,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🛂",
-        "nalaMsg": "Important!"
+        "nalaMsg": "Important!",
+        "translation": "Você precisa de um passaporte para viajar para outro país."
       },
       {
         "question": "An airport is where trains leave.",
@@ -4828,7 +4914,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Airplanes leave from airports. ✈️",
-        "nalaMsg": "Fly away!"
+        "nalaMsg": "Fly away!",
+        "translation": "Um aeroporto é de onde os trens partem."
       },
       {
         "question": "A tourist is someone visiting a place.",
@@ -4838,7 +4925,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 📷",
-        "nalaMsg": "Sightseeing!"
+        "nalaMsg": "Sightseeing!",
+        "translation": "Um turista é alguém visitando um lugar."
       },
       {
         "question": "You carry your luggage on your head.",
@@ -4848,7 +4936,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! You carry or pull it with your hands. 🧳",
-        "nalaMsg": "Heavy!"
+        "nalaMsg": "Heavy!",
+        "translation": "Você carrega sua bagagem na cabeça."
       },
       {
         "question": "A guide helps you learn about a place.",
@@ -4858,7 +4947,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🗺️",
-        "nalaMsg": "Follow them!"
+        "nalaMsg": "Follow them!",
+        "translation": "Um guia ajuda você a aprender sobre um lugar."
       }
     ]
   },
@@ -5267,7 +5357,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! ♻️",
-        "nalaMsg": "Save the Earth!"
+        "nalaMsg": "Save the Earth!",
+        "translation": "Reciclar ajuda o planeta."
       },
       {
         "question": "Plastic bags are good for the ocean.",
@@ -5277,7 +5368,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Plastic hurts ocean animals. 🐢",
-        "nalaMsg": "Keep it clean!"
+        "nalaMsg": "Keep it clean!",
+        "translation": "Sacos plásticos são bons para o oceano."
       },
       {
         "question": "Trees give us oxygen to breathe.",
@@ -5287,7 +5379,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🌳",
-        "nalaMsg": "Breathe deep!"
+        "nalaMsg": "Breathe deep!",
+        "translation": "As árvores nos dão oxigênio para respirar."
       },
       {
         "question": "Leaving the water running is good.",
@@ -5297,7 +5390,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! We should save water. 💧",
-        "nalaMsg": "Turn it off!"
+        "nalaMsg": "Turn it off!",
+        "translation": "Deixar a água correndo é bom."
       },
       {
         "question": "Planting a garden helps bees.",
@@ -5307,7 +5401,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🐝",
-        "nalaMsg": "Buzz!"
+        "nalaMsg": "Buzz!",
+        "translation": "Plantar um jardim ajuda as abelhas."
       },
       {
         "question": "Pollution is good for the environment.",
@@ -5317,7 +5412,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Pollution makes the Earth sick. 🏭",
-        "nalaMsg": "Oh no!"
+        "nalaMsg": "Oh no!",
+        "translation": "Poluição é boa para o meio ambiente."
       },
       {
         "question": "Solar energy comes from the sun.",
@@ -5327,7 +5423,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! ☀️",
-        "nalaMsg": "Bright!"
+        "nalaMsg": "Bright!",
+        "translation": "A energia solar vem do sol."
       },
       {
         "question": "Plastic takes a long time to break down.",
@@ -5337,7 +5434,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! That's why we must recycle. ♻️",
-        "nalaMsg": "Reduce!"
+        "nalaMsg": "Reduce!",
+        "translation": "Plástico leva muito tempo para se decompor."
       },
       {
         "question": "We should waste as much food as possible.",
@@ -5347,7 +5445,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Wasting food is bad. 🗑️",
-        "nalaMsg": "Eat it up!"
+        "nalaMsg": "Eat it up!",
+        "translation": "Devemos desperdiçar o máximo de comida possível."
       },
       {
         "question": "The Earth is the planet we live on.",
@@ -5357,7 +5456,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🌍",
-        "nalaMsg": "Home!"
+        "nalaMsg": "Home!",
+        "translation": "A Terra é o planeta em que vivemos."
       }
     ]
   },
@@ -6131,7 +6231,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! You use a pen or chalk to write, and an eraser to clean. 🧼",
-        "nalaMsg": "Good one!"
+        "nalaMsg": "Good one!",
+        "translation": "Você usa uma borracha para escrever no quadro."
       },
       {
         "question": "A backpack is used to carry books.",
@@ -6141,7 +6242,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! We put our school supplies in it. 🎒",
-        "nalaMsg": "Ready for school!"
+        "nalaMsg": "Ready for school!",
+        "translation": "Uma mochila é usada para carregar livros."
       },
       {
         "question": "A teacher learns from the students.",
@@ -6151,7 +6253,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! A teacher teaches the students. 👩‍🏫",
-        "nalaMsg": "Smart!"
+        "nalaMsg": "Smart!",
+        "translation": "Um professor aprende com os alunos."
       },
       {
         "question": "You sit on a desk.",
@@ -6161,7 +6264,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! You sit on a chair, and put your books on the desk. 🪑",
-        "nalaMsg": "Careful!"
+        "nalaMsg": "Careful!",
+        "translation": "Você senta em uma mesa."
       },
       {
         "question": "A notebook has blank pages for writing.",
@@ -6171,7 +6275,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 📓",
-        "nalaMsg": "Write it down!"
+        "nalaMsg": "Write it down!",
+        "translation": "Um caderno tem páginas em branco para escrever."
       },
       {
         "question": "You read words in a book.",
@@ -6181,7 +6286,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 📖",
-        "nalaMsg": "Smart!"
+        "nalaMsg": "Smart!",
+        "translation": "Você lê palavras em um livro."
       },
       {
         "question": "You use a ruler to cut paper.",
@@ -6191,7 +6297,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! You use scissors to cut. ✂️",
-        "nalaMsg": "Careful!"
+        "nalaMsg": "Careful!",
+        "translation": "Você usa uma régua para cortar papel."
       },
       {
         "question": "A student learns new things.",
@@ -6201,7 +6308,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🧑‍🎓",
-        "nalaMsg": "Learning!"
+        "nalaMsg": "Learning!",
+        "translation": "Um aluno aprende coisas novas."
       },
       {
         "question": "The board is always yellow.",
@@ -6211,7 +6319,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It's usually green or white. ⬛",
-        "nalaMsg": "Look at the front!"
+        "nalaMsg": "Look at the front!",
+        "translation": "O quadro é sempre amarelo."
       },
       {
         "question": "A backpack goes on your back.",
@@ -6221,7 +6330,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🎒",
-        "nalaMsg": "Ready to go!"
+        "nalaMsg": "Ready to go!",
+        "translation": "Uma mochila vai nas suas costas."
       }
     ]
   },
@@ -6300,7 +6410,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! The screen is very big! 📽️",
-        "nalaMsg": "Awesome!"
+        "nalaMsg": "Awesome!",
+        "translation": "Você assiste a um filme em uma tela grande no cinema."
       },
       {
         "question": "You need a ticket to enter the cinema.",
@@ -6310,7 +6421,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Don't forget your ticket! 🎫",
-        "nalaMsg": "Got it!"
+        "nalaMsg": "Got it!",
+        "translation": "Você precisa de um ingresso para entrar no cinema."
       },
       {
         "question": "It is good to shout loudly during a movie.",
@@ -6320,7 +6432,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! We must be quiet. 🤫",
-        "nalaMsg": "Shh!"
+        "nalaMsg": "Shh!",
+        "translation": "É bom gritar alto durante um filme."
       },
       {
         "question": "Popcorn is a popular snack at the movies.",
@@ -6330,7 +6443,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! It is delicious! 🍿",
-        "nalaMsg": "Crunch!"
+        "nalaMsg": "Crunch!",
+        "translation": "Pipoca é um lanche popular no cinema."
       },
       {
         "question": "A comedy movie makes you cry a lot.",
@@ -6340,7 +6454,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Comedy makes you laugh! 😂",
-        "nalaMsg": "Haha!"
+        "nalaMsg": "Haha!",
+        "translation": "Um filme de comédia te faz chorar muito."
       },
       {
         "question": "You can pause a movie at the cinema.",
@@ -6350,7 +6465,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Only at home. ⏸️",
-        "nalaMsg": "Don't miss it!"
+        "nalaMsg": "Don't miss it!",
+        "translation": "Você pode pausar um filme no cinema."
       },
       {
         "question": "A cartoon is animated.",
@@ -6360,7 +6476,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🎨",
-        "nalaMsg": "Drawings!"
+        "nalaMsg": "Drawings!",
+        "translation": "Um desenho animado é animado."
       },
       {
         "question": "You wear 3D glasses to see a 3D movie.",
@@ -6370,7 +6487,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🕶️",
-        "nalaMsg": "It jumps out!"
+        "nalaMsg": "It jumps out!",
+        "translation": "Você usa óculos 3D para ver um filme 3D."
       },
       {
         "question": "A comedy movie is supposed to be sad.",
@@ -6380,7 +6498,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It makes you laugh. 😂",
-        "nalaMsg": "Haha!"
+        "nalaMsg": "Haha!",
+        "translation": "Um filme de comédia deve ser triste."
       },
       {
         "question": "You buy tickets at the box office.",
@@ -6390,7 +6509,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🎟️",
-        "nalaMsg": "Two please!"
+        "nalaMsg": "Two please!",
+        "translation": "Você compra ingressos na bilheteria."
       }
     ],
     "story": [
@@ -6829,7 +6949,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Hold on! 🎢",
-        "nalaMsg": "Woohoo!"
+        "nalaMsg": "Woohoo!",
+        "translation": "Uma montanha-russa vai muito rápido."
       },
       {
         "question": "A Ferris wheel is flat on the ground.",
@@ -6839,7 +6960,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It goes high up in the air. 🎡",
-        "nalaMsg": "Great view!"
+        "nalaMsg": "Great view!",
+        "translation": "Uma roda-gigante é plana no chão."
       },
       {
         "question": "Cotton candy is sweet and fluffy.",
@@ -6849,7 +6971,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! It looks like pink clouds. 🍭",
-        "nalaMsg": "Yum!"
+        "nalaMsg": "Yum!",
+        "translation": "Algodão doce é doce e fofo."
       },
       {
         "question": "You can win prizes at the games.",
@@ -6859,7 +6982,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! Like a big teddy bear! 🧸",
-        "nalaMsg": "Winner!"
+        "nalaMsg": "Winner!",
+        "translation": "Você pode ganhar prêmios nos jogos."
       },
       {
         "question": "Amusement parks are very quiet places.",
@@ -6869,7 +6993,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! They are noisy and full of fun. 🎪",
-        "nalaMsg": "Laugh out loud!"
+        "nalaMsg": "Laugh out loud!",
+        "translation": "Parques de diversão são lugares muito silenciosos."
       },
       {
         "question": "A roller coaster goes very slow.",
@@ -6879,7 +7004,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! It goes super fast! 🎢",
-        "nalaMsg": "Whoosh!"
+        "nalaMsg": "Whoosh!",
+        "translation": "Uma montanha-russa vai muito devagar."
       },
       {
         "question": "You can see the whole park from the top of the Ferris wheel.",
@@ -6889,7 +7015,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! It goes very high. 🎡",
-        "nalaMsg": "Great view!"
+        "nalaMsg": "Great view!",
+        "translation": "Você pode ver o parque todo do topo da roda-gigante."
       },
       {
         "question": "Cotton candy is made of sugar.",
@@ -6899,7 +7026,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🍭",
-        "nalaMsg": "Sweet!"
+        "nalaMsg": "Sweet!",
+        "translation": "Algodão doce é feito de açúcar."
       },
       {
         "question": "A carousel has wooden horses.",
@@ -6909,7 +7037,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🎠",
-        "nalaMsg": "Giddy up!"
+        "nalaMsg": "Giddy up!",
+        "translation": "Um carrossel tem cavalos de madeira."
       },
       {
         "question": "You sleep in a tent at the amusement park.",
@@ -6919,7 +7048,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! Tents are for camping or circus shows. 🎪",
-        "nalaMsg": "No sleeping!"
+        "nalaMsg": "No sleeping!",
+        "translation": "Você dorme em uma tenda no parque de diversões."
       }
     ],
     "story": [
@@ -7360,7 +7490,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! You cook in the kitchen. 🍳",
-        "nalaMsg": "Silly!"
+        "nalaMsg": "Silly!",
+        "translation": "Você cozinha comida no banheiro."
       },
       {
         "question": "A bed is for sleeping in the bedroom.",
@@ -7370,7 +7501,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🛏️",
-        "nalaMsg": "Goodnight!"
+        "nalaMsg": "Goodnight!",
+        "translation": "Uma cama é para dormir no quarto."
       },
       {
         "question": "Washing dishes means cleaning plates and cups.",
@@ -7380,7 +7512,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🍽️",
-        "nalaMsg": "All clean!"
+        "nalaMsg": "All clean!",
+        "translation": "Lavar louça significa limpar pratos e copos."
       },
       {
         "question": "A broom is used to eat food.",
@@ -7390,7 +7523,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! A broom is used to sweep the floor. 🧹",
-        "nalaMsg": "Keep it tidy!"
+        "nalaMsg": "Keep it tidy!",
+        "translation": "Uma vassoura é usada para comer comida."
       },
       {
         "question": "You watch TV in the living room.",
@@ -7400,7 +7534,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 📺",
-        "nalaMsg": "Relax time!"
+        "nalaMsg": "Relax time!",
+        "translation": "Você assiste TV na sala de estar."
       },
       {
         "question": "You bake a cake in the bathroom.",
@@ -7410,7 +7545,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! You bake in the kitchen oven. 🎂",
-        "nalaMsg": "Silly!"
+        "nalaMsg": "Silly!",
+        "translation": "Você assa um bolo no banheiro."
       },
       {
         "question": "A sofa is for sitting.",
@@ -7420,7 +7556,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🛋️",
-        "nalaMsg": "Relax!"
+        "nalaMsg": "Relax!",
+        "translation": "Um sofá é para sentar."
       },
       {
         "question": "You use a broom to clean the floor.",
@@ -7430,7 +7567,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🧹",
-        "nalaMsg": "Sweep!"
+        "nalaMsg": "Sweep!",
+        "translation": "Você usa uma vassoura para limpar o chão."
       },
       {
         "question": "A window lets light into the room.",
@@ -7440,7 +7578,8 @@ const gameData = {
         ],
         "correct": 0,
         "explanation": "True! 🪟",
-        "nalaMsg": "Sunny!"
+        "nalaMsg": "Sunny!",
+        "translation": "Uma janela deixa a luz entrar no quarto."
       },
       {
         "question": "We throw food on the floor.",
@@ -7450,7 +7589,8 @@ const gameData = {
         ],
         "correct": 1,
         "explanation": "False! We throw garbage in the trash. 🗑️",
-        "nalaMsg": "Keep it clean!"
+        "nalaMsg": "Keep it clean!",
+        "translation": "Nós jogamos comida no chão."
       }
     ],
     "story": [

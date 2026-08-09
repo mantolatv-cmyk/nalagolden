@@ -251,6 +251,12 @@
         <div class="tf-statement" id="tf-statement">
           The sky is usually blue.
         </div>
+        
+        <button id="tf-translate-btn" onclick="toggleTranslation()" style="margin: 10px auto; background: none; border: none; color: var(--purple-500); cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; font-weight: 600; width: 100%;">
+          <span style="font-size: 1.2rem;">🇧🇷</span> <span id="tf-translate-text">Mostrar Tradução</span>
+        </button>
+        <div id="tf-translation" style="display: none; text-align: center; color: var(--purple-700); font-size: 1.1rem; margin-bottom: 20px; font-weight: 600;"></div>
+
 
         <!-- True / False Buttons -->
         <div class="tf-buttons" id="tf-buttons">
@@ -354,6 +360,7 @@
     let tfData = (moduleData && Array.isArray(moduleData.truefalse) && moduleData.truefalse.length > 0)
       ? moduleData.truefalse.map(q => ({
           statement: q.statement || q.question,
+          translation: q.translation || '',
           answer: typeof q.answer !== 'undefined' ? q.answer : (q.correct === 0),
           explanation: q.explanation || '',
           nalaMsg: q.nalaMsg || ''
@@ -366,6 +373,7 @@
         if (Array.isArray(gameData[key].truefalse) && gameData[key].truefalse.length > 0) {
           tfData = gameData[key].truefalse.map(q => ({
             statement: q.statement || q.question,
+            translation: q.translation || '',
             answer: typeof q.answer !== 'undefined' ? q.answer : (q.correct === 0),
             explanation: q.explanation || '',
             nalaMsg: q.nalaMsg || ''
@@ -421,6 +429,18 @@
 
       // Update statement
       statementEl.textContent = q.statement;
+      
+      // Update translation
+      const transEl = document.getElementById('tf-translation');
+      const transBtn = document.getElementById('tf-translate-btn');
+      if (q.translation) {
+        transEl.textContent = q.translation;
+        transEl.style.display = 'none';
+        transBtn.style.display = 'flex';
+      } else {
+        transEl.style.display = 'none';
+        transBtn.style.display = 'none';
+      }
 
       // Reset buttons
       btnTrue.disabled = false;
@@ -444,6 +464,15 @@
       card.classList.add('animate-in');
     }
 
+    function toggleTranslation() {
+      const transEl = document.getElementById('tf-translation');
+      if (transEl.style.display === 'none') {
+        transEl.style.display = 'block';
+      } else {
+        transEl.style.display = 'none';
+      }
+    }
+
     function selectAnswer(userAnswer) {
       if (answered) return;
       answered = true;
@@ -458,7 +487,6 @@
 
       // Highlight selected button
       const selectedBtn = userAnswer ? btnTrue : btnFalse;
-
       if (isCorrect) {
         selectedBtn.classList.add('selected-correct');
         correctAnswers++;
