@@ -153,95 +153,132 @@ const gameData = {
       {
         "words": [
           "The",
-          "apple",
-          "is",
-          "red"
-        ],
-        "translation": "A maçã é vermelha"
-      },
-      {
-        "words": [
-          "I",
-          "see",
-          "a",
-          "blue",
+          "bright",
+          "yellow",
+          "sun",
+          "shines",
+          "in",
+          "the",
           "sky"
         ],
-        "translation": "Eu vejo um céu azul"
+        "translation": "O sol amarelo brilhante brilha no céu"
       },
       {
         "words": [
-          "The",
-          "sun",
-          "is",
-          "yellow"
-        ],
-        "translation": "O sol é amarelo"
-      },
-      {
-        "words": [
-          "Leaves",
-          "are",
-          "green"
-        ],
-        "translation": "Folhas são verdes"
-      },
-      {
-        "words": [
-          "I",
-          "like",
-          "pink",
-          "flowers"
-        ],
-        "translation": "Eu gosto de flores rosas"
-      },
-      {
-        "words": [
-          "The",
-          "sun",
-          "is",
-          "yellow"
-        ],
-        "translation": "O sol é amarelo"
-      },
-      {
-        "words": [
-          "I",
-          "have",
-          "a",
-          "red",
-          "ball"
-        ],
-        "translation": "Eu tenho uma bola vermelha"
-      },
-      {
-        "words": [
-          "Green",
-          "is",
-          "my",
+          "My",
           "favorite",
-          "color"
+          "color",
+          "is",
+          "a",
+          "very",
+          "dark",
+          "blue"
         ],
-        "translation": "Verde é minha cor favorita"
+        "translation": "Minha cor favorita é um azul muito escuro"
       },
       {
         "words": [
           "She",
+          "always",
           "wears",
           "a",
-          "blue",
+          "beautiful",
+          "red",
+          "summer",
           "dress"
         ],
-        "translation": "Ela usa um vestido azul"
+        "translation": "Ela sempre usa um lindo vestido vermelho de verão"
       },
       {
         "words": [
           "The",
-          "cat",
-          "is",
-          "black"
+          "tall",
+          "trees",
+          "have",
+          "many",
+          "fresh",
+          "green",
+          "leaves"
         ],
-        "translation": "O gato é preto"
+        "translation": "As árvores altas têm muitas folhas verdes frescas"
+      },
+      {
+        "words": [
+          "I",
+          "want",
+          "to",
+          "paint",
+          "my",
+          "bedroom",
+          "walls",
+          "pink"
+        ],
+        "translation": "Eu quero pintar as paredes do meu quarto de rosa"
+      },
+      {
+        "words": [
+          "He",
+          "drives",
+          "a",
+          "fast",
+          "black",
+          "car",
+          "every",
+          "day"
+        ],
+        "translation": "Ele dirige um carro preto rápido todos os dias"
+      },
+      {
+        "words": [
+          "They",
+          "found",
+          "a",
+          "small",
+          "white",
+          "cat",
+          "outside",
+          "today"
+        ],
+        "translation": "Eles encontraram um gatinho branco lá fora hoje"
+      },
+      {
+        "words": [
+          "The",
+          "sweet",
+          "orange",
+          "juice",
+          "is",
+          "on",
+          "the",
+          "table"
+        ],
+        "translation": "O suco de laranja doce está na mesa"
+      },
+      {
+        "words": [
+          "Her",
+          "new",
+          "purple",
+          "shoes",
+          "are",
+          "very",
+          "comfortable",
+          "now"
+        ],
+        "translation": "Os novos sapatos roxos dela são muito confortáveis agora"
+      },
+      {
+        "words": [
+          "We",
+          "saw",
+          "a",
+          "big",
+          "brown",
+          "dog",
+          "running",
+          "fast"
+        ],
+        "translation": "Nós vimos um cachorro marrom grande correndo rápido"
       }
     ],
     "spelling": [
@@ -665,95 +702,133 @@ const gameData = {
       {
         "words": [
           "The",
-          "dog",
-          "is",
-          "brown"
-        ],
-        "translation": "O cachorro é marrom"
-      },
-      {
-        "words": [
-          "I",
-          "love",
-          "my",
-          "cat"
-        ],
-        "translation": "Eu amo meu gato"
-      },
-      {
-        "words": [
-          "The",
-          "bird",
-          "can",
-          "fly"
-        ],
-        "translation": "O pássaro pode voar"
-      },
-      {
-        "words": [
-          "A",
-          "fish",
-          "swims",
-          "fast"
-        ],
-        "translation": "Um peixe nada rápido"
-      },
-      {
-        "words": [
-          "Look",
-          "at",
-          "the",
-          "lion"
-        ],
-        "translation": "Olhe para o leão"
-      },
-      {
-        "words": [
-          "The",
-          "dog",
-          "is",
-          "barking"
-        ],
-        "translation": "O cachorro está latindo"
-      },
-      {
-        "words": [
-          "I",
-          "see",
-          "a",
           "big",
-          "elephant"
+          "brown",
+          "bear",
+          "sleeps",
+          "in",
+          "the",
+          "winter"
         ],
-        "translation": "Eu vejo um elefante grande"
+        "translation": "O grande urso marrom dorme no inverno"
       },
       {
         "words": [
-          "Cats",
-          "like",
-          "to",
-          "sleep"
+          "Small",
+          "birds",
+          "sing",
+          "beautiful",
+          "songs",
+          "in",
+          "the",
+          "morning"
         ],
-        "translation": "Gatos gostam de dormir"
+        "translation": "Pássaros pequenos cantam canções bonitas de manhã"
+      },
+      {
+        "words": [
+          "My",
+          "lazy",
+          "cat",
+          "loves",
+          "sleeping",
+          "on",
+          "the",
+          "sofa"
+        ],
+        "translation": "Meu gato preguiçoso adora dormir no sofá"
       },
       {
         "words": [
           "The",
+          "strong",
           "lion",
-          "is",
-          "the",
-          "king"
+          "runs",
+          "very",
+          "fast",
+          "to",
+          "hunt"
         ],
-        "translation": "O leão é o rei"
+        "translation": "O leão forte corre muito rápido para caçar"
       },
       {
         "words": [
-          "Fish",
+          "Elephants",
+          "use",
+          "their",
+          "long",
+          "trunks",
+          "to",
+          "drink",
+          "water"
+        ],
+        "translation": "Os elefantes usam suas longas trombas para beber água"
+      },
+      {
+        "words": [
+          "Many",
+          "colorful",
+          "fish",
           "swim",
+          "together",
           "in",
           "the",
           "river"
         ],
-        "translation": "Peixes nadam no rio"
+        "translation": "Muitos peixes coloridos nadam juntos no rio"
+      },
+      {
+        "words": [
+          "The",
+          "funny",
+          "monkey",
+          "jumps",
+          "from",
+          "tree",
+          "to",
+          "tree"
+        ],
+        "translation": "O macaco engraçado pula de árvore em árvore"
+      },
+      {
+        "words": [
+          "We",
+          "saw",
+          "a",
+          "slow",
+          "turtle",
+          "walking",
+          "around",
+          "yesterday"
+        ],
+        "translation": "Nós vimos uma tartaruga lenta andando por aí ontem"
+      },
+      {
+        "words": [
+          "A",
+          "dangerous",
+          "tiger",
+          "has",
+          "beautiful",
+          "black",
+          "and",
+          "orange",
+          "stripes"
+        ],
+        "translation": "Um tigre perigoso tem belas listras pretas e laranjas"
+      },
+      {
+        "words": [
+          "The",
+          "small",
+          "rabbit",
+          "eats",
+          "fresh",
+          "carrots",
+          "every",
+          "day"
+        ],
+        "translation": "O coelhinho come cenouras frescas todos os dias"
       }
     ],
     "spelling": [
@@ -1176,92 +1251,133 @@ const gameData = {
         "words": [
           "I",
           "have",
-          "one",
-          "dog"
+          "exactly",
+          "seven",
+          "heavy",
+          "books",
+          "in",
+          "my",
+          "bag"
         ],
-        "translation": "Eu tenho um cachorro"
+        "translation": "Eu tenho exatamente sete livros pesados na minha mochila"
+      },
+      {
+        "words": [
+          "There",
+          "are",
+          "three",
+          "apples",
+          "and",
+          "four",
+          "sweet",
+          "bananas"
+        ],
+        "translation": "Há três maçãs e quatro bananas doces"
+      },
+      {
+        "words": [
+          "My",
+          "little",
+          "brother",
+          "is",
+          "only",
+          "five",
+          "years",
+          "old"
+        ],
+        "translation": "Meu irmãozinho tem apenas cinco anos de idade"
+      },
+      {
+        "words": [
+          "We",
+          "need",
+          "to",
+          "buy",
+          "ten",
+          "eggs",
+          "for",
+          "the",
+          "cake"
+        ],
+        "translation": "Nós precisamos comprar dez ovos para o bolo"
       },
       {
         "words": [
           "She",
           "has",
           "two",
-          "cats"
+          "dogs",
+          "and",
+          "one",
+          "black",
+          "cat"
         ],
-        "translation": "Ela tem dois gatos"
-      },
-      {
-        "words": [
-          "I",
-          "see",
-          "three",
-          "birds"
-        ],
-        "translation": "Eu vejo três pássaros"
-      },
-      {
-        "words": [
-          "Count",
-          "to",
-          "four"
-        ],
-        "translation": "Conte até quatro"
-      },
-      {
-        "words": [
-          "We",
-          "have",
-          "five",
-          "books"
-        ],
-        "translation": "Nós temos cinco livros"
-      },
-      {
-        "words": [
-          "I",
-          "have",
-          "two",
-          "books"
-        ],
-        "translation": "Eu tenho dois livros"
+        "translation": "Ela tem dois cachorros e um gato preto"
       },
       {
         "words": [
           "He",
-          "is",
-          "five",
-          "years",
-          "old"
+          "drank",
+          "eight",
+          "glasses",
+          "of",
+          "water",
+          "today",
+          "morning"
         ],
-        "translation": "Ele tem cinco anos"
+        "translation": "Ele bebeu oito copos de água hoje de manhã"
+      },
+      {
+        "words": [
+          "They",
+          "will",
+          "stay",
+          "here",
+          "for",
+          "about",
+          "nine",
+          "days"
+        ],
+        "translation": "Eles vão ficar aqui por cerca de nove dias"
+      },
+      {
+        "words": [
+          "I",
+          "can",
+          "see",
+          "six",
+          "birds",
+          "flying",
+          "very",
+          "high"
+        ],
+        "translation": "Eu posso ver seis pássaros voando muito alto"
       },
       {
         "words": [
           "We",
-          "see",
-          "three",
-          "birds"
+          "have",
+          "zero",
+          "apples",
+          "left",
+          "in",
+          "the",
+          "kitchen"
         ],
-        "translation": "Nós vemos três pássaros"
+        "translation": "Nós não temos maçãs sobrando na cozinha"
       },
       {
         "words": [
-          "The",
-          "spider",
-          "has",
-          "eight",
-          "legs"
-        ],
-        "translation": "A aranha tem oito pernas"
-      },
-      {
-        "words": [
-          "Give",
+          "Please",
+          "give",
           "me",
+          "just",
           "one",
-          "apple"
+          "slice",
+          "of",
+          "pizza"
         ],
-        "translation": "Me dê uma maçã"
+        "translation": "Por favor, me dê apenas uma fatia de pizza"
       }
     ],
     "spelling": [
@@ -1673,92 +1789,132 @@ const gameData = {
       {
         "words": [
           "My",
-          "mommy",
-          "is",
-          "nice"
-        ],
-        "translation": "Minha mamãe é legal"
-      },
-      {
-        "words": [
-          "I",
-          "love",
-          "my",
-          "family"
-        ],
-        "translation": "Eu amo minha família"
-      },
-      {
-        "words": [
-          "This",
-          "is",
-          "my",
-          "daddy"
-        ],
-        "translation": "Este é meu papai"
-      },
-      {
-        "words": [
-          "My",
+          "young",
           "brother",
-          "is",
-          "tall"
-        ],
-        "translation": "Meu irmão é alto"
-      },
-      {
-        "words": [
-          "I",
-          "play",
+          "likes",
+          "playing",
           "with",
-          "sister"
+          "his",
+          "friends"
         ],
-        "translation": "Eu brinco com a irmã"
-      },
-      {
-        "words": [
-          "My",
-          "mother",
-          "is",
-          "nice"
-        ],
-        "translation": "Minha mãe é legal"
-      },
-      {
-        "words": [
-          "He",
-          "is",
-          "my",
-          "brother"
-        ],
-        "translation": "Ele é meu irmão"
+        "translation": "Meu irmão mais novo gosta de brincar com os amigos"
       },
       {
         "words": [
           "We",
-          "love",
+          "always",
+          "visit",
           "our",
-          "family"
+          "grandparents",
+          "on",
+          "the",
+          "weekend"
         ],
-        "translation": "Nós amamos nossa família"
+        "translation": "Nós sempre visitamos nossos avós no fim de semana"
+      },
+      {
+        "words": [
+          "Her",
+          "mother",
+          "cooks",
+          "very",
+          "delicious",
+          "food",
+          "for",
+          "us"
+        ],
+        "translation": "A mãe dela cozinha uma comida muito deliciosa para nós"
+      },
+      {
+        "words": [
+          "His",
+          "father",
+          "works",
+          "hard",
+          "in",
+          "a",
+          "big",
+          "office"
+        ],
+        "translation": "O pai dele trabalha duro em um grande escritório"
       },
       {
         "words": [
           "My",
+          "older",
           "sister",
           "is",
-          "tall"
+          "studying",
+          "at",
+          "the",
+          "university"
         ],
-        "translation": "Minha irmã é alta"
+        "translation": "Minha irmã mais velha está estudando na universidade"
       },
       {
         "words": [
-          "Grandpa",
-          "is",
-          "very",
-          "wise"
+          "Our",
+          "uncle",
+          "lives",
+          "in",
+          "a",
+          "beautiful",
+          "house",
+          "nearby"
         ],
-        "translation": "Vovô é muito sábio"
+        "translation": "Nosso tio mora em uma casa bonita por perto"
+      },
+      {
+        "words": [
+          "My",
+          "aunt",
+          "bought",
+          "a",
+          "nice",
+          "gift",
+          "for",
+          "me"
+        ],
+        "translation": "Minha tia comprou um presente legal para mim"
+      },
+      {
+        "words": [
+          "I",
+          "love",
+          "spending",
+          "free",
+          "time",
+          "with",
+          "my",
+          "cousins"
+        ],
+        "translation": "Eu adoro passar o tempo livre com meus primos"
+      },
+      {
+        "words": [
+          "The",
+          "new",
+          "baby",
+          "sleeps",
+          "a",
+          "lot",
+          "every",
+          "day"
+        ],
+        "translation": "O bebê novo dorme muito todos os dias"
+      },
+      {
+        "words": [
+          "My",
+          "happy",
+          "family",
+          "enjoys",
+          "eating",
+          "dinner",
+          "together",
+          "always"
+        ],
+        "translation": "Minha família feliz gosta de jantar junta sempre"
       }
     ],
     "spelling": [
@@ -2277,181 +2433,133 @@ const gameData = {
     "sentence": [
       {
         "words": [
-          "I",
-          "work",
-          "out",
+          "She",
+          "always",
+          "wakes",
+          "up",
+          "very",
+          "early",
           "every",
           "morning"
         ],
-        "translation": "Eu malho toda manhã"
+        "translation": "Ela sempre acorda muito cedo todas as manhãs"
       },
       {
         "words": [
-          "She",
-          "prepares",
+          "I",
+          "take",
           "a",
-          "healthy",
+          "quick",
+          "shower",
+          "before",
+          "my",
           "breakfast"
         ],
-        "translation": "Ela prepara um café da manhã saudável"
-      },
-      {
-        "words": [
-          "My",
-          "commute",
-          "is",
-          "very",
-          "fast"
-        ],
-        "translation": "Meu trajeto é muito rápido"
-      },
-      {
-        "words": [
-          "We",
-          "organize",
-          "our",
-          "daily",
-          "schedule"
-        ],
-        "translation": "Nós organizamos nossa rotina diária"
-      },
-      {
-        "words": [
-          "I",
-          "need",
-          "to",
-          "unwind",
-          "now"
-        ],
-        "translation": "Eu preciso relaxar agora"
-      },
-      {
-        "words": [
-          "Wake",
-          "up",
-          "early",
-          "today"
-        ],
-        "translation": "Acorde cedo hoje"
-      },
-      {
-        "words": [
-          "Take",
-          "a",
-          "refreshing",
-          "shower"
-        ],
-        "translation": "Tome um banho revigorante"
-      },
-      {
-        "words": [
-          "Get",
-          "dressed",
-          "for",
-          "school"
-        ],
-        "translation": "Vista-se para a escola"
-      },
-      {
-        "words": [
-          "Consistency",
-          "is",
-          "very",
-          "important"
-        ],
-        "translation": "A consistência é muito importante"
-      },
-      {
-        "words": [
-          "Fall",
-          "asleep",
-          "quickly",
-          "tonight"
-        ],
-        "translation": "Adormeça rapidamente esta noite"
-      },
-      {
-        "words": [
-          "I",
-          "study",
-          "in",
-          "the",
-          "evening"
-        ],
-        "translation": "Eu estudo à noite"
-      },
-      {
-        "words": [
-          "Prepare",
-          "your",
-          "own",
-          "breakfast"
-        ],
-        "translation": "Prepare seu próprio café da manhã"
-      },
-      {
-        "words": [
-          "Organize",
-          "your",
-          "desk",
-          "now"
-        ],
-        "translation": "Organize sua mesa agora"
-      },
-      {
-        "words": [
-          "My",
-          "schedule",
-          "is",
-          "full",
-          "today"
-        ],
-        "translation": "Minha agenda está cheia hoje"
-      },
-      {
-        "words": [
-          "I",
-          "wake",
-          "up",
-          "early"
-        ],
-        "translation": "Eu acordo cedo"
-      },
-      {
-        "words": [
-          "She",
-          "takes",
-          "a",
-          "shower"
-        ],
-        "translation": "Ela toma banho"
-      },
-      {
-        "words": [
-          "We",
-          "eat",
-          "breakfast",
-          "together"
-        ],
-        "translation": "Nós tomamos café da manhã juntos"
+        "translation": "Eu tomo um banho rápido antes do meu café da manhã"
       },
       {
         "words": [
           "He",
-          "goes",
-          "to",
-          "sleep"
+          "brushes",
+          "his",
+          "teeth",
+          "after",
+          "eating",
+          "sweet",
+          "food"
         ],
-        "translation": "Ele vai dormir"
+        "translation": "Ele escova os dentes depois de comer comida doce"
+      },
+      {
+        "words": [
+          "We",
+          "usually",
+          "eat",
+          "a",
+          "big",
+          "breakfast",
+          "together",
+          "daily"
+        ],
+        "translation": "Nós geralmente tomamos um grande café da manhã juntos diariamente"
       },
       {
         "words": [
           "I",
-          "brush",
-          "my",
-          "teeth"
+          "get",
+          "dressed",
+          "quickly",
+          "to",
+          "go",
+          "to",
+          "work"
         ],
-        "translation": "Eu escovo meus dentes"
+        "translation": "Eu me visto rapidamente para ir trabalhar"
+      },
+      {
+        "words": [
+          "She",
+          "reads",
+          "a",
+          "nice",
+          "book",
+          "before",
+          "falling",
+          "asleep"
+        ],
+        "translation": "Ela lê um livro legal antes de adormecer"
+      },
+      {
+        "words": [
+          "They",
+          "often",
+          "watch",
+          "television",
+          "in",
+          "the",
+          "late",
+          "evening"
+        ],
+        "translation": "Eles costumam assistir televisão no final da noite"
+      },
+      {
+        "words": [
+          "I",
+          "like",
+          "to",
+          "relax",
+          "and",
+          "unwind",
+          "after",
+          "school"
+        ],
+        "translation": "Eu gosto de relaxar e descansar depois da escola"
+      },
+      {
+        "words": [
+          "He",
+          "organizes",
+          "his",
+          "busy",
+          "schedule",
+          "for",
+          "the",
+          "week"
+        ],
+        "translation": "Ele organiza sua agenda lotada para a semana"
+      },
+      {
+        "words": [
+          "We",
+          "go",
+          "to",
+          "sleep",
+          "around",
+          "ten",
+          "o'clock",
+          "nightly"
+        ],
+        "translation": "Nós vamos dormir por volta das dez horas todas as noites"
       }
     ],
     "spelling": [
@@ -3074,102 +3182,134 @@ const gameData = {
     "sentence": [
       {
         "words": [
-          "I",
-          "traveled",
+          "We",
+          "went",
           "to",
           "the",
-          "mountains"
+          "big",
+          "park",
+          "yesterday",
+          "afternoon"
         ],
-        "translation": "Eu viajei para as montanhas"
+        "translation": "Nós fomos ao parque grande ontem à tarde"
+      },
+      {
+        "words": [
+          "He",
+          "played",
+          "football",
+          "with",
+          "his",
+          "friends",
+          "last",
+          "weekend"
+        ],
+        "translation": "Ele jogou futebol com os amigos no fim de semana passado"
+      },
+      {
+        "words": [
+          "I",
+          "saw",
+          "a",
+          "very",
+          "beautiful",
+          "bird",
+          "this",
+          "morning"
+        ],
+        "translation": "Eu vi um pássaro muito bonito hoje de manhã"
       },
       {
         "words": [
           "She",
-          "discovered",
+          "ate",
           "a",
-          "hidden",
-          "waterfall"
+          "delicious",
+          "chocolate",
+          "cake",
+          "last",
+          "night"
         ],
-        "translation": "Ela descobriu uma cachoeira escondida"
+        "translation": "Ela comeu um bolo de chocolate delicioso ontem à noite"
+      },
+      {
+        "words": [
+          "They",
+          "traveled",
+          "to",
+          "a",
+          "fascinating",
+          "new",
+          "city",
+          "recently"
+        ],
+        "translation": "Eles viajaram para uma cidade nova fascinante recentemente"
+      },
+      {
+        "words": [
+          "We",
+          "bought",
+          "many",
+          "cool",
+          "souvenirs",
+          "during",
+          "our",
+          "trip"
+        ],
+        "translation": "Nós compramos muitas lembranças legais durante a nossa viagem"
+      },
+      {
+        "words": [
+          "He",
+          "discovered",
+          "an",
+          "interesting",
+          "old",
+          "book",
+          "at",
+          "home"
+        ],
+        "translation": "Ele descobriu um livro antigo interessante em casa"
+      },
+      {
+        "words": [
+          "I",
+          "experienced",
+          "something",
+          "really",
+          "amazing",
+          "a",
+          "few",
+          "days",
+          "ago"
+        ],
+        "translation": "Eu experimentei algo realmente incrível alguns dias atrás"
+      },
+      {
+        "words": [
+          "She",
+          "returned",
+          "from",
+          "her",
+          "long",
+          "journey",
+          "very",
+          "tired"
+        ],
+        "translation": "Ela retornou de sua longa jornada muito cansada"
       },
       {
         "words": [
           "We",
           "enjoyed",
           "the",
-          "beautiful",
-          "weather"
+          "warm",
+          "sunny",
+          "weather",
+          "last",
+          "summer"
         ],
-        "translation": "Nós aproveitamos o clima lindo"
-      },
-      {
-        "words": [
-          "He",
-          "bought",
-          "many",
-          "lovely",
-          "souvenirs"
-        ],
-        "translation": "Ele comprou muitas lembrancinhas adoráveis"
-      },
-      {
-        "words": [
-          "I",
-          "returned",
-          "home",
-          "completely",
-          "recharged"
-        ],
-        "translation": "Eu retornei para casa completamente recarregado"
-      },
-      {
-        "words": [
-          "I",
-          "went",
-          "to",
-          "the",
-          "park"
-        ],
-        "translation": "Eu fui ao parque"
-      },
-      {
-        "words": [
-          "She",
-          "played",
-          "with",
-          "her",
-          "dog"
-        ],
-        "translation": "Ela brincou com o cachorro dela"
-      },
-      {
-        "words": [
-          "We",
-          "saw",
-          "a",
-          "bird",
-          "yesterday"
-        ],
-        "translation": "Nós vimos um pássaro ontem"
-      },
-      {
-        "words": [
-          "He",
-          "ate",
-          "all",
-          "the",
-          "cake"
-        ],
-        "translation": "Ele comeu todo o bolo"
-      },
-      {
-        "words": [
-          "They",
-          "were",
-          "very",
-          "happy"
-        ],
-        "translation": "Eles estavam muito felizes"
+        "translation": "Nós aproveitamos o clima quente e ensolarado no verão passado"
       }
     ],
     "spelling": [
@@ -3585,100 +3725,132 @@ const gameData = {
       {
         "words": [
           "I",
-          "like",
-          "to",
-          "eat",
-          "pizza"
+          "really",
+          "love",
+          "eating",
+          "hot",
+          "pizza",
+          "for",
+          "dinner"
         ],
-        "translation": "Eu gosto de comer pizza"
-      },
-      {
-        "words": [
-          "Do",
-          "you",
-          "want",
-          "some",
-          "water"
-        ],
-        "translation": "Você quer um pouco de água"
-      },
-      {
-        "words": [
-          "She",
-          "likes",
-          "red",
-          "apple"
-        ],
-        "translation": "Ela gosta de maçã vermelha"
-      },
-      {
-        "words": [
-          "I",
-          "want",
-          "milk",
-          "now"
-        ],
-        "translation": "Eu quero leite agora"
-      },
-      {
-        "words": [
-          "He",
-          "eats",
-          "a",
-          "big",
-          "cake"
-        ],
-        "translation": "Ele come um bolo grande"
-      },
-      {
-        "words": [
-          "I",
-          "like",
-          "to",
-          "eat",
-          "pizza"
-        ],
-        "translation": "Eu gosto de comer pizza"
-      },
-      {
-        "words": [
-          "The",
-          "apple",
-          "is",
-          "very",
-          "sweet"
-        ],
-        "translation": "A maçã é muito doce"
+        "translation": "Eu realmente amo comer pizza quente no jantar"
       },
       {
         "words": [
           "She",
           "drinks",
+          "cold",
           "water",
+          "after",
+          "running",
           "every",
-          "day"
+          "morning"
         ],
-        "translation": "Ela bebe água todos os dias"
+        "translation": "Ela bebe água fria depois de correr todas as manhãs"
       },
       {
         "words": [
           "We",
-          "have",
-          "chicken",
-          "for",
-          "dinner"
+          "always",
+          "buy",
+          "fresh",
+          "apples",
+          "and",
+          "sweet",
+          "bananas"
         ],
-        "translation": "Nós temos frango para o jantar"
+        "translation": "Nós sempre compramos maçãs frescas e bananas doces"
       },
       {
         "words": [
-          "Do",
-          "you",
-          "want",
+          "He",
+          "wants",
+          "to",
+          "eat",
           "some",
-          "cake"
+          "cheese",
+          "and",
+          "bread"
         ],
-        "translation": "Você quer um pouco de bolo?"
+        "translation": "Ele quer comer um pouco de queijo e pão"
+      },
+      {
+        "words": [
+          "They",
+          "had",
+          "fried",
+          "chicken",
+          "for",
+          "their",
+          "tasty",
+          "lunch"
+        ],
+        "translation": "Eles comeram frango frito no seu almoço saboroso"
+      },
+      {
+        "words": [
+          "I",
+          "usually",
+          "drink",
+          "a",
+          "glass",
+          "of",
+          "warm",
+          "milk"
+        ],
+        "translation": "Eu costumo beber um copo de leite morno"
+      },
+      {
+        "words": [
+          "She",
+          "baked",
+          "a",
+          "delicious",
+          "chocolate",
+          "cake",
+          "for",
+          "him"
+        ],
+        "translation": "Ela assou um delicioso bolo de chocolate para ele"
+      },
+      {
+        "words": [
+          "We",
+          "enjoy",
+          "eating",
+          "sweet",
+          "cookies",
+          "in",
+          "the",
+          "afternoon"
+        ],
+        "translation": "Nós gostamos de comer biscoitos doces à tarde"
+      },
+      {
+        "words": [
+          "A",
+          "yellow",
+          "banana",
+          "is",
+          "a",
+          "very",
+          "healthy",
+          "snack"
+        ],
+        "translation": "Uma banana amarela é um lanche muito saudável"
+      },
+      {
+        "words": [
+          "I",
+          "never",
+          "eat",
+          "heavy",
+          "food",
+          "late",
+          "at",
+          "night"
+        ],
+        "translation": "Eu nunca como comida pesada tarde da noite"
       }
     ],
     "spelling": [
@@ -4093,95 +4265,133 @@ const gameData = {
     "sentence": [
       {
         "words": [
-          "Touch",
-          "your",
-          "nose",
-          "now"
-        ],
-        "translation": "Toque seu nariz agora"
-      },
-      {
-        "words": [
-          "I",
+          "You",
           "have",
           "two",
-          "hands"
-        ],
-        "translation": "Eu tenho duas mãos"
-      },
-      {
-        "words": [
-          "She",
-          "has",
-          "blue",
-          "eyes"
-        ],
-        "translation": "Ela tem olhos azuis"
-      },
-      {
-        "words": [
-          "Clap",
-          "your",
-          "hands",
-          "fast"
-        ],
-        "translation": "Bata palmas rápido"
-      },
-      {
-        "words": [
-          "My",
-          "head",
-          "is",
-          "big"
-        ],
-        "translation": "Minha cabeça é grande"
-      },
-      {
-        "words": [
-          "I",
-          "have",
-          "two",
-          "eyes"
-        ],
-        "translation": "Eu tenho dois olhos"
-      },
-      {
-        "words": [
-          "She",
-          "touches",
-          "her",
+          "small",
+          "eyes",
+          "and",
+          "one",
           "nose"
         ],
-        "translation": "Ela toca o nariz"
+        "translation": "Você tem dois olhos pequenos e um nariz"
+      },
+      {
+        "words": [
+          "He",
+          "washes",
+          "his",
+          "hands",
+          "before",
+          "eating",
+          "his",
+          "dinner"
+        ],
+        "translation": "Ele lava as mãos antes de comer seu jantar"
+      },
+      {
+        "words": [
+          "She",
+          "listens",
+          "to",
+          "loud",
+          "music",
+          "with",
+          "her",
+          "ears"
+        ],
+        "translation": "Ela escuta música alta com seus ouvidos"
+      },
+      {
+        "words": [
+          "I",
+          "use",
+          "my",
+          "mouth",
+          "to",
+          "speak",
+          "and",
+          "eat"
+        ],
+        "translation": "Eu uso minha boca para falar e comer"
       },
       {
         "words": [
           "We",
           "walk",
-          "with",
+          "and",
+          "run",
+          "using",
           "our",
+          "strong",
           "feet"
         ],
-        "translation": "Nós andamos com nossos pés"
+        "translation": "Nós andamos e corremos usando nossos pés fortes"
       },
       {
         "words": [
-          "Raise",
+          "Please",
+          "touch",
           "your",
-          "hands",
-          "up"
+          "head",
+          "and",
+          "then",
+          "your",
+          "shoulders"
         ],
-        "translation": "Levante suas mãos"
+        "translation": "Por favor, toque sua cabeça e depois seus ombros"
       },
       {
         "words": [
           "He",
-          "listens",
-          "with",
+          "hurt",
           "his",
-          "ears"
+          "knees",
+          "when",
+          "he",
+          "fell",
+          "down"
         ],
-        "translation": "Ele escuta com os ouvidos"
+        "translation": "Ele machucou os joelhos quando caiu"
+      },
+      {
+        "words": [
+          "You",
+          "have",
+          "five",
+          "toes",
+          "on",
+          "each",
+          "left",
+          "foot"
+        ],
+        "translation": "Você tem cinco dedos em cada pé esquerdo"
+      },
+      {
+        "words": [
+          "She",
+          "has",
+          "very",
+          "long",
+          "and",
+          "beautiful",
+          "brown",
+          "hair"
+        ],
+        "translation": "Ela tem cabelos castanhos muito longos e bonitos"
+      },
+      {
+        "words": [
+          "I",
+          "brush",
+          "my",
+          "white",
+          "teeth",
+          "twice",
+          "a",
+          "day"
+        ],
+        "translation": "Eu escovo meus dentes brancos duas vezes por dia"
       }
     ],
     "spelling": [
@@ -4596,101 +4806,133 @@ const gameData = {
     "sentence": [
       {
         "words": [
-          "Have",
-          "you",
-          "ever",
-          "flown",
-          "abroad"
-        ],
-        "translation": "Você já voou para o exterior?"
-      },
-      {
-        "words": [
-          "I",
-          "have",
-          "visited",
-          "many",
-          "places"
-        ],
-        "translation": "Eu visitei muitos lugares"
-      },
-      {
-        "words": [
-          "She",
-          "has",
-          "lost",
-          "her",
-          "passport"
-        ],
-        "translation": "Ela perdeu seu passaporte"
-      },
-      {
-        "words": [
           "We",
-          "have",
-          "traveled",
-          "by",
-          "train"
+          "will",
+          "fly",
+          "to",
+          "a",
+          "beautiful",
+          "new",
+          "country"
         ],
-        "translation": "Nós viajamos de trem"
+        "translation": "Nós voaremos para um lindo país novo"
       },
       {
         "words": [
           "He",
-          "has",
-          "bought",
-          "a",
-          "souvenir"
+          "forgot",
+          "his",
+          "blue",
+          "passport",
+          "at",
+          "his",
+          "house"
         ],
-        "translation": "Ele comprou uma lembrancinha"
+        "translation": "Ele esqueceu seu passaporte azul na casa dele"
       },
       {
         "words": [
           "I",
+          "need",
+          "to",
           "pack",
           "my",
-          "luggage"
+          "heavy",
+          "luggage",
+          "now"
         ],
-        "translation": "Eu arrumo minha bagagem"
-      },
-      {
-        "words": [
-          "We",
-          "fly",
-          "in",
-          "an",
-          "airplane"
-        ],
-        "translation": "Nós voamos em um avião"
-      },
-      {
-        "words": [
-          "He",
-          "has",
-          "a",
-          "blue",
-          "passport"
-        ],
-        "translation": "Ele tem um passaporte azul"
-      },
-      {
-        "words": [
-          "She",
-          "buys",
-          "a",
-          "souvenir"
-        ],
-        "translation": "Ela compra uma lembrança"
+        "translation": "Eu preciso arrumar minha bagagem pesada agora"
       },
       {
         "words": [
           "The",
+          "happy",
           "tourist",
           "takes",
-          "a",
-          "photo"
+          "many",
+          "photos",
+          "every",
+          "day"
         ],
-        "translation": "O turista tira uma foto"
+        "translation": "O turista feliz tira muitas fotos todos os dias"
+      },
+      {
+        "words": [
+          "She",
+          "bought",
+          "a",
+          "nice",
+          "souvenir",
+          "for",
+          "her",
+          "mother"
+        ],
+        "translation": "Ela comprou uma lembrança legal para sua mãe"
+      },
+      {
+        "words": [
+          "We",
+          "wait",
+          "at",
+          "the",
+          "large",
+          "airport",
+          "for",
+          "hours"
+        ],
+        "translation": "Nós esperamos no aeroporto grande por horas"
+      },
+      {
+        "words": [
+          "The",
+          "friendly",
+          "guide",
+          "showed",
+          "us",
+          "the",
+          "old",
+          "city"
+        ],
+        "translation": "O guia amigável nos mostrou a cidade velha"
+      },
+      {
+        "words": [
+          "I",
+          "want",
+          "to",
+          "travel",
+          "abroad",
+          "next",
+          "summer",
+          "vacation"
+        ],
+        "translation": "Eu quero viajar para o exterior nas próximas férias de verão"
+      },
+      {
+        "words": [
+          "They",
+          "explored",
+          "the",
+          "dark",
+          "cave",
+          "during",
+          "their",
+          "trip"
+        ],
+        "translation": "Eles exploraram a caverna escura durante a viagem deles"
+      },
+      {
+        "words": [
+          "We",
+          "have",
+          "flown",
+          "on",
+          "a",
+          "very",
+          "big",
+          "airplane"
+        ],
+        "translation": "Nós voamos em um avião muito grande"
       }
     ],
     "spelling": [
@@ -5105,101 +5347,134 @@ const gameData = {
     "sentence": [
       {
         "words": [
-          "If",
-          "we",
-          "recycle",
-          "nature",
-          "wins"
-        ],
-        "translation": "Se nós reciclarmos, a natureza vence"
-      },
-      {
-        "words": [
           "We",
-          "must",
-          "protect",
-          "the",
-          "earth"
-        ],
-        "translation": "Nós devemos proteger a terra"
-      },
-      {
-        "words": [
-          "You",
           "should",
-          "save",
-          "clean",
-          "water"
+          "always",
+          "recycle",
+          "plastic",
+          "bottles",
+          "and",
+          "paper"
         ],
-        "translation": "Você deveria economizar água limpa"
+        "translation": "Nós devemos sempre reciclar garrafas plásticas e papel"
       },
       {
         "words": [
-          "Plastic",
-          "pollution",
+          "Planting",
+          "small",
+          "trees",
+          "helps",
+          "to",
+          "protect",
+          "our",
+          "environment"
+        ],
+        "translation": "Plantar árvores pequenas ajuda a proteger nosso meio ambiente"
+      },
+      {
+        "words": [
+          "Pollution",
           "is",
           "very",
-          "bad"
+          "bad",
+          "for",
+          "our",
+          "beautiful",
+          "Earth"
         ],
-        "translation": "Poluição plástica é muito ruim"
-      },
-      {
-        "words": [
-          "If",
-          "it",
-          "rains",
-          "plants",
-          "grow"
-        ],
-        "translation": "Se chover, as plantas crescem"
+        "translation": "A poluição é muito ruim para a nossa bela Terra"
       },
       {
         "words": [
           "We",
           "must",
+          "save",
+          "water",
+          "and",
           "protect",
+          "wild",
           "nature"
         ],
-        "translation": "Nós devemos proteger a natureza"
+        "translation": "Nós devemos economizar água e proteger a natureza selvagem"
+      },
+      {
+        "words": [
+          "Solar",
+          "energy",
+          "is",
+          "a",
+          "clean",
+          "and",
+          "safe",
+          "power"
+        ],
+        "translation": "A energia solar é uma força limpa e segura"
+      },
+      {
+        "words": [
+          "Do",
+          "not",
+          "throw",
+          "your",
+          "plastic",
+          "waste",
+          "away",
+          "here"
+        ],
+        "translation": "Não jogue o seu lixo plástico fora aqui"
+      },
+      {
+        "words": [
+          "Climate",
+          "change",
+          "is",
+          "a",
+          "big",
+          "problem",
+          "for",
+          "us"
+        ],
+        "translation": "As mudanças climáticas são um grande problema para nós"
+      },
+      {
+        "words": [
+          "We",
+          "can",
+          "use",
+          "solar",
+          "panels",
+          "to",
+          "get",
+          "energy"
+        ],
+        "translation": "Nós podemos usar painéis solares para obter energia"
+      },
+      {
+        "words": [
+          "Keeping",
+          "the",
+          "environment",
+          "clean",
+          "is",
+          "our",
+          "most",
+          "important",
+          "job"
+        ],
+        "translation": "Manter o meio ambiente limpo é o nosso trabalho mais importante"
       },
       {
         "words": [
           "I",
           "always",
-          "recycle",
-          "plastic"
-        ],
-        "translation": "Eu sempre reciclo plástico"
-      },
-      {
-        "words": [
-          "The",
-          "Earth",
-          "is",
-          "our",
-          "home"
-        ],
-        "translation": "A Terra é o nosso lar"
-      },
-      {
-        "words": [
-          "Don't",
-          "throw",
-          "trash",
-          "on",
+          "turn",
+          "off",
           "the",
-          "floor"
+          "lights",
+          "at",
+          "night"
         ],
-        "translation": "Não jogue lixo no chão"
-      },
-      {
-        "words": [
-          "Trees",
-          "are",
-          "very",
-          "important"
-        ],
-        "translation": "As árvores são muito importantes"
+        "translation": "Eu sempre apago as luzes à noite"
       }
     ],
     "spelling": [
@@ -5743,175 +6018,133 @@ const gameData = {
     "sentence": [
       {
         "words": [
-          "I",
-          "have",
-          "a",
-          "pencil"
-        ],
-        "translation": "Eu tenho um lápis"
-      },
-      {
-        "words": [
           "The",
-          "teacher",
-          "is",
-          "here"
-        ],
-        "translation": "O professor está aqui"
-      },
-      {
-        "words": [
-          "My",
-          "backpack",
-          "is",
-          "blue"
-        ],
-        "translation": "Minha mochila é azul"
-      },
-      {
-        "words": [
-          "Open",
-          "your",
+          "smart",
+          "student",
+          "reads",
+          "a",
+          "very",
+          "interesting",
           "book"
         ],
-        "translation": "Abra seu livro"
+        "translation": "O aluno inteligente lê um livro muito interessante"
       },
       {
         "words": [
           "I",
-          "need",
-          "an",
-          "eraser"
+          "always",
+          "do",
+          "my",
+          "English",
+          "homework",
+          "after",
+          "school"
         ],
-        "translation": "Eu preciso de uma borracha"
+        "translation": "Eu sempre faço minha lição de inglês depois da escola"
       },
       {
         "words": [
-          "The",
-          "desk",
-          "is",
-          "clean"
-        ],
-        "translation": "A carteira está limpa"
-      },
-      {
-        "words": [
-          "Write",
-          "in",
+          "Our",
+          "kind",
+          "teacher",
+          "explains",
           "the",
+          "math",
+          "lessons",
+          "well"
+        ],
+        "translation": "Nosso professor gentil explica bem as lições de matemática"
+      },
+      {
+        "words": [
+          "She",
+          "writes",
+          "new",
+          "words",
+          "in",
+          "her",
+          "blue",
           "notebook"
         ],
-        "translation": "Escreva no caderno"
-      },
-      {
-        "words": [
-          "I",
-          "use",
-          "a",
-          "pen"
-        ],
-        "translation": "Eu uso uma caneta"
-      },
-      {
-        "words": [
-          "Look",
-          "at",
-          "the",
-          "board"
-        ],
-        "translation": "Olhe para o quadro"
-      },
-      {
-        "words": [
-          "She",
-          "is",
-          "a",
-          "student"
-        ],
-        "translation": "Ela é uma aluna"
+        "translation": "Ela escreve novas palavras em seu caderno azul"
       },
       {
         "words": [
           "We",
-          "go",
+          "need",
           "to",
-          "school"
-        ],
-        "translation": "Nós vamos para a escola"
-      },
-      {
-        "words": [
-          "Cut",
-          "with",
-          "the",
-          "scissors"
-        ],
-        "translation": "Corte com a tesoura"
-      },
-      {
-        "words": [
-          "I",
-          "have",
-          "some",
-          "glue"
-        ],
-        "translation": "Eu tenho um pouco de cola"
-      },
-      {
-        "words": [
-          "Measure",
-          "with",
+          "bring",
           "a",
-          "ruler"
+          "pencil",
+          "and",
+          "eraser"
         ],
-        "translation": "Meça com a régua"
-      },
-      {
-        "words": [
-          "I",
-          "like",
-          "my",
-          "school"
-        ],
-        "translation": "Eu gosto da minha escola"
+        "translation": "Nós precisamos trazer um lápis e uma borracha"
       },
       {
         "words": [
           "The",
-          "teacher",
+          "heavy",
+          "backpack",
           "is",
-          "talking"
+          "full",
+          "of",
+          "school",
+          "books"
         ],
-        "translation": "O professor está falando"
+        "translation": "A mochila pesada está cheia de livros escolares"
+      },
+      {
+        "words": [
+          "Please",
+          "look",
+          "at",
+          "the",
+          "white",
+          "board",
+          "right",
+          "now"
+        ],
+        "translation": "Por favor, olhe para o quadro branco agora mesmo"
+      },
+      {
+        "words": [
+          "You",
+          "can",
+          "use",
+          "these",
+          "scissors",
+          "to",
+          "cut",
+          "paper"
+        ],
+        "translation": "Você pode usar esta tesoura para cortar papel"
       },
       {
         "words": [
           "I",
-          "read",
-          "a",
-          "book"
-        ],
-        "translation": "Eu leio um livro"
-      },
-      {
-        "words": [
-          "She",
-          "has",
-          "a",
-          "blue",
-          "pen"
-        ],
-        "translation": "Ela tem uma caneta azul"
-      },
-      {
-        "words": [
-          "We",
           "sit",
           "at",
-          "the",
-          "desk"
+          "my",
+          "desk",
+          "to",
+          "study",
+          "hard"
         ],
-        "translation": "Nós sentamos na mesa"
+        "translation": "Eu sento na minha mesa para estudar muito"
+      },
+      {
+        "words": [
+          "He",
+          "uses",
+          "a",
+          "ruler",
+          "to",
+          "draw",
+          "straight",
+          "lines"
+        ],
+        "translation": "Ele usa uma régua para desenhar linhas retas"
       }
     ],
     "spelling": [
@@ -6600,99 +6833,133 @@ const gameData = {
     "sentence": [
       {
         "words": [
-          "I",
-          "watch",
-          "a",
+          "We",
+          "bought",
+          "our",
+          "tickets",
+          "before",
+          "watching",
+          "the",
           "movie"
         ],
-        "translation": "Eu assisto a um filme"
+        "translation": "Nós compramos nossos ingressos antes de assistir ao filme"
       },
       {
         "words": [
           "The",
-          "popcorn",
-          "is",
-          "delicious"
-        ],
-        "translation": "A pipoca é deliciosa"
-      },
-      {
-        "words": [
-          "I",
-          "have",
-          "a",
-          "ticket"
-        ],
-        "translation": "Eu tenho um ingresso"
-      },
-      {
-        "words": [
-          "The",
-          "screen",
-          "is",
-          "big"
-        ],
-        "translation": "A tela é grande"
-      },
-      {
-        "words": [
-          "We",
-          "sit",
-          "in",
-          "the",
-          "seat"
-        ],
-        "translation": "Nós sentamos no assento"
-      },
-      {
-        "words": [
-          "The",
+          "new",
+          "comedy",
           "movie",
-          "is",
+          "was",
           "very",
-          "funny"
+          "funny",
+          "yesterday"
         ],
-        "translation": "O filme é muito engraçado"
+        "translation": "O novo filme de comédia foi muito engraçado ontem"
       },
       {
         "words": [
           "I",
-          "buy",
-          "a",
-          "ticket",
-          "first"
-        ],
-        "translation": "Eu compro um ingresso primeiro"
-      },
-      {
-        "words": [
-          "We",
-          "eat",
+          "love",
+          "eating",
+          "sweet",
           "popcorn",
           "at",
           "the",
           "cinema"
         ],
-        "translation": "Nós comemos pipoca no cinema"
+        "translation": "Eu adoro comer pipoca doce no cinema"
       },
       {
         "words": [
           "The",
+          "huge",
           "screen",
-          "is",
-          "very",
-          "big"
+          "shows",
+          "bright",
+          "and",
+          "clear",
+          "pictures"
         ],
-        "translation": "A tela é muito grande"
+        "translation": "A tela enorme mostra imagens brilhantes e claras"
+      },
+      {
+        "words": [
+          "He",
+          "found",
+          "a",
+          "good",
+          "seat",
+          "near",
+          "the",
+          "front"
+        ],
+        "translation": "Ele encontrou um bom assento perto da frente"
+      },
+      {
+        "words": [
+          "You",
+          "must",
+          "wear",
+          "these",
+          "glasses",
+          "for",
+          "3D",
+          "movies"
+        ],
+        "translation": "Você deve usar estes óculos para filmes 3D"
       },
       {
         "words": [
           "She",
-          "likes",
+          "really",
+          "enjoys",
+          "watching",
+          "exciting",
           "action",
-          "movies"
+          "movies",
+          "now"
         ],
-        "translation": "Ela gosta de filmes de ação"
+        "translation": "Ela realmente gosta de assistir a filmes de ação emocionantes agora"
+      },
+      {
+        "words": [
+          "My",
+          "little",
+          "brother",
+          "likes",
+          "to",
+          "watch",
+          "funny",
+          "cartoons"
+        ],
+        "translation": "Meu irmãozinho gosta de assistir a desenhos engraçados"
+      },
+      {
+        "words": [
+          "I",
+          "drank",
+          "a",
+          "cold",
+          "soda",
+          "during",
+          "the",
+          "film"
+        ],
+        "translation": "Eu bebi um refrigerante gelado durante o filme"
+      },
+      {
+        "words": [
+          "We",
+          "stayed",
+          "until",
+          "the",
+          "very",
+          "end",
+          "of",
+          "it"
+        ],
+        "translation": "Nós ficamos até o finalzinho dele"
       }
     ],
     "spelling": [
@@ -7139,101 +7406,134 @@ const gameData = {
     "sentence": [
       {
         "words": [
-          "The",
+          "I",
+          "love",
+          "riding",
+          "the",
+          "fast",
           "roller",
           "coaster",
-          "is",
-          "fast"
+          "today"
         ],
-        "translation": "A montanha-russa é rápida"
-      },
-      {
-        "words": [
-          "I",
-          "see",
-          "the",
-          "Ferris",
-          "wheel"
-        ],
-        "translation": "Eu vejo a roda-gigante"
-      },
-      {
-        "words": [
-          "I",
-          "eat",
-          "cotton",
-          "candy"
-        ],
-        "translation": "Eu como algodão doce"
+        "translation": "Eu adoro andar na montanha-russa rápida hoje"
       },
       {
         "words": [
           "She",
-          "wins",
+          "won",
           "a",
-          "prize"
+          "very",
+          "big",
+          "prize",
+          "at",
+          "the",
+          "park"
         ],
-        "translation": "Ela ganha um prêmio"
+        "translation": "Ela ganhou um prêmio muito grande no parque"
       },
       {
         "words": [
           "We",
-          "play",
-          "a",
-          "game"
-        ],
-        "translation": "Nós jogamos um jogo"
-      },
-      {
-        "words": [
-          "The",
-          "roller",
-          "coaster",
-          "is",
-          "scary"
-        ],
-        "translation": "A montanha-russa é assustadora"
-      },
-      {
-        "words": [
-          "I",
-          "want",
-          "to",
-          "eat",
-          "cotton",
-          "candy"
-        ],
-        "translation": "Eu quero comer algodão doce"
-      },
-      {
-        "words": [
-          "We",
-          "ride",
+          "can",
+          "see",
+          "everything",
+          "from",
           "the",
           "Ferris",
           "wheel"
         ],
-        "translation": "Nós andamos na roda-gigante"
+        "translation": "Nós podemos ver tudo da roda-gigante"
+      },
+      {
+        "words": [
+          "The",
+          "beautiful",
+          "carousel",
+          "has",
+          "many",
+          "painted",
+          "wooden",
+          "horses"
+        ],
+        "translation": "O lindo carrossel tem muitos cavalos de madeira pintados"
       },
       {
         "words": [
           "He",
-          "won",
-          "a",
-          "big",
-          "prize"
+          "bought",
+          "pink",
+          "cotton",
+          "candy",
+          "for",
+          "his",
+          "sister"
         ],
-        "translation": "Ele ganhou um grande prêmio"
+        "translation": "Ele comprou algodão doce rosa para a irmã dele"
       },
       {
         "words": [
-          "She",
-          "plays",
+          "I",
+          "got",
+          "a",
+          "red",
+          "balloon",
+          "at",
+          "the",
+          "fair"
+        ],
+        "translation": "Eu ganhei um balão vermelho na feira"
+      },
+      {
+        "words": [
+          "They",
+          "played",
           "a",
           "fun",
-          "game"
+          "game",
+          "inside",
+          "the",
+          "tent"
         ],
-        "translation": "Ela joga um jogo divertido"
+        "translation": "Eles jogaram um jogo divertido dentro da tenda"
+      },
+      {
+        "words": [
+          "The",
+          "amusement",
+          "park",
+          "is",
+          "always",
+          "noisy",
+          "and",
+          "crowded"
+        ],
+        "translation": "O parque de diversões é sempre barulhento e lotado"
+      },
+      {
+        "words": [
+          "We",
+          "spent",
+          "all",
+          "day",
+          "riding",
+          "the",
+          "crazy",
+          "attractions"
+        ],
+        "translation": "Nós passamos o dia todo andando nas atrações loucas"
+      },
+      {
+        "words": [
+          "It",
+          "was",
+          "the",
+          "best",
+          "and",
+          "most",
+          "exciting",
+          "afternoon"
+        ],
+        "translation": "Foi a tarde melhor e mais emocionante"
       }
     ],
     "spelling": [
@@ -7680,21 +7980,56 @@ const gameData = {
     "sentence": [
       {
         "words": [
-          "I",
+          "We",
+          "usually",
+          "watch",
+          "television",
+          "in",
+          "the",
+          "living",
+          "room"
+        ],
+        "translation": "Nós geralmente assistimos televisão na sala de estar"
+      },
+      {
+        "words": [
+          "He",
+          "helps",
+          "his",
+          "mother",
+          "to",
           "clean",
+          "the",
+          "kitchen"
+        ],
+        "translation": "Ele ajuda a mãe a limpar a cozinha"
+      },
+      {
+        "words": [
+          "I",
+          "always",
+          "sleep",
+          "well",
+          "in",
           "my",
+          "cozy",
           "bedroom"
         ],
-        "translation": "Eu limpo meu quarto"
+        "translation": "Eu sempre durmo bem no meu quarto aconchegante"
       },
       {
         "words": [
           "She",
-          "washes",
+          "is",
+          "taking",
+          "a",
+          "hot",
+          "shower",
+          "in",
           "the",
-          "dishes"
+          "bathroom"
         ],
-        "translation": "Ela lava as louças"
+        "translation": "Ela está tomando um banho quente no banheiro"
       },
       {
         "words": [
@@ -7702,77 +8037,77 @@ const gameData = {
           "sit",
           "on",
           "the",
-          "sofa"
+          "soft",
+          "sofa",
+          "every",
+          "evening"
         ],
-        "translation": "Nós sentamos no sofá"
+        "translation": "Nós sentamos no sofá macio todas as noites"
       },
       {
         "words": [
-          "The",
-          "kitchen",
-          "is",
-          "clean"
-        ],
-        "translation": "A cozinha está limpa"
-      },
-      {
-        "words": [
-          "I",
+          "You",
+          "need",
+          "to",
           "use",
-          "the",
-          "broom"
+          "a",
+          "broom",
+          "right",
+          "now"
         ],
-        "translation": "Eu uso a vassoura"
+        "translation": "Você precisa usar uma vassoura agora mesmo"
       },
       {
         "words": [
           "I",
-          "sleep",
-          "in",
-          "my",
-          "bedroom"
-        ],
-        "translation": "Eu durmo no meu quarto"
-      },
-      {
-        "words": [
-          "We",
-          "cook",
-          "food",
-          "in",
+          "will",
+          "wash",
+          "all",
           "the",
-          "kitchen"
+          "dirty",
+          "dishes",
+          "later"
         ],
-        "translation": "Nós cozinhamos comida na cozinha"
+        "translation": "Eu vou lavar todas as louças sujas mais tarde"
       },
       {
         "words": [
-          "She",
-          "sits",
-          "on",
-          "the",
-          "sofa"
-        ],
-        "translation": "Ela senta no sofá"
-      },
-      {
-        "words": [
-          "I",
+          "Please",
           "take",
           "out",
           "the",
-          "trash"
+          "smelly",
+          "trash",
+          "for",
+          "me"
         ],
-        "translation": "Eu tiro o lixo"
+        "translation": "Por favor, leve o lixo fedido para fora para mim"
       },
       {
         "words": [
           "He",
-          "washes",
+          "opened",
           "the",
-          "dishes"
+          "big",
+          "window",
+          "to",
+          "get",
+          "air"
         ],
-        "translation": "Ele lava as louças"
+        "translation": "Ele abriu a janela grande para pegar ar"
+      },
+      {
+        "words": [
+          "Our",
+          "new",
+          "house",
+          "has",
+          "a",
+          "beautiful",
+          "green",
+          "garden"
+        ],
+        "translation": "Nossa casa nova tem um lindo jardim verde"
       }
     ],
     "spelling": [
