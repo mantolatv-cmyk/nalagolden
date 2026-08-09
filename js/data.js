@@ -70,43 +70,53 @@ const gameData = {
     "matching": [
       {
         "word": "Red",
-        "emoji": "🍎"
+        "emoji": "🍎",
+        "pt": "Vermelho"
       },
       {
         "word": "Blue",
-        "emoji": "💧"
+        "emoji": "💧",
+        "pt": "Azul"
       },
       {
         "word": "Yellow",
-        "emoji": "☀️"
+        "emoji": "☀️",
+        "pt": "Amarelo"
       },
       {
         "word": "Green",
-        "emoji": "🍃"
+        "emoji": "🍃",
+        "pt": "Verde"
       },
       {
         "word": "Pink",
-        "emoji": "🌸"
+        "emoji": "🌸",
+        "pt": "Rosa"
       },
       {
         "word": "Orange",
-        "emoji": "🍊"
+        "emoji": "🍊",
+        "pt": "Laranja"
       },
       {
         "word": "Purple",
-        "emoji": "🍇"
+        "emoji": "🍇",
+        "pt": "Roxo"
       },
       {
         "word": "Black",
-        "emoji": "🎱"
+        "emoji": "🎱",
+        "pt": "Preto"
       },
       {
         "word": "White",
-        "emoji": "☁️"
+        "emoji": "☁️",
+        "pt": "Branco"
       },
       {
         "word": "Brown",
-        "emoji": "🐻"
+        "emoji": "🐻",
+        "pt": "Marrom"
       }
     ],
     "sentence": [
@@ -434,43 +444,53 @@ const gameData = {
     "matching": [
       {
         "word": "Dog",
-        "emoji": "🐕"
+        "emoji": "🐕",
+        "pt": "Cachorro"
       },
       {
         "word": "Cat",
-        "emoji": "🐈"
+        "emoji": "🐈",
+        "pt": "Gato"
       },
       {
         "word": "Bird",
-        "emoji": "🐦"
+        "emoji": "🐦",
+        "pt": "Pássaro"
       },
       {
         "word": "Fish",
-        "emoji": "🐟"
+        "emoji": "🐟",
+        "pt": "Peixe"
       },
       {
         "word": "Rabbit",
-        "emoji": "🐇"
+        "emoji": "🐇",
+        "pt": "Coelho"
       },
       {
         "word": "Turtle",
-        "emoji": "🐢"
+        "emoji": "🐢",
+        "pt": "Tartaruga"
       },
       {
         "word": "Lion",
-        "emoji": "🦁"
+        "emoji": "🦁",
+        "pt": "Leão"
       },
       {
         "word": "Elephant",
-        "emoji": "🐘"
+        "emoji": "🐘",
+        "pt": "Elefante"
       },
       {
         "word": "Monkey",
-        "emoji": "🐒"
+        "emoji": "🐒",
+        "pt": "Macaco"
       },
       {
         "word": "Tiger",
-        "emoji": "🐅"
+        "emoji": "🐅",
+        "pt": "Tigre"
       }
     ],
     "sentence": [
@@ -796,43 +816,53 @@ const gameData = {
     "matching": [
       {
         "word": "One",
-        "emoji": "1️⃣"
+        "emoji": "1️⃣",
+        "pt": "Um"
       },
       {
         "word": "Two",
-        "emoji": "2️⃣"
+        "emoji": "2️⃣",
+        "pt": "Dois"
       },
       {
         "word": "Three",
-        "emoji": "3️⃣"
+        "emoji": "3️⃣",
+        "pt": "Três"
       },
       {
         "word": "Four",
-        "emoji": "4️⃣"
+        "emoji": "4️⃣",
+        "pt": "Quatro"
       },
       {
         "word": "Five",
-        "emoji": "5️⃣"
+        "emoji": "5️⃣",
+        "pt": "Cinco"
       },
       {
         "word": "Six",
-        "emoji": "6️⃣"
+        "emoji": "6️⃣",
+        "pt": "Seis"
       },
       {
         "word": "Seven",
-        "emoji": "7️⃣"
+        "emoji": "7️⃣",
+        "pt": "Sete"
       },
       {
         "word": "Eight",
-        "emoji": "8️⃣"
+        "emoji": "8️⃣",
+        "pt": "Oito"
       },
       {
         "word": "Nine",
-        "emoji": "9️⃣"
+        "emoji": "9️⃣",
+        "pt": "Nove"
       },
       {
         "word": "Ten",
-        "emoji": "🔟"
+        "emoji": "🔟",
+        "pt": "Dez"
       }
     ],
     "sentence": [
@@ -1147,43 +1177,53 @@ const gameData = {
     "matching": [
       {
         "word": "Mommy",
-        "emoji": "👩"
+        "emoji": "👩",
+        "pt": "Mamãe"
       },
       {
         "word": "Daddy",
-        "emoji": "👨"
+        "emoji": "👨",
+        "pt": "Papai"
       },
       {
         "word": "Brother",
-        "emoji": "👦"
+        "emoji": "👦",
+        "pt": "Irmão"
       },
       {
         "word": "Sister",
-        "emoji": "👧"
+        "emoji": "👧",
+        "pt": "Irmã"
       },
       {
         "word": "Baby",
-        "emoji": "👶"
+        "emoji": "👶",
+        "pt": "Bebê"
       },
       {
         "word": "Grandpa",
-        "emoji": "👴"
+        "emoji": "👴",
+        "pt": "Vovô"
       },
       {
         "word": "Grandma",
-        "emoji": "👵"
+        "emoji": "👵",
+        "pt": "Vovó"
       },
       {
         "word": "Uncle",
-        "emoji": "👨‍🦱"
+        "emoji": "👨‍🦱",
+        "pt": "Tio"
       },
       {
         "word": "Aunt",
-        "emoji": "👩‍🦱"
+        "emoji": "👩‍🦱",
+        "pt": "Tia"
       },
       {
         "word": "Cousin",
-        "emoji": "🧒"
+        "emoji": "🧒",
+        "pt": "Primo"
       }
     ],
     "sentence": [
@@ -1587,59 +1627,73 @@ const gameData = {
     "matching": [
       {
         "word": "Work out",
-        "emoji": "🏋️"
+        "emoji": "🏋️",
+        "pt": "Malhar"
       },
       {
         "word": "Get dressed",
-        "emoji": "👔"
+        "emoji": "👔",
+        "pt": "Vestir-se"
       },
       {
         "word": "Commute",
-        "emoji": "🚌"
+        "emoji": "🚌",
+        "pt": "Ir para o trabalho"
       },
       {
         "word": "Prepare",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "pt": "Preparar"
       },
       {
         "word": "Schedule",
-        "emoji": "📅"
+        "emoji": "📅",
+        "pt": "Agendar"
       },
       {
         "word": "Organize",
-        "emoji": "🗂️"
+        "emoji": "🗂️",
+        "pt": "Organizar"
       },
       {
         "word": "Unwind",
-        "emoji": "🧘"
+        "emoji": "🧘",
+        "pt": "Relaxar"
       },
       {
         "word": "Consistency",
-        "emoji": "📈"
+        "emoji": "📈",
+        "pt": "Consistência"
       },
       {
         "word": "Refresh",
-        "emoji": "🚿"
+        "emoji": "🚿",
+        "pt": "Atualizar"
       },
       {
         "word": "Fall asleep",
-        "emoji": "😴"
+        "emoji": "😴",
+        "pt": "Adormecer"
       },
       {
         "word": "Wake up",
-        "emoji": "🌅"
+        "emoji": "🌅",
+        "pt": "Acordar"
       },
       {
         "word": "Shower",
-        "emoji": "🛀"
+        "emoji": "🛀",
+        "pt": "Banho"
       },
       {
         "word": "Breakfast",
-        "emoji": "🥐"
+        "emoji": "🥐",
+        "pt": "Café da manhã"
       },
       {
         "word": "Evening",
-        "emoji": "🌆"
+        "emoji": "🌆",
+        "pt": "Noite"
       }
     ],
     "sentence": [
@@ -2255,43 +2309,53 @@ const gameData = {
     "matching": [
       {
         "word": "Traveled",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "pt": "Viajou"
       },
       {
         "word": "Discovered",
-        "emoji": "🔍"
+        "emoji": "🔍",
+        "pt": "Descobriu"
       },
       {
         "word": "Encountered",
-        "emoji": "🦌"
+        "emoji": "🦌",
+        "pt": "Encontrou"
       },
       {
         "word": "Experienced",
-        "emoji": "✨"
+        "emoji": "✨",
+        "pt": "Experimentou"
       },
       {
         "word": "Bought",
-        "emoji": "🛍️"
+        "emoji": "🛍️",
+        "pt": "Comprou"
       },
       {
         "word": "Enjoyed",
-        "emoji": "😌"
+        "emoji": "😌",
+        "pt": "Aproveitou"
       },
       {
         "word": "Realized",
-        "emoji": "💡"
+        "emoji": "💡",
+        "pt": "Percebeu"
       },
       {
         "word": "Captured",
-        "emoji": "📸"
+        "emoji": "📸",
+        "pt": "Capturou"
       },
       {
         "word": "Returned",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "pt": "Retornou"
       },
       {
         "word": "Fascinating",
-        "emoji": "🤩"
+        "emoji": "🤩",
+        "pt": "Fascinante"
       }
     ],
     "sentence": [
@@ -2616,43 +2680,53 @@ const gameData = {
     "matching": [
       {
         "word": "Apple",
-        "emoji": "🍎"
+        "emoji": "🍎",
+        "pt": "Maçã"
       },
       {
         "word": "Banana",
-        "emoji": "🍌"
+        "emoji": "🍌",
+        "pt": "Banana"
       },
       {
         "word": "Bread",
-        "emoji": "🍞"
+        "emoji": "🍞",
+        "pt": "Pão"
       },
       {
         "word": "Milk",
-        "emoji": "🥛"
+        "emoji": "🥛",
+        "pt": "Leite"
       },
       {
         "word": "Water",
-        "emoji": "💧"
+        "emoji": "💧",
+        "pt": "Água"
       },
       {
         "word": "Cheese",
-        "emoji": "🧀"
+        "emoji": "🧀",
+        "pt": "Queijo"
       },
       {
         "word": "Chicken",
-        "emoji": "🍗"
+        "emoji": "🍗",
+        "pt": "Frango"
       },
       {
         "word": "Pizza",
-        "emoji": "🍕"
+        "emoji": "🍕",
+        "pt": "Pizza"
       },
       {
         "word": "Cake",
-        "emoji": "🎂"
+        "emoji": "🎂",
+        "pt": "Bolo"
       },
       {
         "word": "Cookie",
-        "emoji": "🍪"
+        "emoji": "🍪",
+        "pt": "Biscoito"
       }
     ],
     "sentence": [
@@ -2975,43 +3049,53 @@ const gameData = {
     "matching": [
       {
         "word": "Head",
-        "emoji": "🗣️"
+        "emoji": "🗣️",
+        "pt": "Cabeça"
       },
       {
         "word": "Shoulders",
-        "emoji": "🤷"
+        "emoji": "🤷",
+        "pt": "Ombros"
       },
       {
         "word": "Knees",
-        "emoji": "🦵"
+        "emoji": "🦵",
+        "pt": "Joelhos"
       },
       {
         "word": "Toes",
-        "emoji": "🦶"
+        "emoji": "🦶",
+        "pt": "Dedos do pé"
       },
       {
         "word": "Eyes",
-        "emoji": "👁️"
+        "emoji": "👁️",
+        "pt": "Olhos"
       },
       {
         "word": "Ears",
-        "emoji": "👂"
+        "emoji": "👂",
+        "pt": "Orelhas"
       },
       {
         "word": "Mouth",
-        "emoji": "👄"
+        "emoji": "👄",
+        "pt": "Boca"
       },
       {
         "word": "Nose",
-        "emoji": "👃"
+        "emoji": "👃",
+        "pt": "Nariz"
       },
       {
         "word": "Hands",
-        "emoji": "✋"
+        "emoji": "✋",
+        "pt": "Mãos"
       },
       {
         "word": "Feet",
-        "emoji": "👟"
+        "emoji": "👟",
+        "pt": "Pés"
       }
     ],
     "sentence": [
@@ -3331,43 +3415,53 @@ const gameData = {
     "matching": [
       {
         "word": "Airport",
-        "emoji": "🛫"
+        "emoji": "🛫",
+        "pt": "Aeroporto"
       },
       {
         "word": "Passport",
-        "emoji": "🛂"
+        "emoji": "🛂",
+        "pt": "Passaporte"
       },
       {
         "word": "Luggage",
-        "emoji": "🧳"
+        "emoji": "🧳",
+        "pt": "Bagagem"
       },
       {
         "word": "Tourist",
-        "emoji": "📸"
+        "emoji": "📸",
+        "pt": "Turista"
       },
       {
         "word": "Souvenir",
-        "emoji": "🎁"
+        "emoji": "🎁",
+        "pt": "Lembrança"
       },
       {
         "word": "Abroad",
-        "emoji": "🌍"
+        "emoji": "🌍",
+        "pt": "No exterior"
       },
       {
         "word": "Guide",
-        "emoji": "🗺️"
+        "emoji": "🗺️",
+        "pt": "Guia"
       },
       {
         "word": "Traveled",
-        "emoji": "✈️"
+        "emoji": "✈️",
+        "pt": "Viajou"
       },
       {
         "word": "Explored",
-        "emoji": "🧭"
+        "emoji": "🧭",
+        "pt": "Explorou"
       },
       {
         "word": "Flown",
-        "emoji": "🦅"
+        "emoji": "🦅",
+        "pt": "Voou"
       }
     ],
     "sentence": [
@@ -3692,43 +3786,53 @@ const gameData = {
     "matching": [
       {
         "word": "Recycle",
-        "emoji": "♻️"
+        "emoji": "♻️",
+        "pt": "Reciclar"
       },
       {
         "word": "Environment",
-        "emoji": "🏞️"
+        "emoji": "🏞️",
+        "pt": "Meio ambiente"
       },
       {
         "word": "Pollution",
-        "emoji": "🏭"
+        "emoji": "🏭",
+        "pt": "Poluição"
       },
       {
         "word": "Earth",
-        "emoji": "🌍"
+        "emoji": "🌍",
+        "pt": "Terra"
       },
       {
         "word": "Plastic",
-        "emoji": "🥤"
+        "emoji": "🥤",
+        "pt": "Plástico"
       },
       {
         "word": "Nature",
-        "emoji": "🌿"
+        "emoji": "🌿",
+        "pt": "Natureza"
       },
       {
         "word": "Protect",
-        "emoji": "🛡️"
+        "emoji": "🛡️",
+        "pt": "Proteger"
       },
       {
         "word": "Solar",
-        "emoji": "☀️"
+        "emoji": "☀️",
+        "pt": "Solar"
       },
       {
         "word": "Climate",
-        "emoji": "☁️"
+        "emoji": "☁️",
+        "pt": "Clima"
       },
       {
         "word": "Waste",
-        "emoji": "🗑️"
+        "emoji": "🗑️",
+        "pt": "Lixo"
       }
     ],
     "sentence": [
@@ -4157,63 +4261,78 @@ const gameData = {
     "matching": [
       {
         "word": "Pencil",
-        "emoji": "✏️"
+        "emoji": "✏️",
+        "pt": "Lápis"
       },
       {
         "word": "Book",
-        "emoji": "📖"
+        "emoji": "📖",
+        "pt": "Livro"
       },
       {
         "word": "Teacher",
-        "emoji": "👩‍🏫"
+        "emoji": "👩‍🏫",
+        "pt": "Professor(a)"
       },
       {
         "word": "Desk",
-        "emoji": "🪑"
+        "emoji": "🪑",
+        "pt": "Mesa"
       },
       {
         "word": "Backpack",
-        "emoji": "🎒"
+        "emoji": "🎒",
+        "pt": "Mochila"
       },
       {
         "word": "School",
-        "emoji": "🏫"
+        "emoji": "🏫",
+        "pt": "Escola"
       },
       {
         "word": "Eraser",
-        "emoji": "🧼"
+        "emoji": "🧼",
+        "pt": "Borracha"
       },
       {
         "word": "Notebook",
-        "emoji": "📓"
+        "emoji": "📓",
+        "pt": "Caderno"
       },
       {
         "word": "Pen",
-        "emoji": "🖊️"
+        "emoji": "🖊️",
+        "pt": "Caneta"
       },
       {
         "word": "Ruler",
-        "emoji": "📏"
+        "emoji": "📏",
+        "pt": "Régua"
       },
       {
         "word": "Board",
-        "emoji": "⬛"
+        "emoji": "⬛",
+        "pt": "Quadro"
       },
       {
         "word": "Student",
-        "emoji": "🧑‍🎓"
+        "emoji": "🧑‍🎓",
+        "pt": "Aluno(a)"
       },
       {
         "word": "Scissors",
-        "emoji": "✂️"
+        "emoji": "✂️",
+        "pt": "Tesoura"
       },
       {
         "word": "Glue",
-        "emoji": "🧴"
+        "emoji": "🧴",
+        "pt": "Cola"
       },
       {
         "word": "Paper",
-        "emoji": "📄"
+        "emoji": "📄",
+        "pt": "Papel"
       }
     ],
     "sentence": [
@@ -4827,43 +4946,53 @@ const gameData = {
     "matching": [
       {
         "word": "Movie",
-        "emoji": "🎬"
+        "emoji": "🎬",
+        "pt": "Filme"
       },
       {
         "word": "Popcorn",
-        "emoji": "🍿"
+        "emoji": "🍿",
+        "pt": "Pipoca"
       },
       {
         "word": "Ticket",
-        "emoji": "🎫"
+        "emoji": "🎫",
+        "pt": "Ingresso"
       },
       {
         "word": "Screen",
-        "emoji": "📽️"
+        "emoji": "📽️",
+        "pt": "Tela"
       },
       {
         "word": "Seat",
-        "emoji": "💺"
+        "emoji": "💺",
+        "pt": "Assento"
       },
       {
         "word": "Glasses",
-        "emoji": "👓"
+        "emoji": "👓",
+        "pt": "Óculos"
       },
       {
         "word": "Comedy",
-        "emoji": "😂"
+        "emoji": "😂",
+        "pt": "Comédia"
       },
       {
         "word": "Action",
-        "emoji": "🏃"
+        "emoji": "🏃",
+        "pt": "Ação"
       },
       {
         "word": "Cartoon",
-        "emoji": "🎨"
+        "emoji": "🎨",
+        "pt": "Desenho"
       },
       {
         "word": "Drink",
-        "emoji": "🥤"
+        "emoji": "🥤",
+        "pt": "Bebida"
       }
     ],
     "sentence": [
@@ -5216,43 +5345,53 @@ const gameData = {
     "matching": [
       {
         "word": "Roller Coaster",
-        "emoji": "🎢"
+        "emoji": "🎢",
+        "pt": "Montanha-russa"
       },
       {
         "word": "Ferris Wheel",
-        "emoji": "🎡"
+        "emoji": "🎡",
+        "pt": "Roda-gigante"
       },
       {
         "word": "Carousel",
-        "emoji": "🎠"
+        "emoji": "🎠",
+        "pt": "Carrossel"
       },
       {
         "word": "Ticket",
-        "emoji": "🎟️"
+        "emoji": "🎟️",
+        "pt": "Ingresso"
       },
       {
         "word": "Cotton Candy",
-        "emoji": "🍭"
+        "emoji": "🍭",
+        "pt": "Algodão doce"
       },
       {
         "word": "Balloon",
-        "emoji": "🎈"
+        "emoji": "🎈",
+        "pt": "Balão"
       },
       {
         "word": "Prize",
-        "emoji": "🧸"
+        "emoji": "🧸",
+        "pt": "Prêmio"
       },
       {
         "word": "Tent",
-        "emoji": "🎪"
+        "emoji": "🎪",
+        "pt": "Tenda"
       },
       {
         "word": "Popcorn",
-        "emoji": "🍿"
+        "emoji": "🍿",
+        "pt": "Pipoca"
       },
       {
         "word": "Game",
-        "emoji": "🎯"
+        "emoji": "🎯",
+        "pt": "Jogo"
       }
     ],
     "sentence": [
@@ -5606,43 +5745,53 @@ const gameData = {
     "matching": [
       {
         "word": "House",
-        "emoji": "🏠"
+        "emoji": "🏠",
+        "pt": "Casa"
       },
       {
         "word": "Kitchen",
-        "emoji": "🍳"
+        "emoji": "🍳",
+        "pt": "Cozinha"
       },
       {
         "word": "Bedroom",
-        "emoji": "🛏️"
+        "emoji": "🛏️",
+        "pt": "Quarto"
       },
       {
         "word": "Bathroom",
-        "emoji": "🚿"
+        "emoji": "🚿",
+        "pt": "Banheiro"
       },
       {
         "word": "Living Room",
-        "emoji": "🛋️"
+        "emoji": "🛋️",
+        "pt": "Sala de estar"
       },
       {
         "word": "Broom",
-        "emoji": "🧹"
+        "emoji": "🧹",
+        "pt": "Vassoura"
       },
       {
         "word": "Dishes",
-        "emoji": "🍽️"
+        "emoji": "🍽️",
+        "pt": "Louças"
       },
       {
         "word": "Trash",
-        "emoji": "🗑️"
+        "emoji": "🗑️",
+        "pt": "Lixo"
       },
       {
         "word": "Sofa",
-        "emoji": "🛋️"
+        "emoji": "🛋️",
+        "pt": "Sofá"
       },
       {
         "word": "Window",
-        "emoji": "🪟"
+        "emoji": "🪟",
+        "pt": "Janela"
       }
     ],
     "sentence": [

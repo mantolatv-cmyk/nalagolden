@@ -127,9 +127,9 @@
           </div>
         </div>
 
-        <button class="quiz-next-btn hidden" id="next-btn" onclick="nextCard()" style="margin: 0 auto; display: flex;">
+        <button class="quiz-next-btn hidden" id="next-btn" onclick="nextCard()" style="margin: 0 auto;">
           Próxima Palavra
-          <span class="next-arrow">→</span>
+          <span class="next-arrow">➡️</span>
         </button>
       </div>
     </div>
@@ -163,7 +163,7 @@
     // Carregar flashcards (se não houver flashcards definidos no módulo, tenta usar os dados de matching)
     let flashcards = moduleData.flashcards;
     if (!flashcards && moduleData.matching) {
-      flashcards = moduleData.matching.map(m => ({ en: m.word, pt: "???", emoji: m.emoji }));
+      flashcards = moduleData.matching.map(m => ({ en: m.word, pt: m.pt || "???", emoji: m.emoji }));
     }
     if (!flashcards) flashcards = [{ en: "No words", pt: "Sem palavras", emoji: "❓" }];
 
