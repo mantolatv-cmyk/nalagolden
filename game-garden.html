@@ -204,7 +204,7 @@
       document.body.style.backgroundImage = moduleData.bgImage;
     }
 
-    let words = [...moduleData.garden];
+    let words = moduleData.garden ? [...moduleData.garden] : (moduleData.matching ? moduleData.matching.map(m => m.word) : []);
     let targetWord = "";
 
     const targetEl = document.getElementById('target-word');

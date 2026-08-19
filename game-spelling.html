@@ -118,7 +118,7 @@
     const moduleData = gameData[currentModule] || gameData['colors'];
     
     let currentWordIndex = 0;
-    const words = moduleData.spelling;
+    const words = moduleData.spelling || (moduleData.matching ? moduleData.matching.map(m => m.word) : []);
     let selectedLetters = [];
 
     const previewEl = document.getElementById('word-preview');

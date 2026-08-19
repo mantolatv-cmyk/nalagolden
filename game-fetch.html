@@ -109,7 +109,7 @@
     const currentModule = urlParams.get('module') || localStorage.getItem('selectedModule') || 'colors';
     const moduleData = gameData[currentModule] || gameData['colors'];
     
-    let items = [...moduleData.fetch];
+    let items = moduleData.fetch ? [...moduleData.fetch] : (moduleData.matching ? moduleData.matching.map(m => m.word) : []);
     let currentTarget = null;
     
     const targetEl = document.getElementById('fetch-target');
