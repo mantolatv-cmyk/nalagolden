@@ -8289,6 +8289,477 @@ const gameData = {
       }
     ]
   }
+,
+  "camping": {
+    "title": "Camping Adventure",
+    "bgImage": "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+    "emoji": "🏕️",
+    "story": [
+      {
+        "text": "Hi Laís! Are you ready for our camping adventure?"
+      },
+      {
+        "text": "Yes, Nala! I packed my backpack with everything we need."
+      },
+      {
+        "text": "Great! First, we need to pitch the tent in the forest."
+      },
+      {
+        "text": "I can help with that. Look at the tall trees!"
+      },
+      {
+        "text": "Now it's dark. Let's start a campfire to stay warm."
+      },
+      {
+        "text": "Can we roast marshmallows now, Nala?"
+      },
+      {
+        "text": "Of course! Roasted marshmallows are the best."
+      },
+      {
+        "text": "Look up! The stars are so bright tonight."
+      },
+      {
+        "text": "Yes, they are beautiful. Did you bring the flashlight?"
+      },
+      {
+        "text": "I did. Let's go into our sleeping bags now. Good night!"
+      }
+    ],
+    "matching": [
+      {
+        "word": "Tent",
+        "emoji": "⛺",
+        "pt": "Barraca"
+      },
+      {
+        "word": "Backpack",
+        "emoji": "🎒",
+        "pt": "Mochila"
+      },
+      {
+        "word": "Campfire",
+        "emoji": "🔥",
+        "pt": "Fogueira"
+      },
+      {
+        "word": "Flashlight",
+        "emoji": "🔦",
+        "pt": "Lanterna"
+      },
+      {
+        "word": "Forest",
+        "emoji": "🌲",
+        "pt": "Floresta"
+      },
+      {
+        "word": "Stars",
+        "emoji": "⭐",
+        "pt": "Estrelas"
+      },
+      {
+        "word": "Sleeping bag",
+        "emoji": "🛌",
+        "pt": "Saco de dormir"
+      },
+      {
+        "word": "Compass",
+        "emoji": "🧭",
+        "pt": "Bússola"
+      },
+      {
+        "word": "Bug spray",
+        "emoji": "🦟",
+        "pt": "Repelente"
+      },
+      {
+        "word": "Marshmallow",
+        "emoji": "🍡",
+        "pt": "Marshmallow"
+      }
+    ],
+    "sentence": [
+      {
+        "words": [
+          "We",
+          "pitched",
+          "a",
+          "tent",
+          "in",
+          "the",
+          "forest"
+        ],
+        "translation": "Nós montamos uma barraca na floresta"
+      },
+      {
+        "words": [
+          "I",
+          "roasted",
+          "marshmallows",
+          "on",
+          "the",
+          "campfire"
+        ],
+        "translation": "Eu assei marshmallows na fogueira"
+      },
+      {
+        "words": [
+          "She",
+          "looked",
+          "at",
+          "the",
+          "bright",
+          "stars"
+        ],
+        "translation": "Ela olhou para as estrelas brilhantes"
+      },
+      {
+        "words": [
+          "He",
+          "forgot",
+          "his",
+          "heavy",
+          "backpack",
+          "at",
+          "home"
+        ],
+        "translation": "Ele esqueceu sua mochila pesada em casa"
+      },
+      {
+        "words": [
+          "They",
+          "slept",
+          "in",
+          "a",
+          "warm",
+          "sleeping",
+          "bag"
+        ],
+        "translation": "Eles dormiram em um saco de dormir quente"
+      }
+    ],
+    "truefalse": [
+      {
+        "question": "You use a flashlight to see in the dark.",
+        "answer": true,
+        "translation": "Você usa uma lanterna para ver no escuro."
+      },
+      {
+        "question": "A compass helps you get lost.",
+        "answer": false,
+        "translation": "Uma bússola ajuda você a se perder."
+      },
+      {
+        "question": "You need a sleeping bag to roast marshmallows.",
+        "answer": false,
+        "translation": "Você precisa de um saco de dormir para assar marshmallows."
+      },
+      {
+        "question": "You can see stars in the sky at night.",
+        "answer": true,
+        "translation": "Você pode ver estrelas no céu à noite."
+      },
+      {
+        "question": "Bug spray keeps mosquitoes away.",
+        "answer": true,
+        "translation": "O repelente afasta os mosquitos."
+      }
+    ],
+    "speaking": [
+      {
+        "question": "Have you ever slept in a tent?",
+        "translation": "Você já dormiu em uma barraca?",
+        "starter": "Yes, I have slept... / No, I haven't...",
+        "nalaTip": "Use o Present Perfect!"
+      },
+      {
+        "question": "What do you like to eat when camping?",
+        "translation": "O que você gosta de comer acampando?",
+        "starter": "I like to eat...",
+        "nalaTip": "Marshmallows? S'mores?"
+      },
+      {
+        "question": "Are you afraid of the dark forest?",
+        "translation": "Você tem medo da floresta escura?",
+        "starter": "Yes, a little bit... / No, I am brave!",
+        "nalaTip": "Be brave like Nala!"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Nós montamos a barraca\"</span>",
+        "options": [
+          "We roasted marshmallows",
+          "We pitched the tent",
+          "We saw the stars",
+          "We forgot the backpack"
+        ],
+        "correct": 1,
+        "explanation": "Pitch a tent = Montar uma barraca! ⛺",
+        "nalaMsg": "Great job, camper!"
+      },
+      {
+        "question": "Which item do you need to see in the dark?",
+        "options": [
+          "Compass",
+          "Sleeping bag",
+          "Flashlight",
+          "Bug spray"
+        ],
+        "correct": 2,
+        "explanation": "Flashlight é lanterna! 🔦",
+        "nalaMsg": "You found the light!"
+      },
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Saco de dormir\"</span>",
+        "options": [
+          "Backpack",
+          "Sleeping bag",
+          "Campfire",
+          "Tent"
+        ],
+        "correct": 1,
+        "explanation": "Sleeping bag! 🛌",
+        "nalaMsg": "Cozy and warm!"
+      }
+    ]
+  },
+  "tech": {
+    "title": "Music & Tech",
+    "bgImage": "linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)",
+    "emoji": "🎧",
+    "story": [
+      {
+        "text": "Laís, what are you listening to on your headphones?"
+      },
+      {
+        "text": "I am listening to my favorite playlist, Nala!"
+      },
+      {
+        "text": "Wow! Have you ever been to a concert of this singer?"
+      },
+      {
+        "text": "No, I haven't. But I watch her videos on my screen."
+      },
+      {
+        "text": "Your phone is faster than mine. Can we play a game?"
+      },
+      {
+        "text": "Sure! I have a new app on my tablet."
+      },
+      {
+        "text": "Oh no, my battery is low. Do you have a charger?"
+      },
+      {
+        "text": "Yes, I always carry my charger in my backpack."
+      },
+      {
+        "text": "Great! Now we can play video games all afternoon."
+      },
+      {
+        "text": "Let's take a selfie and share it with our followers!"
+      }
+    ],
+    "matching": [
+      {
+        "word": "Headphones",
+        "emoji": "🎧",
+        "pt": "Fones de ouvido"
+      },
+      {
+        "word": "Playlist",
+        "emoji": "🎵",
+        "pt": "Lista de músicas"
+      },
+      {
+        "word": "Screen",
+        "emoji": "📱",
+        "pt": "Tela"
+      },
+      {
+        "word": "Video game",
+        "emoji": "🎮",
+        "pt": "Videogame"
+      },
+      {
+        "word": "Charger",
+        "emoji": "🔌",
+        "pt": "Carregador"
+      },
+      {
+        "word": "Follower",
+        "emoji": "👥",
+        "pt": "Seguidor"
+      },
+      {
+        "word": "App",
+        "emoji": "📲",
+        "pt": "Aplicativo"
+      },
+      {
+        "word": "Singer",
+        "emoji": "🎤",
+        "pt": "Cantor(a)"
+      },
+      {
+        "word": "Concert",
+        "emoji": "🎫",
+        "pt": "Show/Concerto"
+      },
+      {
+        "word": "Keyboard",
+        "emoji": "⌨️",
+        "pt": "Teclado"
+      }
+    ],
+    "sentence": [
+      {
+        "words": [
+          "My",
+          "new",
+          "phone",
+          "is",
+          "faster",
+          "than",
+          "yours"
+        ],
+        "translation": "Meu celular novo é mais rápido que o seu"
+      },
+      {
+        "words": [
+          "Have",
+          "you",
+          "ever",
+          "been",
+          "to",
+          "a",
+          "concert"
+        ],
+        "translation": "Você já foi a um show?"
+      },
+      {
+        "words": [
+          "I",
+          "need",
+          "a",
+          "charger",
+          "for",
+          "my",
+          "tablet"
+        ],
+        "translation": "Eu preciso de um carregador para meu tablet"
+      },
+      {
+        "words": [
+          "She",
+          "is",
+          "listening",
+          "to",
+          "her",
+          "favorite",
+          "playlist"
+        ],
+        "translation": "Ela está escutando sua lista de músicas favorita"
+      },
+      {
+        "words": [
+          "He",
+          "has",
+          "many",
+          "followers",
+          "on",
+          "this",
+          "app"
+        ],
+        "translation": "Ele tem muitos seguidores neste aplicativo"
+      }
+    ],
+    "truefalse": [
+      {
+        "question": "You use a charger when your battery is full.",
+        "answer": false,
+        "translation": "Você usa um carregador quando sua bateria está cheia."
+      },
+      {
+        "question": "Headphones go on your ears to listen to music.",
+        "answer": true,
+        "translation": "Fones de ouvido vão nas suas orelhas para escutar música."
+      },
+      {
+        "question": "A singer is someone who plays video games professionally.",
+        "answer": false,
+        "translation": "Um cantor é alguém que joga videogames profissionalmente."
+      },
+      {
+        "question": "You can download an app on your smartphone.",
+        "answer": true,
+        "translation": "Você pode baixar um aplicativo no seu smartphone."
+      },
+      {
+        "question": "A keyboard is used for typing text.",
+        "answer": true,
+        "translation": "Um teclado é usado para digitar texto."
+      }
+    ],
+    "speaking": [
+      {
+        "question": "Who is your favorite singer?",
+        "translation": "Quem é o seu cantor favorito?",
+        "starter": "My favorite singer is...",
+        "nalaTip": "Pop? Rock? K-pop?"
+      },
+      {
+        "question": "Do you prefer playing video games or listening to music?",
+        "translation": "Você prefere jogar videogame ou escutar música?",
+        "starter": "I prefer...",
+        "nalaTip": "Ambos são legais!"
+      },
+      {
+        "question": "Have you ever lost your phone charger?",
+        "translation": "Você já perdeu o carregador do seu celular?",
+        "starter": "Yes, I have. / No, never!",
+        "nalaTip": "É muito chato quando isso acontece!"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What do you need when your phone is at 1%?",
+        "options": [
+          "A keyboard",
+          "A playlist",
+          "A charger",
+          "A concert"
+        ],
+        "correct": 2,
+        "explanation": "Você precisa de um Charger (Carregador)! 🔌",
+        "nalaMsg": "Save the battery!"
+      },
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Fones de ouvido\"</span>",
+        "options": [
+          "Followers",
+          "Headphones",
+          "Screen",
+          "App"
+        ],
+        "correct": 1,
+        "explanation": "Headphones! 🎧",
+        "nalaMsg": "Listen carefully!"
+      },
+      {
+        "question": "Complete: \"My new computer is ______ than the old one.\"",
+        "options": [
+          "fast",
+          "faster",
+          "fastest",
+          "the fast"
+        ],
+        "correct": 1,
+        "explanation": "Faster (mais rápido) é o comparativo correto! 💻",
+        "nalaMsg": "Zoom zoom!"
+      }
+    ]
+  }
 };
 
 // Auto-apply background image based on selected module
