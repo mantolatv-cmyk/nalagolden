@@ -178,7 +178,7 @@
       <div class="garden-prompt" id="prompt-container">
         <h2 style="color: var(--purple-800); margin-bottom: 10px; font-family: 'Outfit', sans-serif; font-size: 2.2rem; text-transform: uppercase; letter-spacing: 2px;">Word Garden</h2>
         <p style="font-size: 1.2rem; color: var(--purple-700); margin-bottom: 30px; font-weight: 600;">Encontre e clique na palavra correta para colher a flor!</p>
-        Colha a flor: <span class="garden-target" id="target-word"></span>
+        <span class="garden-target" id="target-word"></span>
       </div>
       <div class="flowers-area" id="flowers-area"></div>
     </div>
@@ -242,8 +242,12 @@
       if (typeof targetWord === 'object') {
         promptContainer.innerHTML = `<div style="font-size: 1.8rem; margin-bottom: 20px; line-height: 1.4; color: var(--purple-800); text-shadow: 0 1px 3px rgba(255,255,255,0.8);">${targetWord.question}</div>`;
       } else {
-        const ptWord = dict[targetWord.toLowerCase()] || targetWord;
-        promptContainer.innerHTML = `Colha a flor: <span class="garden-target">${ptWord}</span>`;
+        let ptWord = dict[targetWord.toLowerCase()] || targetWord;
+        if (moduleData.matching) {
+          const matchObj = moduleData.matching.find(m => m.word.toLowerCase() === targetWord.toLowerCase());
+          if (matchObj && matchObj.pt) ptWord = matchObj.pt;
+        }
+        promptContainer.innerHTML = `<span class="garden-target">${ptWord}</span>`;
       }
       
       const currentFlowers = [...words].sort(() => 0.5 - Math.random());
