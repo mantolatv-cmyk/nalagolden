@@ -8292,7 +8292,7 @@ const gameData = {
 ,
   "camping": {
     "title": "Camping Adventure",
-    "bgImage": "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+    "bgImage": "url('images/bg-travel.png')",
     "emoji": "🏕️",
     "story": [
       {
@@ -8526,7 +8526,7 @@ const gameData = {
   },
   "tech": {
     "title": "Music & Tech",
-    "bgImage": "linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)",
+    "bgImage": "url('images/bg-cinema.png')",
     "emoji": "🎧",
     "story": [
       {
