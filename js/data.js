@@ -9010,7 +9010,75 @@ const gameData = {
   }
 ,
   "camping": {
-    "title": "Camping Adventure",
+    "title": "Camping Adventure",,
+    "fetch": [
+          {
+                "id": "tent",
+                "name": "Tent",
+                "emoji": "⛺",
+                "correct": true
+          },
+          {
+                "id": "flashlight",
+                "name": "Flashlight",
+                "emoji": "🔦",
+                "correct": true
+          },
+          {
+                "id": "campfire",
+                "name": "Campfire",
+                "emoji": "🔥",
+                "correct": true
+          },
+          {
+                "id": "backpack",
+                "name": "Backpack",
+                "emoji": "🎒",
+                "correct": true
+          },
+          {
+                "id": "compass",
+                "name": "Compass",
+                "emoji": "🧭",
+                "correct": true
+          },
+          {
+                "id": "map",
+                "name": "Map",
+                "emoji": "🗺️",
+                "correct": true
+          },
+          {
+                "id": "binoculars",
+                "name": "Binoculars",
+                "emoji": "🔭",
+                "correct": true
+          },
+          {
+                "id": "television",
+                "name": "Television",
+                "emoji": "📺",
+                "correct": false
+          },
+          {
+                "id": "keyboard",
+                "name": "Keyboard",
+                "emoji": "⌨️",
+                "correct": false
+          },
+          {
+                "id": "fridge",
+                "name": "Fridge",
+                "emoji": "🧊",
+                "correct": false
+          },
+          {
+                "id": "laptop",
+                "name": "Laptop",
+                "emoji": "💻",
+                "correct": false
+          }
+    ]
     "bgImage": "url('images/bg-travel.png')",
     "emoji": "🏕️",
     "story": [
@@ -9447,7 +9515,75 @@ const gameData = {
     ]
   },
   "tech": {
-    "title": "Music & Tech",
+    "title": "Music & Tech",,
+    "fetch": [
+          {
+                "id": "headphones",
+                "name": "Headphones",
+                "emoji": "🎧",
+                "correct": true
+          },
+          {
+                "id": "smartphone",
+                "name": "Smartphone",
+                "emoji": "📱",
+                "correct": true
+          },
+          {
+                "id": "laptop",
+                "name": "Laptop",
+                "emoji": "💻",
+                "correct": true
+          },
+          {
+                "id": "keyboard",
+                "name": "Keyboard",
+                "emoji": "⌨️",
+                "correct": true
+          },
+          {
+                "id": "charger",
+                "name": "Charger",
+                "emoji": "🔌",
+                "correct": true
+          },
+          {
+                "id": "radio",
+                "name": "Radio",
+                "emoji": "📻",
+                "correct": true
+          },
+          {
+                "id": "microphone",
+                "name": "Microphone",
+                "emoji": "🎤",
+                "correct": true
+          },
+          {
+                "id": "apple",
+                "name": "Apple",
+                "emoji": "🍎",
+                "correct": false
+          },
+          {
+                "id": "bear",
+                "name": "Bear",
+                "emoji": "🐻",
+                "correct": false
+          },
+          {
+                "id": "tree",
+                "name": "Tree",
+                "emoji": "🌳",
+                "correct": false
+          },
+          {
+                "id": "car",
+                "name": "Car",
+                "emoji": "🚗",
+                "correct": false
+          }
+    ]
     "bgImage": "url('images/bg-cinema.png')",
     "emoji": "🎧",
     "story": [
