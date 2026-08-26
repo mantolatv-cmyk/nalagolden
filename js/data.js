@@ -1453,8 +1453,9 @@ const gameData = {
           "stayed",
           "here",
           "for",
-          "about",
+          "exactly",
           "nine",
+          "long",
           "days"
         ],
         "translation": "Eles vão ficar aqui por cerca de nove dias"
@@ -9010,7 +9011,7 @@ const gameData = {
   }
 ,
   "camping": {
-    "title": "Camping Adventure",,
+    "title": "Camping Adventure",
     "fetch": [
           {
                 "id": "tent",
@@ -9078,7 +9079,7 @@ const gameData = {
                 "emoji": "💻",
                 "correct": false
           }
-    ]
+    ],
     "bgImage": "url('images/bg-travel.png')",
     "emoji": "🏕️",
     "story": [
@@ -9172,9 +9173,12 @@ const gameData = {
           "built",
           "a",
           "warm",
-          "campfire"
+          "campfire",
+          "in",
+          "the",
+          "forest"
         ],
-        "translation": "Eles construíram uma fogueira quente"
+        "translation": "Eles construíram uma fogueira quente na floresta"
       },
       {
         "words": [
@@ -9182,19 +9186,25 @@ const gameData = {
           "slept",
           "in",
           "the",
-          "tent"
+          "small",
+          "tent",
+          "last",
+          "night"
         ],
-        "translation": "Nós dormimos na barraca"
+        "translation": "Nós dormimos na barraca pequena na noite passada"
       },
       {
         "words": [
           "He",
           "used",
           "a",
+          "bright",
           "flashlight",
-          "yesterday"
+          "in",
+          "the",
+          "dark"
         ],
-        "translation": "Ele usou uma lanterna ontem"
+        "translation": "Ele usou uma lanterna brilhante no escuro"
       },
       {
         "words": [
@@ -9203,9 +9213,11 @@ const gameData = {
           "bug",
           "spray",
           "every",
-          "night"
+          "night",
+          "at",
+          "camp"
         ],
-        "translation": "Ela usa repelente toda noite"
+        "translation": "Ela usa repelente toda noite no acampamento"
       },
       {
         "words": [
@@ -9214,15 +9226,18 @@ const gameData = {
           "looking",
           "at",
           "the",
-          "stars"
+          "bright",
+          "stars",
+          "outside"
         ],
-        "translation": "Eu amo olhar para as estrelas"
+        "translation": "Eu amo olhar para as estrelas brilhantes lá fora"
       },
       {
         "words": [
           "We",
           "pitched",
           "a",
+          "green",
           "tent",
           "in",
           "the",
@@ -9234,12 +9249,14 @@ const gameData = {
         "words": [
           "I",
           "roasted",
+          "sweet",
           "marshmallows",
           "on",
           "the",
+          "warm",
           "campfire"
         ],
-        "translation": "Eu assei marshmallows na fogueira"
+        "translation": "Eu assei marshmallows doces na fogueira quente"
       },
       {
         "words": [
@@ -9248,9 +9265,11 @@ const gameData = {
           "at",
           "the",
           "bright",
-          "stars"
+          "stars",
+          "last",
+          "night"
         ],
-        "translation": "Ela olhou para as estrelas brilhantes"
+        "translation": "Ela olhou para as estrelas brilhantes noite passada"
       },
       {
         "words": [
@@ -9258,23 +9277,25 @@ const gameData = {
           "forgot",
           "his",
           "heavy",
+          "green",
           "backpack",
           "at",
           "home"
         ],
-        "translation": "Ele esqueceu sua mochila pesada em casa"
+        "translation": "Ele esqueceu sua mochila verde pesada em casa"
       },
       {
         "words": [
           "They",
           "slept",
-          "in",
+          "inside",
           "a",
+          "very",
           "warm",
           "sleeping",
           "bag"
         ],
-        "translation": "Eles dormiram em um saco de dormir quente"
+        "translation": "Eles dormiram dentro de um saco de dormir muito quente"
       }
     ],
     "truefalse": [
@@ -9515,7 +9536,7 @@ const gameData = {
     ]
   },
   "tech": {
-    "title": "Music & Tech",,
+    "title": "Music & Tech",
     "fetch": [
           {
                 "id": "headphones",
@@ -9583,7 +9604,7 @@ const gameData = {
                 "emoji": "🚗",
                 "correct": false
           }
-    ]
+    ],
     "bgImage": "url('images/bg-cinema.png')",
     "emoji": "🎧",
     "story": [
@@ -9676,59 +9697,70 @@ const gameData = {
           "She",
           "bought",
           "a",
+          "brand",
           "new",
           "smartphone",
-          "yesterday"
+          "yesterday",
+          "morning"
         ],
-        "translation": "Ela comprou um novo smartphone ontem"
+        "translation": "Ela comprou um smartphone novinho ontem de manhã"
       },
       {
         "words": [
           "He",
           "plays",
+          "fun",
           "video",
           "games",
           "all",
-          "day"
+          "day",
+          "long"
         ],
-        "translation": "Ele joga videogame o dia todo"
+        "translation": "Ele joga videogames divertidos o dia todo"
       },
       {
         "words": [
           "They",
+          "always",
           "listen",
           "to",
+          "loud",
           "music",
           "with",
           "headphones"
         ],
-        "translation": "Eles escutam música com fones de ouvido"
+        "translation": "Eles sempre escutam música alta com fones de ouvido"
       },
       {
         "words": [
           "I",
+          "really",
           "need",
           "to",
           "charge",
           "my",
+          "phone",
           "battery"
         ],
-        "translation": "Eu preciso carregar minha bateria"
+        "translation": "Eu realmente preciso carregar a bateria do meu celular"
       },
       {
         "words": [
           "We",
           "watched",
           "a",
+          "very",
           "funny",
+          "cat",
           "video",
           "online"
         ],
-        "translation": "Nós assistimos a um vídeo engraçado online"
+        "translation": "Nós assistimos a um vídeo de gato muito engraçado online"
       },
       {
         "words": [
           "My",
+          "brand",
           "new",
           "phone",
           "is",
@@ -9740,35 +9772,39 @@ const gameData = {
       },
       {
         "words": [
-          "Have",
+          "Did",
           "you",
-          "ever",
-          "been",
+          "go",
           "to",
           "a",
-          "concert"
+          "music",
+          "concert",
+          "yesterday"
         ],
-        "translation": "Você já foi a um show?"
+        "translation": "Você foi a um show de música ontem?"
       },
       {
         "words": [
           "I",
           "need",
           "a",
+          "new",
           "charger",
           "for",
           "my",
           "tablet"
         ],
-        "translation": "Eu preciso de um carregador para meu tablet"
+        "translation": "Eu preciso de um novo carregador para meu tablet"
       },
       {
         "words": [
           "She",
+          "always",
           "listens",
           "to",
           "her",
           "favorite",
+          "music",
           "playlist"
         ],
         "translation": "Ela está escutando sua lista de músicas favorita"
@@ -9778,12 +9814,13 @@ const gameData = {
           "He",
           "has",
           "many",
+          "new",
           "followers",
           "on",
           "this",
           "app"
         ],
-        "translation": "Ele tem muitos seguidores neste aplicativo"
+        "translation": "Ele tem muitos seguidores novos neste aplicativo"
       }
     ],
     "truefalse": [
