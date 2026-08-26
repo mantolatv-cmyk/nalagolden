@@ -8381,6 +8381,58 @@ const gameData = {
     "sentence": [
       {
         "words": [
+          "They",
+          "built",
+          "a",
+          "warm",
+          "campfire"
+        ],
+        "translation": "Eles construíram uma fogueira quente"
+      },
+      {
+        "words": [
+          "We",
+          "slept",
+          "in",
+          "the",
+          "tent"
+        ],
+        "translation": "Nós dormimos na barraca"
+      },
+      {
+        "words": [
+          "He",
+          "used",
+          "a",
+          "flashlight",
+          "yesterday"
+        ],
+        "translation": "Ele usou uma lanterna ontem"
+      },
+      {
+        "words": [
+          "She",
+          "wears",
+          "bug",
+          "spray",
+          "every",
+          "night"
+        ],
+        "translation": "Ela usa repelente toda noite"
+      },
+      {
+        "words": [
+          "I",
+          "love",
+          "looking",
+          "at",
+          "the",
+          "stars"
+        ],
+        "translation": "Eu amo olhar para as estrelas"
+      },
+      {
+        "words": [
           "We",
           "pitched",
           "a",
@@ -8492,6 +8544,48 @@ const gameData = {
     ],
     "speaking": [
       {
+        "question": "Have you ever made a campfire?",
+        "translation": "Você já fez uma fogueira?",
+        "starter": "Yes, I have. / No, I haven't.",
+        "nalaTip": "It's so warm!"
+      },
+      {
+        "question": "Do you like sleeping in a tent?",
+        "translation": "Você gosta de dormir em uma barraca?",
+        "starter": "Yes, I do. / No, I prefer a bed.",
+        "nalaTip": "Under the stars!"
+      },
+      {
+        "question": "What is your favorite camping food?",
+        "translation": "Qual sua comida de acampamento favorita?",
+        "starter": "My favorite is...",
+        "nalaTip": "Hot dogs?"
+      },
+      {
+        "question": "Have you seen a bear?",
+        "translation": "Você já viu um urso?",
+        "starter": "No, never!",
+        "nalaTip": "They are big!"
+      },
+      {
+        "question": "Can you use a compass?",
+        "translation": "Você sabe usar uma bússola?",
+        "starter": "Yes, I can. / No, I can't.",
+        "nalaTip": "It shows the way."
+      },
+      {
+        "question": "Do you have a flashlight at home?",
+        "translation": "Você tem uma lanterna em casa?",
+        "starter": "Yes, I do.",
+        "nalaTip": "For the dark!"
+      },
+      {
+        "question": "Are mosquitoes annoying?",
+        "translation": "Mosquitos são chatos?",
+        "starter": "Yes, they are very annoying.",
+        "nalaTip": "Use bug spray!"
+      },
+      {
         "question": "Have you ever slept in a tent?",
         "translation": "Você já dormiu em uma barraca?",
         "starter": "Yes, I have slept... / No, I haven't...",
@@ -8511,6 +8605,30 @@ const gameData = {
       }
     ],
     "quiz": [
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Fogueira\"</span>",
+        "options": [
+          "Tent",
+          "Compass",
+          "Campfire",
+          "Flashlight"
+        ],
+        "correct": 2,
+        "explanation": "Campfire é fogueira! 🔥",
+        "nalaMsg": "Warm and cozy!"
+      },
+      {
+        "question": "Onde os ursos dormem no inverno?",
+        "options": [
+          "Tent",
+          "Cave",
+          "Hotel",
+          "Tree"
+        ],
+        "correct": 1,
+        "explanation": "Eles dormem em cavernas (Caves)! 🐻",
+        "nalaMsg": "Shhh, they are sleeping!"
+      },
       {
         "question": "Traduzir: <span class=\"quiz-highlight\">\"Nós montamos a barraca\"</span>",
         "options": [
@@ -8640,6 +8758,61 @@ const gameData = {
     "sentence": [
       {
         "words": [
+          "She",
+          "bought",
+          "a",
+          "new",
+          "smartphone",
+          "yesterday"
+        ],
+        "translation": "Ela comprou um novo smartphone ontem"
+      },
+      {
+        "words": [
+          "He",
+          "plays",
+          "video",
+          "games",
+          "all",
+          "day"
+        ],
+        "translation": "Ele joga videogame o dia todo"
+      },
+      {
+        "words": [
+          "They",
+          "listen",
+          "to",
+          "music",
+          "with",
+          "headphones"
+        ],
+        "translation": "Eles escutam música com fones de ouvido"
+      },
+      {
+        "words": [
+          "I",
+          "need",
+          "to",
+          "charge",
+          "my",
+          "battery"
+        ],
+        "translation": "Eu preciso carregar minha bateria"
+      },
+      {
+        "words": [
+          "We",
+          "watched",
+          "a",
+          "funny",
+          "video",
+          "online"
+        ],
+        "translation": "Nós assistimos a um vídeo engraçado online"
+      },
+      {
+        "words": [
           "My",
           "new",
           "phone",
@@ -8753,6 +8926,48 @@ const gameData = {
     ],
     "speaking": [
       {
+        "question": "Do you have a smartphone?",
+        "translation": "Você tem um smartphone?",
+        "starter": "Yes, I do.",
+        "nalaTip": "Everyone has one!"
+      },
+      {
+        "question": "How often do you play video games?",
+        "translation": "Com que frequência você joga videogame?",
+        "starter": "I play every day. / Sometimes.",
+        "nalaTip": "It's fun!"
+      },
+      {
+        "question": "Who is your favorite YouTuber?",
+        "translation": "Quem é seu YouTuber favorito?",
+        "starter": "My favorite is...",
+        "nalaTip": "So many videos!"
+      },
+      {
+        "question": "Do you listen to music on your phone?",
+        "translation": "Você escuta música no seu celular?",
+        "starter": "Yes, all the time.",
+        "nalaTip": "Use headphones!"
+      },
+      {
+        "question": "Have you ever broken a screen?",
+        "translation": "Você já quebrou uma tela?",
+        "starter": "No, never! / Yes, once.",
+        "nalaTip": "Be careful!"
+      },
+      {
+        "question": "What is your favorite app?",
+        "translation": "Qual é o seu aplicativo favorito?",
+        "starter": "My favorite app is...",
+        "nalaTip": "Games? Social media?"
+      },
+      {
+        "question": "Do you like taking selfies?",
+        "translation": "Você gosta de tirar selfies?",
+        "starter": "Yes, I love it!",
+        "nalaTip": "Say cheese!"
+      },
+      {
         "question": "Who is your favorite singer?",
         "translation": "Quem é o seu cantor favorito?",
         "starter": "My favorite singer is...",
@@ -8772,6 +8987,30 @@ const gameData = {
       }
     ],
     "quiz": [
+      {
+        "question": "O que você usa para ouvir música sem incomodar os outros?",
+        "options": [
+          "Keyboard",
+          "Headphones",
+          "Charger",
+          "Screen"
+        ],
+        "correct": 1,
+        "explanation": "Headphones são fones de ouvido! 🎧",
+        "nalaMsg": "Turn up the volume!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Tela\"</span> em inglês?",
+        "options": [
+          "Screen",
+          "App",
+          "Follower",
+          "Playlist"
+        ],
+        "correct": 0,
+        "explanation": "Screen é tela! 📱",
+        "nalaMsg": "Look here!"
+      },
       {
         "question": "What do you need when your phone is at 1%?",
         "options": [
