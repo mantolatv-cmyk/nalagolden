@@ -375,6 +375,66 @@ const gameData = {
     ],
     "quiz": [
       {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Laranja\"</span> (cor) em inglês?",
+        "options": [
+          "Yellow",
+          "Orange",
+          "Pink",
+          "Red"
+        ],
+        "correct": 1,
+        "explanation": "Isso mesmo! \"Orange\" é laranja! 🍊",
+        "nalaMsg": "Colorful!"
+      },
+      {
+        "question": "Qual a cor <span class=\"quiz-highlight\">\"Roxo\"</span>?",
+        "options": [
+          "Blue",
+          "Green",
+          "Purple",
+          "Brown"
+        ],
+        "correct": 2,
+        "explanation": "\"Purple\" é roxo! 💜",
+        "nalaMsg": "Beautiful!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Branco\"</span> em inglês?",
+        "options": [
+          "Black",
+          "White",
+          "Grey",
+          "Yellow"
+        ],
+        "correct": 1,
+        "explanation": "\"White\" é branco! ☁️",
+        "nalaMsg": "Bright!"
+      },
+      {
+        "question": "O <span class=\"quiz-highlight\">\"Preto\"</span> se diz:",
+        "options": [
+          "Brown",
+          "White",
+          "Black",
+          "Pink"
+        ],
+        "correct": 2,
+        "explanation": "\"Black\" é preto! 🐈‍⬛",
+        "nalaMsg": "Like the night!"
+      },
+      {
+        "question": "E a cor <span class=\"quiz-highlight\">\"Marrom\"</span>?",
+        "options": [
+          "Brown",
+          "Orange",
+          "Red",
+          "Grey"
+        ],
+        "correct": 0,
+        "explanation": "\"Brown\" é marrom! 🐻",
+        "nalaMsg": "Like a bear!"
+      },
+      {
         "question": "Como se diz <span class=\"quiz-highlight\">\"Vermelho\"</span> em inglês?",
         "options": [
           "Blue",
@@ -923,6 +983,66 @@ const gameData = {
     ],
     "quiz": [
       {
+        "question": "Qual é o nome do <span class=\"quiz-highlight\">\"Coelho\"</span>?",
+        "options": [
+          "Dog",
+          "Rabbit",
+          "Turtle",
+          "Fish"
+        ],
+        "correct": 1,
+        "explanation": "Rabbit é coelho! 🐇",
+        "nalaMsg": "Hop hop!"
+      },
+      {
+        "question": "O <span class=\"quiz-highlight\">\"Macaco\"</span> se diz:",
+        "options": [
+          "Monkey",
+          "Lion",
+          "Tiger",
+          "Bird"
+        ],
+        "correct": 0,
+        "explanation": "Monkey é macaco! 🐒",
+        "nalaMsg": "Ooh ooh!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Elefante\"</span>?",
+        "options": [
+          "Tiger",
+          "Cat",
+          "Elephant",
+          "Dog"
+        ],
+        "correct": 2,
+        "explanation": "Elephant! 🐘",
+        "nalaMsg": "So big!"
+      },
+      {
+        "question": "A <span class=\"quiz-highlight\">\"Tartaruga\"</span> é:",
+        "options": [
+          "Fish",
+          "Rabbit",
+          "Turtle",
+          "Bird"
+        ],
+        "correct": 2,
+        "explanation": "Turtle! 🐢",
+        "nalaMsg": "Slow and steady!"
+      },
+      {
+        "question": "E o <span class=\"quiz-highlight\">\"Tigre\"</span>?",
+        "options": [
+          "Lion",
+          "Tiger",
+          "Cat",
+          "Dog"
+        ],
+        "correct": 1,
+        "explanation": "Tiger é tigre! 🐅",
+        "nalaMsg": "Roar!"
+      },
+      {
         "question": "Como se diz <span class=\"quiz-highlight\">\"Cachorro\"</span> em inglês?",
         "options": [
           "Cat",
@@ -1461,6 +1581,66 @@ const gameData = {
       }
     ],
     "quiz": [
+      {
+        "question": "Como se fala o número <span class=\"quiz-highlight\">\"Oito\"</span>?",
+        "options": [
+          "Nine",
+          "Eight",
+          "Seven",
+          "Ten"
+        ],
+        "correct": 1,
+        "explanation": "Eight é oito! 8️⃣",
+        "nalaMsg": "Good counting!"
+      },
+      {
+        "question": "Qual é o número <span class=\"quiz-highlight\">\"Nove\"</span>?",
+        "options": [
+          "Nine",
+          "Ten",
+          "One",
+          "Two"
+        ],
+        "correct": 0,
+        "explanation": "Nine é nove! 9️⃣",
+        "nalaMsg": "Almost ten!"
+      },
+      {
+        "question": "O número <span class=\"quiz-highlight\">\"Quatro\"</span> é:",
+        "options": [
+          "Five",
+          "Three",
+          "Four",
+          "Six"
+        ],
+        "correct": 2,
+        "explanation": "Four é quatro! 4️⃣",
+        "nalaMsg": "Four paws!"
+      },
+      {
+        "question": "Como se diz o número <span class=\"quiz-highlight\">\"Três\"</span>?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "One"
+        ],
+        "correct": 1,
+        "explanation": "Three é três! 3️⃣",
+        "nalaMsg": "1, 2, 3!"
+      },
+      {
+        "question": "Qual é o número <span class=\"quiz-highlight\">\"Seis\"</span>?",
+        "options": [
+          "Five",
+          "Seven",
+          "Eight",
+          "Six"
+        ],
+        "correct": 3,
+        "explanation": "Six é seis! 6️⃣",
+        "nalaMsg": "Awesome!"
+      },
       {
         "question": "Como se diz o número <span class=\"quiz-highlight\">\"Um\"</span>?",
         "options": [
@@ -2002,6 +2182,66 @@ const gameData = {
       }
     ],
     "quiz": [
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Irmã\"</span>",
+        "options": [
+          "Brother",
+          "Mother",
+          "Sister",
+          "Father"
+        ],
+        "correct": 2,
+        "explanation": "Sister é irmã! 👧",
+        "nalaMsg": "Family time!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Avô\"</span>?",
+        "options": [
+          "Grandmother",
+          "Grandfather",
+          "Brother",
+          "Sister"
+        ],
+        "correct": 1,
+        "explanation": "Grandfather é avô! 👴",
+        "nalaMsg": "Grandpa!"
+      },
+      {
+        "question": "E <span class=\"quiz-highlight\">\"Avó\"</span>?",
+        "options": [
+          "Grandmother",
+          "Mother",
+          "Sister",
+          "Aunt"
+        ],
+        "correct": 0,
+        "explanation": "Grandmother é avó! 👵",
+        "nalaMsg": "Grandma!"
+      },
+      {
+        "question": "A palavra para <span class=\"quiz-highlight\">\"Tio\"</span> é:",
+        "options": [
+          "Aunt",
+          "Cousin",
+          "Uncle",
+          "Brother"
+        ],
+        "correct": 2,
+        "explanation": "Uncle é tio! 👨",
+        "nalaMsg": "Nice!"
+      },
+      {
+        "question": "E a palavra <span class=\"quiz-highlight\">\"Primo\"</span>?",
+        "options": [
+          "Cousin",
+          "Aunt",
+          "Uncle",
+          "Sister"
+        ],
+        "correct": 0,
+        "explanation": "Cousin é primo ou prima! 🧒",
+        "nalaMsg": "Playtime!"
+      },
       {
         "question": "Como se diz a <span class=\"quiz-highlight\">\"Mamãe\"</span> (Mother)?",
         "options": [
@@ -3398,6 +3638,126 @@ const gameData = {
     ],
     "quiz": [
       {
+        "question": "Onde você dorme? (<span class=\"quiz-highlight\">Quarto</span>)",
+        "options": [
+          "Kitchen",
+          "Bathroom",
+          "Bedroom",
+          "Living room"
+        ],
+        "correct": 2,
+        "explanation": "Bedroom é quarto! 🛏️",
+        "nalaMsg": "Good night!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Cozinha\"</span>?",
+        "options": [
+          "Kitchen",
+          "Bathroom",
+          "Garage",
+          "Garden"
+        ],
+        "correct": 0,
+        "explanation": "Kitchen é cozinha! 🍳",
+        "nalaMsg": "Smells good!"
+      },
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Bathroom\"</span>",
+        "options": [
+          "Quarto",
+          "Banheiro",
+          "Sala",
+          "Quintal"
+        ],
+        "correct": 1,
+        "explanation": "Bathroom é banheiro! 🛁",
+        "nalaMsg": "Wash up!"
+      },
+      {
+        "question": "Onde assistimos TV? (<span class=\"quiz-highlight\">Sala de estar</span>)",
+        "options": [
+          "Bedroom",
+          "Kitchen",
+          "Living room",
+          "Garage"
+        ],
+        "correct": 2,
+        "explanation": "Living room é sala de estar! 🛋️",
+        "nalaMsg": "Relax!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Jardim\"</span>?",
+        "options": [
+          "Garage",
+          "Garden",
+          "Kitchen",
+          "Bathroom"
+        ],
+        "correct": 1,
+        "explanation": "Garden é jardim! 🌷",
+        "nalaMsg": "Beautiful flowers!"
+      },
+      {
+        "question": "O que significa <span class=\"quiz-highlight\">\"Ate\"</span>?",
+        "options": [
+          "Comi",
+          "Fui",
+          "Brinquei",
+          "Dormi"
+        ],
+        "correct": 0,
+        "explanation": "Ate é o passado de eat (comer)! 🍎",
+        "nalaMsg": "Yummy!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Fui\"</span> (passado de ir)?",
+        "options": [
+          "Play",
+          "Went",
+          "Eat",
+          "Sleep"
+        ],
+        "correct": 1,
+        "explanation": "Went é o passado de go (ir)! 🚶",
+        "nalaMsg": "Let's go!"
+      },
+      {
+        "question": "Qual o passado de play (brincar)?",
+        "options": [
+          "Played",
+          "Playing",
+          "Play",
+          "Plays"
+        ],
+        "correct": 0,
+        "explanation": "Played é brinquei! 🎮",
+        "nalaMsg": "Fun!"
+      },
+      {
+        "question": "O que é <span class=\"quiz-highlight\">\"Saw\"</span>?",
+        "options": [
+          "Dormi",
+          "Corri",
+          "Vi",
+          "Comi"
+        ],
+        "correct": 2,
+        "explanation": "Saw é o passado de see (ver)! 👀",
+        "nalaMsg": "I saw you!"
+      },
+      {
+        "question": "Qual o passado de sleep (dormir)?",
+        "options": [
+          "Sleeped",
+          "Slept",
+          "Sleeping",
+          "Sleeps"
+        ],
+        "correct": 1,
+        "explanation": "Slept é dormi! 🛌",
+        "nalaMsg": "Zzz..."
+      },
+      {
         "question": "O verbo irregular <span class=\"quiz-highlight\">\"Bought\"</span> é o passado de qual verbo?",
         "options": [
           "Bring",
@@ -3938,6 +4298,66 @@ const gameData = {
       }
     ],
     "quiz": [
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Queijo\"</span> em inglês?",
+        "options": [
+          "Bread",
+          "Milk",
+          "Cheese",
+          "Cake"
+        ],
+        "correct": 2,
+        "explanation": "Cheese é queijo! 🧀",
+        "nalaMsg": "Mice love it!"
+      },
+      {
+        "question": "E <span class=\"quiz-highlight\">\"Pão\"</span>?",
+        "options": [
+          "Egg",
+          "Bread",
+          "Water",
+          "Meat"
+        ],
+        "correct": 1,
+        "explanation": "Bread é pão! 🍞",
+        "nalaMsg": "Delicious!"
+      },
+      {
+        "question": "A palavra <span class=\"quiz-highlight\">\"Água\"</span> é:",
+        "options": [
+          "Juice",
+          "Milk",
+          "Water",
+          "Tea"
+        ],
+        "correct": 2,
+        "explanation": "Water é água! 💧",
+        "nalaMsg": "Drink water!"
+      },
+      {
+        "question": "O que é <span class=\"quiz-highlight\">\"Chicken\"</span>?",
+        "options": [
+          "Peixe",
+          "Frango",
+          "Bolo",
+          "Ovo"
+        ],
+        "correct": 1,
+        "explanation": "Chicken é frango! 🍗",
+        "nalaMsg": "Tasty!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Bolo\"</span>?",
+        "options": [
+          "Cake",
+          "Bread",
+          "Cheese",
+          "Egg"
+        ],
+        "correct": 0,
+        "explanation": "Cake é bolo! 🍰",
+        "nalaMsg": "Party time!"
+      },
       {
         "question": "O que significa <span class=\"quiz-highlight\">\"I want\"</span>?",
         "options": [
@@ -4480,6 +4900,66 @@ const gameData = {
     ],
     "quiz": [
       {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Perna\"</span>",
+        "options": [
+          "Arm",
+          "Hand",
+          "Leg",
+          "Foot"
+        ],
+        "correct": 2,
+        "explanation": "Leg é perna! 🦵",
+        "nalaMsg": "Jump high!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Mão\"</span>?",
+        "options": [
+          "Hand",
+          "Arm",
+          "Finger",
+          "Toe"
+        ],
+        "correct": 0,
+        "explanation": "Hand é mão! 🖐️",
+        "nalaMsg": "High five!"
+      },
+      {
+        "question": "O que são <span class=\"quiz-highlight\">\"Fingers\"</span>?",
+        "options": [
+          "Dedos do pé",
+          "Dedos da mão",
+          "Pernas",
+          "Braços"
+        ],
+        "correct": 1,
+        "explanation": "Fingers são dedos da mão! ☝️",
+        "nalaMsg": "Count them!"
+      },
+      {
+        "question": "E <span class=\"quiz-highlight\">\"Braço\"</span>?",
+        "options": [
+          "Arm",
+          "Leg",
+          "Hand",
+          "Foot"
+        ],
+        "correct": 0,
+        "explanation": "Arm é braço! 💪",
+        "nalaMsg": "Strong!"
+      },
+      {
+        "question": "Qual é o nome para <span class=\"quiz-highlight\">\"Pé\"</span>?",
+        "options": [
+          "Toe",
+          "Hand",
+          "Foot",
+          "Arm"
+        ],
+        "correct": 2,
+        "explanation": "Foot é pé! 🦶",
+        "nalaMsg": "Step forward!"
+      },
+      {
         "question": "Qual parte do corpo é a <span class=\"quiz-highlight\">\"Head\"</span>?",
         "options": [
           "Mão",
@@ -5020,6 +5500,66 @@ const gameData = {
       }
     ],
     "quiz": [
+      {
+        "question": "O que é um <span class=\"quiz-highlight\">\"Passport\"</span>?",
+        "options": [
+          "Passaporte",
+          "Avião",
+          "Mala",
+          "Hotel"
+        ],
+        "correct": 0,
+        "explanation": "Passport é passaporte! 🛂",
+        "nalaMsg": "Stamp it!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Avião\"</span> em inglês?",
+        "options": [
+          "Train",
+          "Car",
+          "Airplane",
+          "Bus"
+        ],
+        "correct": 2,
+        "explanation": "Airplane é avião! ✈️",
+        "nalaMsg": "Fly high!"
+      },
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Suitcase\"</span>",
+        "options": [
+          "Mala",
+          "Passaporte",
+          "Ticket",
+          "Hotel"
+        ],
+        "correct": 0,
+        "explanation": "Suitcase é mala de viagem! 🧳",
+        "nalaMsg": "Pack your bags!"
+      },
+      {
+        "question": "O que significa <span class=\"quiz-highlight\">\"Ticket\"</span>?",
+        "options": [
+          "Hotel",
+          "Mala",
+          "Passaporte",
+          "Passagem"
+        ],
+        "correct": 3,
+        "explanation": "Ticket é passagem ou bilhete! 🎟️",
+        "nalaMsg": "All aboard!"
+      },
+      {
+        "question": "E <span class=\"quiz-highlight\">\"Beach\"</span>?",
+        "options": [
+          "Montanha",
+          "Praia",
+          "Cidade",
+          "Hotel"
+        ],
+        "correct": 1,
+        "explanation": "Beach é praia! 🏖️",
+        "nalaMsg": "Sun and sand!"
+      },
       {
         "question": "Qual a estrutura correta do <span class=\"quiz-highlight\">Present Perfect</span> para \"Eu viajei\"?",
         "options": [
@@ -5562,6 +6102,66 @@ const gameData = {
       }
     ],
     "quiz": [
+      {
+        "question": "O que significa <span class=\"quiz-highlight\">\"Recycle\"</span>?",
+        "options": [
+          "Poluir",
+          "Reciclar",
+          "Plantar",
+          "Lixo"
+        ],
+        "correct": 1,
+        "explanation": "Recycle é reciclar! ♻️",
+        "nalaMsg": "Save the Earth!"
+      },
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Tree\"</span>",
+        "options": [
+          "Flor",
+          "Árvore",
+          "Folha",
+          "Água"
+        ],
+        "correct": 1,
+        "explanation": "Tree é árvore! 🌳",
+        "nalaMsg": "Grow big!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Lixo\"</span> em inglês?",
+        "options": [
+          "Water",
+          "Trash",
+          "Tree",
+          "Earth"
+        ],
+        "correct": 1,
+        "explanation": "Trash é lixo! 🗑️",
+        "nalaMsg": "Keep it clean!"
+      },
+      {
+        "question": "A palavra <span class=\"quiz-highlight\">\"Water\"</span> significa:",
+        "options": [
+          "Água",
+          "Fogo",
+          "Terra",
+          "Ar"
+        ],
+        "correct": 0,
+        "explanation": "Water é água! 💧",
+        "nalaMsg": "Drink it!"
+      },
+      {
+        "question": "O que é <span class=\"quiz-highlight\">\"Earth\"</span>?",
+        "options": [
+          "Terra",
+          "Lua",
+          "Sol",
+          "Estrela"
+        ],
+        "correct": 0,
+        "explanation": "Earth é o planeta Terra! 🌍",
+        "nalaMsg": "Our home!"
+      },
       {
         "question": "O que o condicional <span class=\"quiz-highlight\">\"If we recycle\"</span> significa?",
         "options": [
@@ -7080,6 +7680,66 @@ const gameData = {
     ],
     "quiz": [
       {
+        "question": "O que você come no cinema? (<span class=\"quiz-highlight\">Pipoca</span>)",
+        "options": [
+          "Candy",
+          "Popcorn",
+          "Drink",
+          "Ticket"
+        ],
+        "correct": 1,
+        "explanation": "Popcorn é pipoca! 🍿",
+        "nalaMsg": "Crunch!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Filme\"</span>?",
+        "options": [
+          "Book",
+          "Movie",
+          "Song",
+          "Game"
+        ],
+        "correct": 1,
+        "explanation": "Movie é filme! 🎬",
+        "nalaMsg": "Action!"
+      },
+      {
+        "question": "O que significa <span class=\"quiz-highlight\">\"Screen\"</span>?",
+        "options": [
+          "Assento",
+          "Tela",
+          "Pipoca",
+          "Ator"
+        ],
+        "correct": 1,
+        "explanation": "Screen é tela! 📺",
+        "nalaMsg": "Look there!"
+      },
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Seat\"</span>",
+        "options": [
+          "Assento",
+          "Filme",
+          "Ingresso",
+          "Bebida"
+        ],
+        "correct": 0,
+        "explanation": "Seat é assento ou lugar! 💺",
+        "nalaMsg": "Sit down!"
+      },
+      {
+        "question": "Como chamamos um <span class=\"quiz-highlight\">\"Ator\"</span>?",
+        "options": [
+          "Singer",
+          "Actor",
+          "Director",
+          "Writer"
+        ],
+        "correct": 1,
+        "explanation": "Actor é ator! 🎭",
+        "nalaMsg": "Bravo!"
+      },
+      {
         "question": "What do you eat at the cinema?",
         "options": [
           "Apple",
@@ -7653,6 +8313,66 @@ const gameData = {
       }
     ],
     "quiz": [
+      {
+        "question": "O que é uma <span class=\"quiz-highlight\">\"Roller coaster\"</span>?",
+        "options": [
+          "Roda gigante",
+          "Montanha-russa",
+          "Carrossel",
+          "Trem fantasma"
+        ],
+        "correct": 1,
+        "explanation": "Roller coaster é montanha-russa! 🎢",
+        "nalaMsg": "Hold on tight!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Algodão doce\"</span>?",
+        "options": [
+          "Popcorn",
+          "Candy apple",
+          "Cotton candy",
+          "Ice cream"
+        ],
+        "correct": 2,
+        "explanation": "Cotton candy é algodão doce! 🍭",
+        "nalaMsg": "So sweet!"
+      },
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Ferris wheel\"</span>",
+        "options": [
+          "Roda gigante",
+          "Montanha-russa",
+          "Carrossel",
+          "Bate-bate"
+        ],
+        "correct": 0,
+        "explanation": "Ferris wheel é roda gigante! 🎡",
+        "nalaMsg": "Look how high!"
+      },
+      {
+        "question": "O que é <span class=\"quiz-highlight\">\"Ticket\"</span> no parque?",
+        "options": [
+          "Comida",
+          "Brinquedo",
+          "Ingresso",
+          "Foto"
+        ],
+        "correct": 2,
+        "explanation": "Ticket é ingresso! 🎟️",
+        "nalaMsg": "Have fun!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Passeio/Brinquedo\"</span> em inglês?",
+        "options": [
+          "Ride",
+          "Walk",
+          "Run",
+          "Jump"
+        ],
+        "correct": 0,
+        "explanation": "Ride é o passeio no brinquedo! 🎠",
+        "nalaMsg": "Wheee!"
+      },
       {
         "question": "This ride goes very fast on tracks.",
         "options": [
@@ -8606,6 +9326,66 @@ const gameData = {
     ],
     "quiz": [
       {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Barraca\"</span>",
+        "options": [
+          "Campfire",
+          "Tent",
+          "Flashlight",
+          "Compass"
+        ],
+        "correct": 1,
+        "explanation": "Tent é barraca! ⛺",
+        "nalaMsg": "Cozy!"
+      },
+      {
+        "question": "O que é um <span class=\"quiz-highlight\">\"Compass\"</span>?",
+        "options": [
+          "Lanterna",
+          "Bússola",
+          "Saco de dormir",
+          "Mochila"
+        ],
+        "correct": 1,
+        "explanation": "Compass é bússola! 🧭",
+        "nalaMsg": "Find the way!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Estrela\"</span>?",
+        "options": [
+          "Sun",
+          "Moon",
+          "Star",
+          "Cloud"
+        ],
+        "correct": 2,
+        "explanation": "Star é estrela! ⭐",
+        "nalaMsg": "So bright!"
+      },
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Backpack\"</span>",
+        "options": [
+          "Mochila",
+          "Lanterna",
+          "Fogueira",
+          "Saco de dormir"
+        ],
+        "correct": 0,
+        "explanation": "Backpack é mochila! 🎒",
+        "nalaMsg": "Pack it up!"
+      },
+      {
+        "question": "O que é um <span class=\"quiz-highlight\">\"Bug spray\"</span>?",
+        "options": [
+          "Protetor solar",
+          "Repelente de insetos",
+          "Lanterna",
+          "Bússola"
+        ],
+        "correct": 1,
+        "explanation": "Bug spray é repelente! 🦟",
+        "nalaMsg": "No bites!"
+      },
+      {
         "question": "Traduzir: <span class=\"quiz-highlight\">\"Fogueira\"</span>",
         "options": [
           "Tent",
@@ -8987,6 +9767,66 @@ const gameData = {
       }
     ],
     "quiz": [
+      {
+        "question": "Traduzir: <span class=\"quiz-highlight\">\"Teclado\"</span>",
+        "options": [
+          "Screen",
+          "Mouse",
+          "Keyboard",
+          "Charger"
+        ],
+        "correct": 2,
+        "explanation": "Keyboard é teclado! ⌨️",
+        "nalaMsg": "Type it!"
+      },
+      {
+        "question": "Como se diz <span class=\"quiz-highlight\">\"Bateria\"</span>?",
+        "options": [
+          "App",
+          "Battery",
+          "Screen",
+          "Phone"
+        ],
+        "correct": 1,
+        "explanation": "Battery é bateria! 🔋",
+        "nalaMsg": "Keep it charged!"
+      },
+      {
+        "question": "O que é um <span class=\"quiz-highlight\">\"Tablet\"</span>?",
+        "options": [
+          "Celular",
+          "Computador portátil sem teclado",
+          "TV",
+          "Carregador"
+        ],
+        "correct": 1,
+        "explanation": "Tablet é o dispositivo plano! 📱",
+        "nalaMsg": "Touch the screen!"
+      },
+      {
+        "question": "A palavra <span class=\"quiz-highlight\">\"Mouse\"</span> no computador é:",
+        "options": [
+          "Um animal",
+          "O dispositivo para clicar",
+          "A tela",
+          "O teclado"
+        ],
+        "correct": 1,
+        "explanation": "Mouse é o mouse! 🖱️",
+        "nalaMsg": "Click click!"
+      },
+      {
+        "question": "O que significa <span class=\"quiz-highlight\">\"Internet\"</span>?",
+        "options": [
+          "Um jogo",
+          "A rede mundial",
+          "Um aplicativo",
+          "Um telefone"
+        ],
+        "correct": 1,
+        "explanation": "Internet conecta o mundo! 🌐",
+        "nalaMsg": "Online!"
+      },
       {
         "question": "O que você usa para ouvir música sem incomodar os outros?",
         "options": [
