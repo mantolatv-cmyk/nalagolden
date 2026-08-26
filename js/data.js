@@ -9621,7 +9621,7 @@ const gameData = {
         "text": "No, I haven't. But I watch her videos on my screen."
       },
       {
-        "text": "Your phone is faster than mine. Can we play a game?"
+        "text": "Your phone is faster than mine. Can we read the lyrics?"
       },
       {
         "text": "Sure! I have a new app on my tablet."
@@ -9633,7 +9633,7 @@ const gameData = {
         "text": "Yes, I always carry my charger in my backpack."
       },
       {
-        "text": "Great! Now we can play video games all afternoon."
+        "text": "Great! Now we can read lyrics all afternoon."
       },
       {
         "text": "Let's take a selfie and share it with our followers!"
@@ -9656,9 +9656,9 @@ const gameData = {
         "pt": "Tela"
       },
       {
-        "word": "Video game",
-        "emoji": "🎮",
-        "pt": "Videogame"
+        "word": "Lyrics",
+        "emoji": "📝",
+        "pt": "Letra de música"
       },
       {
         "word": "Charger",
@@ -9708,15 +9708,15 @@ const gameData = {
       {
         "words": [
           "He",
-          "plays",
-          "fun",
-          "video",
-          "games",
-          "all",
-          "day",
-          "long"
+          "sings",
+          "the",
+          "lyrics",
+          "of",
+          "this",
+          "song",
+          "today"
         ],
-        "translation": "Ele joga videogames divertidos o dia todo"
+        "translation": "Ele canta as letras dessa música hoje"
       },
       {
         "words": [
@@ -9835,9 +9835,9 @@ const gameData = {
         "translation": "Fones de ouvido vão nas suas orelhas para escutar música."
       },
       {
-        "question": "A singer is someone who plays video games professionally.",
+        "question": "A singer is someone who writes lyrics professionally.",
         "answer": false,
-        "translation": "Um cantor é alguém que joga videogames profissionalmente."
+        "translation": "Um cantor é alguém que escreve letras profissionalmente."
       },
       {
         "question": "You can download an app on your smartphone.",
@@ -9870,9 +9870,9 @@ const gameData = {
         "translation": "Um tablet é maior que uma televisão."
       },
       {
-        "question": "She clicked the mouse to open the game.",
+        "question": "She clicked the mouse to read the lyrics.",
         "answer": true,
-        "translation": "Ela clicou no mouse para abrir o jogo."
+        "translation": "Ela clicou no mouse para ler a letra."
       }
     ],
     "speaking": [
@@ -9883,8 +9883,8 @@ const gameData = {
         "nalaTip": "Everyone has one!"
       },
       {
-        "question": "How often do you play video games?",
-        "translation": "Com que frequência você joga videogame?",
+        "question": "How often do you read song lyrics?",
+        "translation": "Com que frequência você lê letras de música?",
         "starter": "I play every day. / Sometimes.",
         "nalaTip": "It's fun!"
       },
@@ -9910,7 +9910,7 @@ const gameData = {
         "question": "What is your favorite app?",
         "translation": "Qual é o seu aplicativo favorito?",
         "starter": "My favorite app is...",
-        "nalaTip": "Games? Social media?"
+        "nalaTip": "Music? Social media?"
       },
       {
         "question": "Do you like taking selfies?",
@@ -9925,8 +9925,8 @@ const gameData = {
         "nalaTip": "Pop? Rock? K-pop?"
       },
       {
-        "question": "Do you prefer playing video games or listening to music?",
-        "translation": "Você prefere jogar videogame ou escutar música?",
+        "question": "Do you prefer reading lyrics or listening to music?",
+        "translation": "Você prefere ler letras ou escutar música?",
         "starter": "I prefer...",
         "nalaTip": "Ambos são legais!"
       },
