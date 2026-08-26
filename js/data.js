@@ -85,7 +85,7 @@ const gameData = {
         "text": "I want to paint a sun too. Do we have Yellow?"
       },
       {
-        "text": "Yes! Yellow for the sun. It is shining bright."
+        "text": "Yes! Yellow for the sun. It shines bright."
       },
       {
         "text": "Look, Nala. I made Green leaves for the trees."
@@ -688,22 +688,22 @@ const gameData = {
         "text": "Yes, the cat is sleeping. And look up in the tree!"
       },
       {
-        "text": "Oh, it's a small blue Bird singing a beautiful song."
+        "text": "Oh, it's a small blue Bird sings a beautiful song."
       },
       {
         "text": "Let's walk near the lake. Maybe we can see a Fish."
       },
       {
-        "text": "I see a fish! It is swimming fast."
+        "text": "I see a fish! It swims fast."
       },
       {
-        "text": "Wait, what is that jumping in the grass?"
+        "text": "Wait, what jumps in the grass?"
       },
       {
         "text": "It's a fast Rabbit! Hop, hop, hop!"
       },
       {
-        "text": "And look down here... a slow green Turtle walking near the water."
+        "text": "And look down here... a slow green Turtle walks near the water."
       }
     ],
     "matching": [
@@ -1293,13 +1293,13 @@ const gameData = {
         "text": "I found Three small rocks in the garden."
       },
       {
-        "text": "Look, there are Four birds flying in the sky."
+        "text": "Look, there are Four birds fly in the sky."
       },
       {
         "text": "Can you see the Five yellow flowers?"
       },
       {
-        "text": "Yes! And there are Six green leaves falling from the tree."
+        "text": "Yes! And there are Six green leaves fall from the tree."
       },
       {
         "text": "Let's walk Seven steps forward. One, two..."
@@ -1450,8 +1450,7 @@ const gameData = {
       {
         "words": [
           "They",
-          "will",
-          "stay",
+          "stayed",
           "here",
           "for",
           "about",
@@ -2445,7 +2444,7 @@ const gameData = {
       {
         "question": "How do you unwind after a busy day at school?",
         "translation": "Como você relaxa após um dia cheio na escola?",
-        "starter": "I unwind by playing games / watching TV.",
+        "starter": "I play games to unwind / watching TV.",
         "nalaTip": "Fale como você gosta de relaxar! 🧘"
       },
       {
@@ -2562,7 +2561,7 @@ const gameData = {
         "text": "I usually wake up at 6 AM and work out immediately."
       },
       {
-        "text": "After exercising, I take a refreshing shower and get dressed."
+        "text": "After I exercise, I take a refreshing shower and get dressed."
       },
       {
         "text": "I always prepare a healthy breakfast before leaving."
@@ -3191,7 +3190,7 @@ const gameData = {
         "translation": "Nós vamos dormir de manhã."
       },
       {
-        "question": "Taking a shower makes you clean.",
+        "question": "A shower makes you clean.",
         "options": [
           "True",
           "False"
@@ -3343,7 +3342,7 @@ const gameData = {
         "text": "I traveled to the mountains and discovered a hidden waterfall."
       },
       {
-        "text": "While I was hiking, I encountered a fascinating deer."
+        "text": "I hiked and encountered a fascinating deer."
       },
       {
         "text": "We experienced beautiful weather throughout the entire journey."
@@ -3364,7 +3363,7 @@ const gameData = {
         "text": "Eventually, I returned home feeling completely recharged."
       },
       {
-        "text": "Have you experienced anything exciting recently?"
+        "text": "Did you experience anything exciting recently?"
       }
     ],
     "matching": [
@@ -3831,7 +3830,7 @@ const gameData = {
         "translation": "Ontem significa o dia antes de hoje."
       },
       {
-        "question": "\"I played\" is something happening right now.",
+        "question": "\"I played\" means right now.",
         "options": [
           "True",
           "False"
@@ -5136,15 +5135,15 @@ const gameData = {
   "travel": {
     "speaking": [
       {
-        "question": "Have you ever flown in an airplane?",
+        "question": "Did you fly in an airplane?",
         "translation": "Você já voou de avião?",
         "starter": "Yes, I have flown in an airplane / No, I haven't yet.",
         "nalaTip": "Conte sobre voar lá no alto! ✈️"
       },
       {
-        "question": "Where would you like to travel in the world?",
+        "question": "Where do you want to travel in the world?",
         "translation": "Para onde você gostaria de viajar no mundo?",
-        "starter": "I would like to travel to Disney / London / Japan.",
+        "starter": "I want to travel to Disney / London / Japan.",
         "nalaTip": "Pense no seu lugar dos sonhos! 🌍"
       },
       {
@@ -5172,7 +5171,7 @@ const gameData = {
         "nalaTip": "Adventure!"
       },
       {
-        "question": "Have you ever been on an airplane?",
+        "question": "Did you go on an airplane?",
         "translation": "Você já viajou de avião?",
         "starter": "Yes, I have flown to...",
         "nalaTip": "In the clouds!"
@@ -5201,7 +5200,7 @@ const gameData = {
     "emoji": "✈️",
     "story": [
       {
-        "text": "Hello Laís! Have you ever traveled abroad?"
+        "text": "Hello Laís! Did you travel abroad?"
       },
       {
         "text": "No, I haven't. But I have seen airplanes!"
@@ -5210,7 +5209,7 @@ const gameData = {
         "text": "I have flown in an airplane before. It's amazing!"
       },
       {
-        "text": "Wow! Have you visited many countries?"
+        "text": "Wow! Did you visit many countries?"
       },
       {
         "text": "Yes, I have explored beautiful cities."
@@ -5405,7 +5404,7 @@ const gameData = {
         "words": [
           "We",
           "have",
-          "flown",
+          "flew",
           "on",
           "a",
           "very",
@@ -5425,7 +5424,7 @@ const gameData = {
       "guide",
       "travel",
       "explore",
-      "flown"
+      "flew"
     ],
     "garden": [
       "airport",
@@ -5435,7 +5434,7 @@ const gameData = {
       "souvenir",
       "abroad",
       "travel",
-      "flown"
+      "flew"
     ],
     "fetch": [
       {
@@ -5585,7 +5584,7 @@ const gameData = {
         "nalaMsg": "Muito bem! 🎉"
       },
       {
-        "question": "Se perguntamos \"Have you ever <span class=\"quiz-highlight\">flown</span>?\", o que é flown?",
+        "question": "Qual é o passado de <span class=\"quiz-highlight\">fly</span> (voar)?",
         "options": [
           "Voado",
           "Comido",
@@ -5808,7 +5807,7 @@ const gameData = {
         "text": "I agree. But what should we do?"
       },
       {
-        "text": "If we recycle plastic, we will save animals."
+        "text": "We recycle plastic and save animals."
       },
       {
         "text": "That is true. Pollution is very bad."
@@ -5817,7 +5816,7 @@ const gameData = {
         "text": "We should use solar energy instead of waste."
       },
       {
-        "text": "If we clean the Earth, nature will be happy."
+        "text": "We clean the Earth and nature is happy."
       },
       {
         "text": "Yes! We must not waste clean water."
@@ -5826,7 +5825,7 @@ const gameData = {
         "text": "Our climate is changing. We need to help."
       },
       {
-        "text": "If everybody helps, the forest will grow."
+        "text": "Everybody helps and the forest grows."
       },
       {
         "text": "Let's be eco-friendly heroes, Nala!"
@@ -6163,7 +6162,7 @@ const gameData = {
         "nalaMsg": "Our home!"
       },
       {
-        "question": "O que o condicional <span class=\"quiz-highlight\">\"If we recycle\"</span> significa?",
+        "question": "O que <span class=\"quiz-highlight\">\"We recycle\"</span> significa?",
         "options": [
           "Nós reciclamos",
           "Se nós reciclarmos",
@@ -6258,7 +6257,7 @@ const gameData = {
         "translation": "As árvores nos dão oxigênio para respirar."
       },
       {
-        "question": "Leaving the water running is good.",
+        "question": "A running tap is good.",
         "options": [
           "True",
           "False"
@@ -6269,7 +6268,7 @@ const gameData = {
         "translation": "Deixar a água correndo é bom."
       },
       {
-        "question": "Planting a garden helps bees.",
+        "question": "A garden helps bees.",
         "options": [
           "True",
           "False"
@@ -7348,7 +7347,7 @@ const gameData = {
     ],
     "story": [
       {
-        "text": "Nala is going to the cinema today!"
+        "text": "Nala goes to the cinema today!"
       },
       {
         "text": "She wants to watch a movie about brave dogs."
@@ -7605,7 +7604,7 @@ const gameData = {
       },
       {
         "word": "Action",
-        "question": "A movie with lots of exciting events."
+        "question": "A movie has lots of exciting events."
       },
       {
         "word": "Cartoon",
@@ -7819,7 +7818,7 @@ const gameData = {
         "nalaTip": "Hold on tight! 🎢"
       },
       {
-        "question": "Have you ever been on a Ferris wheel?",
+        "question": "Did you go on a Ferris wheel?",
         "translation": "Você já andou na roda-gigante?",
         "starter": "Yes, the view from the top is beautiful.",
         "nalaTip": "Up so high! 🎡"
@@ -7849,7 +7848,7 @@ const gameData = {
         "nalaTip": "Fast!"
       },
       {
-        "question": "Have you ever eaten pink cotton candy?",
+        "question": "Did you eat pink cotton candy?",
         "translation": "Você já comeu algodão doce rosa?",
         "starter": "Yes, it is very sweet.",
         "nalaTip": "Sugar!"
@@ -7863,7 +7862,7 @@ const gameData = {
       {
         "question": "What game do you like to play there?",
         "translation": "Qual jogo você gosta de jogar lá?",
-        "starter": "I like throwing rings to win a bear.",
+        "starter": "I throw rings to win a bear.",
         "nalaTip": "Good aim!"
       }
     ],
@@ -7984,7 +7983,7 @@ const gameData = {
         "text": "Today, Nala is at the Amusement Park!"
       },
       {
-        "text": "She sees a giant Ferris wheel spinning slowly."
+        "text": "She sees a giant Ferris wheel spin slowly."
       },
       {
         "text": "First, she wants to ride the roller coaster."
@@ -8618,16 +8617,16 @@ const gameData = {
         "text": "It is Saturday morning at Nala's house."
       },
       {
-        "text": "Everyone is helping to clean the home."
+        "text": "Everyone helps to clean the home."
       },
       {
         "text": "Nala helps to pick up her dog toys."
       },
       {
-        "text": "Mom is sweeping the floor with a broom."
+        "text": "Mom sweeps the floor with a broom."
       },
       {
-        "text": "Dad is washing the dishes in the kitchen."
+        "text": "Dad washes the dishes in the kitchen."
       },
       {
         "text": "The windows are open to let the sun in."
@@ -8642,7 +8641,7 @@ const gameData = {
         "text": "They sit on the sofa and watch TV."
       },
       {
-        "text": "Helping at home is good for the family."
+        "text": "Help at home is good for the family."
       }
     ],
     "matching": [
@@ -9264,7 +9263,7 @@ const gameData = {
     ],
     "speaking": [
       {
-        "question": "Have you ever made a campfire?",
+        "question": "Did you make a campfire?",
         "translation": "Você já fez uma fogueira?",
         "starter": "Yes, I have. / No, I haven't.",
         "nalaTip": "It's so warm!"
@@ -9282,7 +9281,7 @@ const gameData = {
         "nalaTip": "Hot dogs?"
       },
       {
-        "question": "Have you seen a bear?",
+        "question": "Did you see a bear?",
         "translation": "Você já viu um urso?",
         "starter": "No, never!",
         "nalaTip": "They are big!"
@@ -9306,7 +9305,7 @@ const gameData = {
         "nalaTip": "Use bug spray!"
       },
       {
-        "question": "Have you ever slept in a tent?",
+        "question": "Did you sleep in a tent?",
         "translation": "Você já dormiu em uma barraca?",
         "starter": "Yes, I have slept... / No, I haven't...",
         "nalaTip": "Use o Present Perfect!"
@@ -9453,13 +9452,13 @@ const gameData = {
     "emoji": "🎧",
     "story": [
       {
-        "text": "Laís, what are you listening to on your headphones?"
+        "text": "Laís, what do you listen to on your headphones?"
       },
       {
-        "text": "I am listening to my favorite playlist, Nala!"
+        "text": "I listen to my favorite playlist, Nala!"
       },
       {
-        "text": "Wow! Have you ever been to a concert of this singer?"
+        "text": "Wow! Did you go to a concert of this singer?"
       },
       {
         "text": "No, I haven't. But I watch her videos on my screen."
@@ -9630,8 +9629,7 @@ const gameData = {
       {
         "words": [
           "She",
-          "is",
-          "listening",
+          "listens",
           "to",
           "her",
           "favorite",
@@ -9730,7 +9728,7 @@ const gameData = {
         "nalaTip": "Use headphones!"
       },
       {
-        "question": "Have you ever broken a screen?",
+        "question": "Did you break a screen?",
         "translation": "Você já quebrou uma tela?",
         "starter": "No, never! / Yes, once.",
         "nalaTip": "Be careful!"
@@ -9760,7 +9758,7 @@ const gameData = {
         "nalaTip": "Ambos são legais!"
       },
       {
-        "question": "Have you ever lost your phone charger?",
+        "question": "Did you lose your phone charger?",
         "translation": "Você já perdeu o carregador do seu celular?",
         "starter": "Yes, I have. / No, never!",
         "nalaTip": "É muito chato quando isso acontece!"
