@@ -8699,6 +8699,31 @@ const gameData = {
         "question": "A keyboard is used for typing text.",
         "answer": true,
         "translation": "Um teclado é usado para digitar texto."
+      },
+      {
+        "question": "A smartphone needs a battery to work.",
+        "answer": true,
+        "translation": "Um smartphone precisa de uma bateria para funcionar."
+      },
+      {
+        "question": "You use a printer to listen to music.",
+        "answer": false,
+        "translation": "Você usa uma impressora para escutar música."
+      },
+      {
+        "question": "He played music on his guitar yesterday.",
+        "answer": true,
+        "translation": "Ele tocou música em seu violão ontem."
+      },
+      {
+        "question": "A tablet is bigger than a television.",
+        "answer": false,
+        "translation": "Um tablet é maior que uma televisão."
+      },
+      {
+        "question": "She clicked the mouse to open the game.",
+        "answer": true,
+        "translation": "Ela clicou no mouse para abrir o jogo."
       }
     ],
     "speaking": [
