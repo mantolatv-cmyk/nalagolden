@@ -8463,6 +8463,31 @@ const gameData = {
         "question": "Bug spray keeps mosquitoes away.",
         "answer": true,
         "translation": "O repelente afasta os mosquitos."
+      },
+      {
+        "question": "A backpack holds your clothes and food.",
+        "answer": true,
+        "translation": "Uma mochila guarda suas roupas e comida."
+      },
+      {
+        "question": "We built a campfire yesterday.",
+        "answer": true,
+        "translation": "Nós construímos uma fogueira ontem."
+      },
+      {
+        "question": "Bears sleep in a hotel when it rains.",
+        "answer": false,
+        "translation": "Ursos dormem em um hotel quando chove."
+      },
+      {
+        "question": "She slept in a small tent last night.",
+        "answer": true,
+        "translation": "Ela dormiu em uma pequena barraca na noite passada."
+      },
+      {
+        "question": "You use a compass to cook dinner.",
+        "answer": false,
+        "translation": "Você usa uma bússola para fazer o jantar."
       }
     ],
     "speaking": [
