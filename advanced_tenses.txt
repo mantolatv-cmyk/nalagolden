@@ -1,0 +1,243 @@
+3: "speaking": [
+26: "nalaTip": "Pense em maçãs vermelhas ou verdes! 🍎"
+29: "question": "What color do you get if you mix red and yellow?",
+88: "text": "Yes! Yellow for the sun. It is shining bright."
+97: "text": "And Orange for a little butterfly. Our painting is amazing!"
+100: "matching": [
+203: "translation": "As árvores altas têm muitas folhas verdes frescas"
+278: "running",
+284: "spelling": [
+612: "speaking": [
+685: "text": "I love playing here. Did you see the Cat over there?"
+691: "text": "Oh, it's a small blue Bird singing a beautiful song."
+697: "text": "I see a fish! It is swimming fast."
+700: "text": "Wait, what is that jumping in the grass?"
+706: "text": "And look down here... a slow green Turtle walking near the water."
+709: "matching": [
+779: "sing",
+784: "morning"
+794: "sleeping",
+860: "walking",
+894: "spelling": [
+1147: "explanation": "False! Turtles are known for walking slowly. 🐢",
+1152: "question": "A tiger has stripes.",
+1163: "question": "A snake has four legs.",
+1220: "speaking": [
+1296: "text": "Look, there are Four birds flying in the sky."
+1302: "text": "Yes! And there are Six green leaves falling from the tree."
+1311: "text": "Counting is so much fun, Laís!"
+1317: "matching": [
+1446: "morning"
+1470: "flying",
+1503: "spelling": [
+1773: "question": "A triangle has three sides.",
+1806: "question": "A week has seven days.",
+1819: "speaking": [
+1904: "text": "I love playing with babies! What about your Grandpa?"
+1916: "matching": [
+1975: "playing",
+2027: "studying",
+2064: "spending",
+2092: "eating",
+2100: "spelling": [
+2420: "speaking": [
+2440: "question": "What is the first thing you do when you wake up?",
+2448: "starter": "I unwind by playing games / watching TV.",
+2476: "question": "What is the last thing you do before sleep?",
+2552: "en": "Evening",
+2565: "text": "After exercising, I take a refreshing shower and get dressed."
+2574: "text": "During the afternoon, I organize my schedule."
+2583: "text": "I prefer to unwind by reading a novel before bed."
+2601: "matching": [
+2668: "word": "Evening",
+2683: "morning"
+2707: "eating",
+2747: "falling",
+2761: "evening"
+2805: "spelling": [
+2819: "evening"
+2856: "question": "How do you feel after taking a nice cool shower?"
+2860: "question": "What is the very first thing you do in the morning when your alarm rings?"
+2871: "word": "Evening",
+2954: "name": "Evening",
+3115: "Evening",
+3125: "Morning",
+3127: "Evening",
+3131: "explanation": "Evening é o comecinho da noite ou fim de tarde! 🌆",
+3194: "question": "Taking a shower makes you clean.",
+3223: "nalaMsg": "No sleeping in class!",
+3273: "speaking": [
+3346: "text": "While I was hiking, I encountered a fascinating deer."
+3364: "text": "Eventually, I returned home feeling completely recharged."
+3367: "text": "Have you experienced anything exciting recently?"
+3370: "matching": [
+3417: "word": "Fascinating",
+3458: "morning"
+3481: "fascinating",
+3495: "during",
+3506: "interesting",
+3518: "something",
+3520: "amazing",
+3555: "spelling": [
+3565: "fascinating"
+3646: "Living room"
+3681: "Living room",
+3685: "explanation": "Living room é sala de estar! 🛋️",
+3728: "Playing",
+3753: "Sleeping",
+3763: "Bring",
+3834: "question": "\"I played\" is something happening right now.",
+3895: "explanation": "False! It's happening right now. ⏳",
+3935: "speaking": [
+4032: "matching": [
+4090: "eating",
+4105: "running",
+4107: "morning"
+4180: "eating",
+4216: "spelling": [
+4536: "speaking": [
+4558: "starter": "Running and dancing make my heart beat fast.",
+4633: "matching": [
+4706: "eating",
+4744: "using",
+4817: "spelling": [
+5076: "nalaMsg": "Looking good!",
+5137: "speaking": [
+5139: "question": "Have you ever flown in an airplane?",
+5145: "question": "Where would you like to travel in the world?",
+5147: "starter": "I would like to travel to Disney / London / Japan.",
+5160: "nalaTip": "Lembrancinhas de viagem! 🎁"
+5163: "question": "Do you like traveling by car, train, or plane?",
+5165: "starter": "I like traveling by car / plane.",
+5171: "starter": "Yes, I love exploring new places.",
+5175: "question": "Have you ever been on an airplane?",
+5193: "question": "Do you like buying souvenirs?",
+5204: "text": "Hello Laís! Have you ever traveled abroad?"
+5213: "text": "Wow! Have you visited many countries?"
+5234: "matching": [
+5398: "during",
+5418: "spelling": [
+5569: "I traveling"
+5588: "question": "Se perguntamos \"Have you ever <span class=\"quiz-highlight\">flown</span>?\", o que é flown?",
+5703: "question": "A tourist is someone visiting a place.",
+5738: "speaking": [
+5740: "question": "Why is recycling important for our planet?",
+5742: "starter": "Recycling is important because it protects nature.",
+5748: "starter": "We can save water by taking short showers.",
+5784: "starter": "We can turn off the tap when brushing teeth.",
+5794: "question": "Do you like spending time in nature?",
+5811: "text": "If we recycle plastic, we will save animals."
+5820: "text": "If we clean the Earth, nature will be happy."
+5829: "text": "If everybody helps, the forest will grow."
+5835: "matching": [
+5903: "Planting",
+5994: "Keeping",
+6020: "spelling": [
+6166: "question": "O que o condicional <span class=\"quiz-highlight\">\"If we recycle\"</span> significa?",
+6228: "question": "Recycling helps the planet.",
+6261: "question": "Leaving the water running is good.",
+6272: "question": "Planting a garden helps bees.",
+6322: "explanation": "False! Wasting food is bad. 🗑️",
+6343: "speaking": [
+6363: "question": "What do you like to do during recess at school?",
+6365: "starter": "During recess, I like to play with my friends.",
+6381: "question": "Do you like doing homework?",
+6402: "nalaTip": "Playing together!"
+6532: "text": "Your Teacher will be so happy to see you!"
+6541: "matching": [
+6627: "interesting",
+6676: "bring",
+6747: "translation": "Ele usa uma régua para desenhar linhas retas"
+6750: "spelling": [
+7104: "question": "A notebook has blank pages for writing.",
+7175: "speaking": [
+7179: "starter": "Yes, I love going to the cinema!",
+7213: "question": "Do you prefer watching movies at home or at the cinema?",
+7261: "question": "It is good to shout loudly during a movie.",
+7351: "text": "Nala is going to the cinema today!"
+7381: "matching": [
+7441: "watching",
+7464: "eating",
+7517: "watching",
+7518: "exciting",
+7545: "during",
+7565: "spelling": [
+7608: "question": "A movie with lots of exciting events."
+7808: "speaking": [
+7822: "question": "Have you ever been on a Ferris wheel?",
+7852: "question": "Have you ever eaten pink cotton candy?",
+7866: "starter": "I like throwing rings to win a bear.",
+7960: "question": "A carousel has wooden horses.",
+7977: "explanation": "False! Tents are for camping or circus shows. 🎪",
+7987: "text": "She sees a giant Ferris wheel spinning slowly."
+8014: "matching": [
+8071: "riding",
+8099: "everything",
+8178: "riding",
+8193: "exciting",
+8199: "spelling": [
+8425: "question": "If you win a game, you get a...",
+8442: "speaking": [
+8464: "starter": "I watch TV in the living room.",
+8482: "starter": "Yes, I like making cakes.",
+8488: "starter": "We eat in the dining room.",
+8517: "question": "A bed is for sleeping in the bedroom.",
+8528: "question": "Washing dishes means cleaning plates and cups.",
+8550: "question": "You watch TV in the living room.",
+8618: "text": "It is Saturday morning at Nala's house."
+8621: "text": "Everyone is helping to clean the home."
+8627: "text": "Mom is sweeping the floor with a broom."
+8630: "text": "Dad is washing the dishes in the kitchen."
+8639: "text": "Now they can relax in the living room."
+8645: "text": "Helping at home is good for the family."
+8648: "matching": [
+8670: "word": "Living Room",
+8709: "living",
+8744: "taking",
+8763: "evening"
+8833: "spelling": [
+8838: "living",
+8848: "question": "A building where people live."
+8856: "question": "A room for sleeping in."
+8863: "word": "Living Room",
+8884: "question": "An opening in a wall to let light in."
+8965: "Living Room",
+8992: "Living Room"
+9008: "nalaMsg": "Sparkling clean!"
+9013: "camping": {
+9014: "title": "Camping Adventure",
+9019: "text": "Hi Laís! Are you ready for our camping adventure?"
+9022: "text": "Yes, Nala! I packed my backpack with everything we need."
+9043: "text": "Yes, they are beautiful. Did you bring the flashlight?"
+9046: "text": "I did. Let's go into our sleeping bags now. Good night!"
+9049: "matching": [
+9081: "word": "Sleeping bag",
+9147: "looking",
+9207: "sleeping",
+9225: "question": "You need a sleeping bag to roast marshmallows.",
+9265: "speaking": [
+9267: "question": "Have you ever made a campfire?",
+9273: "question": "Do you like sleeping in a tent?",
+9279: "question": "What is your favorite camping food?",
+9285: "question": "Have you seen a bear?",
+9309: "question": "Have you ever slept in a tent?",
+9428: "Sleeping bag",
+9440: "Sleeping bag",
+9445: "explanation": "Sleeping bag! 🛌",
+9456: "text": "Laís, what are you listening to on your headphones?"
+9459: "text": "I am listening to my favorite playlist, Nala!"
+9462: "text": "Wow! Have you ever been to a concert of this singer?"
+9486: "matching": [
+9634: "listening",
+9664: "translation": "Fones de ouvido vão nas suas orelhas para escutar música."
+9677: "question": "A keyboard is used for typing text.",
+9707: "speaking": [
+9712: "nalaTip": "Everyone has one!"
+9733: "question": "Have you ever broken a screen?",
+9745: "question": "Do you like taking selfies?",
+9757: "question": "Do you prefer playing video games or listening to music?",
+9763: "question": "Have you ever lost your phone charger?",
+9898: if (selected && gameData[selected] && gameData[selected].bgImage) {
+9901: if (bg.includes('url')) {
+9910: // Inject dynamic background helper styles if the background is dark
+9911: if (!bg.includes('url')) {
