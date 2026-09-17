@@ -10062,113 +10062,170 @@ const gameData = {
   },
     "pets": {
     "speaking": [
-      { "question": "Do you have a pet?", "translation": "Você tem um animal de estimação?", "starter": "Yes, I have a...", "nalaTip": "A dog? A cat? 🐶🐱" }
+      { "question": "What kind of companion is a dog?", "translation": "Que tipo de companheiro é um cachorro?", "starter": "A dog is a...", "nalaTip": "Loyal and obedient? 🐶" },
+      { "question": "Why is pet adoption important?", "translation": "Por que a adoção de animais é importante?", "starter": "It is important to...", "nalaTip": "Give them a shelter! 🏠" },
+      { "question": "How do you show affection to your pet?", "translation": "Como você demonstra carinho pelo seu pet?", "starter": "I show affection by...", "nalaTip": "Grooming and petting! ❤️" }
     ],
     "title": "Pets & Care",
     "bgImage": "url('images/bg-pets.png')",
     "emoji": "🐶",
     "story": [
-      { "text": "I am so happy today! Do you want to play?" },
-      { "text": "Yes, Nala! Let's get your favorite toys." },
-      { "text": "Can we go for a walk after we play?" },
-      { "text": "Of course! Let's get some water first." }
+      { "text": "I adopted a stray cat from the animal shelter." },
+      { "text": "His behavior is very calm and obedient." },
+      { "text": "He wears a shiny red collar." },
+      { "text": "I take him to the veterinary for check-ups." },
+      { "text": "We share a strong bond of loyalty and affection." }
     ],
     "matching": [
-      { "word": "Dog", "emoji": "🐶", "pt": "Cachorro" },
-      { "word": "Cat", "emoji": "🐱", "pt": "Gato" },
-      { "word": "Water", "emoji": "💧", "pt": "Água" },
-      { "word": "Toys", "emoji": "🎾", "pt": "Brinquedos" },
-      { "word": "Brush", "emoji": "🪮", "pt": "Escova" }
+      { "word": "Companion", "emoji": "🐶", "pt": "Companheiro" },
+      { "word": "Stray", "emoji": "🐈", "pt": "De rua/Abandonado" },
+      { "word": "Grooming", "emoji": "✂️", "pt": "Tosa/Limpeza" },
+      { "word": "Collar", "emoji": "🦮", "pt": "Coleira" },
+      { "word": "Loyalty", "emoji": "🤝", "pt": "Lealdade" },
+      { "word": "Shelter", "emoji": "🏠", "pt": "Abrigo" },
+      { "word": "Adoption", "emoji": "🐾", "pt": "Adoção" },
+      { "word": "Behavior", "emoji": "🧠", "pt": "Comportamento" },
+      { "word": "Obedient", "emoji": "🐕", "pt": "Obediente" },
+      { "word": "Whiskers", "emoji": "🐱", "pt": "Bigodes" },
+      { "word": "Veterinary", "emoji": "🩺", "pt": "Veterinário" },
+      { "word": "Affection", "emoji": "❤️", "pt": "Carinho" }
     ],
     "sentence": [
-      { "words": ["My", "dog", "loves", "to", "play", "with", "toys"], "translation": "Meu cachorro ama brincar com brinquedos" }
+      { "words": ["The", "stray", "cat", "found", "a", "safe", "shelter"], "translation": "O gato de rua encontrou um abrigo seguro" },
+      { "words": ["My", "loyal", "companion", "wears", "a", "blue", "collar"], "translation": "Meu leal companheiro usa uma coleira azul" },
+      { "words": ["We", "must", "show", "affection", "to", "all", "pets"], "translation": "Nós devemos demonstrar carinho por todos os animais" }
     ],
-    "spelling": ["dog", "cat", "food", "water", "toys", "brush", "bed", "walk", "sleep", "happy"],
-    "garden": ["dog", "cat", "toys", "water", "bed"],
+    "spelling": ["companion", "stray", "grooming", "collar", "loyalty", "shelter", "adoption", "behavior", "obedient", "whiskers", "veterinary", "affection"],
+    "garden": ["companion", "stray", "collar", "loyalty", "shelter", "adoption", "obedient", "affection"],
     "quiz": [
-      { "question": "What do pets drink?", "options": ["Toys", "Water", "Brush", "Bed"], "correct": 1, "explanation": "Pets drink water to stay healthy!", "nalaMsg": "Slurp slurp!" }
+      { "question": "Where can you adopt an animal without a home?", "options": ["A shelter", "A grocery store", "A cinema", "A library"], "correct": 0, "explanation": "Animal shelters help stray animals find a home!", "nalaMsg": "Adopt, don't shop!" },
+      { "question": "What is it called when you brush and clean a pet?", "options": ["Adoption", "Behavior", "Grooming", "Loyalty"], "correct": 2, "explanation": "Grooming keeps pets clean and healthy!", "nalaMsg": "Looking good!" },
+      { "question": "What do cats have on their face that helps them feel things?", "options": ["Collar", "Whiskers", "Feathers", "Scales"], "correct": 1, "explanation": "Cats use their whiskers to feel the world around them!", "nalaMsg": "So cute!" }
     ],
     "truefalse": [
-      { "statement": "Dogs sleep in a bed.", "translation": "Cachorros dormem em uma cama.", "isTrue": true, "explanation": "Yes, dogs love comfortable beds!" }
+      { "statement": "A veterinary is a doctor for animals.", "translation": "Um veterinário é um médico para animais.", "isTrue": true, "explanation": "Vets take care of sick pets!" },
+      { "statement": "An obedient dog never listens to you.", "translation": "Um cachorro obediente nunca te escuta.", "isTrue": false, "explanation": "An obedient dog follows instructions!" },
+      { "statement": "Loyalty means staying true and supporting your friends.", "translation": "Lealdade significa ser verdadeiro e apoiar seus amigos.", "isTrue": true, "explanation": "Dogs are famous for their loyalty!" }
     ],
     "fetch": [
-      { "id": "bone", "name": "Bone", "emoji": "🦴", "correct": true },
-      { "id": "brush", "name": "Brush", "emoji": "🪮", "correct": true },
-      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false }
+      { "id": "collar", "name": "Collar", "emoji": "🦮", "correct": true },
+      { "id": "shelter", "name": "Shelter", "emoji": "🏠", "correct": true },
+      { "id": "cat", "name": "Whiskers", "emoji": "🐱", "correct": true },
+      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false },
+      { "id": "heart", "name": "Affection", "emoji": "❤️", "correct": true },
+      { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false }
     ]
   },
   "baking": {
     "speaking": [
-      { "question": "What is your favorite sweet?", "translation": "Qual é o seu doce favorito?", "starter": "My favorite sweet is...", "nalaTip": "Cake? Chocolate? 🍰" }
+      { "question": "What is your favorite dessert to bake?", "translation": "Qual é a sua sobremesa favorita para assar?", "starter": "I love to bake...", "nalaTip": "A delicious cake? 🍰" },
+      { "question": "Do you like to measure the ingredients?", "translation": "Você gosta de medir os ingredientes?", "starter": "Yes, I measure...", "nalaTip": "Sugar and flour! 🥄" },
+      { "question": "What flavor of cake is the best?", "translation": "Qual sabor de bolo é o melhor?", "starter": "The best flavor is...", "nalaTip": "Chocolate or strawberry? 🍓" }
     ],
     "title": "Baking & Sweets",
     "bgImage": "url('images/bg-baking.png')",
     "emoji": "🧁",
     "story": [
-      { "text": "Let's bake a cake today!" },
-      { "text": "Yummy! We need sugar and milk." },
-      { "text": "I want to add chocolate and strawberry." },
-      { "text": "Perfect! Let's put it in the oven." }
+      { "text": "Let's read the recipe to bake a dessert." },
+      { "text": "First, measure all the ingredients carefully." },
+      { "text": "Use a whisk to stir the delicious mixture." },
+      { "text": "Melt some chocolate and add it to the dough." },
+      { "text": "Sprinkle sugar on top before putting it in the oven." }
     ],
     "matching": [
-      { "word": "Cake", "emoji": "🎂", "pt": "Bolo" },
-      { "word": "Chocolate", "emoji": "🍫", "pt": "Chocolate" },
-      { "word": "Cookie", "emoji": "🍪", "pt": "Biscoito" },
-      { "word": "Milk", "emoji": "🥛", "pt": "Leite" },
-      { "word": "Oven", "emoji": "🎛️", "pt": "Forno" }
+      { "word": "Recipe", "emoji": "📜", "pt": "Receita" },
+      { "word": "Ingredient", "emoji": "🥣", "pt": "Ingrediente" },
+      { "word": "Dessert", "emoji": "🍰", "pt": "Sobremesa" },
+      { "word": "Flavor", "emoji": "🍓", "pt": "Sabor" },
+      { "word": "Bake", "emoji": "👩‍🍳", "pt": "Assar" },
+      { "word": "Measure", "emoji": "🥄", "pt": "Medir" },
+      { "word": "Mixture", "emoji": "🌪️", "pt": "Mistura" },
+      { "word": "Dough", "emoji": "🥖", "pt": "Massa" },
+      { "word": "Whisk", "emoji": "🥚", "pt": "Batedor" },
+      { "word": "Sprinkle", "emoji": "🧁", "pt": "Polvilhar" },
+      { "word": "Delicious", "emoji": "😋", "pt": "Delicioso" },
+      { "word": "Melt", "emoji": "🍫", "pt": "Derreter" }
     ],
     "sentence": [
-      { "words": ["We", "bake", "a", "sweet", "chocolate", "cake", "today"], "translation": "Nós assamos um bolo doce de chocolate hoje" }
+      { "words": ["You", "need", "to", "measure", "every", "ingredient", "carefully"], "translation": "Você precisa medir cada ingrediente com cuidado" },
+      { "words": ["The", "chocolate", "flavor", "is", "very", "delicious"], "translation": "O sabor de chocolate é muito delicioso" },
+      { "words": ["Melt", "the", "chocolate", "and", "pour", "the", "mixture"], "translation": "Derreta o chocolate e despeje a mistura" }
     ],
-    "spelling": ["cake", "cookie", "sugar", "milk", "oven", "sweet", "bake", "yummy"],
-    "garden": ["cake", "cookie", "milk", "sugar", "oven"],
+    "spelling": ["recipe", "ingredient", "dessert", "flavor", "bake", "measure", "mixture", "dough", "whisk", "sprinkle", "delicious", "melt"],
+    "garden": ["recipe", "ingredient", "dessert", "flavor", "measure", "dough", "sprinkle", "delicious"],
     "quiz": [
-      { "question": "Where do you bake a cake?", "options": ["Fridge", "Oven", "Bed", "Sofa"], "correct": 1, "explanation": "You bake cakes in an oven!", "nalaMsg": "Hot!" }
+      { "question": "What tells you how to make a dish?", "options": ["A whisk", "A flavor", "A recipe", "A mixture"], "correct": 2, "explanation": "A recipe has all the steps and ingredients!", "nalaMsg": "Let's read!" },
+      { "question": "What do you do with solid chocolate to make it a liquid?", "options": ["Bake it", "Freeze it", "Melt it", "Sprinkle it"], "correct": 2, "explanation": "You melt chocolate to make it a liquid!", "nalaMsg": "Yummy!" },
+      { "question": "A sweet food eaten at the end of a meal is a...", "options": ["Recipe", "Dessert", "Dough", "Measure"], "correct": 1, "explanation": "Desserts are sweet treats!", "nalaMsg": "I love cake!" }
     ],
     "truefalse": [
-      { "statement": "Sugar is very salty.", "translation": "Açúcar é muito salgado.", "isTrue": false, "explanation": "Sugar is very sweet!" }
+      { "statement": "You use a whisk to chop vegetables.", "translation": "Você usa um batedor para cortar vegetais.", "isTrue": false, "explanation": "A whisk is used to mix liquids or eggs!" },
+      { "statement": "Dough is a thick mixture used to make bread or cookies.", "translation": "Massa é uma mistura espessa usada para fazer pão ou biscoitos.", "isTrue": true, "explanation": "Yes, dough goes in the oven!" },
+      { "statement": "Sprinkles are small, sweet decorations on top of a cake.", "translation": "Granulados são decorações pequenas e doces em cima de um bolo.", "isTrue": true, "explanation": "Sprinkles make desserts colorful and fun!" }
     ],
     "fetch": [
-      { "id": "cookie", "name": "Cookie", "emoji": "🍪", "correct": true },
-      { "id": "cake", "name": "Cake", "emoji": "🎂", "correct": true },
+      { "id": "recipe", "name": "Recipe", "emoji": "📜", "correct": true },
+      { "id": "whisk", "name": "Whisk", "emoji": "🥚", "correct": true },
+      { "id": "chocolate", "name": "Melt", "emoji": "🍫", "correct": true },
+      { "id": "tree", "name": "Tree", "emoji": "🌳", "correct": false },
+      { "id": "cake", "name": "Dessert", "emoji": "🍰", "correct": true },
       { "id": "shoe", "name": "Shoe", "emoji": "👟", "correct": false }
     ]
   },
   "bedroom": {
     "speaking": [
-      { "question": "What color is your bedroom?", "translation": "Qual é a cor do seu quarto?", "starter": "My bedroom is...", "nalaTip": "Pink? Blue? 🛏️" }
+      { "question": "How do you like to decorate your room?", "translation": "Como você gosta de decorar o seu quarto?", "starter": "I like to decorate with...", "nalaTip": "Posters and curtains! 🖼️" },
+      { "question": "Is your wardrobe tidy or messy?", "translation": "Seu guarda-roupa está arrumado ou bagunçado?", "starter": "My wardrobe is...", "nalaTip": "I hope it's tidy! ✨" },
+      { "question": "What makes a bedroom cozy?", "translation": "O que torna um quarto aconchegante?", "starter": "A bedroom is cozy with a...", "nalaTip": "A warm blanket! 🥰" }
     ],
     "title": "My Bedroom",
     "bgImage": "url('images/bg-bedroom.png')",
     "emoji": "🛏️",
     "story": [
-      { "text": "Wow, your bedroom is very clean!" },
-      { "text": "Thank you! I made my bed this morning." },
-      { "text": "I love the pink blanket and the pillows." },
-      { "text": "Me too, and I have a new poster on the wall." }
+      { "text": "I got new furniture to decorate my room." },
+      { "text": "My new mattress is so cozy with this warm blanket." },
+      { "text": "I organized all my clothes in the wardrobe and drawer." },
+      { "text": "I put my favorite books on the shelves." },
+      { "text": "The carpet and the curtains match perfectly. It is very tidy!" }
     ],
     "matching": [
-      { "word": "Bed", "emoji": "🛏️", "pt": "Cama" },
-      { "word": "Pillow", "emoji": "🛌", "pt": "Travesseiro" },
-      { "word": "Lamp", "emoji": "💡", "pt": "Luminária" },
-      { "word": "Desk", "emoji": "🪑", "pt": "Escrivaninha" },
-      { "word": "Poster", "emoji": "🖼️", "pt": "Pôster" }
+      { "word": "Furniture", "emoji": "🪑", "pt": "Mobília" },
+      { "word": "Decorate", "emoji": "🖼️", "pt": "Decorar" },
+      { "word": "Mattress", "emoji": "🛌", "pt": "Colchão" },
+      { "word": "Blanket", "emoji": "🧣", "pt": "Cobertor" },
+      { "word": "Cozy", "emoji": "🥰", "pt": "Aconchegante" },
+      { "word": "Wardrobe", "emoji": "🚪", "pt": "Guarda-roupa" },
+      { "word": "Tidy", "emoji": "✨", "pt": "Arrumado" },
+      { "word": "Shelves", "emoji": "📚", "pt": "Prateleiras" },
+      { "word": "Drawer", "emoji": "🗄️", "pt": "Gaveta" },
+      { "word": "Carpet", "emoji": "🧶", "pt": "Tapete" },
+      { "word": "Mirror", "emoji": "🪞", "pt": "Espelho" },
+      { "word": "Curtains", "emoji": "🪟", "pt": "Cortinas" }
     ],
     "sentence": [
-      { "words": ["My", "pink", "blanket", "is", "on", "the", "bed"], "translation": "Meu cobertor rosa está na cama" }
+      { "words": ["My", "bedroom", "is", "very", "cozy", "and", "tidy"], "translation": "Meu quarto é muito aconchegante e arrumado" },
+      { "words": ["She", "put", "her", "clothes", "in", "the", "wooden", "wardrobe"], "translation": "Ela colocou as roupas dela no guarda-roupa de madeira" },
+      { "words": ["The", "books", "are", "organized", "on", "the", "wall", "shelves"], "translation": "Os livros estão organizados nas prateleiras da parede" }
     ],
-    "spelling": ["bed", "pillow", "blanket", "desk", "lamp", "poster", "pink", "clean", "sleep", "room"],
-    "garden": ["bed", "pillow", "blanket", "desk", "lamp"],
+    "spelling": ["furniture", "decorate", "mattress", "blanket", "cozy", "wardrobe", "tidy", "shelves", "drawer", "carpet", "mirror", "curtains"],
+    "garden": ["furniture", "decorate", "mattress", "blanket", "wardrobe", "shelves", "carpet", "curtains"],
     "quiz": [
-      { "question": "Where do you put your head when you sleep?", "options": ["Desk", "Pillow", "Lamp", "Poster"], "correct": 1, "explanation": "You rest your head on a pillow!", "nalaMsg": "Sweet dreams!" }
+      { "question": "Where do you hang your clothes?", "options": ["Drawer", "Wardrobe", "Shelves", "Mattress"], "correct": 1, "explanation": "You hang clothes in a wardrobe!", "nalaMsg": "Very organized!" },
+      { "question": "What makes a room dark so you can sleep?", "options": ["Carpet", "Mirror", "Curtains", "Furniture"], "correct": 2, "explanation": "Curtains block the sunlight!", "nalaMsg": "Good night!" },
+      { "question": "If a room is clean and organized, it is...", "options": ["Messy", "Tidy", "Cozy", "Decorate"], "correct": 1, "explanation": "Tidy means clean and well organized!", "nalaMsg": "Great job cleaning up!" }
     ],
     "truefalse": [
-      { "statement": "You sleep on a desk.", "translation": "Você dorme em uma escrivaninha.", "isTrue": false, "explanation": "You sleep in a bed!" }
+      { "statement": "You sleep directly on the carpet.", "translation": "Você dorme diretamente no tapete.", "isTrue": false, "explanation": "You sleep on a mattress!" },
+      { "statement": "A mirror is a piece of glass where you can see your reflection.", "translation": "Um espelho é uma peça de vidro onde você pode ver seu reflexo.", "isTrue": true, "explanation": "Mirrors show your reflection!" },
+      { "statement": "You open a drawer by pulling it towards you.", "translation": "Você abre uma gaveta puxando-a em sua direção.", "isTrue": true, "explanation": "Yes, drawers slide out to open!" }
     ],
     "fetch": [
-      { "id": "pillow", "name": "Pillow", "emoji": "🛌", "correct": true },
-      { "id": "lamp", "name": "Lamp", "emoji": "💡", "correct": true },
-      { "id": "ball", "name": "Ball", "emoji": "⚽", "correct": false }
+      { "id": "mirror", "name": "Mirror", "emoji": "🪞", "correct": true },
+      { "id": "wardrobe", "name": "Wardrobe", "emoji": "🚪", "correct": true },
+      { "id": "books", "name": "Shelves", "emoji": "📚", "correct": true },
+      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false },
+      { "id": "bed", "name": "Mattress", "emoji": "🛌", "correct": true },
+      { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false }
     ]
   },
   "friends": {
