@@ -10060,253 +10060,152 @@ const gameData = {
       }
     ]
   },
-  "sports": {
+    "pets": {
     "speaking": [
-      {
-        "question": "What is your favorite sport?",
-        "translation": "Qual é o seu esporte favorito?",
-        "starter": "My favorite sport is...",
-        "nalaTip": "Responda com seu esporte, ex: My favorite sport is soccer! ⚽"
-      },
-      {
-        "question": "Can you ride a bike?",
-        "translation": "Você sabe andar de bicicleta?",
-        "starter": "Yes, I can ride a bike.",
-        "nalaTip": "I love riding bikes in the park! 🚴"
-      },
-      {
-        "question": "Do you like to swim?",
-        "translation": "Você gosta de nadar?",
-        "starter": "Yes, I like to swim.",
-        "nalaTip": "Swimming is very fun! 🏊"
-      }
+      { "question": "Do you have a pet?", "translation": "Você tem um animal de estimação?", "starter": "Yes, I have a...", "nalaTip": "A dog? A cat? 🐶🐱" }
     ],
-    "title": "Sports & Hobbies",
-    "bgImage": "url('images/bg-sports.png')",
-    "emoji": "⚽",
+    "title": "Pets & Care",
+    "bgImage": "url('images/bg-pets.png')",
+    "emoji": "🐶",
     "story": [
-      {
-        "text": "Hi Laís! Do you want to play at the park today?"
-      },
-      {
-        "text": "Yes, Nala! I love sports. What should we play?"
-      },
-      {
-        "text": "Let's play soccer! I can kick the ball very far."
-      },
-      {
-        "text": "Great! After that, we can go for a swim."
-      },
-      {
-        "text": "Swimming is fun! Or we can ride our bikes."
-      }
+      { "text": "I am so happy today! Do you want to play?" },
+      { "text": "Yes, Nala! Let's get your favorite toys." },
+      { "text": "Can we go for a walk after we play?" },
+      { "text": "Of course! Let's get some water first." }
     ],
     "matching": [
-      { "word": "Soccer", "emoji": "⚽", "pt": "Futebol" },
-      { "word": "Basketball", "emoji": "🏀", "pt": "Basquete" },
-      { "word": "Swim", "emoji": "🏊", "pt": "Nadar" },
-      { "word": "Dance", "emoji": "💃", "pt": "Dançar" },
-      { "word": "Run", "emoji": "🏃", "pt": "Correr" }
+      { "word": "Dog", "emoji": "🐶", "pt": "Cachorro" },
+      { "word": "Cat", "emoji": "🐱", "pt": "Gato" },
+      { "word": "Water", "emoji": "💧", "pt": "Água" },
+      { "word": "Toys", "emoji": "🎾", "pt": "Brinquedos" },
+      { "word": "Brush", "emoji": "🪮", "pt": "Escova" }
     ],
     "sentence": [
-      {
-        "words": ["I", "love", "to", "play", "soccer", "with", "friends"],
-        "translation": "Eu amo jogar futebol com os amigos"
-      },
-      {
-        "words": ["She", "can", "swim", "very", "fast", "in", "water"],
-        "translation": "Ela consegue nadar muito rápido na água"
-      }
+      { "words": ["My", "dog", "loves", "to", "play", "with", "toys"], "translation": "Meu cachorro ama brincar com brinquedos" }
     ],
-    "spelling": ["soccer", "swim", "dance", "run", "bike"],
-    "garden": ["soccer", "swim", "run"],
+    "spelling": ["dog", "cat", "food", "water", "toys", "brush", "bed", "walk", "sleep", "happy"],
+    "garden": ["dog", "cat", "toys", "water", "bed"],
     "quiz": [
-      {
-        "question": "What do you do with a soccer ball?",
-        "options": ["Swim", "Kick", "Read", "Sleep"],
-        "correct": 1,
-        "explanation": "You kick a soccer ball!",
-        "nalaMsg": "Goal!"
-      }
+      { "question": "What do pets drink?", "options": ["Toys", "Water", "Brush", "Bed"], "correct": 1, "explanation": "Pets drink water to stay healthy!", "nalaMsg": "Slurp slurp!" }
     ],
     "truefalse": [
-      {
-        "statement": "You swim in a pool.",
-        "translation": "Você nada em uma piscina.",
-        "isTrue": true,
-        "explanation": "Yes, swimming happens in water!"
-      }
+      { "statement": "Dogs sleep in a bed.", "translation": "Cachorros dormem em uma cama.", "isTrue": true, "explanation": "Yes, dogs love comfortable beds!" }
     ],
     "fetch": [
-      { "id": "ball", "name": "Ball", "emoji": "⚽", "correct": true },
-      { "id": "book", "name": "Book", "emoji": "📖", "correct": false },
-      { "id": "sneakers", "name": "Sneakers", "emoji": "👟", "correct": true }
+      { "id": "bone", "name": "Bone", "emoji": "🦴", "correct": true },
+      { "id": "brush", "name": "Brush", "emoji": "🪮", "correct": true },
+      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false }
     ]
   },
-  "weather": {
+  "baking": {
     "speaking": [
-      {
-        "question": "How is the weather today?",
-        "translation": "Como está o tempo hoje?",
-        "starter": "Today it is...",
-        "nalaTip": "Is it sunny or rainy? ☀️🌧️"
-      }
+      { "question": "What is your favorite sweet?", "translation": "Qual é o seu doce favorito?", "starter": "My favorite sweet is...", "nalaTip": "Cake? Chocolate? 🍰" }
     ],
-    "title": "Weather & Seasons",
-    "bgImage": "url('images/bg-weather.png')",
-    "emoji": "☀️",
+    "title": "Baking & Sweets",
+    "bgImage": "url('images/bg-baking.png')",
+    "emoji": "🧁",
     "story": [
-      { "text": "Look outside! The sun is shining today." },
-      { "text": "Yes, it is very sunny and hot!" },
-      { "text": "I hope it doesn't rain later." },
-      { "text": "I like rainy days too, we can jump in puddles." }
+      { "text": "Let's bake a cake today!" },
+      { "text": "Yummy! We need sugar and milk." },
+      { "text": "I want to add chocolate and strawberry." },
+      { "text": "Perfect! Let's put it in the oven." }
     ],
     "matching": [
-      { "word": "Sunny", "emoji": "☀️", "pt": "Ensolarado" },
-      { "word": "Rainy", "emoji": "🌧️", "pt": "Chuvoso" },
-      { "word": "Hot", "emoji": "🔥", "pt": "Quente" },
-      { "word": "Cold", "emoji": "❄️", "pt": "Frio" },
-      { "word": "Winter", "emoji": "⛄", "pt": "Inverno" }
+      { "word": "Cake", "emoji": "🎂", "pt": "Bolo" },
+      { "word": "Chocolate", "emoji": "🍫", "pt": "Chocolate" },
+      { "word": "Cookie", "emoji": "🍪", "pt": "Biscoito" },
+      { "word": "Milk", "emoji": "🥛", "pt": "Leite" },
+      { "word": "Oven", "emoji": "🎛️", "pt": "Forno" }
     ],
     "sentence": [
-      {
-        "words": ["The", "sun", "is", "very", "hot", "today"],
-        "translation": "O sol está muito quente hoje"
-      }
+      { "words": ["We", "bake", "a", "sweet", "chocolate", "cake", "today"], "translation": "Nós assamos um bolo doce de chocolate hoje" }
     ],
-    "spelling": ["sunny", "rainy", "hot", "cold", "snow"],
-    "garden": ["sunny", "hot", "cold"],
+    "spelling": ["cake", "cookie", "sugar", "milk", "oven", "sweet", "bake", "yummy"],
+    "garden": ["cake", "cookie", "milk", "sugar", "oven"],
     "quiz": [
-      {
-        "question": "What do you use when it rains?",
-        "options": ["Sunglasses", "Umbrella", "Hat", "Shorts"],
-        "correct": 1,
-        "explanation": "An umbrella keeps you dry!",
-        "nalaMsg": "Stay dry!"
-      }
+      { "question": "Where do you bake a cake?", "options": ["Fridge", "Oven", "Bed", "Sofa"], "correct": 1, "explanation": "You bake cakes in an oven!", "nalaMsg": "Hot!" }
     ],
     "truefalse": [
-      {
-        "statement": "Winter is very hot.",
-        "translation": "O inverno é muito quente.",
-        "isTrue": false,
-        "explanation": "Winter is cold!"
-      }
+      { "statement": "Sugar is very salty.", "translation": "Açúcar é muito salgado.", "isTrue": false, "explanation": "Sugar is very sweet!" }
     ],
     "fetch": [
-      { "id": "sun", "name": "Sun", "emoji": "☀️", "correct": true },
-      { "id": "snow", "name": "Snow", "emoji": "❄️", "correct": true },
-      { "id": "sunglasses", "name": "Sunglasses", "emoji": "🕶️", "correct": true }
+      { "id": "cookie", "name": "Cookie", "emoji": "🍪", "correct": true },
+      { "id": "cake", "name": "Cake", "emoji": "🎂", "correct": true },
+      { "id": "shoe", "name": "Shoe", "emoji": "👟", "correct": false }
     ]
   },
-  "professions": {
+  "bedroom": {
     "speaking": [
-      {
-        "question": "What does a doctor do?",
-        "translation": "O que um médico faz?",
-        "starter": "A doctor helps...",
-        "nalaTip": "Helps sick people! 👩‍⚕️"
-      }
+      { "question": "What color is your bedroom?", "translation": "Qual é a cor do seu quarto?", "starter": "My bedroom is...", "nalaTip": "Pink? Blue? 🛏️" }
     ],
-    "title": "Professions",
-    "bgImage": "url('images/bg-professions.png')",
-    "emoji": "👩‍⚕️",
+    "title": "My Bedroom",
+    "bgImage": "url('images/bg-bedroom.png')",
+    "emoji": "🛏️",
     "story": [
-      { "text": "What do you want to be when you grow up?" },
-      { "text": "I want to be a teacher!" },
-      { "text": "That is wonderful. I want to be a police dog." }
+      { "text": "Wow, your bedroom is very clean!" },
+      { "text": "Thank you! I made my bed this morning." },
+      { "text": "I love the pink blanket and the pillows." },
+      { "text": "Me too, and I have a new poster on the wall." }
     ],
     "matching": [
-      { "word": "Doctor", "emoji": "👩‍⚕️", "pt": "Médico(a)" },
-      { "word": "Teacher", "emoji": "👩‍🏫", "pt": "Professor(a)" },
-      { "word": "Vet", "emoji": "🐕‍🦺", "pt": "Veterinário(a)" },
-      { "word": "Police", "emoji": "👮", "pt": "Policial" },
-      { "word": "Chef", "emoji": "👨‍🍳", "pt": "Cozinheiro(a)" }
+      { "word": "Bed", "emoji": "🛏️", "pt": "Cama" },
+      { "word": "Pillow", "emoji": "🛌", "pt": "Travesseiro" },
+      { "word": "Lamp", "emoji": "💡", "pt": "Luminária" },
+      { "word": "Desk", "emoji": "🪑", "pt": "Escrivaninha" },
+      { "word": "Poster", "emoji": "🖼️", "pt": "Pôster" }
     ],
     "sentence": [
-      {
-        "words": ["The", "teacher", "helps", "students", "learn", "English"],
-        "translation": "A professora ajuda os alunos a aprenderem inglês"
-      }
+      { "words": ["My", "pink", "blanket", "is", "on", "the", "bed"], "translation": "Meu cobertor rosa está na cama" }
     ],
-    "spelling": ["doctor", "teacher", "vet", "chef", "nurse"],
-    "garden": ["doctor", "vet", "chef"],
+    "spelling": ["bed", "pillow", "blanket", "desk", "lamp", "poster", "pink", "clean", "sleep", "room"],
+    "garden": ["bed", "pillow", "blanket", "desk", "lamp"],
     "quiz": [
-      {
-        "question": "Who cooks food in a restaurant?",
-        "options": ["Doctor", "Chef", "Teacher", "Pilot"],
-        "correct": 1,
-        "explanation": "A chef makes delicious food!",
-        "nalaMsg": "Yummy!"
-      }
+      { "question": "Where do you put your head when you sleep?", "options": ["Desk", "Pillow", "Lamp", "Poster"], "correct": 1, "explanation": "You rest your head on a pillow!", "nalaMsg": "Sweet dreams!" }
     ],
     "truefalse": [
-      {
-        "statement": "A vet helps sick animals.",
-        "translation": "Um veterinário ajuda animais doentes.",
-        "isTrue": true,
-        "explanation": "Yes, vets are animal doctors!"
-      }
+      { "statement": "You sleep on a desk.", "translation": "Você dorme em uma escrivaninha.", "isTrue": false, "explanation": "You sleep in a bed!" }
     ],
     "fetch": [
-      { "id": "stethoscope", "name": "Doctor", "emoji": "🩺", "correct": true },
-      { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false },
-      { "id": "syringe", "name": "Syringe", "emoji": "💉", "correct": true }
+      { "id": "pillow", "name": "Pillow", "emoji": "🛌", "correct": true },
+      { "id": "lamp", "name": "Lamp", "emoji": "💡", "correct": true },
+      { "id": "ball", "name": "Ball", "emoji": "⚽", "correct": false }
     ]
   },
-  "city": {
+  "friends": {
     "speaking": [
-      {
-        "question": "Where do you go to play?",
-        "translation": "Onde você vai para brincar?",
-        "starter": "I go to the...",
-        "nalaTip": "Park! 🏞️"
-      }
+      { "question": "What do you do with your friends?", "translation": "O que você faz com suas amigas?", "starter": "I like to...", "nalaTip": "Go shopping? Watch a movie? 💖" }
     ],
-    "title": "City & Places",
-    "bgImage": "url('images/bg-city.png')",
-    "emoji": "🏙️",
+    "title": "Friends & Feelings",
+    "bgImage": "url('images/bg-friends.png')",
+    "emoji": "💖",
     "story": [
-      { "text": "Let's go to the city today!" },
-      { "text": "Where should we go first?" },
-      { "text": "Let's buy bread at the bakery." }
+      { "text": "I am so excited to go shopping today!" },
+      { "text": "Me too! It is so fun to hang out with friends." },
+      { "text": "Let's watch a movie and share some popcorn." },
+      { "text": "I love spending time with you. I am very happy." }
     ],
     "matching": [
-      { "word": "Park", "emoji": "🏞️", "pt": "Parque" },
-      { "word": "Bakery", "emoji": "🥖", "pt": "Padaria" },
-      { "word": "Hospital", "emoji": "🏥", "pt": "Hospital" },
-      { "word": "School", "emoji": "🏫", "pt": "Escola" },
-      { "word": "Museum", "emoji": "🏛️", "pt": "Museu" }
+      { "word": "Friend", "emoji": "👧", "pt": "Amiga" },
+      { "word": "Shopping", "emoji": "🛍️", "pt": "Compras" },
+      { "word": "Movie", "emoji": "🍿", "pt": "Filme" },
+      { "word": "Happy", "emoji": "😊", "pt": "Feliz" },
+      { "word": "Gift", "emoji": "🎁", "pt": "Presente" }
     ],
     "sentence": [
-      {
-        "words": ["We", "buy", "bread", "at", "the", "bakery"],
-        "translation": "Nós compramos pão na padaria"
-      }
+      { "words": ["I", "am", "very", "happy", "to", "see", "my", "friend"], "translation": "Eu estou muito feliz em ver minha amiga" }
     ],
-    "spelling": ["park", "bakery", "museum", "bank", "store"],
-    "garden": ["park", "bank", "store"],
+    "spelling": ["friend", "shopping", "movie", "happy", "excited", "talk", "laugh", "gift", "share", "love"],
+    "garden": ["friend", "shopping", "movie", "happy", "gift"],
     "quiz": [
-      {
-        "question": "Where do you see dinosaurs?",
-        "options": ["Bakery", "Museum", "Park", "Bank"],
-        "correct": 1,
-        "explanation": "Museums have old things like dinosaurs!",
-        "nalaMsg": "Roar!"
-      }
+      { "question": "How do you feel when you get a gift?", "options": ["Sad", "Angry", "Happy", "Tired"], "correct": 2, "explanation": "Gifts usually make us feel happy!", "nalaMsg": "Yay!" }
     ],
     "truefalse": [
-      {
-        "statement": "You sleep at the park.",
-        "translation": "Você dorme no parque.",
-        "isTrue": false,
-        "explanation": "You sleep at home!"
-      }
+      { "statement": "You go shopping to sleep.", "translation": "Você vai às compras para dormir.", "isTrue": false, "explanation": "You go shopping to buy things!" }
     ],
     "fetch": [
-      { "id": "bread", "name": "Bread", "emoji": "🥖", "correct": true },
-      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false },
-      { "id": "bus", "name": "Bus", "emoji": "🚌", "correct": true }
+      { "id": "gift", "name": "Gift", "emoji": "🎁", "correct": true },
+      { "id": "shopping", "name": "Shopping", "emoji": "🛍️", "correct": true },
+      { "id": "tree", "name": "Tree", "emoji": "🌳", "correct": false }
     ]
   },
   "fashion": {
