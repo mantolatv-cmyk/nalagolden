@@ -10227,60 +10227,60 @@ const gameData = {
       { "id": "car", "name": "Car", "emoji": "🚗", "correct": false }
     ]
   },
-  "music": {
+  "magic": {
     "speaking": [
-      { "question": "What is your favorite instrument?", "translation": "Qual é o seu instrumento favorito?", "starter": "My favorite instrument is...", "nalaTip": "A guitar? A piano? 🎸" },
-      { "question": "Have you ever been to a concert?", "translation": "Você já foi a um show?", "starter": "Yes, I went to a concert of...", "nalaTip": "Who is your favorite singer? 🎤" },
-      { "question": "Do you know the lyrics to this song?", "translation": "Você sabe a letra dessa música?", "starter": "Yes, the lyrics are...", "nalaTip": "Sing along! 🎶" }
+      { "question": "If you had magic, what would you do?", "translation": "Se você tivesse magia, o que faria?", "starter": "I would cast a...", "nalaTip": "Cast a spell! ✨" },
+      { "question": "Who is your favorite hero?", "translation": "Quem é o seu herói favorito?", "starter": "My favorite hero is...", "nalaTip": "A wizard? A fairy? 🧚‍♀️" },
+      { "question": "Would you like to live in a castle?", "translation": "Você gostaria de morar em um castelo?", "starter": "Yes, I want to rule a...", "nalaTip": "Rule a kingdom! 👑" }
     ],
-    "title": "Music & Concerts",
-    "bgImage": "url('images/bg-music.png')",
-    "emoji": "🎧",
+    "title": "Magic & Fantasy",
+    "bgImage": "url('images/bg-magic.png')",
+    "emoji": "🔮",
     "story": [
-      { "text": "We are going to a big concert tonight!" },
-      { "text": "The band had a great rehearsal yesterday." },
-      { "text": "The lead singer will be in the spotlight." },
-      { "text": "Listen to the melody, it is very catchy." },
-      { "text": "The audience gives a loud applause!" }
+      { "text": "Once upon a time in a far away kingdom..." },
+      { "text": "A brave hero went on a dangerous quest." },
+      { "text": "They had to fight a giant dragon." },
+      { "text": "A fairy gave them a magic wand and a potion." },
+      { "text": "They saved the castle using a powerful spell!" }
     ],
     "matching": [
-      { "word": "Concert", "emoji": "🎫", "pt": "Show" },
-      { "word": "Lyrics", "emoji": "📝", "pt": "Letra da música" },
-      { "word": "Melody", "emoji": "🎶", "pt": "Melodia" },
-      { "word": "Rhythm", "emoji": "🥁", "pt": "Ritmo" },
-      { "word": "Stage", "emoji": "🎤", "pt": "Palco" },
-      { "word": "Audience", "emoji": "👥", "pt": "Público" },
-      { "word": "Spotlight", "emoji": "💡", "pt": "Holofote" },
-      { "word": "Catchy", "emoji": "🎧", "pt": "Contagiante" },
-      { "word": "Instrument", "emoji": "🎸", "pt": "Instrumento" },
-      { "word": "Rehearsal", "emoji": "📅", "pt": "Ensaio" },
-      { "word": "Applause", "emoji": "👏", "pt": "Aplausos" },
-      { "word": "Performance", "emoji": "🌟", "pt": "Apresentação" }
+      { "word": "Castle", "emoji": "🏰", "pt": "Castelo" },
+      { "word": "Wizard", "emoji": "🧙‍♂️", "pt": "Mago" },
+      { "word": "Spell", "emoji": "✨", "pt": "Feitiço" },
+      { "word": "Wand", "emoji": "🪄", "pt": "Varinha" },
+      { "word": "Potion", "emoji": "🧪", "pt": "Poção" },
+      { "word": "Dragon", "emoji": "🐉", "pt": "Dragão" },
+      { "word": "Fairy", "emoji": "🧚‍♀️", "pt": "Fada" },
+      { "word": "Legend", "emoji": "📖", "pt": "Lenda" },
+      { "word": "Kingdom", "emoji": "👑", "pt": "Reino" },
+      { "word": "Quest", "emoji": "🗺️", "pt": "Missão" },
+      { "word": "Magic", "emoji": "🔮", "pt": "Magia" },
+      { "word": "Hero", "emoji": "🦸‍♂️", "pt": "Herói" }
     ],
     "sentence": [
-      { "words": ["The", "audience", "gives", "a", "loud", "applause", "after", "the", "concert"], "translation": "O público dá um forte aplauso após o show" },
-      { "words": ["I", "love", "the", "catchy", "melody", "of", "this", "song"], "translation": "Eu amo a melodia contagiante dessa música" },
-      { "words": ["She", "is", "playing", "her", "favorite", "instrument", "on", "stage"], "translation": "Ela está tocando seu instrumento favorito no palco" }
+      { "words": ["The", "wizard", "used", "his", "wand", "to", "cast", "a", "spell"], "translation": "O mago usou sua varinha para lançar um feitiço" },
+      { "words": ["A", "brave", "hero", "saved", "the", "beautiful", "kingdom"], "translation": "Um herói corajoso salvou o lindo reino" },
+      { "words": ["She", "drank", "a", "magic", "potion", "to", "defeat", "the", "dragon"], "translation": "Ela bebeu uma poção mágica para derrotar o dragão" }
     ],
-    "spelling": ["concert", "lyrics", "melody", "rhythm", "stage", "audience", "spotlight", "catchy", "instrument", "rehearsal", "applause", "performance"],
-    "garden": ["concert", "lyrics", "melody", "rhythm", "stage", "audience", "spotlight", "instrument"],
+    "spelling": ["castle", "wizard", "spell", "wand", "potion", "dragon", "fairy", "legend", "kingdom", "quest", "magic", "hero"],
+    "garden": ["castle", "wizard", "spell", "wand", "potion", "dragon", "fairy", "magic"],
     "quiz": [
-      { "question": "What do you call the words of a song?", "options": ["Melody", "Lyrics", "Stage", "Applause"], "correct": 1, "explanation": "The lyrics are the words you sing!", "nalaMsg": "Sing out loud!" },
-      { "question": "Where does the band play during a concert?", "options": ["Audience", "Spotlight", "Stage", "Rehearsal"], "correct": 2, "explanation": "The band plays on the stage!", "nalaMsg": "Rock on!" },
-      { "question": "If a song stays in your head all day, it is...", "options": ["Boring", "Catchy", "Quiet", "Sad"], "correct": 1, "explanation": "A catchy song is hard to forget!", "nalaMsg": "I love that song!" }
+      { "question": "What does a wizard use to cast spells?", "options": ["A sword", "A wand", "A dragon", "A castle"], "correct": 1, "explanation": "Wizards use wands for magic!", "nalaMsg": "Abracadabra!" },
+      { "question": "A big scary flying reptile that breathes fire is a...", "options": ["Fairy", "Kingdom", "Potion", "Dragon"], "correct": 3, "explanation": "Dragons are powerful and breathe fire!", "nalaMsg": "Watch out!" },
+      { "question": "An old story that is famous but maybe not true is a...", "options": ["Spell", "Legend", "Quest", "Hero"], "correct": 1, "explanation": "A legend is an old, famous story!", "nalaMsg": "I love good stories!" }
     ],
     "truefalse": [
-      { "statement": "The audience is the group of people watching the performance.", "translation": "O público é o grupo de pessoas assistindo à apresentação.", "isTrue": true, "explanation": "Yes, the audience watches and claps!" },
-      { "statement": "A spotlight makes the stage very dark.", "translation": "Um holofote deixa o palco muito escuro.", "isTrue": false, "explanation": "A spotlight shines a bright light!" },
-      { "statement": "You need to practice during a rehearsal.", "translation": "Você precisa praticar durante um ensaio.", "isTrue": true, "explanation": "Rehearsals are for practicing before the real show." }
+      { "statement": "A king and queen live in a castle.", "translation": "Um rei e uma rainha vivem em um castelo.", "isTrue": true, "explanation": "Yes, castles are for royalty!" },
+      { "statement": "You drink a wand to get magic powers.", "translation": "Você bebe uma varinha para ganhar poderes mágicos.", "isTrue": false, "explanation": "You drink a potion, not a wand!" },
+      { "statement": "A quest is a long and difficult journey.", "translation": "Uma missão é uma jornada longa e difícil.", "isTrue": true, "explanation": "Heroes go on quests to save the day!" }
     ],
     "fetch": [
-      { "id": "guitar", "name": "Instrument", "emoji": "🎸", "correct": true },
-      { "id": "stage", "name": "Stage", "emoji": "🎤", "correct": true },
-      { "id": "ticket", "name": "Concert", "emoji": "🎫", "correct": true },
-      { "id": "tree", "name": "Tree", "emoji": "🌳", "correct": false },
-      { "id": "drums", "name": "Rhythm", "emoji": "🥁", "correct": true },
-      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false }
+      { "id": "castle", "name": "Castle", "emoji": "🏰", "correct": true },
+      { "id": "wand", "name": "Wand", "emoji": "🪄", "correct": true },
+      { "id": "dragon", "name": "Dragon", "emoji": "🐉", "correct": true },
+      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false },
+      { "id": "potion", "name": "Potion", "emoji": "🧪", "correct": true },
+      { "id": "shoe", "name": "Shoe", "emoji": "👟", "correct": false }
     ]
   },
   "arts": {
