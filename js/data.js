@@ -10309,59 +10309,60 @@ const gameData = {
       { "id": "bus", "name": "Bus", "emoji": "🚌", "correct": true }
     ]
   },
-  "space": {
+  "fashion": {
     "speaking": [
       {
-        "question": "Do you want to go to space?",
-        "translation": "Você quer ir para o espaço?",
-        "starter": "Yes, I want to...",
-        "nalaTip": "Fly to the moon! 🚀"
+        "question": "What are you wearing today?",
+        "translation": "O que você está vestindo hoje?",
+        "starter": "Today I am wearing...",
+        "nalaTip": "A t-shirt? A dress? 👗"
       }
     ],
-    "title": "Space Adventure",
-    "bgImage": "url('images/bg-space.png')",
-    "emoji": "🚀",
+    "title": "Fashion & Clothes",
+    "bgImage": "url('images/bg-fashion.png')",
+    "emoji": "👗",
     "story": [
-      { "text": "Wow, look at all the stars in the sky." },
-      { "text": "I want to fly in a rocket to the moon!" },
-      { "text": "Maybe we will meet an alien dog there." }
+      { "text": "I love your new dress!" },
+      { "text": "Thank you! I bought it yesterday." },
+      { "text": "Are those new shoes too?" },
+      { "text": "Yes, they are very comfortable for running." }
     ],
     "matching": [
-      { "word": "Rocket", "emoji": "🚀", "pt": "Foguete" },
-      { "word": "Star", "emoji": "⭐", "pt": "Estrela" },
-      { "word": "Moon", "emoji": "🌙", "pt": "Lua" },
-      { "word": "Alien", "emoji": "👽", "pt": "Alienígena" },
-      { "word": "Planet", "emoji": "🪐", "pt": "Planeta" }
+      { "word": "Dress", "emoji": "👗", "pt": "Vestido" },
+      { "word": "Shirt", "emoji": "👕", "pt": "Camisa" },
+      { "word": "Shoes", "emoji": "👟", "pt": "Sapatos" },
+      { "word": "Hat", "emoji": "👒", "pt": "Chapéu" },
+      { "word": "Skirt", "emoji": "👗", "pt": "Saia" }
     ],
     "sentence": [
       {
-        "words": ["The", "rocket", "flies", "to", "the", "moon"],
-        "translation": "O foguete voa para a lua"
+        "words": ["She", "is", "wearing", "a", "beautiful", "pink", "dress"],
+        "translation": "Ela está vestindo um lindo vestido rosa"
       }
     ],
-    "spelling": ["rocket", "star", "moon", "alien", "space"],
-    "garden": ["star", "moon", "alien"],
+    "spelling": ["dress", "shirt", "shoes", "hat", "skirt"],
+    "garden": ["dress", "shoes", "hat"],
     "quiz": [
       {
-        "question": "What shines at night?",
-        "options": ["Sun", "Stars", "Cloud", "Rain"],
+        "question": "What do you wear on your feet?",
+        "options": ["Hat", "Shoes", "Shirt", "Gloves"],
         "correct": 1,
-        "explanation": "Stars shine brightly at night!",
-        "nalaMsg": "Twinkle twinkle!"
+        "explanation": "You wear shoes on your feet!",
+        "nalaMsg": "Looking good!"
       }
     ],
     "truefalse": [
       {
-        "statement": "The moon is made of cheese.",
-        "translation": "A lua é feita de queijo.",
+        "statement": "You wear a hat on your foot.",
+        "translation": "Você usa um chapéu no pé.",
         "isTrue": false,
-        "explanation": "It's made of rock, but cheese is yummy!"
+        "explanation": "You wear a hat on your head!"
       }
     ],
     "fetch": [
-      { "id": "rocket", "name": "Rocket", "emoji": "🚀", "correct": true },
-      { "id": "tree", "name": "Tree", "emoji": "🌳", "correct": false },
-      { "id": "telescope", "name": "Telescope", "emoji": "🔭", "correct": true }
+      { "id": "shoes", "name": "Shoes", "emoji": "👟", "correct": true },
+      { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false },
+      { "id": "hat", "name": "Hat", "emoji": "👒", "correct": true }
     ]
   }
 };
