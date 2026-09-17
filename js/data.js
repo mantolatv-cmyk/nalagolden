@@ -10316,6 +10316,18 @@ const gameData = {
         "translation": "O que você está vestindo hoje?",
         "starter": "Today I am wearing...",
         "nalaTip": "A t-shirt? A dress? 👗"
+      },
+      {
+        "question": "Do you like to wear boots in the winter?",
+        "translation": "Você gosta de usar botas no inverno?",
+        "starter": "Yes, I like to wear...",
+        "nalaTip": "Boots keep your feet warm! 👢"
+      },
+      {
+        "question": "What color are your pants today?",
+        "translation": "De que cor são as suas calças hoje?",
+        "starter": "My pants are...",
+        "nalaTip": "Blue jeans? Black pants? 👖"
       }
     ],
     "title": "Fashion & Clothes",
@@ -10325,23 +10337,39 @@ const gameData = {
       { "text": "I love your new dress!" },
       { "text": "Thank you! I bought it yesterday." },
       { "text": "Are those new shoes too?" },
-      { "text": "Yes, they are very comfortable for running." }
+      { "text": "Yes, they are very comfortable for running." },
+      { "text": "Don't forget your jacket, it's getting cold outside." }
     ],
     "matching": [
       { "word": "Dress", "emoji": "👗", "pt": "Vestido" },
       { "word": "Shirt", "emoji": "👕", "pt": "Camisa" },
       { "word": "Shoes", "emoji": "👟", "pt": "Sapatos" },
       { "word": "Hat", "emoji": "👒", "pt": "Chapéu" },
-      { "word": "Skirt", "emoji": "👗", "pt": "Saia" }
+      { "word": "Skirt", "emoji": "👗", "pt": "Saia" },
+      { "word": "Pants", "emoji": "👖", "pt": "Calças" },
+      { "word": "Jacket", "emoji": "🧥", "pt": "Jaqueta" },
+      { "word": "Socks", "emoji": "🧦", "pt": "Meias" },
+      { "word": "Shorts", "emoji": "🩳", "pt": "Shorts" },
+      { "word": "Glasses", "emoji": "👓", "pt": "Óculos" },
+      { "word": "Scarf", "emoji": "🧣", "pt": "Cachecol" },
+      { "word": "Boots", "emoji": "👢", "pt": "Botas" }
     ],
     "sentence": [
       {
         "words": ["She", "is", "wearing", "a", "beautiful", "pink", "dress"],
         "translation": "Ela está vestindo um lindo vestido rosa"
+      },
+      {
+        "words": ["He", "wears", "a", "green", "jacket", "when", "it", "is", "cold"],
+        "translation": "Ele usa uma jaqueta verde quando está frio"
+      },
+      {
+        "words": ["My", "blue", "socks", "are", "very", "soft", "and", "warm"],
+        "translation": "Minhas meias azuis são muito macias e quentinhas"
       }
     ],
-    "spelling": ["dress", "shirt", "shoes", "hat", "skirt"],
-    "garden": ["dress", "shoes", "hat"],
+    "spelling": ["dress", "shirt", "shoes", "hat", "skirt", "pants", "jacket", "socks", "shorts", "glasses", "scarf", "boots"],
+    "garden": ["dress", "shoes", "hat", "pants", "jacket", "glasses", "scarf", "boots"],
     "quiz": [
       {
         "question": "What do you wear on your feet?",
@@ -10349,6 +10377,20 @@ const gameData = {
         "correct": 1,
         "explanation": "You wear shoes on your feet!",
         "nalaMsg": "Looking good!"
+      },
+      {
+        "question": "What do you put over your shirt when it is cold?",
+        "options": ["Shorts", "Jacket", "Socks", "Ring"],
+        "correct": 1,
+        "explanation": "A jacket keeps you warm!",
+        "nalaMsg": "Stay warm!"
+      },
+      {
+        "question": "You wear these on your eyes to see better.",
+        "options": ["Scarf", "Pants", "Glasses", "Boots"],
+        "correct": 2,
+        "explanation": "Glasses help you see clearly!",
+        "nalaMsg": "I can see you!"
       }
     ],
     "truefalse": [
@@ -10357,12 +10399,28 @@ const gameData = {
         "translation": "Você usa um chapéu no pé.",
         "isTrue": false,
         "explanation": "You wear a hat on your head!"
+      },
+      {
+        "statement": "Shorts are perfect for a very cold winter day.",
+        "translation": "Shorts são perfeitos para um dia de inverno muito frio.",
+        "isTrue": false,
+        "explanation": "Shorts are better for hot summer days!"
+      },
+      {
+        "statement": "You wear a scarf around your neck.",
+        "translation": "Você usa um cachecol ao redor do seu pescoço.",
+        "isTrue": true,
+        "explanation": "Yes, a scarf keeps your neck warm!"
       }
     ],
     "fetch": [
       { "id": "shoes", "name": "Shoes", "emoji": "👟", "correct": true },
       { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false },
-      { "id": "hat", "name": "Hat", "emoji": "👒", "correct": true }
+      { "id": "hat", "name": "Hat", "emoji": "👒", "correct": true },
+      { "id": "pants", "name": "Pants", "emoji": "👖", "correct": true },
+      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false },
+      { "id": "glasses", "name": "Glasses", "emoji": "👓", "correct": true },
+      { "id": "scarf", "name": "Scarf", "emoji": "🧣", "correct": true }
     ]
   }
 };
