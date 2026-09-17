@@ -10227,6 +10227,118 @@ const gameData = {
       { "id": "car", "name": "Car", "emoji": "🚗", "correct": false }
     ]
   },
+  "music": {
+    "speaking": [
+      { "question": "What is your favorite instrument?", "translation": "Qual é o seu instrumento favorito?", "starter": "My favorite instrument is...", "nalaTip": "A guitar? A piano? 🎸" },
+      { "question": "Have you ever been to a concert?", "translation": "Você já foi a um show?", "starter": "Yes, I went to a concert of...", "nalaTip": "Who is your favorite singer? 🎤" },
+      { "question": "Do you know the lyrics to this song?", "translation": "Você sabe a letra dessa música?", "starter": "Yes, the lyrics are...", "nalaTip": "Sing along! 🎶" }
+    ],
+    "title": "Music & Concerts",
+    "bgImage": "url('images/bg-music.png')",
+    "emoji": "🎧",
+    "story": [
+      { "text": "We are going to a big concert tonight!" },
+      { "text": "The band had a great rehearsal yesterday." },
+      { "text": "The lead singer will be in the spotlight." },
+      { "text": "Listen to the melody, it is very catchy." },
+      { "text": "The audience gives a loud applause!" }
+    ],
+    "matching": [
+      { "word": "Concert", "emoji": "🎫", "pt": "Show" },
+      { "word": "Lyrics", "emoji": "📝", "pt": "Letra da música" },
+      { "word": "Melody", "emoji": "🎶", "pt": "Melodia" },
+      { "word": "Rhythm", "emoji": "🥁", "pt": "Ritmo" },
+      { "word": "Stage", "emoji": "🎤", "pt": "Palco" },
+      { "word": "Audience", "emoji": "👥", "pt": "Público" },
+      { "word": "Spotlight", "emoji": "💡", "pt": "Holofote" },
+      { "word": "Catchy", "emoji": "🎧", "pt": "Contagiante" },
+      { "word": "Instrument", "emoji": "🎸", "pt": "Instrumento" },
+      { "word": "Rehearsal", "emoji": "📅", "pt": "Ensaio" },
+      { "word": "Applause", "emoji": "👏", "pt": "Aplausos" },
+      { "word": "Performance", "emoji": "🌟", "pt": "Apresentação" }
+    ],
+    "sentence": [
+      { "words": ["The", "audience", "gives", "a", "loud", "applause", "after", "the", "concert"], "translation": "O público dá um forte aplauso após o show" },
+      { "words": ["I", "love", "the", "catchy", "melody", "of", "this", "song"], "translation": "Eu amo a melodia contagiante dessa música" },
+      { "words": ["She", "is", "playing", "her", "favorite", "instrument", "on", "stage"], "translation": "Ela está tocando seu instrumento favorito no palco" }
+    ],
+    "spelling": ["concert", "lyrics", "melody", "rhythm", "stage", "audience", "spotlight", "catchy", "instrument", "rehearsal", "applause", "performance"],
+    "garden": ["concert", "lyrics", "melody", "rhythm", "stage", "audience", "spotlight", "instrument"],
+    "quiz": [
+      { "question": "What do you call the words of a song?", "options": ["Melody", "Lyrics", "Stage", "Applause"], "correct": 1, "explanation": "The lyrics are the words you sing!", "nalaMsg": "Sing out loud!" },
+      { "question": "Where does the band play during a concert?", "options": ["Audience", "Spotlight", "Stage", "Rehearsal"], "correct": 2, "explanation": "The band plays on the stage!", "nalaMsg": "Rock on!" },
+      { "question": "If a song stays in your head all day, it is...", "options": ["Boring", "Catchy", "Quiet", "Sad"], "correct": 1, "explanation": "A catchy song is hard to forget!", "nalaMsg": "I love that song!" }
+    ],
+    "truefalse": [
+      { "statement": "The audience is the group of people watching the performance.", "translation": "O público é o grupo de pessoas assistindo à apresentação.", "isTrue": true, "explanation": "Yes, the audience watches and claps!" },
+      { "statement": "A spotlight makes the stage very dark.", "translation": "Um holofote deixa o palco muito escuro.", "isTrue": false, "explanation": "A spotlight shines a bright light!" },
+      { "statement": "You need to practice during a rehearsal.", "translation": "Você precisa praticar durante um ensaio.", "isTrue": true, "explanation": "Rehearsals are for practicing before the real show." }
+    ],
+    "fetch": [
+      { "id": "guitar", "name": "Instrument", "emoji": "🎸", "correct": true },
+      { "id": "stage", "name": "Stage", "emoji": "🎤", "correct": true },
+      { "id": "ticket", "name": "Concert", "emoji": "🎫", "correct": true },
+      { "id": "tree", "name": "Tree", "emoji": "🌳", "correct": false },
+      { "id": "drums", "name": "Rhythm", "emoji": "🥁", "correct": true },
+      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false }
+    ]
+  },
+  "arts": {
+    "speaking": [
+      { "question": "What do you like to draw or paint?", "translation": "O que você gosta de desenhar ou pintar?", "starter": "I like to draw...", "nalaTip": "A landscape? A portrait? 🎨" },
+      { "question": "Where can you see many beautiful paintings?", "translation": "Onde você pode ver muitas pinturas bonitas?", "starter": "You can see them at an...", "nalaTip": "At an art exhibit! 🏛️" },
+      { "question": "Do you use a lot of colors in your designs?", "translation": "Você usa muitas cores nos seus designs?", "starter": "Yes, I use a...", "nalaTip": "A colorful palette! 🎨" }
+    ],
+    "title": "Arts & Creativity",
+    "bgImage": "url('images/bg-arts.png')",
+    "emoji": "🎨",
+    "story": [
+      { "text": "I want to paint a beautiful masterpiece today." },
+      { "text": "First, I will make a quick sketch on the canvas." },
+      { "text": "I use my imagination to find inspiration." },
+      { "text": "My palette has many bright colors." },
+      { "text": "We will show this portrait at the art exhibit." }
+    ],
+    "matching": [
+      { "word": "Masterpiece", "emoji": "🖼️", "pt": "Obra-prima" },
+      { "word": "Canvas", "emoji": "🖌️", "pt": "Tela" },
+      { "word": "Sketch", "emoji": "✏️", "pt": "Rascunho" },
+      { "word": "Palette", "emoji": "🎨", "pt": "Paleta" },
+      { "word": "Exhibit", "emoji": "🏛️", "pt": "Exposição" },
+      { "word": "Inspiration", "emoji": "✨", "pt": "Inspiração" },
+      { "word": "Imagination", "emoji": "💭", "pt": "Imaginação" },
+      { "word": "Pattern", "emoji": "🧩", "pt": "Estampa" },
+      { "word": "Portrait", "emoji": "👩‍🎨", "pt": "Retrato" },
+      { "word": "Sculpture", "emoji": "🗿", "pt": "Escultura" },
+      { "word": "Design", "emoji": "📐", "pt": "Design" },
+      { "word": "Craft", "emoji": "✂️", "pt": "Artesanato" }
+    ],
+    "sentence": [
+      { "words": ["She", "painted", "a", "beautiful", "portrait", "on", "the", "canvas"], "translation": "Ela pintou um lindo retrato na tela" },
+      { "words": ["You", "need", "a", "lot", "of", "imagination", "for", "this", "design"], "translation": "Você precisa de muita imaginação para este design" },
+      { "words": ["The", "artist", "showed", "his", "masterpiece", "at", "the", "exhibit"], "translation": "O artista mostrou sua obra-prima na exposição" }
+    ],
+    "spelling": ["masterpiece", "canvas", "sketch", "palette", "exhibit", "inspiration", "imagination", "pattern", "portrait", "sculpture", "design", "craft"],
+    "garden": ["masterpiece", "canvas", "sketch", "palette", "exhibit", "inspiration", "portrait", "sculpture"],
+    "quiz": [
+      { "question": "What do you call a drawing of a person's face?", "options": ["Landscape", "Pattern", "Portrait", "Sculpture"], "correct": 2, "explanation": "A portrait is a picture of someone!", "nalaMsg": "Smile for the painting!" },
+      { "question": "Where does a painter mix their colors?", "options": ["Canvas", "Palette", "Exhibit", "Sketch"], "correct": 1, "explanation": "Painters mix colors on a palette!", "nalaMsg": "So many colors!" },
+      { "question": "An amazing, perfect work of art is called a...", "options": ["Craft", "Sketch", "Design", "Masterpiece"], "correct": 3, "explanation": "A masterpiece is the artist's best work!", "nalaMsg": "It's beautiful!" }
+    ],
+    "truefalse": [
+      { "statement": "A sculpture is flat like a piece of paper.", "translation": "Uma escultura é plana como um pedaço de papel.", "isTrue": false, "explanation": "Sculptures are 3D objects, like statues!" },
+      { "statement": "You use a canvas to paint a picture.", "translation": "Você usa uma tela para pintar um quadro.", "isTrue": true, "explanation": "A canvas is the cloth you paint on!" },
+      { "statement": "A sketch is a final and complete painting.", "translation": "Um rascunho é uma pintura final e completa.", "isTrue": false, "explanation": "A sketch is a quick, early drawing!" }
+    ],
+    "fetch": [
+      { "id": "palette", "name": "Palette", "emoji": "🎨", "correct": true },
+      { "id": "sketch", "name": "Sketch", "emoji": "✏️", "correct": true },
+      { "id": "sculpture", "name": "Sculpture", "emoji": "🗿", "correct": true },
+      { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false },
+      { "id": "canvas", "name": "Canvas", "emoji": "🖌️", "correct": true },
+      { "id": "bus", "name": "Bus", "emoji": "🚌", "correct": false }
+    ]
+  },
   "fashion": {
     "speaking": [
       {
