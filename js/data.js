@@ -10173,39 +10173,58 @@ const gameData = {
   },
   "friends": {
     "speaking": [
-      { "question": "What do you do with your friends?", "translation": "O que você faz com suas amigas?", "starter": "I like to...", "nalaTip": "Go shopping? Watch a movie? 💖" }
+      { "question": "What do you do with your friends?", "translation": "O que você faz com suas amigas?", "starter": "I like to...", "nalaTip": "Go shopping? Watch a movie? 💖" },
+      { "question": "Who do you trust with a secret?", "translation": "Em quem você confia um segredo?", "starter": "I trust...", "nalaTip": "Your best friend? 🤫" },
+      { "question": "Are you excited for the weekend?", "translation": "Você está animada para o final de semana?", "starter": "Yes, I am excited to...", "nalaTip": "Hang out together! 👯‍♀️" }
     ],
     "title": "Friends & Feelings",
     "bgImage": "url('images/bg-friends.png')",
     "emoji": "💖",
     "story": [
       { "text": "I am so excited to go shopping today!" },
-      { "text": "Me too! It is so fun to hang out with friends." },
-      { "text": "Let's watch a movie and share some popcorn." },
-      { "text": "I love spending time with you. I am very happy." }
+      { "text": "Me too! We always have fun together." },
+      { "text": "I bought a gift for our friend as a surprise." },
+      { "text": "That is so sweet. I promise I will keep the secret!" },
+      { "text": "We can trust each other, we are best friends." }
     ],
     "matching": [
       { "word": "Friend", "emoji": "👧", "pt": "Amiga" },
       { "word": "Shopping", "emoji": "🛍️", "pt": "Compras" },
       { "word": "Movie", "emoji": "🍿", "pt": "Filme" },
       { "word": "Happy", "emoji": "😊", "pt": "Feliz" },
-      { "word": "Gift", "emoji": "🎁", "pt": "Presente" }
+      { "word": "Gift", "emoji": "🎁", "pt": "Presente" },
+      { "word": "Excited", "emoji": "🤩", "pt": "Animada" },
+      { "word": "Secret", "emoji": "🤫", "pt": "Segredo" },
+      { "word": "Trust", "emoji": "🤝", "pt": "Confiança" },
+      { "word": "Promise", "emoji": "🤞", "pt": "Promessa" },
+      { "word": "Advice", "emoji": "💡", "pt": "Conselho" },
+      { "word": "Together", "emoji": "👯‍♀️", "pt": "Juntas" },
+      { "word": "Surprise", "emoji": "😲", "pt": "Surpresa" }
     ],
     "sentence": [
-      { "words": ["I", "am", "very", "happy", "to", "see", "my", "friend"], "translation": "Eu estou muito feliz em ver minha amiga" }
+      { "words": ["I", "am", "very", "happy", "to", "see", "my", "friend"], "translation": "Eu estou muito feliz em ver minha amiga" },
+      { "words": ["We", "go", "shopping", "together", "on", "the", "weekend"], "translation": "Nós vamos às compras juntas no final de semana" },
+      { "words": ["I", "promise", "to", "keep", "your", "secret", "safe"], "translation": "Eu prometo manter o seu segredo seguro" }
     ],
-    "spelling": ["friend", "shopping", "movie", "happy", "excited", "talk", "laugh", "gift", "share", "love"],
-    "garden": ["friend", "shopping", "movie", "happy", "gift"],
+    "spelling": ["friend", "shopping", "movie", "happy", "excited", "secret", "trust", "promise", "advice", "together", "surprise", "gift"],
+    "garden": ["friend", "shopping", "movie", "happy", "gift", "secret", "trust", "promise"],
     "quiz": [
-      { "question": "How do you feel when you get a gift?", "options": ["Sad", "Angry", "Happy", "Tired"], "correct": 2, "explanation": "Gifts usually make us feel happy!", "nalaMsg": "Yay!" }
+      { "question": "How do you feel when you get a gift?", "options": ["Sad", "Angry", "Happy", "Tired"], "correct": 2, "explanation": "Gifts usually make us feel happy!", "nalaMsg": "Yay!" },
+      { "question": "What do you say when you won't tell anyone?", "options": ["I promise", "I cry", "I run", "I shop"], "correct": 0, "explanation": "You promise to keep a secret!", "nalaMsg": "My lips are sealed!" },
+      { "question": "When you need help with a problem, you ask for...", "options": ["A movie", "Advice", "A gift", "Shopping"], "correct": 1, "explanation": "Friends give good advice!", "nalaMsg": "Listen carefully!" }
     ],
     "truefalse": [
-      { "statement": "You go shopping to sleep.", "translation": "Você vai às compras para dormir.", "isTrue": false, "explanation": "You go shopping to buy things!" }
+      { "statement": "You go shopping to sleep.", "translation": "Você vai às compras para dormir.", "isTrue": false, "explanation": "You go shopping to buy things!" },
+      { "statement": "You share secrets with people you trust.", "translation": "Você compartilha segredos com pessoas em quem confia.", "isTrue": true, "explanation": "Trust is very important for secrets!" },
+      { "statement": "A surprise is something you already know.", "translation": "Uma surpresa é algo que você já sabe.", "isTrue": false, "explanation": "A surprise is something unexpected!" }
     ],
     "fetch": [
       { "id": "gift", "name": "Gift", "emoji": "🎁", "correct": true },
       { "id": "shopping", "name": "Shopping", "emoji": "🛍️", "correct": true },
-      { "id": "tree", "name": "Tree", "emoji": "🌳", "correct": false }
+      { "id": "promise", "name": "Promise", "emoji": "🤞", "correct": true },
+      { "id": "tree", "name": "Tree", "emoji": "🌳", "correct": false },
+      { "id": "secret", "name": "Secret", "emoji": "🤫", "correct": true },
+      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false }
     ]
   },
   "fashion": {
