@@ -9006,79 +9006,102 @@ const gameData = {
         "correct": 1,
         "explanation": "Dishes! 🍽️",
         "nalaMsg": "Sparkling clean!"
+      },
+      {
+        "question": "Where does the family sit together to watch TV?",
+        "options": [
+          "Bathroom",
+          "Kitchen",
+          "Living Room",
+          "Roof"
+        ],
+        "correct": 2,
+        "explanation": "Living Room! 🛋️",
+        "nalaMsg": "Movie time!"
+      },
+      {
+        "question": "When a room is dark, you open the...",
+        "options": [
+          "Window",
+          "Oven",
+          "Floor",
+          "Broom"
+        ],
+        "correct": 0,
+        "explanation": "Window! Let the sunshine in! ☀️",
+        "nalaMsg": "Bright day!"
       }
     ]
-  }
-,
+  },
   "camping": {
     "title": "Camping Adventure",
     "fetch": [
-          {
-                "id": "tent",
-                "name": "Tent",
-                "emoji": "⛺",
-                "correct": true
-          },
-          {
-                "id": "flashlight",
-                "name": "Flashlight",
-                "emoji": "🔦",
-                "correct": true
-          },
-          {
-                "id": "campfire",
-                "name": "Campfire",
-                "emoji": "🔥",
-                "correct": true
-          },
-          {
-                "id": "backpack",
-                "name": "Backpack",
-                "emoji": "🎒",
-                "correct": true
-          },
-          {
-                "id": "compass",
-                "name": "Compass",
-                "emoji": "🧭",
-                "correct": true
-          },
-          {
-                "id": "map",
-                "name": "Map",
-                "emoji": "🗺️",
-                "correct": true
-          },
-          {
-                "id": "binoculars",
-                "name": "Binoculars",
-                "emoji": "🔭",
-                "correct": true
-          },
-          {
-                "id": "television",
-                "name": "Television",
-                "emoji": "📺",
-                "correct": false
-          },
-          {
-                "id": "keyboard",
-                "name": "Keyboard",
-                "emoji": "⌨️",
-                "correct": false
-          },
-          {
-                "id": "fridge",
-                "name": "Fridge",
-                "emoji": "🧊",
-                "correct": false
-          },
-          {
-                "id": "laptop",
-                "name": "Laptop",
-                "emoji": "💻",
-                "correct": false
-          }
+      {
+        "id": "tent",
+        "name": "Tent",
+        "emoji": "⛺",
+        "correct": true
+      },
+      {
+        "id": "flashlight",
+        "name": "Flashlight",
+        "emoji": "🔦",
+        "correct": true
+      },
+      {
+        "id": "campfire",
+        "name": "Campfire",
+        "emoji": "🔥",
+        "correct": true
+      },
+      {
+        "id": "backpack",
+        "name": "Backpack",
+        "emoji": "🎒",
+        "correct": true
+      },
+      {
+        "id": "compass",
+        "name": "Compass",
+        "emoji": "🧭",
+        "correct": true
+      },
+      {
+        "id": "map",
+        "name": "Map",
+        "emoji": "🗺️",
+        "correct": true
+      },
+      {
+        "id": "binoculars",
+        "name": "Binoculars",
+        "emoji": "🔭",
+        "correct": true
+      },
+      {
+        "id": "television",
+        "name": "Television",
+        "emoji": "📺",
+        "correct": false
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "emoji": "⌨️",
+        "correct": false
+      },
+      {
+        "id": "fridge",
+        "name": "Fridge",
+        "emoji": "🧊",
+        "correct": false
+      },
+      {
+        "id": "laptop",
+        "name": "Laptop",
+        "emoji": "💻",
+        "correct": false
+      }
     ],
     "bgImage": "url('images/bg-travel.png')",
     "emoji": "🏕️",
@@ -9538,72 +9561,72 @@ const gameData = {
   "tech": {
     "title": "Music & Tech",
     "fetch": [
-          {
-                "id": "headphones",
-                "name": "Headphones",
-                "emoji": "🎧",
-                "correct": true
-          },
-          {
-                "id": "smartphone",
-                "name": "Smartphone",
-                "emoji": "📱",
-                "correct": true
-          },
-          {
-                "id": "laptop",
-                "name": "Laptop",
-                "emoji": "💻",
-                "correct": true
-          },
-          {
-                "id": "keyboard",
-                "name": "Keyboard",
-                "emoji": "⌨️",
-                "correct": true
-          },
-          {
-                "id": "charger",
-                "name": "Charger",
-                "emoji": "🔌",
-                "correct": true
-          },
-          {
-                "id": "radio",
-                "name": "Radio",
-                "emoji": "📻",
-                "correct": true
-          },
-          {
-                "id": "microphone",
-                "name": "Microphone",
-                "emoji": "🎤",
-                "correct": true
-          },
-          {
-                "id": "apple",
-                "name": "Apple",
-                "emoji": "🍎",
-                "correct": false
-          },
-          {
-                "id": "bear",
-                "name": "Bear",
-                "emoji": "🐻",
-                "correct": false
-          },
-          {
-                "id": "tree",
-                "name": "Tree",
-                "emoji": "🌳",
-                "correct": false
-          },
-          {
-                "id": "car",
-                "name": "Car",
-                "emoji": "🚗",
-                "correct": false
-          }
+      {
+        "id": "headphones",
+        "name": "Headphones",
+        "emoji": "🎧",
+        "correct": true
+      },
+      {
+        "id": "smartphone",
+        "name": "Smartphone",
+        "emoji": "📱",
+        "correct": true
+      },
+      {
+        "id": "laptop",
+        "name": "Laptop",
+        "emoji": "💻",
+        "correct": true
+      },
+      {
+        "id": "keyboard",
+        "name": "Keyboard",
+        "emoji": "⌨️",
+        "correct": true
+      },
+      {
+        "id": "charger",
+        "name": "Charger",
+        "emoji": "🔌",
+        "correct": true
+      },
+      {
+        "id": "radio",
+        "name": "Radio",
+        "emoji": "📻",
+        "correct": true
+      },
+      {
+        "id": "microphone",
+        "name": "Microphone",
+        "emoji": "🎤",
+        "correct": true
+      },
+      {
+        "id": "apple",
+        "name": "Apple",
+        "emoji": "🍎",
+        "correct": false
+      },
+      {
+        "id": "bear",
+        "name": "Bear",
+        "emoji": "🐻",
+        "correct": false
+      },
+      {
+        "id": "tree",
+        "name": "Tree",
+        "emoji": "🌳",
+        "correct": false
+      },
+      {
+        "id": "car",
+        "name": "Car",
+        "emoji": "🚗",
+        "correct": false
+      }
     ],
     "bgImage": "url('images/bg-cinema.png')",
     "emoji": "🎧",
@@ -10060,340 +10083,2330 @@ const gameData = {
       }
     ]
   },
-    "pets": {
+  "pets": {
     "speaking": [
-      { "question": "What kind of companion is a dog?", "translation": "Que tipo de companheiro é um cachorro?", "starter": "A dog is a...", "nalaTip": "Loyal and obedient? 🐶" },
-      { "question": "Why is pet adoption important?", "translation": "Por que a adoção de animais é importante?", "starter": "It is important to...", "nalaTip": "Give them a shelter! 🏠" },
-      { "question": "How do you show affection to your pet?", "translation": "Como você demonstra carinho pelo seu pet?", "starter": "I show affection by...", "nalaTip": "Grooming and petting! ❤️" }
+      {
+        "question": "What kind of companion is a dog?",
+        "translation": "Que tipo de companheiro é um cachorro?",
+        "starter": "A dog is a...",
+        "nalaTip": "Loyal and obedient? 🐶"
+      },
+      {
+        "question": "Why is pet adoption important?",
+        "translation": "Por que a adoção de animais é importante?",
+        "starter": "It is important to...",
+        "nalaTip": "Give them a shelter! 🏠"
+      },
+      {
+        "question": "How do you show affection to your pet?",
+        "translation": "Como você demonstra carinho pelo seu pet?",
+        "starter": "I show affection by...",
+        "nalaTip": "Grooming and petting! ❤️"
+      },
+      {
+        "question": "What does an obedient dog do when you say 'sit'?",
+        "translation": "O que um cachorro obediente faz quando você diz 'senta'?",
+        "starter": "An obedient dog...",
+        "nalaTip": "It sits and waits! 🐕"
+      },
+      {
+        "question": "Why should a pet wear a collar?",
+        "translation": "Por que um animal de estimação deve usar coleira?",
+        "starter": "A pet wears a collar to...",
+        "nalaTip": "Keep it safe with an ID tag! 🏷️"
+      },
+      {
+        "question": "What is your favorite animal companion?",
+        "translation": "Qual é o seu animal companheiro favorito?",
+        "starter": "My favorite companion is a...",
+        "nalaTip": "A dog, cat, or bird? 🐾"
+      },
+      {
+        "question": "What should you do if you find a sick stray animal?",
+        "translation": "O que você deve fazer se encontrar um animal de rua doente?",
+        "starter": "I should take it to...",
+        "nalaTip": "Take it to the veterinary! 🩺"
+      }
     ],
     "title": "Pets & Care",
     "bgImage": "url('images/bg-pets.png')",
     "emoji": "🐶",
     "story": [
-      { "text": "I adopted a stray cat from the animal shelter." },
-      { "text": "His behavior is very calm and obedient." },
-      { "text": "He wears a shiny red collar." },
-      { "text": "I take him to the veterinary for check-ups." },
-      { "text": "We share a strong bond of loyalty and affection." }
+      {
+        "text": "I adopted a stray cat from the animal shelter."
+      },
+      {
+        "text": "His behavior is very calm and obedient."
+      },
+      {
+        "text": "He wears a shiny red collar."
+      },
+      {
+        "text": "I take him to the veterinary for check-ups."
+      },
+      {
+        "text": "We share a strong bond of loyalty and affection."
+      }
     ],
     "matching": [
-      { "word": "Companion", "emoji": "🐶", "pt": "Companheiro" },
-      { "word": "Stray", "emoji": "🐈", "pt": "De rua/Abandonado" },
-      { "word": "Grooming", "emoji": "✂️", "pt": "Tosa/Limpeza" },
-      { "word": "Collar", "emoji": "🦮", "pt": "Coleira" },
-      { "word": "Loyalty", "emoji": "🤝", "pt": "Lealdade" },
-      { "word": "Shelter", "emoji": "🏠", "pt": "Abrigo" },
-      { "word": "Adoption", "emoji": "🐾", "pt": "Adoção" },
-      { "word": "Behavior", "emoji": "🧠", "pt": "Comportamento" },
-      { "word": "Obedient", "emoji": "🐕", "pt": "Obediente" },
-      { "word": "Whiskers", "emoji": "🐱", "pt": "Bigodes" },
-      { "word": "Veterinary", "emoji": "🩺", "pt": "Veterinário" },
-      { "word": "Affection", "emoji": "❤️", "pt": "Carinho" }
+      {
+        "word": "Companion",
+        "emoji": "🐶",
+        "pt": "Companheiro"
+      },
+      {
+        "word": "Stray",
+        "emoji": "🐈",
+        "pt": "De rua/Abandonado"
+      },
+      {
+        "word": "Grooming",
+        "emoji": "✂️",
+        "pt": "Tosa/Limpeza"
+      },
+      {
+        "word": "Collar",
+        "emoji": "🦮",
+        "pt": "Coleira"
+      },
+      {
+        "word": "Loyalty",
+        "emoji": "🤝",
+        "pt": "Lealdade"
+      },
+      {
+        "word": "Shelter",
+        "emoji": "🏠",
+        "pt": "Abrigo"
+      },
+      {
+        "word": "Adoption",
+        "emoji": "🐾",
+        "pt": "Adoção"
+      },
+      {
+        "word": "Behavior",
+        "emoji": "🧠",
+        "pt": "Comportamento"
+      },
+      {
+        "word": "Obedient",
+        "emoji": "🐕",
+        "pt": "Obediente"
+      },
+      {
+        "word": "Whiskers",
+        "emoji": "🐱",
+        "pt": "Bigodes"
+      },
+      {
+        "word": "Veterinary",
+        "emoji": "🩺",
+        "pt": "Veterinário"
+      },
+      {
+        "word": "Affection",
+        "emoji": "❤️",
+        "pt": "Carinho"
+      }
     ],
     "sentence": [
-      { "words": ["The", "stray", "cat", "found", "a", "safe", "shelter"], "translation": "O gato de rua encontrou um abrigo seguro" },
-      { "words": ["My", "loyal", "companion", "wears", "a", "blue", "collar"], "translation": "Meu leal companheiro usa uma coleira azul" },
-      { "words": ["We", "must", "show", "affection", "to", "all", "pets"], "translation": "Nós devemos demonstrar carinho por todos os animais" }
+      {
+        "words": [
+          "The",
+          "stray",
+          "cat",
+          "found",
+          "a",
+          "safe",
+          "shelter"
+        ],
+        "translation": "O gato de rua encontrou um abrigo seguro"
+      },
+      {
+        "words": [
+          "My",
+          "loyal",
+          "companion",
+          "wears",
+          "a",
+          "blue",
+          "collar"
+        ],
+        "translation": "Meu leal companheiro usa uma coleira azul"
+      },
+      {
+        "words": [
+          "We",
+          "must",
+          "show",
+          "affection",
+          "to",
+          "all",
+          "pets"
+        ],
+        "translation": "Nós devemos demonstrar carinho por todos os animais"
+      }
     ],
-    "spelling": ["companion", "stray", "grooming", "collar", "loyalty", "shelter", "adoption", "behavior", "obedient", "whiskers", "veterinary", "affection"],
-    "garden": ["companion", "stray", "collar", "loyalty", "shelter", "adoption", "obedient", "affection"],
+    "spelling": [
+      "companion",
+      "stray",
+      "grooming",
+      "collar",
+      "loyalty",
+      "shelter",
+      "adoption",
+      "behavior",
+      "obedient",
+      "whiskers",
+      "veterinary",
+      "affection"
+    ],
+    "garden": [
+      "companion",
+      "stray",
+      "collar",
+      "loyalty",
+      "shelter",
+      "adoption",
+      "obedient",
+      "affection"
+    ],
     "quiz": [
-      { "question": "Where can you adopt an animal without a home?", "options": ["A shelter", "A grocery store", "A cinema", "A library"], "correct": 0, "explanation": "Animal shelters help stray animals find a home!", "nalaMsg": "Adopt, don't shop!" },
-      { "question": "What is it called when you brush and clean a pet?", "options": ["Adoption", "Behavior", "Grooming", "Loyalty"], "correct": 2, "explanation": "Grooming keeps pets clean and healthy!", "nalaMsg": "Looking good!" },
-      { "question": "What do cats have on their face that helps them feel things?", "options": ["Collar", "Whiskers", "Feathers", "Scales"], "correct": 1, "explanation": "Cats use their whiskers to feel the world around them!", "nalaMsg": "So cute!" }
+      {
+        "question": "Where can you adopt an animal without a home?",
+        "options": [
+          "A shelter",
+          "A grocery store",
+          "A cinema",
+          "A library"
+        ],
+        "correct": 0,
+        "explanation": "Animal shelters help stray animals find a home!",
+        "nalaMsg": "Adopt, don't shop!"
+      },
+      {
+        "question": "What is it called when you brush and clean a pet?",
+        "options": [
+          "Adoption",
+          "Behavior",
+          "Grooming",
+          "Loyalty"
+        ],
+        "correct": 2,
+        "explanation": "Grooming keeps pets clean and healthy!",
+        "nalaMsg": "Looking good!"
+      },
+      {
+        "question": "What do cats have on their face that helps them feel things?",
+        "options": [
+          "Collar",
+          "Whiskers",
+          "Feathers",
+          "Scales"
+        ],
+        "correct": 1,
+        "explanation": "Cats use their whiskers to feel the world around them!",
+        "nalaMsg": "So cute!"
+      },
+      {
+        "question": "What do dogs wear around their neck with a name tag?",
+        "options": [
+          "Socks",
+          "Collar",
+          "Glasses",
+          "Hat"
+        ],
+        "correct": 1,
+        "explanation": "A collar holds the pet's tag with their name! 🏷️",
+        "nalaMsg": "Safe pet!"
+      },
+      {
+        "question": "When an animal is a great friend and stays with you, it is a good...",
+        "options": [
+          "Companion",
+          "Stranger",
+          "Predator",
+          "Shadow"
+        ],
+        "correct": 0,
+        "explanation": "Pets are wonderful companions! 🐾",
+        "nalaMsg": "Best friends!"
+      },
+      {
+        "question": "What word describes an animal without a home that lives on the streets?",
+        "options": [
+          "Royal",
+          "Stray",
+          "Trained",
+          "Wild"
+        ],
+        "correct": 1,
+        "explanation": "A stray animal has no home and needs rescue! 🐕",
+        "nalaMsg": "Help strays!"
+      },
+      {
+        "question": "How do we call the way an animal acts or responds to training?",
+        "options": [
+          "Color",
+          "Weight",
+          "Behavior",
+          "Season"
+        ],
+        "correct": 2,
+        "explanation": "Good behavior can be learned with positive training! 🎓",
+        "nalaMsg": "Good puppy!"
+      }
     ],
     "truefalse": [
-      { "statement": "A veterinary is a doctor for animals.", "translation": "Um veterinário é um médico para animais.", "isTrue": true, "explanation": "Vets take care of sick pets!" },
-      { "statement": "An obedient dog never listens to you.", "translation": "Um cachorro obediente nunca te escuta.", "isTrue": false, "explanation": "An obedient dog follows instructions!" },
-      { "statement": "Loyalty means staying true and supporting your friends.", "translation": "Lealdade significa ser verdadeiro e apoiar seus amigos.", "isTrue": true, "explanation": "Dogs are famous for their loyalty!" }
+      {
+        "statement": "A veterinary is a doctor for animals.",
+        "translation": "Um veterinário é um médico para animais.",
+        "isTrue": true,
+        "explanation": "Vets take care of sick pets!"
+      },
+      {
+        "statement": "An obedient dog never listens to you.",
+        "translation": "Um cachorro obediente nunca te escuta.",
+        "isTrue": false,
+        "explanation": "An obedient dog follows instructions!"
+      },
+      {
+        "statement": "Loyalty means staying true and supporting your friends.",
+        "translation": "Lealdade significa ser verdadeiro e apoiar seus amigos.",
+        "isTrue": true,
+        "explanation": "Dogs are famous for their loyalty!"
+      },
+      {
+        "statement": "Grooming means giving food to fish.",
+        "question": "Grooming means giving food to fish.",
+        "translation": "Grooming significa dar comida para peixes.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "Grooming means cleaning, brushing, and trimming fur! ✂️",
+        "nalaMsg": "Keep pets clean!"
+      },
+      {
+        "statement": "A collar with a tag helps identify a lost pet.",
+        "question": "A collar with a tag helps identify a lost pet.",
+        "translation": "Uma coleira com plaquinha ajuda a identificar um animal perdido.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Collars help pets get safely back home! 🏷️",
+        "nalaMsg": "Safe and sound!"
+      },
+      {
+        "statement": "Cats use their whiskers to help them measure spaces.",
+        "question": "Cats use their whiskers to help them measure spaces.",
+        "translation": "Gatos usam seus bigodes para ajudá-los a medir espaços.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Whiskers are very sensitive and guide them in tight spots! 🐱",
+        "nalaMsg": "Clever kitties!"
+      },
+      {
+        "statement": "Stray pets already have a family and a big warm bed.",
+        "question": "Stray pets already have a family and a big warm bed.",
+        "translation": "Animais de rua já têm uma família e uma cama quentinha.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "Stray pets don't have a home and need adoption! 🏠",
+        "nalaMsg": "Adopt a pet!"
+      }
     ],
     "fetch": [
-      { "id": "collar", "name": "Collar", "emoji": "🦮", "correct": true },
-      { "id": "shelter", "name": "Shelter", "emoji": "🏠", "correct": true },
-      { "id": "cat", "name": "Whiskers", "emoji": "🐱", "correct": true },
-      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false },
-      { "id": "heart", "name": "Affection", "emoji": "❤️", "correct": true },
-      { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false }
+      {
+        "id": "collar",
+        "name": "Collar",
+        "emoji": "🦮",
+        "correct": true
+      },
+      {
+        "id": "shelter",
+        "name": "Shelter",
+        "emoji": "🏠",
+        "correct": true
+      },
+      {
+        "id": "cat",
+        "name": "Whiskers",
+        "emoji": "🐱",
+        "correct": true
+      },
+      {
+        "id": "car",
+        "name": "Car",
+        "emoji": "🚗",
+        "correct": false
+      },
+      {
+        "id": "heart",
+        "name": "Affection",
+        "emoji": "❤️",
+        "correct": true
+      },
+      {
+        "id": "apple",
+        "name": "Apple",
+        "emoji": "🍎",
+        "correct": false
+      }
     ]
   },
   "baking": {
     "speaking": [
-      { "question": "What is your favorite dessert to bake?", "translation": "Qual é a sua sobremesa favorita para assar?", "starter": "I love to bake...", "nalaTip": "A delicious cake? 🍰" },
-      { "question": "Do you like to measure the ingredients?", "translation": "Você gosta de medir os ingredientes?", "starter": "Yes, I measure...", "nalaTip": "Sugar and flour! 🥄" },
-      { "question": "What flavor of cake is the best?", "translation": "Qual sabor de bolo é o melhor?", "starter": "The best flavor is...", "nalaTip": "Chocolate or strawberry? 🍓" }
+      {
+        "question": "What is your favorite dessert to bake?",
+        "translation": "Qual é a sua sobremesa favorita para assar?",
+        "starter": "I love to bake...",
+        "nalaTip": "A delicious cake? 🍰"
+      },
+      {
+        "question": "Do you like to measure the ingredients?",
+        "translation": "Você gosta de medir os ingredientes?",
+        "starter": "Yes, I measure...",
+        "nalaTip": "Sugar and flour! 🥄"
+      },
+      {
+        "question": "What flavor of cake is the best?",
+        "translation": "Qual sabor de bolo é o melhor?",
+        "starter": "The best flavor is...",
+        "nalaTip": "Chocolate or strawberry? 🍓"
+      },
+      {
+        "question": "What is your favorite cake flavor?",
+        "translation": "Qual é o seu sabor de bolo favorito?",
+        "starter": "My favorite cake flavor is...",
+        "nalaTip": "Chocolate, vanilla, or strawberry? 🍓"
+      },
+      {
+        "question": "Why do we need a recipe when we bake?",
+        "translation": "Por que precisamos de uma receita quando assamos?",
+        "starter": "We need a recipe to...",
+        "nalaTip": "Measure the ingredients correctly! ⚖️"
+      },
+      {
+        "question": "What do you like to sprinkle on top of cupcakes?",
+        "translation": "O que você gosta de polvilhar em cima dos cupcakes?",
+        "starter": "I like to sprinkle...",
+        "nalaTip": "Colorful sprinkles or chocolate chips! ✨"
+      },
+      {
+        "question": "What is the most delicious dessert you know?",
+        "translation": "Qual é a sobremesa mais deliciosa que você conhece?",
+        "starter": "The most delicious dessert is...",
+        "nalaTip": "Ice cream, brigadeiro, or cookies? 🍨"
+      }
     ],
     "title": "Baking & Sweets",
     "bgImage": "url('images/bg-baking.png')",
     "emoji": "🧁",
     "story": [
-      { "text": "Let's read the recipe to bake a dessert." },
-      { "text": "First, measure all the ingredients carefully." },
-      { "text": "Use a whisk to stir the delicious mixture." },
-      { "text": "Melt some chocolate and add it to the dough." },
-      { "text": "Sprinkle sugar on top before putting it in the oven." }
+      {
+        "text": "Let's read the recipe to bake a dessert."
+      },
+      {
+        "text": "First, measure all the ingredients carefully."
+      },
+      {
+        "text": "Use a whisk to stir the delicious mixture."
+      },
+      {
+        "text": "Melt some chocolate and add it to the dough."
+      },
+      {
+        "text": "Sprinkle sugar on top before putting it in the oven."
+      }
     ],
     "matching": [
-      { "word": "Recipe", "emoji": "📜", "pt": "Receita" },
-      { "word": "Ingredient", "emoji": "🥣", "pt": "Ingrediente" },
-      { "word": "Dessert", "emoji": "🍰", "pt": "Sobremesa" },
-      { "word": "Flavor", "emoji": "🍓", "pt": "Sabor" },
-      { "word": "Bake", "emoji": "👩‍🍳", "pt": "Assar" },
-      { "word": "Measure", "emoji": "🥄", "pt": "Medir" },
-      { "word": "Mixture", "emoji": "🌪️", "pt": "Mistura" },
-      { "word": "Dough", "emoji": "🥖", "pt": "Massa" },
-      { "word": "Whisk", "emoji": "🥚", "pt": "Batedor" },
-      { "word": "Sprinkle", "emoji": "🧁", "pt": "Polvilhar" },
-      { "word": "Delicious", "emoji": "😋", "pt": "Delicioso" },
-      { "word": "Melt", "emoji": "🍫", "pt": "Derreter" }
+      {
+        "word": "Recipe",
+        "emoji": "📜",
+        "pt": "Receita"
+      },
+      {
+        "word": "Ingredient",
+        "emoji": "🥣",
+        "pt": "Ingrediente"
+      },
+      {
+        "word": "Dessert",
+        "emoji": "🍰",
+        "pt": "Sobremesa"
+      },
+      {
+        "word": "Flavor",
+        "emoji": "🍓",
+        "pt": "Sabor"
+      },
+      {
+        "word": "Bake",
+        "emoji": "👩‍🍳",
+        "pt": "Assar"
+      },
+      {
+        "word": "Measure",
+        "emoji": "🥄",
+        "pt": "Medir"
+      },
+      {
+        "word": "Mixture",
+        "emoji": "🌪️",
+        "pt": "Mistura"
+      },
+      {
+        "word": "Dough",
+        "emoji": "🥖",
+        "pt": "Massa"
+      },
+      {
+        "word": "Whisk",
+        "emoji": "🥚",
+        "pt": "Batedor"
+      },
+      {
+        "word": "Sprinkle",
+        "emoji": "🧁",
+        "pt": "Polvilhar"
+      },
+      {
+        "word": "Delicious",
+        "emoji": "😋",
+        "pt": "Delicioso"
+      },
+      {
+        "word": "Melt",
+        "emoji": "🍫",
+        "pt": "Derreter"
+      }
     ],
     "sentence": [
-      { "words": ["You", "need", "to", "measure", "every", "ingredient", "carefully"], "translation": "Você precisa medir cada ingrediente com cuidado" },
-      { "words": ["The", "chocolate", "flavor", "is", "very", "delicious"], "translation": "O sabor de chocolate é muito delicioso" },
-      { "words": ["Melt", "the", "chocolate", "and", "pour", "the", "mixture"], "translation": "Derreta o chocolate e despeje a mistura" }
+      {
+        "words": [
+          "You",
+          "need",
+          "to",
+          "measure",
+          "every",
+          "ingredient",
+          "carefully"
+        ],
+        "translation": "Você precisa medir cada ingrediente com cuidado"
+      },
+      {
+        "words": [
+          "The",
+          "chocolate",
+          "flavor",
+          "is",
+          "very",
+          "delicious"
+        ],
+        "translation": "O sabor de chocolate é muito delicioso"
+      },
+      {
+        "words": [
+          "Melt",
+          "the",
+          "chocolate",
+          "and",
+          "pour",
+          "the",
+          "mixture"
+        ],
+        "translation": "Derreta o chocolate e despeje a mistura"
+      }
     ],
-    "spelling": ["recipe", "ingredient", "dessert", "flavor", "bake", "measure", "mixture", "dough", "whisk", "sprinkle", "delicious", "melt"],
-    "garden": ["recipe", "ingredient", "dessert", "flavor", "measure", "dough", "sprinkle", "delicious"],
+    "spelling": [
+      "recipe",
+      "ingredient",
+      "dessert",
+      "flavor",
+      "bake",
+      "measure",
+      "mixture",
+      "dough",
+      "whisk",
+      "sprinkle",
+      "delicious",
+      "melt"
+    ],
+    "garden": [
+      "recipe",
+      "ingredient",
+      "dessert",
+      "flavor",
+      "measure",
+      "dough",
+      "sprinkle",
+      "delicious"
+    ],
     "quiz": [
-      { "question": "What tells you how to make a dish?", "options": ["A whisk", "A flavor", "A recipe", "A mixture"], "correct": 2, "explanation": "A recipe has all the steps and ingredients!", "nalaMsg": "Let's read!" },
-      { "question": "What do you do with solid chocolate to make it a liquid?", "options": ["Bake it", "Freeze it", "Melt it", "Sprinkle it"], "correct": 2, "explanation": "You melt chocolate to make it a liquid!", "nalaMsg": "Yummy!" },
-      { "question": "A sweet food eaten at the end of a meal is a...", "options": ["Recipe", "Dessert", "Dough", "Measure"], "correct": 1, "explanation": "Desserts are sweet treats!", "nalaMsg": "I love cake!" }
+      {
+        "question": "What tells you how to make a dish?",
+        "options": [
+          "A whisk",
+          "A flavor",
+          "A recipe",
+          "A mixture"
+        ],
+        "correct": 2,
+        "explanation": "A recipe has all the steps and ingredients!",
+        "nalaMsg": "Let's read!"
+      },
+      {
+        "question": "What do you do with solid chocolate to make it a liquid?",
+        "options": [
+          "Bake it",
+          "Freeze it",
+          "Melt it",
+          "Sprinkle it"
+        ],
+        "correct": 2,
+        "explanation": "You melt chocolate to make it a liquid!",
+        "nalaMsg": "Yummy!"
+      },
+      {
+        "question": "A sweet food eaten at the end of a meal is a...",
+        "options": [
+          "Recipe",
+          "Dessert",
+          "Dough",
+          "Measure"
+        ],
+        "correct": 1,
+        "explanation": "Desserts are sweet treats!",
+        "nalaMsg": "I love cake!"
+      },
+      {
+        "question": "What tool do you use to mix eggs and batter quickly?",
+        "options": [
+          "A fork",
+          "A whisk",
+          "A spoon",
+          "A knife"
+        ],
+        "correct": 1,
+        "explanation": "A whisk helps blend ingredients smoothly! 🥣",
+        "nalaMsg": "Whisk it good!"
+      },
+      {
+        "question": "What happens to chocolate when it gets hot?",
+        "options": [
+          "It freezes",
+          "It disappears",
+          "It melts",
+          "It boils"
+        ],
+        "correct": 2,
+        "explanation": "Heat causes solid chocolate to melt! 🍫",
+        "nalaMsg": "Yummy chocolate!"
+      },
+      {
+        "question": "Flour, water, and yeast mixed together make...",
+        "options": [
+          "Juice",
+          "Dough",
+          "Salad",
+          "Soup"
+        ],
+        "correct": 1,
+        "explanation": "Dough is used to make bread and cookies! 🥖",
+        "nalaMsg": "Knead the dough!"
+      },
+      {
+        "question": "What is the list of instructions to make a cake called?",
+        "options": [
+          "Map",
+          "Story",
+          "Recipe",
+          "Ticket"
+        ],
+        "correct": 2,
+        "explanation": "A recipe tells you what ingredients and steps to follow! 📖",
+        "nalaMsg": "Follow the recipe!"
+      }
     ],
     "truefalse": [
-      { "statement": "You use a whisk to chop vegetables.", "translation": "Você usa um batedor para cortar vegetais.", "isTrue": false, "explanation": "A whisk is used to mix liquids or eggs!" },
-      { "statement": "Dough is a thick mixture used to make bread or cookies.", "translation": "Massa é uma mistura espessa usada para fazer pão ou biscoitos.", "isTrue": true, "explanation": "Yes, dough goes in the oven!" },
-      { "statement": "Sprinkles are small, sweet decorations on top of a cake.", "translation": "Granulados são decorações pequenas e doces em cima de um bolo.", "isTrue": true, "explanation": "Sprinkles make desserts colorful and fun!" }
+      {
+        "statement": "You use a whisk to chop vegetables.",
+        "translation": "Você usa um batedor para cortar vegetais.",
+        "isTrue": false,
+        "explanation": "A whisk is used to mix liquids or eggs!"
+      },
+      {
+        "statement": "Dough is a thick mixture used to make bread or cookies.",
+        "translation": "Massa é uma mistura espessa usada para fazer pão ou biscoitos.",
+        "isTrue": true,
+        "explanation": "Yes, dough goes in the oven!"
+      },
+      {
+        "statement": "Sprinkles are small, sweet decorations on top of a cake.",
+        "translation": "Granulados são decorações pequenas e doces em cima de um bolo.",
+        "isTrue": true,
+        "explanation": "Sprinkles make desserts colorful and fun!"
+      },
+      {
+        "statement": "Butter melts when you put it in a hot pan.",
+        "question": "Butter melts when you put it in a hot pan.",
+        "translation": "A manteiga derrete quando você a coloca em uma panela quente.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Heat melts solid butter into liquid! 🧈",
+        "nalaMsg": "So smooth!"
+      },
+      {
+        "statement": "A whisk is a tool used for cutting meat.",
+        "question": "A whisk is a tool used for cutting meat.",
+        "translation": "Um batedor (whisk) é uma ferramenta usada para cortar carne.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "A whisk is used to beat eggs and mix liquids! 🍳",
+        "nalaMsg": "Whisking is for mixing!"
+      },
+      {
+        "statement": "You should measure ingredients carefully when baking.",
+        "question": "You should measure ingredients carefully when baking.",
+        "translation": "Você deve medir os ingredientes com cuidado ao assar.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Accurate measurements make the dessert perfect! 🧁",
+        "nalaMsg": "Bake like a chef!"
+      },
+      {
+        "statement": "A recipe is a place where you buy clothes.",
+        "question": "A recipe is a place where you buy clothes.",
+        "translation": "Uma receita é um lugar onde você compra roupas.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "A recipe is a set of instructions for cooking! 📜",
+        "nalaMsg": "Recipes are for food!"
+      }
     ],
     "fetch": [
-      { "id": "recipe", "name": "Recipe", "emoji": "📜", "correct": true },
-      { "id": "whisk", "name": "Whisk", "emoji": "🥚", "correct": true },
-      { "id": "chocolate", "name": "Melt", "emoji": "🍫", "correct": true },
-      { "id": "tree", "name": "Tree", "emoji": "🌳", "correct": false },
-      { "id": "cake", "name": "Dessert", "emoji": "🍰", "correct": true },
-      { "id": "shoe", "name": "Shoe", "emoji": "👟", "correct": false }
+      {
+        "id": "recipe",
+        "name": "Recipe",
+        "emoji": "📜",
+        "correct": true
+      },
+      {
+        "id": "whisk",
+        "name": "Whisk",
+        "emoji": "🥚",
+        "correct": true
+      },
+      {
+        "id": "chocolate",
+        "name": "Melt",
+        "emoji": "🍫",
+        "correct": true
+      },
+      {
+        "id": "tree",
+        "name": "Tree",
+        "emoji": "🌳",
+        "correct": false
+      },
+      {
+        "id": "cake",
+        "name": "Dessert",
+        "emoji": "🍰",
+        "correct": true
+      },
+      {
+        "id": "shoe",
+        "name": "Shoe",
+        "emoji": "👟",
+        "correct": false
+      }
     ]
   },
   "bedroom": {
     "speaking": [
-      { "question": "How do you like to decorate your room?", "translation": "Como você gosta de decorar o seu quarto?", "starter": "I like to decorate with...", "nalaTip": "Posters and curtains! 🖼️" },
-      { "question": "Is your wardrobe tidy or messy?", "translation": "Seu guarda-roupa está arrumado ou bagunçado?", "starter": "My wardrobe is...", "nalaTip": "I hope it's tidy! ✨" },
-      { "question": "What makes a bedroom cozy?", "translation": "O que torna um quarto aconchegante?", "starter": "A bedroom is cozy with a...", "nalaTip": "A warm blanket! 🥰" }
+      {
+        "question": "How do you like to decorate your room?",
+        "translation": "Como você gosta de decorar o seu quarto?",
+        "starter": "I like to decorate with...",
+        "nalaTip": "Posters and curtains! 🖼️"
+      },
+      {
+        "question": "Is your wardrobe tidy or messy?",
+        "translation": "Seu guarda-roupa está arrumado ou bagunçado?",
+        "starter": "My wardrobe is...",
+        "nalaTip": "I hope it's tidy! ✨"
+      },
+      {
+        "question": "What makes a bedroom cozy?",
+        "translation": "O que torna um quarto aconchegante?",
+        "starter": "A bedroom is cozy with a...",
+        "nalaTip": "A warm blanket! 🥰"
+      },
+      {
+        "question": "How do you keep your bedroom tidy?",
+        "translation": "Como você mantém seu quarto arrumado?",
+        "starter": "I keep my bedroom tidy by...",
+        "nalaTip": "Putting toys away and making the bed! 🧹"
+      },
+      {
+        "question": "What color are your bedroom curtains?",
+        "translation": "De que cor são as cortinas do seu quarto?",
+        "starter": "My bedroom curtains are...",
+        "nalaTip": "White, blue, or pink? 🪟"
+      },
+      {
+        "question": "What do you keep on your bedroom shelves?",
+        "translation": "O que você guarda nas prateleiras do seu quarto?",
+        "starter": "On my shelves, I keep...",
+        "nalaTip": "Books, stuffed animals, or trophies! 📚"
+      },
+      {
+        "question": "Why is your bed cozy?",
+        "translation": "Por que a sua cama é aconchegante?",
+        "starter": "My bed is cozy because...",
+        "nalaTip": "Soft pillows and a warm blanket! 🛏️"
+      }
     ],
     "title": "My Bedroom",
     "bgImage": "url('images/bg-bedroom.png')",
     "emoji": "🛏️",
     "story": [
-      { "text": "I got new furniture to decorate my room." },
-      { "text": "My new mattress is so cozy with this warm blanket." },
-      { "text": "I organized all my clothes in the wardrobe and drawer." },
-      { "text": "I put my favorite books on the shelves." },
-      { "text": "The carpet and the curtains match perfectly. It is very tidy!" }
+      {
+        "text": "I got new furniture to decorate my room."
+      },
+      {
+        "text": "My new mattress is so cozy with this warm blanket."
+      },
+      {
+        "text": "I organized all my clothes in the wardrobe and drawer."
+      },
+      {
+        "text": "I put my favorite books on the shelves."
+      },
+      {
+        "text": "The carpet and the curtains match perfectly. It is very tidy!"
+      }
     ],
     "matching": [
-      { "word": "Furniture", "emoji": "🪑", "pt": "Mobília" },
-      { "word": "Decorate", "emoji": "🖼️", "pt": "Decorar" },
-      { "word": "Mattress", "emoji": "🛌", "pt": "Colchão" },
-      { "word": "Blanket", "emoji": "🧣", "pt": "Cobertor" },
-      { "word": "Cozy", "emoji": "🥰", "pt": "Aconchegante" },
-      { "word": "Wardrobe", "emoji": "🚪", "pt": "Guarda-roupa" },
-      { "word": "Tidy", "emoji": "✨", "pt": "Arrumado" },
-      { "word": "Shelves", "emoji": "📚", "pt": "Prateleiras" },
-      { "word": "Drawer", "emoji": "🗄️", "pt": "Gaveta" },
-      { "word": "Carpet", "emoji": "🧶", "pt": "Tapete" },
-      { "word": "Mirror", "emoji": "🪞", "pt": "Espelho" },
-      { "word": "Curtains", "emoji": "🪟", "pt": "Cortinas" }
+      {
+        "word": "Furniture",
+        "emoji": "🪑",
+        "pt": "Mobília"
+      },
+      {
+        "word": "Decorate",
+        "emoji": "🖼️",
+        "pt": "Decorar"
+      },
+      {
+        "word": "Mattress",
+        "emoji": "🛌",
+        "pt": "Colchão"
+      },
+      {
+        "word": "Blanket",
+        "emoji": "🧣",
+        "pt": "Cobertor"
+      },
+      {
+        "word": "Cozy",
+        "emoji": "🥰",
+        "pt": "Aconchegante"
+      },
+      {
+        "word": "Wardrobe",
+        "emoji": "🚪",
+        "pt": "Guarda-roupa"
+      },
+      {
+        "word": "Tidy",
+        "emoji": "✨",
+        "pt": "Arrumado"
+      },
+      {
+        "word": "Shelves",
+        "emoji": "📚",
+        "pt": "Prateleiras"
+      },
+      {
+        "word": "Drawer",
+        "emoji": "🗄️",
+        "pt": "Gaveta"
+      },
+      {
+        "word": "Carpet",
+        "emoji": "🧶",
+        "pt": "Tapete"
+      },
+      {
+        "word": "Mirror",
+        "emoji": "🪞",
+        "pt": "Espelho"
+      },
+      {
+        "word": "Curtains",
+        "emoji": "🪟",
+        "pt": "Cortinas"
+      }
     ],
     "sentence": [
-      { "words": ["My", "bedroom", "is", "very", "cozy", "and", "tidy"], "translation": "Meu quarto é muito aconchegante e arrumado" },
-      { "words": ["She", "put", "her", "clothes", "in", "the", "wooden", "wardrobe"], "translation": "Ela colocou as roupas dela no guarda-roupa de madeira" },
-      { "words": ["The", "books", "are", "organized", "on", "the", "wall", "shelves"], "translation": "Os livros estão organizados nas prateleiras da parede" }
+      {
+        "words": [
+          "My",
+          "bedroom",
+          "is",
+          "very",
+          "cozy",
+          "and",
+          "tidy"
+        ],
+        "translation": "Meu quarto é muito aconchegante e arrumado"
+      },
+      {
+        "words": [
+          "She",
+          "put",
+          "her",
+          "clothes",
+          "in",
+          "the",
+          "wooden",
+          "wardrobe"
+        ],
+        "translation": "Ela colocou as roupas dela no guarda-roupa de madeira"
+      },
+      {
+        "words": [
+          "The",
+          "books",
+          "are",
+          "organized",
+          "on",
+          "the",
+          "wall",
+          "shelves"
+        ],
+        "translation": "Os livros estão organizados nas prateleiras da parede"
+      }
     ],
-    "spelling": ["furniture", "decorate", "mattress", "blanket", "cozy", "wardrobe", "tidy", "shelves", "drawer", "carpet", "mirror", "curtains"],
-    "garden": ["furniture", "decorate", "mattress", "blanket", "wardrobe", "shelves", "carpet", "curtains"],
+    "spelling": [
+      "furniture",
+      "decorate",
+      "mattress",
+      "blanket",
+      "cozy",
+      "wardrobe",
+      "tidy",
+      "shelves",
+      "drawer",
+      "carpet",
+      "mirror",
+      "curtains"
+    ],
+    "garden": [
+      "furniture",
+      "decorate",
+      "mattress",
+      "blanket",
+      "wardrobe",
+      "shelves",
+      "carpet",
+      "curtains"
+    ],
     "quiz": [
-      { "question": "Where do you hang your clothes?", "options": ["Drawer", "Wardrobe", "Shelves", "Mattress"], "correct": 1, "explanation": "You hang clothes in a wardrobe!", "nalaMsg": "Very organized!" },
-      { "question": "What makes a room dark so you can sleep?", "options": ["Carpet", "Mirror", "Curtains", "Furniture"], "correct": 2, "explanation": "Curtains block the sunlight!", "nalaMsg": "Good night!" },
-      { "question": "If a room is clean and organized, it is...", "options": ["Messy", "Tidy", "Cozy", "Decorate"], "correct": 1, "explanation": "Tidy means clean and well organized!", "nalaMsg": "Great job cleaning up!" }
+      {
+        "question": "Where do you hang your clothes?",
+        "options": [
+          "Drawer",
+          "Wardrobe",
+          "Shelves",
+          "Mattress"
+        ],
+        "correct": 1,
+        "explanation": "You hang clothes in a wardrobe!",
+        "nalaMsg": "Very organized!"
+      },
+      {
+        "question": "What makes a room dark so you can sleep?",
+        "options": [
+          "Carpet",
+          "Mirror",
+          "Curtains",
+          "Furniture"
+        ],
+        "correct": 2,
+        "explanation": "Curtains block the sunlight!",
+        "nalaMsg": "Good night!"
+      },
+      {
+        "question": "If a room is clean and organized, it is...",
+        "options": [
+          "Messy",
+          "Tidy",
+          "Cozy",
+          "Decorate"
+        ],
+        "correct": 1,
+        "explanation": "Tidy means clean and well organized!",
+        "nalaMsg": "Great job cleaning up!"
+      },
+      {
+        "question": "Where do you put your socks and folded clothes?",
+        "options": [
+          "In the drawer",
+          "On the ceiling",
+          "Under the carpet",
+          "On the mirror"
+        ],
+        "correct": 0,
+        "explanation": "Drawers keep smaller clothes organized! 🧦",
+        "nalaMsg": "So tidy!"
+      },
+      {
+        "question": "What keeps you warm in bed on a cold night?",
+        "options": [
+          "Curtains",
+          "A blanket",
+          "A shelf",
+          "A mirror"
+        ],
+        "correct": 1,
+        "explanation": "A warm blanket keeps you cozy! 🛌",
+        "nalaMsg": "Warm and cozy!"
+      },
+      {
+        "question": "What do you look into to see your own reflection?",
+        "options": [
+          "A wardrobe",
+          "A drawer",
+          "A mirror",
+          "A carpet"
+        ],
+        "correct": 2,
+        "explanation": "A mirror shows your reflection! 🪞",
+        "nalaMsg": "Looking good!"
+      },
+      {
+        "question": "What hangs over the window to block the sunlight?",
+        "options": [
+          "Mattress",
+          "Curtains",
+          "Desk",
+          "Pillow"
+        ],
+        "correct": 1,
+        "explanation": "Curtains keep the bedroom dark and cool! 🪟",
+        "nalaMsg": "Good sleep!"
+      }
     ],
     "truefalse": [
-      { "statement": "You sleep directly on the carpet.", "translation": "Você dorme diretamente no tapete.", "isTrue": false, "explanation": "You sleep on a mattress!" },
-      { "statement": "A mirror is a piece of glass where you can see your reflection.", "translation": "Um espelho é uma peça de vidro onde você pode ver seu reflexo.", "isTrue": true, "explanation": "Mirrors show your reflection!" },
-      { "statement": "You open a drawer by pulling it towards you.", "translation": "Você abre uma gaveta puxando-a em sua direção.", "isTrue": true, "explanation": "Yes, drawers slide out to open!" }
+      {
+        "statement": "You sleep directly on the carpet.",
+        "translation": "Você dorme diretamente no tapete.",
+        "isTrue": false,
+        "explanation": "You sleep on a mattress!"
+      },
+      {
+        "statement": "A mirror is a piece of glass where you can see your reflection.",
+        "translation": "Um espelho é uma peça de vidro onde você pode ver seu reflexo.",
+        "isTrue": true,
+        "explanation": "Mirrors show your reflection!"
+      },
+      {
+        "statement": "You open a drawer by pulling it towards you.",
+        "translation": "Você abre uma gaveta puxando-a em sua direção.",
+        "isTrue": true,
+        "explanation": "Yes, drawers slide out to open!"
+      },
+      {
+        "statement": "A wardrobe is used to hang your coats and dresses.",
+        "question": "A wardrobe is used to hang your coats and dresses.",
+        "translation": "Um guarda-roupa é usado para pendurar seus casacos e vestidos.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Wardrobes store hanging clothes! 👗",
+        "nalaMsg": "Neat clothes!"
+      },
+      {
+        "statement": "You sleep on a soft mattress.",
+        "question": "You sleep on a soft mattress.",
+        "translation": "Você dorme em um colchão macio.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "A good mattress gives you restful sleep! 🛏️",
+        "nalaMsg": "Sweet dreams!"
+      },
+      {
+        "statement": "A tidy room is always full of clothes on the floor.",
+        "question": "A tidy room is always full of clothes on the floor.",
+        "translation": "Um quarto arrumado está sempre cheio de roupas no chão.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "A tidy room has everything neatly put away! ✨",
+        "nalaMsg": "Clean room, happy room!"
+      },
+      {
+        "statement": "Curtains cover the floor so your feet don't get cold.",
+        "question": "Curtains cover the floor so your feet don't get cold.",
+        "translation": "Cortinas cobrem o chão para seus pés não ficarem frios.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "A carpet covers the floor; curtains cover windows! 🪟",
+        "nalaMsg": "Windows love curtains!"
+      }
     ],
     "fetch": [
-      { "id": "mirror", "name": "Mirror", "emoji": "🪞", "correct": true },
-      { "id": "wardrobe", "name": "Wardrobe", "emoji": "🚪", "correct": true },
-      { "id": "books", "name": "Shelves", "emoji": "📚", "correct": true },
-      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false },
-      { "id": "bed", "name": "Mattress", "emoji": "🛌", "correct": true },
-      { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false }
+      {
+        "id": "mirror",
+        "name": "Mirror",
+        "emoji": "🪞",
+        "correct": true
+      },
+      {
+        "id": "wardrobe",
+        "name": "Wardrobe",
+        "emoji": "🚪",
+        "correct": true
+      },
+      {
+        "id": "books",
+        "name": "Shelves",
+        "emoji": "📚",
+        "correct": true
+      },
+      {
+        "id": "car",
+        "name": "Car",
+        "emoji": "🚗",
+        "correct": false
+      },
+      {
+        "id": "bed",
+        "name": "Mattress",
+        "emoji": "🛌",
+        "correct": true
+      },
+      {
+        "id": "apple",
+        "name": "Apple",
+        "emoji": "🍎",
+        "correct": false
+      }
     ]
   },
   "friends": {
     "speaking": [
-      { "question": "What is the best part of friendship?", "translation": "Qual é a melhor parte da amizade?", "starter": "The best part is...", "nalaTip": "Trust? Laughter? 💖" },
-      { "question": "Who do you trust with a secret?", "translation": "Em quem você confia um segredo?", "starter": "I trust...", "nalaTip": "Your best friend? 🤫" },
-      { "question": "Are you excited to make new memories?", "translation": "Você está animada para criar novas memórias?", "starter": "Yes, I am excited to...", "nalaTip": "Hang out together! 👯‍♀️" }
+      {
+        "question": "What is the best part of friendship?",
+        "translation": "Qual é a melhor parte da amizade?",
+        "starter": "The best part is...",
+        "nalaTip": "Trust? Laughter? 💖"
+      },
+      {
+        "question": "Who do you trust with a secret?",
+        "translation": "Em quem você confia um segredo?",
+        "starter": "I trust...",
+        "nalaTip": "Your best friend? 🤫"
+      },
+      {
+        "question": "Are you excited to make new memories?",
+        "translation": "Você está animada para criar novas memórias?",
+        "starter": "Yes, I am excited to...",
+        "nalaTip": "Hang out together! 👯‍♀️"
+      },
+      {
+        "question": "What makes you feel excited?",
+        "translation": "O que te deixa animada?",
+        "starter": "I feel excited when...",
+        "nalaTip": "Going on a trip or playing with friends! 🎈"
+      },
+      {
+        "question": "How do you support a friend who is sad?",
+        "translation": "Como você apoia um amigo que está triste?",
+        "starter": "I support my friend by...",
+        "nalaTip": "Giving a hug or listening to them! 💛"
+      },
+      {
+        "question": "What is a fun memory you have with a friend?",
+        "translation": "Qual é uma lembrança divertida que você tem com um amigo?",
+        "starter": "A fun memory I have is...",
+        "nalaTip": "Playing at the park or having a sleepover! 📸"
+      },
+      {
+        "question": "Why is trust important between friends?",
+        "translation": "Por que a confiança é importante entre amigos?",
+        "starter": "Trust is important because...",
+        "nalaTip": "Friends need to rely on each other! 🤝"
+      }
     ],
     "title": "Friends & Feelings",
     "bgImage": "url('images/bg-friends.png')",
     "emoji": "💖",
     "story": [
-      { "text": "True friendship is very important." },
-      { "text": "We always share laughter and support each other." },
-      { "text": "We create beautiful memories together." },
-      { "text": "I promise I will keep your secret safe." },
-      { "text": "We can trust each other, we are best friends." }
+      {
+        "text": "True friendship is very important."
+      },
+      {
+        "text": "We always share laughter and support each other."
+      },
+      {
+        "text": "We create beautiful memories together."
+      },
+      {
+        "text": "I promise I will keep your secret safe."
+      },
+      {
+        "text": "We can trust each other, we are best friends."
+      }
     ],
     "matching": [
-      { "word": "Friendship", "emoji": "💗", "pt": "Amizade" },
-      { "word": "Memories", "emoji": "💭", "pt": "Memórias" },
-      { "word": "Laughter", "emoji": "😂", "pt": "Risada" },
-      { "word": "Cheerful", "emoji": "😊", "pt": "Alegre" },
-      { "word": "Support", "emoji": "🤗", "pt": "Apoio" },
-      { "word": "Excited", "emoji": "🤩", "pt": "Animada" },
-      { "word": "Secret", "emoji": "🤫", "pt": "Segredo" },
-      { "word": "Trust", "emoji": "🤝", "pt": "Confiança" },
-      { "word": "Promise", "emoji": "🤞", "pt": "Promessa" },
-      { "word": "Advice", "emoji": "💡", "pt": "Conselho" },
-      { "word": "Together", "emoji": "👯‍♀️", "pt": "Juntas" },
-      { "word": "Surprise", "emoji": "😲", "pt": "Surpresa" }
+      {
+        "word": "Friendship",
+        "emoji": "💗",
+        "pt": "Amizade"
+      },
+      {
+        "word": "Memories",
+        "emoji": "💭",
+        "pt": "Memórias"
+      },
+      {
+        "word": "Laughter",
+        "emoji": "😂",
+        "pt": "Risada"
+      },
+      {
+        "word": "Cheerful",
+        "emoji": "😊",
+        "pt": "Alegre"
+      },
+      {
+        "word": "Support",
+        "emoji": "🤗",
+        "pt": "Apoio"
+      },
+      {
+        "word": "Excited",
+        "emoji": "🤩",
+        "pt": "Animada"
+      },
+      {
+        "word": "Secret",
+        "emoji": "🤫",
+        "pt": "Segredo"
+      },
+      {
+        "word": "Trust",
+        "emoji": "🤝",
+        "pt": "Confiança"
+      },
+      {
+        "word": "Promise",
+        "emoji": "🤞",
+        "pt": "Promessa"
+      },
+      {
+        "word": "Advice",
+        "emoji": "💡",
+        "pt": "Conselho"
+      },
+      {
+        "word": "Together",
+        "emoji": "👯‍♀️",
+        "pt": "Juntas"
+      },
+      {
+        "word": "Surprise",
+        "emoji": "😲",
+        "pt": "Surpresa"
+      }
     ],
     "sentence": [
-      { "words": ["Our", "friendship", "is", "built", "on", "trust", "and", "support"], "translation": "Nossa amizade é construída na confiança e no apoio" },
-      { "words": ["We", "create", "beautiful", "memories", "together", "every", "day"], "translation": "Nós criamos lindas memórias juntas todos os dias" },
-      { "words": ["I", "promise", "to", "keep", "your", "secret", "safe"], "translation": "Eu prometo manter o seu segredo seguro" }
+      {
+        "words": [
+          "Our",
+          "friendship",
+          "is",
+          "built",
+          "on",
+          "trust",
+          "and",
+          "support"
+        ],
+        "translation": "Nossa amizade é construída na confiança e no apoio"
+      },
+      {
+        "words": [
+          "We",
+          "create",
+          "beautiful",
+          "memories",
+          "together",
+          "every",
+          "day"
+        ],
+        "translation": "Nós criamos lindas memórias juntas todos os dias"
+      },
+      {
+        "words": [
+          "I",
+          "promise",
+          "to",
+          "keep",
+          "your",
+          "secret",
+          "safe"
+        ],
+        "translation": "Eu prometo manter o seu segredo seguro"
+      }
     ],
-    "spelling": ["friendship", "memories", "laughter", "cheerful", "support", "excited", "secret", "trust", "promise", "advice", "together", "surprise"],
-    "garden": ["friendship", "memories", "laughter", "cheerful", "support", "secret", "trust", "promise"],
+    "spelling": [
+      "friendship",
+      "memories",
+      "laughter",
+      "cheerful",
+      "support",
+      "excited",
+      "secret",
+      "trust",
+      "promise",
+      "advice",
+      "together",
+      "surprise"
+    ],
+    "garden": [
+      "friendship",
+      "memories",
+      "laughter",
+      "cheerful",
+      "support",
+      "secret",
+      "trust",
+      "promise"
+    ],
     "quiz": [
-      { "question": "What do you give a friend when they are sad?", "options": ["A secret", "Support", "A surprise", "Laughter"], "correct": 1, "explanation": "Friends support each other!", "nalaMsg": "A big hug!" },
-      { "question": "What do you say when you won't tell anyone?", "options": ["I promise", "I cry", "I run", "I laugh"], "correct": 0, "explanation": "You promise to keep a secret!", "nalaMsg": "My lips are sealed!" },
-      { "question": "When you need help with a problem, you ask for...", "options": ["A memory", "Advice", "A surprise", "Friendship"], "correct": 1, "explanation": "Friends give good advice!", "nalaMsg": "Listen carefully!" }
+      {
+        "question": "What do you give a friend when they are sad?",
+        "options": [
+          "A secret",
+          "Support",
+          "A surprise",
+          "Laughter"
+        ],
+        "correct": 1,
+        "explanation": "Friends support each other!",
+        "nalaMsg": "A big hug!"
+      },
+      {
+        "question": "What do you say when you won't tell anyone?",
+        "options": [
+          "I promise",
+          "I cry",
+          "I run",
+          "I laugh"
+        ],
+        "correct": 0,
+        "explanation": "You promise to keep a secret!",
+        "nalaMsg": "My lips are sealed!"
+      },
+      {
+        "question": "When you need help with a problem, you ask for...",
+        "options": [
+          "A memory",
+          "Advice",
+          "A surprise",
+          "Friendship"
+        ],
+        "correct": 1,
+        "explanation": "Friends give good advice!",
+        "nalaMsg": "Listen carefully!"
+      },
+      {
+        "question": "When someone tells you something private and you don't share it, it's a...",
+        "options": [
+          "Secret",
+          "Song",
+          "Game",
+          "Laughter"
+        ],
+        "correct": 0,
+        "explanation": "A secret is kept between trusted friends! 🤫",
+        "nalaMsg": "You can trust me!"
+      },
+      {
+        "question": "How do you feel when you are about to go to a fun amusement park?",
+        "options": [
+          "Bored",
+          "Excited",
+          "Sleepy",
+          "Cold"
+        ],
+        "correct": 1,
+        "explanation": "Excited means feeling very happy and enthusiastic! 🎉",
+        "nalaMsg": "Woohoo!"
+      },
+      {
+        "question": "What is the sound you make when something is very funny?",
+        "options": [
+          "Laughter",
+          "Silence",
+          "Whisper",
+          "Crying"
+        ],
+        "correct": 0,
+        "explanation": "Laughter brings joy to everyone! 😄",
+        "nalaMsg": "Haha, so funny!"
+      },
+      {
+        "question": "When you believe that your friend will always be honest, you have...",
+        "options": [
+          "Doubt",
+          "Fear",
+          "Trust",
+          "Confusion"
+        ],
+        "correct": 2,
+        "explanation": "Trust is the foundation of true friendship! 🤝",
+        "nalaMsg": "Best pals forever!"
+      }
     ],
     "truefalse": [
-      { "statement": "Friendship means you never help each other.", "translation": "Amizade significa que vocês nunca se ajudam.", "isTrue": false, "explanation": "True friendship is all about support!" },
-      { "statement": "You share secrets with people you trust.", "translation": "Você compartilha segredos com pessoas em quem confia.", "isTrue": true, "explanation": "Trust is very important for secrets!" },
-      { "statement": "A surprise is something you already know.", "translation": "Uma surpresa é algo que você já sabe.", "isTrue": false, "explanation": "A surprise is something unexpected!" }
+      {
+        "statement": "Friendship means you never help each other.",
+        "translation": "Amizade significa que vocês nunca se ajudam.",
+        "isTrue": false,
+        "explanation": "True friendship is all about support!"
+      },
+      {
+        "statement": "You share secrets with people you trust.",
+        "translation": "Você compartilha segredos com pessoas em quem confia.",
+        "isTrue": true,
+        "explanation": "Trust is very important for secrets!"
+      },
+      {
+        "statement": "A surprise is something you already know.",
+        "translation": "Uma surpresa é algo que você já sabe.",
+        "isTrue": false,
+        "explanation": "A surprise is something unexpected!"
+      },
+      {
+        "statement": "True friends give support when you need help.",
+        "question": "True friends give support when you need help.",
+        "translation": "Amigos de verdade dão apoio quando você precisa de ajuda.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Friends help and cheer each other up! 🤗",
+        "nalaMsg": "Friends care!"
+      },
+      {
+        "statement": "Laughter is what happens when people are angry.",
+        "question": "Laughter is what happens when people are angry.",
+        "translation": "A risada é o que acontece quando as pessoas estão bravas.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "Laughter comes from happiness and funny moments! 😄",
+        "nalaMsg": "Laugh and smile!"
+      },
+      {
+        "statement": "Keeping a promise shows that you are trustworthy.",
+        "question": "Keeping a promise shows that you are trustworthy.",
+        "translation": "Cumprir uma promessa mostra que você é confiável.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Honoring promises builds strong friendships! ⭐",
+        "nalaMsg": "Promises matter!"
+      },
+      {
+        "statement": "A cheerful person is always grumpy and complaining.",
+        "question": "A cheerful person is always grumpy and complaining.",
+        "translation": "Uma pessoa alegre está sempre mal-humorada e reclamando.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "Cheerful means happy, positive, and full of smiles! ☀️",
+        "nalaMsg": "Stay cheerful!"
+      }
     ],
     "fetch": [
-      { "id": "support", "name": "Support", "emoji": "🤗", "correct": true },
-      { "id": "laughter", "name": "Laughter", "emoji": "😂", "correct": true },
-      { "id": "promise", "name": "Promise", "emoji": "🤞", "correct": true },
-      { "id": "tree", "name": "Tree", "emoji": "🌳", "correct": false },
-      { "id": "secret", "name": "Secret", "emoji": "🤫", "correct": true },
-      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false }
+      {
+        "id": "support",
+        "name": "Support",
+        "emoji": "🤗",
+        "correct": true
+      },
+      {
+        "id": "laughter",
+        "name": "Laughter",
+        "emoji": "😂",
+        "correct": true
+      },
+      {
+        "id": "promise",
+        "name": "Promise",
+        "emoji": "🤞",
+        "correct": true
+      },
+      {
+        "id": "tree",
+        "name": "Tree",
+        "emoji": "🌳",
+        "correct": false
+      },
+      {
+        "id": "secret",
+        "name": "Secret",
+        "emoji": "🤫",
+        "correct": true
+      },
+      {
+        "id": "car",
+        "name": "Car",
+        "emoji": "🚗",
+        "correct": false
+      }
     ]
   },
   "magic": {
     "speaking": [
-      { "question": "If you had magic, what would you do?", "translation": "Se você tivesse magia, o que faria?", "starter": "I would cast a...", "nalaTip": "Cast a spell! ✨" },
-      { "question": "Who is your favorite hero?", "translation": "Quem é o seu herói favorito?", "starter": "My favorite hero is...", "nalaTip": "A wizard? A fairy? 🧚‍♀️" },
-      { "question": "Would you like to live in a castle?", "translation": "Você gostaria de morar em um castelo?", "starter": "Yes, I want to rule a...", "nalaTip": "Rule a kingdom! 👑" }
+      {
+        "question": "If you had magic, what would you do?",
+        "translation": "Se você tivesse magia, o que faria?",
+        "starter": "I would cast a...",
+        "nalaTip": "Cast a spell! ✨"
+      },
+      {
+        "question": "Who is your favorite hero?",
+        "translation": "Quem é o seu herói favorito?",
+        "starter": "My favorite hero is...",
+        "nalaTip": "A wizard? A fairy? 🧚‍♀️"
+      },
+      {
+        "question": "Would you like to live in a castle?",
+        "translation": "Você gostaria de morar em um castelo?",
+        "starter": "Yes, I want to rule a...",
+        "nalaTip": "Rule a kingdom! 👑"
+      },
+      {
+        "question": "If you had a magic wand, what spell would you cast?",
+        "translation": "Se você tivesse uma varinha mágica, que feitiço lançaria?",
+        "starter": "If I had a wand, I would...",
+        "nalaTip": "Make ice cream or fly high! ✨"
+      },
+      {
+        "question": "Would you rather have a pet dragon or a fairy friend?",
+        "translation": "Você preferiria ter um dragão de estimação ou uma fada amiga?",
+        "starter": "I would rather have a...",
+        "nalaTip": "A friendly dragon or a tiny fairy? 🐉"
+      },
+      {
+        "question": "What does a king or queen rule over?",
+        "translation": "O que um rei ou rainha governa?",
+        "starter": "A king or queen rules over a...",
+        "nalaTip": "A big castle and kingdom! 🏰"
+      },
+      {
+        "question": "What kind of quest would you like to go on?",
+        "translation": "Em que tipo de missão você gostaria de embarcar?",
+        "starter": "I would like to go on a quest to...",
+        "nalaTip": "Find hidden treasure or save a kingdom! 🗺️"
+      }
     ],
     "title": "Magic & Fantasy",
     "bgImage": "url('images/bg-magic.png')",
     "emoji": "🔮",
     "story": [
-      { "text": "Once upon a time in a far away kingdom..." },
-      { "text": "A brave hero went on a dangerous quest." },
-      { "text": "They had to fight a giant dragon." },
-      { "text": "A fairy gave them a magic wand and a potion." },
-      { "text": "They saved the castle using a powerful spell!" }
+      {
+        "text": "Once upon a time in a far away kingdom..."
+      },
+      {
+        "text": "A brave hero went on a dangerous quest."
+      },
+      {
+        "text": "They had to fight a giant dragon."
+      },
+      {
+        "text": "A fairy gave them a magic wand and a potion."
+      },
+      {
+        "text": "They saved the castle using a powerful spell!"
+      }
     ],
     "matching": [
-      { "word": "Castle", "emoji": "🏰", "pt": "Castelo" },
-      { "word": "Wizard", "emoji": "🧙‍♂️", "pt": "Mago" },
-      { "word": "Spell", "emoji": "✨", "pt": "Feitiço" },
-      { "word": "Wand", "emoji": "🪄", "pt": "Varinha" },
-      { "word": "Potion", "emoji": "🧪", "pt": "Poção" },
-      { "word": "Dragon", "emoji": "🐉", "pt": "Dragão" },
-      { "word": "Fairy", "emoji": "🧚‍♀️", "pt": "Fada" },
-      { "word": "Legend", "emoji": "📖", "pt": "Lenda" },
-      { "word": "Kingdom", "emoji": "👑", "pt": "Reino" },
-      { "word": "Quest", "emoji": "🗺️", "pt": "Missão" },
-      { "word": "Magic", "emoji": "🔮", "pt": "Magia" },
-      { "word": "Hero", "emoji": "🦸‍♂️", "pt": "Herói" }
+      {
+        "word": "Castle",
+        "emoji": "🏰",
+        "pt": "Castelo"
+      },
+      {
+        "word": "Wizard",
+        "emoji": "🧙‍♂️",
+        "pt": "Mago"
+      },
+      {
+        "word": "Spell",
+        "emoji": "✨",
+        "pt": "Feitiço"
+      },
+      {
+        "word": "Wand",
+        "emoji": "🪄",
+        "pt": "Varinha"
+      },
+      {
+        "word": "Potion",
+        "emoji": "🧪",
+        "pt": "Poção"
+      },
+      {
+        "word": "Dragon",
+        "emoji": "🐉",
+        "pt": "Dragão"
+      },
+      {
+        "word": "Fairy",
+        "emoji": "🧚‍♀️",
+        "pt": "Fada"
+      },
+      {
+        "word": "Legend",
+        "emoji": "📖",
+        "pt": "Lenda"
+      },
+      {
+        "word": "Kingdom",
+        "emoji": "👑",
+        "pt": "Reino"
+      },
+      {
+        "word": "Quest",
+        "emoji": "🗺️",
+        "pt": "Missão"
+      },
+      {
+        "word": "Magic",
+        "emoji": "🔮",
+        "pt": "Magia"
+      },
+      {
+        "word": "Hero",
+        "emoji": "🦸‍♂️",
+        "pt": "Herói"
+      }
     ],
     "sentence": [
-      { "words": ["The", "wizard", "used", "his", "wand", "to", "cast", "a", "spell"], "translation": "O mago usou sua varinha para lançar um feitiço" },
-      { "words": ["A", "brave", "hero", "saved", "the", "beautiful", "kingdom"], "translation": "Um herói corajoso salvou o lindo reino" },
-      { "words": ["She", "drank", "a", "magic", "potion", "to", "defeat", "the", "dragon"], "translation": "Ela bebeu uma poção mágica para derrotar o dragão" }
+      {
+        "words": [
+          "The",
+          "wizard",
+          "used",
+          "his",
+          "wand",
+          "to",
+          "cast",
+          "a",
+          "spell"
+        ],
+        "translation": "O mago usou sua varinha para lançar um feitiço"
+      },
+      {
+        "words": [
+          "A",
+          "brave",
+          "hero",
+          "saved",
+          "the",
+          "beautiful",
+          "kingdom"
+        ],
+        "translation": "Um herói corajoso salvou o lindo reino"
+      },
+      {
+        "words": [
+          "She",
+          "drank",
+          "a",
+          "magic",
+          "potion",
+          "to",
+          "defeat",
+          "the",
+          "dragon"
+        ],
+        "translation": "Ela bebeu uma poção mágica para derrotar o dragão"
+      }
     ],
-    "spelling": ["castle", "wizard", "spell", "wand", "potion", "dragon", "fairy", "legend", "kingdom", "quest", "magic", "hero"],
-    "garden": ["castle", "wizard", "spell", "wand", "potion", "dragon", "fairy", "magic"],
+    "spelling": [
+      "castle",
+      "wizard",
+      "spell",
+      "wand",
+      "potion",
+      "dragon",
+      "fairy",
+      "legend",
+      "kingdom",
+      "quest",
+      "magic",
+      "hero"
+    ],
+    "garden": [
+      "castle",
+      "wizard",
+      "spell",
+      "wand",
+      "potion",
+      "dragon",
+      "fairy",
+      "magic"
+    ],
     "quiz": [
-      { "question": "What does a wizard use to cast spells?", "options": ["A sword", "A wand", "A dragon", "A castle"], "correct": 1, "explanation": "Wizards use wands for magic!", "nalaMsg": "Abracadabra!" },
-      { "question": "A big scary flying reptile that breathes fire is a...", "options": ["Fairy", "Kingdom", "Potion", "Dragon"], "correct": 3, "explanation": "Dragons are powerful and breathe fire!", "nalaMsg": "Watch out!" },
-      { "question": "An old story that is famous but maybe not true is a...", "options": ["Spell", "Legend", "Quest", "Hero"], "correct": 1, "explanation": "A legend is an old, famous story!", "nalaMsg": "I love good stories!" }
+      {
+        "question": "What does a wizard use to cast spells?",
+        "options": [
+          "A sword",
+          "A wand",
+          "A dragon",
+          "A castle"
+        ],
+        "correct": 1,
+        "explanation": "Wizards use wands for magic!",
+        "nalaMsg": "Abracadabra!"
+      },
+      {
+        "question": "A big scary flying reptile that breathes fire is a...",
+        "options": [
+          "Fairy",
+          "Kingdom",
+          "Potion",
+          "Dragon"
+        ],
+        "correct": 3,
+        "explanation": "Dragons are powerful and breathe fire!",
+        "nalaMsg": "Watch out!"
+      },
+      {
+        "question": "An old story that is famous but maybe not true is a...",
+        "options": [
+          "Spell",
+          "Legend",
+          "Quest",
+          "Hero"
+        ],
+        "correct": 1,
+        "explanation": "A legend is an old, famous story!",
+        "nalaMsg": "I love good stories!"
+      },
+      {
+        "question": "What tool does a wizard hold to cast a spell?",
+        "options": [
+          "A broom",
+          "A wand",
+          "A clock",
+          "A fork"
+        ],
+        "correct": 1,
+        "explanation": "A wand channels magic power! ✨",
+        "nalaMsg": "Abracadabra!"
+      },
+      {
+        "question": "A mythical flying creature that breathes fire is a...",
+        "options": [
+          "Dragon",
+          "Penguin",
+          "Rabbit",
+          "Dolphin"
+        ],
+        "correct": 0,
+        "explanation": "Dragons are powerful creatures in fantasy legends! 🐉",
+        "nalaMsg": "Roar!"
+      },
+      {
+        "question": "A tiny magical creature with shiny wings is a...",
+        "options": [
+          "Giant",
+          "Fairy",
+          "Knight",
+          "Goblin"
+        ],
+        "correct": 1,
+        "explanation": "Fairies have sparkling wings and magic dust! 🧚‍♀️",
+        "nalaMsg": "Sparkle bright!"
+      },
+      {
+        "question": "A brave person who goes on a quest to save the kingdom is a...",
+        "options": [
+          "Villain",
+          "Monster",
+          "Hero",
+          "Ghost"
+        ],
+        "correct": 2,
+        "explanation": "A hero shows courage and helps others! 🛡️",
+        "nalaMsg": "True courage!"
+      }
     ],
     "truefalse": [
-      { "statement": "A king and queen live in a castle.", "translation": "Um rei e uma rainha vivem em um castelo.", "isTrue": true, "explanation": "Yes, castles are for royalty!" },
-      { "statement": "You drink a wand to get magic powers.", "translation": "Você bebe uma varinha para ganhar poderes mágicos.", "isTrue": false, "explanation": "You drink a potion, not a wand!" },
-      { "statement": "A quest is a long and difficult journey.", "translation": "Uma missão é uma jornada longa e difícil.", "isTrue": true, "explanation": "Heroes go on quests to save the day!" }
+      {
+        "statement": "A king and queen live in a castle.",
+        "translation": "Um rei e uma rainha vivem em um castelo.",
+        "isTrue": true,
+        "explanation": "Yes, castles are for royalty!"
+      },
+      {
+        "statement": "You drink a wand to get magic powers.",
+        "translation": "Você bebe uma varinha para ganhar poderes mágicos.",
+        "isTrue": false,
+        "explanation": "You drink a potion, not a wand!"
+      },
+      {
+        "statement": "A quest is a long and difficult journey.",
+        "translation": "Uma missão é uma jornada longa e difícil.",
+        "isTrue": true,
+        "explanation": "Heroes go on quests to save the day!"
+      },
+      {
+        "statement": "A wizard brews magic liquids called potions.",
+        "question": "A wizard brews magic liquids called potions.",
+        "translation": "Um mago prepara líquidos mágicos chamados poções.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Potions have mysterious and fun effects! 🧪",
+        "nalaMsg": "Magic brew!"
+      },
+      {
+        "statement": "Fairies are giant monsters with no wings.",
+        "question": "Fairies are giant monsters with no wings.",
+        "translation": "Fadas são monstros gigantes sem asas.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "Fairies are tiny creatures with beautiful wings! 🧚",
+        "nalaMsg": "Fairies are tiny and sweet!"
+      },
+      {
+        "statement": "A quest is an exciting journey to achieve a goal.",
+        "question": "A quest is an exciting journey to achieve a goal.",
+        "translation": "Uma missão (quest) é uma jornada emocionante para atingir um objetivo.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Heroes embark on quests to solve mysteries! ⚔️",
+        "nalaMsg": "Brave adventurer!"
+      },
+      {
+        "statement": "Castles are built out of soft cotton candy.",
+        "question": "Castles are built out of soft cotton candy.",
+        "translation": "Castelos são construídos de algodão doce macio.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "Castles are made of strong stone walls! 🏰",
+        "nalaMsg": "Castles of stone!"
+      }
     ],
     "fetch": [
-      { "id": "castle", "name": "Castle", "emoji": "🏰", "correct": true },
-      { "id": "wand", "name": "Wand", "emoji": "🪄", "correct": true },
-      { "id": "dragon", "name": "Dragon", "emoji": "🐉", "correct": true },
-      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false },
-      { "id": "potion", "name": "Potion", "emoji": "🧪", "correct": true },
-      { "id": "shoe", "name": "Shoe", "emoji": "👟", "correct": false }
+      {
+        "id": "castle",
+        "name": "Castle",
+        "emoji": "🏰",
+        "correct": true
+      },
+      {
+        "id": "wand",
+        "name": "Wand",
+        "emoji": "🪄",
+        "correct": true
+      },
+      {
+        "id": "dragon",
+        "name": "Dragon",
+        "emoji": "🐉",
+        "correct": true
+      },
+      {
+        "id": "car",
+        "name": "Car",
+        "emoji": "🚗",
+        "correct": false
+      },
+      {
+        "id": "potion",
+        "name": "Potion",
+        "emoji": "🧪",
+        "correct": true
+      },
+      {
+        "id": "shoe",
+        "name": "Shoe",
+        "emoji": "👟",
+        "correct": false
+      }
     ]
   },
   "arts": {
     "speaking": [
-      { "question": "What do you like to draw or paint?", "translation": "O que você gosta de desenhar ou pintar?", "starter": "I like to draw...", "nalaTip": "A landscape? A portrait? 🎨" },
-      { "question": "Where can you see many beautiful paintings?", "translation": "Onde você pode ver muitas pinturas bonitas?", "starter": "You can see them at an...", "nalaTip": "At an art exhibit! 🏛️" },
-      { "question": "Do you use a lot of colors in your designs?", "translation": "Você usa muitas cores nos seus designs?", "starter": "Yes, I use a...", "nalaTip": "A colorful palette! 🎨" }
+      {
+        "question": "What do you like to draw or paint?",
+        "translation": "O que você gosta de desenhar ou pintar?",
+        "starter": "I like to draw...",
+        "nalaTip": "A landscape? A portrait? 🎨"
+      },
+      {
+        "question": "Where can you see many beautiful paintings?",
+        "translation": "Onde você pode ver muitas pinturas bonitas?",
+        "starter": "You can see them at an...",
+        "nalaTip": "At an art exhibit! 🏛️"
+      },
+      {
+        "question": "Do you use a lot of colors in your designs?",
+        "translation": "Você usa muitas cores nos seus designs?",
+        "starter": "Yes, I use a...",
+        "nalaTip": "A colorful palette! 🎨"
+      },
+      {
+        "question": "What gives you inspiration when you draw?",
+        "translation": "O que te dá inspiração quando você desenha?",
+        "starter": "I get inspiration from...",
+        "nalaTip": "Nature, animals, or movies! 🌈"
+      },
+      {
+        "question": "Do you prefer painting on paper or on a canvas?",
+        "translation": "Você prefere pintar no papel ou em uma tela?",
+        "starter": "I prefer painting on...",
+        "nalaTip": "A canvas like a real painter! 🖼️"
+      },
+      {
+        "question": "What is your favorite masterpiece or piece of art?",
+        "translation": "Qual é a sua obra-prima ou arte favorita?",
+        "starter": "My favorite masterpiece is...",
+        "nalaTip": "A colorful landscape or a portrait of Nala! 🎨"
+      },
+      {
+        "question": "How do you use your imagination every day?",
+        "translation": "Como você usa sua imaginação todo dia?",
+        "starter": "I use my imagination to...",
+        "nalaTip": "Invent stories or create cool crafts! 💡"
+      }
     ],
     "title": "Arts & Creativity",
     "bgImage": "url('images/bg-arts.png')",
     "emoji": "🎨",
     "story": [
-      { "text": "I want to paint a beautiful masterpiece today." },
-      { "text": "First, I will make a quick sketch on the canvas." },
-      { "text": "I use my imagination to find inspiration." },
-      { "text": "My palette has many bright colors." },
-      { "text": "We will show this portrait at the art exhibit." }
+      {
+        "text": "I want to paint a beautiful masterpiece today."
+      },
+      {
+        "text": "First, I will make a quick sketch on the canvas."
+      },
+      {
+        "text": "I use my imagination to find inspiration."
+      },
+      {
+        "text": "My palette has many bright colors."
+      },
+      {
+        "text": "We will show this portrait at the art exhibit."
+      }
     ],
     "matching": [
-      { "word": "Masterpiece", "emoji": "🖼️", "pt": "Obra-prima" },
-      { "word": "Canvas", "emoji": "🖌️", "pt": "Tela" },
-      { "word": "Sketch", "emoji": "✏️", "pt": "Rascunho" },
-      { "word": "Palette", "emoji": "🎨", "pt": "Paleta" },
-      { "word": "Exhibit", "emoji": "🏛️", "pt": "Exposição" },
-      { "word": "Inspiration", "emoji": "✨", "pt": "Inspiração" },
-      { "word": "Imagination", "emoji": "💭", "pt": "Imaginação" },
-      { "word": "Pattern", "emoji": "🧩", "pt": "Estampa" },
-      { "word": "Portrait", "emoji": "👩‍🎨", "pt": "Retrato" },
-      { "word": "Sculpture", "emoji": "🗿", "pt": "Escultura" },
-      { "word": "Design", "emoji": "📐", "pt": "Design" },
-      { "word": "Craft", "emoji": "✂️", "pt": "Artesanato" }
+      {
+        "word": "Masterpiece",
+        "emoji": "🖼️",
+        "pt": "Obra-prima"
+      },
+      {
+        "word": "Canvas",
+        "emoji": "🖌️",
+        "pt": "Tela"
+      },
+      {
+        "word": "Sketch",
+        "emoji": "✏️",
+        "pt": "Rascunho"
+      },
+      {
+        "word": "Palette",
+        "emoji": "🎨",
+        "pt": "Paleta"
+      },
+      {
+        "word": "Exhibit",
+        "emoji": "🏛️",
+        "pt": "Exposição"
+      },
+      {
+        "word": "Inspiration",
+        "emoji": "✨",
+        "pt": "Inspiração"
+      },
+      {
+        "word": "Imagination",
+        "emoji": "💭",
+        "pt": "Imaginação"
+      },
+      {
+        "word": "Pattern",
+        "emoji": "🧩",
+        "pt": "Estampa"
+      },
+      {
+        "word": "Portrait",
+        "emoji": "👩‍🎨",
+        "pt": "Retrato"
+      },
+      {
+        "word": "Sculpture",
+        "emoji": "🗿",
+        "pt": "Escultura"
+      },
+      {
+        "word": "Design",
+        "emoji": "📐",
+        "pt": "Design"
+      },
+      {
+        "word": "Craft",
+        "emoji": "✂️",
+        "pt": "Artesanato"
+      }
     ],
     "sentence": [
-      { "words": ["She", "painted", "a", "beautiful", "portrait", "on", "the", "canvas"], "translation": "Ela pintou um lindo retrato na tela" },
-      { "words": ["You", "need", "a", "lot", "of", "imagination", "for", "this", "design"], "translation": "Você precisa de muita imaginação para este design" },
-      { "words": ["The", "artist", "showed", "his", "masterpiece", "at", "the", "exhibit"], "translation": "O artista mostrou sua obra-prima na exposição" }
+      {
+        "words": [
+          "She",
+          "painted",
+          "a",
+          "beautiful",
+          "portrait",
+          "on",
+          "the",
+          "canvas"
+        ],
+        "translation": "Ela pintou um lindo retrato na tela"
+      },
+      {
+        "words": [
+          "You",
+          "need",
+          "a",
+          "lot",
+          "of",
+          "imagination",
+          "for",
+          "this",
+          "design"
+        ],
+        "translation": "Você precisa de muita imaginação para este design"
+      },
+      {
+        "words": [
+          "The",
+          "artist",
+          "showed",
+          "his",
+          "masterpiece",
+          "at",
+          "the",
+          "exhibit"
+        ],
+        "translation": "O artista mostrou sua obra-prima na exposição"
+      }
     ],
-    "spelling": ["masterpiece", "canvas", "sketch", "palette", "exhibit", "inspiration", "imagination", "pattern", "portrait", "sculpture", "design", "craft"],
-    "garden": ["masterpiece", "canvas", "sketch", "palette", "exhibit", "inspiration", "portrait", "sculpture"],
+    "spelling": [
+      "masterpiece",
+      "canvas",
+      "sketch",
+      "palette",
+      "exhibit",
+      "inspiration",
+      "imagination",
+      "pattern",
+      "portrait",
+      "sculpture",
+      "design",
+      "craft"
+    ],
+    "garden": [
+      "masterpiece",
+      "canvas",
+      "sketch",
+      "palette",
+      "exhibit",
+      "inspiration",
+      "portrait",
+      "sculpture"
+    ],
     "quiz": [
-      { "question": "What do you call a drawing of a person's face?", "options": ["Landscape", "Pattern", "Portrait", "Sculpture"], "correct": 2, "explanation": "A portrait is a picture of someone!", "nalaMsg": "Smile for the painting!" },
-      { "question": "Where does a painter mix their colors?", "options": ["Canvas", "Palette", "Exhibit", "Sketch"], "correct": 1, "explanation": "Painters mix colors on a palette!", "nalaMsg": "So many colors!" },
-      { "question": "An amazing, perfect work of art is called a...", "options": ["Craft", "Sketch", "Design", "Masterpiece"], "correct": 3, "explanation": "A masterpiece is the artist's best work!", "nalaMsg": "It's beautiful!" }
+      {
+        "question": "What do you call a drawing of a person's face?",
+        "options": [
+          "Landscape",
+          "Pattern",
+          "Portrait",
+          "Sculpture"
+        ],
+        "correct": 2,
+        "explanation": "A portrait is a picture of someone!",
+        "nalaMsg": "Smile for the painting!"
+      },
+      {
+        "question": "Where does a painter mix their colors?",
+        "options": [
+          "Canvas",
+          "Palette",
+          "Exhibit",
+          "Sketch"
+        ],
+        "correct": 1,
+        "explanation": "Painters mix colors on a palette!",
+        "nalaMsg": "So many colors!"
+      },
+      {
+        "question": "An amazing, perfect work of art is called a...",
+        "options": [
+          "Craft",
+          "Sketch",
+          "Design",
+          "Masterpiece"
+        ],
+        "correct": 3,
+        "explanation": "A masterpiece is the artist's best work!",
+        "nalaMsg": "It's beautiful!"
+      },
+      {
+        "question": "What board do painters use to hold and mix their paints?",
+        "options": [
+          "A ruler",
+          "A palette",
+          "A notebook",
+          "An eraser"
+        ],
+        "correct": 1,
+        "explanation": "A palette holds all your colorful paints! 🎨",
+        "nalaMsg": "Mix the colors!"
+      },
+      {
+        "question": "A quick, preliminary pencil drawing is called a...",
+        "options": [
+          "Sculpture",
+          "Sketch",
+          "Frame",
+          "Canvas"
+        ],
+        "correct": 1,
+        "explanation": "A sketch helps an artist plan their drawing! ✏️",
+        "nalaMsg": "Draw your ideas!"
+      },
+      {
+        "question": "A painting of a person's face is known as a...",
+        "options": [
+          "Landscape",
+          "Portrait",
+          "Cartoon",
+          "Craft"
+        ],
+        "correct": 1,
+        "explanation": "A portrait captures a person's expression and face! 🖼️",
+        "nalaMsg": "Smile!"
+      },
+      {
+        "question": "Artwork carved or shaped from clay, stone, or metal is a...",
+        "options": [
+          "Sculpture",
+          "Poem",
+          "Song",
+          "Sketch"
+        ],
+        "correct": 0,
+        "explanation": "A sculpture is a three-dimensional piece of art! 🗿",
+        "nalaMsg": "Shape it with clay!"
+      }
     ],
     "truefalse": [
-      { "statement": "A sculpture is flat like a piece of paper.", "translation": "Uma escultura é plana como um pedaço de papel.", "isTrue": false, "explanation": "Sculptures are 3D objects, like statues!" },
-      { "statement": "You use a canvas to paint a picture.", "translation": "Você usa uma tela para pintar um quadro.", "isTrue": true, "explanation": "A canvas is the cloth you paint on!" },
-      { "statement": "A sketch is a final and complete painting.", "translation": "Um rascunho é uma pintura final e completa.", "isTrue": false, "explanation": "A sketch is a quick, early drawing!" }
+      {
+        "statement": "A sculpture is flat like a piece of paper.",
+        "translation": "Uma escultura é plana como um pedaço de papel.",
+        "isTrue": false,
+        "explanation": "Sculptures are 3D objects, like statues!"
+      },
+      {
+        "statement": "You use a canvas to paint a picture.",
+        "translation": "Você usa uma tela para pintar um quadro.",
+        "isTrue": true,
+        "explanation": "A canvas is the cloth you paint on!"
+      },
+      {
+        "statement": "A sketch is a final and complete painting.",
+        "translation": "Um rascunho é uma pintura final e completa.",
+        "isTrue": false,
+        "explanation": "A sketch is a quick, early drawing!"
+      },
+      {
+        "statement": "An artist mixes different paint colors on a palette.",
+        "question": "An artist mixes different paint colors on a palette.",
+        "translation": "Um artista mistura diferentes cores de tinta em uma paleta.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Palettes are made for mixing wonderful colors! 🎨",
+        "nalaMsg": "Creative colors!"
+      },
+      {
+        "statement": "A portrait is a picture of an empty desert.",
+        "question": "A portrait is a picture of an empty desert.",
+        "translation": "Um retrato é uma imagem de um deserto vazio.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "A portrait is a depiction of a person's face! 👤",
+        "nalaMsg": "Portraits show faces!"
+      },
+      {
+        "statement": "Imagination allows you to create new and original ideas.",
+        "question": "Imagination allows you to create new and original ideas.",
+        "translation": "A imaginação permite que você crie ideias novas e originais.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Imagination has no limits! 🌟",
+        "nalaMsg": "Think creative!"
+      },
+      {
+        "statement": "A sketch is a finished sculpture made of heavy stone.",
+        "question": "A sketch is a finished sculpture made of heavy stone.",
+        "translation": "Um rascunho (sketch) é uma escultura finalizada feita de pedra pesada.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "A sketch is a quick drawing, usually made with pencil! ✏️",
+        "nalaMsg": "Sketches are drawings!"
+      }
     ],
     "fetch": [
-      { "id": "palette", "name": "Palette", "emoji": "🎨", "correct": true },
-      { "id": "sketch", "name": "Sketch", "emoji": "✏️", "correct": true },
-      { "id": "sculpture", "name": "Sculpture", "emoji": "🗿", "correct": true },
-      { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false },
-      { "id": "canvas", "name": "Canvas", "emoji": "🖌️", "correct": true },
-      { "id": "bus", "name": "Bus", "emoji": "🚌", "correct": false }
+      {
+        "id": "palette",
+        "name": "Palette",
+        "emoji": "🎨",
+        "correct": true
+      },
+      {
+        "id": "sketch",
+        "name": "Sketch",
+        "emoji": "✏️",
+        "correct": true
+      },
+      {
+        "id": "sculpture",
+        "name": "Sculpture",
+        "emoji": "🗿",
+        "correct": true
+      },
+      {
+        "id": "apple",
+        "name": "Apple",
+        "emoji": "🍎",
+        "correct": false
+      },
+      {
+        "id": "canvas",
+        "name": "Canvas",
+        "emoji": "🖌️",
+        "correct": true
+      },
+      {
+        "id": "bus",
+        "name": "Bus",
+        "emoji": "🚌",
+        "correct": false
+      }
     ]
   },
   "fashion": {
@@ -10415,69 +12428,263 @@ const gameData = {
         "translation": "De que cor são as suas calças hoje?",
         "starter": "My pants are...",
         "nalaTip": "Blue jeans? Black pants? 👖"
+      },
+      {
+        "question": "What do you wear when it is cold outside?",
+        "translation": "O que você veste quando está frio lá fora?",
+        "starter": "When it is cold, I wear...",
+        "nalaTip": "A warm jacket, boots, and a scarf! 🧣"
+      },
+      {
+        "question": "What is your favorite outfit to wear to a party?",
+        "translation": "Qual é a sua roupa favorita para ir a uma festa?",
+        "starter": "My favorite outfit is...",
+        "nalaTip": "A pretty dress or a cool shirt and shoes! 👗"
+      },
+      {
+        "question": "Do you prefer wearing boots or sneakers?",
+        "translation": "Você prefere usar botas ou tênis?",
+        "starter": "I prefer wearing...",
+        "nalaTip": "Sneakers for running or boots for rain! 👟"
+      },
+      {
+        "question": "What color jacket do you like the most?",
+        "translation": "De que cor de jaqueta você mais gosta?",
+        "starter": "I like a...",
+        "nalaTip": "A purple, yellow, or pink jacket! 🧥"
       }
     ],
     "title": "Fashion & Clothes",
     "bgImage": "url('images/bg-fashion.png')",
     "emoji": "👗",
     "story": [
-      { "text": "I love your new dress!" },
-      { "text": "Thank you! I bought it yesterday." },
-      { "text": "Are those new shoes too?" },
-      { "text": "Yes, they are very comfortable for running." },
-      { "text": "Don't forget your jacket, it's getting cold outside." }
+      {
+        "text": "I love your new dress!"
+      },
+      {
+        "text": "Thank you! I bought it yesterday."
+      },
+      {
+        "text": "Are those new shoes too?"
+      },
+      {
+        "text": "Yes, they are very comfortable for running."
+      },
+      {
+        "text": "Don't forget your jacket, it's getting cold outside."
+      }
     ],
     "matching": [
-      { "word": "Dress", "emoji": "👗", "pt": "Vestido" },
-      { "word": "Shirt", "emoji": "👕", "pt": "Camisa" },
-      { "word": "Shoes", "emoji": "👟", "pt": "Sapatos" },
-      { "word": "Hat", "emoji": "👒", "pt": "Chapéu" },
-      { "word": "Skirt", "emoji": "👗", "pt": "Saia" },
-      { "word": "Pants", "emoji": "👖", "pt": "Calças" },
-      { "word": "Jacket", "emoji": "🧥", "pt": "Jaqueta" },
-      { "word": "Socks", "emoji": "🧦", "pt": "Meias" },
-      { "word": "Shorts", "emoji": "🩳", "pt": "Shorts" },
-      { "word": "Glasses", "emoji": "👓", "pt": "Óculos" },
-      { "word": "Scarf", "emoji": "🧣", "pt": "Cachecol" },
-      { "word": "Boots", "emoji": "👢", "pt": "Botas" }
+      {
+        "word": "Dress",
+        "emoji": "👗",
+        "pt": "Vestido"
+      },
+      {
+        "word": "Shirt",
+        "emoji": "👕",
+        "pt": "Camisa"
+      },
+      {
+        "word": "Shoes",
+        "emoji": "👟",
+        "pt": "Sapatos"
+      },
+      {
+        "word": "Hat",
+        "emoji": "👒",
+        "pt": "Chapéu"
+      },
+      {
+        "word": "Skirt",
+        "emoji": "👗",
+        "pt": "Saia"
+      },
+      {
+        "word": "Pants",
+        "emoji": "👖",
+        "pt": "Calças"
+      },
+      {
+        "word": "Jacket",
+        "emoji": "🧥",
+        "pt": "Jaqueta"
+      },
+      {
+        "word": "Socks",
+        "emoji": "🧦",
+        "pt": "Meias"
+      },
+      {
+        "word": "Shorts",
+        "emoji": "🩳",
+        "pt": "Shorts"
+      },
+      {
+        "word": "Glasses",
+        "emoji": "👓",
+        "pt": "Óculos"
+      },
+      {
+        "word": "Scarf",
+        "emoji": "🧣",
+        "pt": "Cachecol"
+      },
+      {
+        "word": "Boots",
+        "emoji": "👢",
+        "pt": "Botas"
+      }
     ],
     "sentence": [
       {
-        "words": ["She", "is", "wearing", "a", "beautiful", "pink", "dress"],
+        "words": [
+          "She",
+          "is",
+          "wearing",
+          "a",
+          "beautiful",
+          "pink",
+          "dress"
+        ],
         "translation": "Ela está vestindo um lindo vestido rosa"
       },
       {
-        "words": ["He", "wears", "a", "green", "jacket", "when", "it", "is", "cold"],
+        "words": [
+          "He",
+          "wears",
+          "a",
+          "green",
+          "jacket",
+          "when",
+          "it",
+          "is",
+          "cold"
+        ],
         "translation": "Ele usa uma jaqueta verde quando está frio"
       },
       {
-        "words": ["My", "blue", "socks", "are", "very", "soft", "and", "warm"],
+        "words": [
+          "My",
+          "blue",
+          "socks",
+          "are",
+          "very",
+          "soft",
+          "and",
+          "warm"
+        ],
         "translation": "Minhas meias azuis são muito macias e quentinhas"
       }
     ],
-    "spelling": ["dress", "shirt", "shoes", "hat", "skirt", "pants", "jacket", "socks", "shorts", "glasses", "scarf", "boots"],
-    "garden": ["dress", "shoes", "hat", "pants", "jacket", "glasses", "scarf", "boots"],
+    "spelling": [
+      "dress",
+      "shirt",
+      "shoes",
+      "hat",
+      "skirt",
+      "pants",
+      "jacket",
+      "socks",
+      "shorts",
+      "glasses",
+      "scarf",
+      "boots"
+    ],
+    "garden": [
+      "dress",
+      "shoes",
+      "hat",
+      "pants",
+      "jacket",
+      "glasses",
+      "scarf",
+      "boots"
+    ],
     "quiz": [
       {
         "question": "What do you wear on your feet?",
-        "options": ["Hat", "Shoes", "Shirt", "Gloves"],
+        "options": [
+          "Hat",
+          "Shoes",
+          "Shirt",
+          "Gloves"
+        ],
         "correct": 1,
         "explanation": "You wear shoes on your feet!",
         "nalaMsg": "Looking good!"
       },
       {
         "question": "What do you put over your shirt when it is cold?",
-        "options": ["Shorts", "Jacket", "Socks", "Ring"],
+        "options": [
+          "Shorts",
+          "Jacket",
+          "Socks",
+          "Ring"
+        ],
         "correct": 1,
         "explanation": "A jacket keeps you warm!",
         "nalaMsg": "Stay warm!"
       },
       {
         "question": "You wear these on your eyes to see better.",
-        "options": ["Scarf", "Pants", "Glasses", "Boots"],
+        "options": [
+          "Scarf",
+          "Pants",
+          "Glasses",
+          "Boots"
+        ],
         "correct": 2,
         "explanation": "Glasses help you see clearly!",
         "nalaMsg": "I can see you!"
+      },
+      {
+        "question": "What do you wear on your head on a sunny day?",
+        "options": [
+          "A hat",
+          "Shoes",
+          "Socks",
+          "A scarf"
+        ],
+        "correct": 0,
+        "explanation": "A hat protects your face and head from the sun! 👒",
+        "nalaMsg": "Looking stylish!"
+      },
+      {
+        "question": "What warm piece of clothing do you wear over your shirt in winter?",
+        "options": [
+          "Shorts",
+          "A jacket",
+          "Sandals",
+          "Swimsuit"
+        ],
+        "correct": 1,
+        "explanation": "A jacket keeps you warm in cold weather! 🧥",
+        "nalaMsg": "Stay warm!"
+      },
+      {
+        "question": "What do you put on your feet inside your shoes?",
+        "options": [
+          "Glasses",
+          "Gloves",
+          "Socks",
+          "Belt"
+        ],
+        "correct": 2,
+        "explanation": "Socks keep your feet comfortable and warm! 🧦",
+        "nalaMsg": "Cozy feet!"
+      },
+      {
+        "question": "What do people wear on their face to see better or protect from the sun?",
+        "options": [
+          "Scarf",
+          "Glasses",
+          "Boots",
+          "Skirt"
+        ],
+        "correct": 1,
+        "explanation": "Glasses help you see clearly or protect from sunlight! 👓",
+        "nalaMsg": "Cool shades!"
       }
     ],
     "truefalse": [
@@ -10498,16 +12705,103 @@ const gameData = {
         "translation": "Você usa um cachecol ao redor do seu pescoço.",
         "isTrue": true,
         "explanation": "Yes, a scarf keeps your neck warm!"
+      },
+      {
+        "statement": "You wear a jacket to stay warm when it is cold.",
+        "question": "You wear a jacket to stay warm when it is cold.",
+        "translation": "Você veste uma jaqueta para ficar aquecido quando está frio.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Jackets protect against wind and cold! 🧥",
+        "nalaMsg": "Warm and cozy!"
+      },
+      {
+        "statement": "Boots are worn on your hands to keep your fingers warm.",
+        "question": "Boots are worn on your hands to keep your fingers warm.",
+        "translation": "Botas são usadas nas mãos para manter os dedos aquecidos.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "Boots are worn on your feet; gloves go on hands! 👢",
+        "nalaMsg": "Boots are for feet!"
+      },
+      {
+        "statement": "A scarf is wrapped around your neck in winter.",
+        "question": "A scarf is wrapped around your neck in winter.",
+        "translation": "Um cachecol é enrolado no pescoço no inverno.",
+        "isTrue": true,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 0,
+        "explanation": "Scarves keep your neck super warm! 🧣",
+        "nalaMsg": "Snug and warm!"
+      },
+      {
+        "statement": "You wear heavy winter boots to swim in the pool.",
+        "question": "You wear heavy winter boots to swim in the pool.",
+        "translation": "Você usa botas pesadas de inverno para nadar na piscina.",
+        "isTrue": false,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct": 1,
+        "explanation": "You wear swimsuits in the pool, not heavy boots! 🏊",
+        "nalaMsg": "Swim with goggles, not boots!"
       }
     ],
     "fetch": [
-      { "id": "shoes", "name": "Shoes", "emoji": "👟", "correct": true },
-      { "id": "apple", "name": "Apple", "emoji": "🍎", "correct": false },
-      { "id": "hat", "name": "Hat", "emoji": "👒", "correct": true },
-      { "id": "pants", "name": "Pants", "emoji": "👖", "correct": true },
-      { "id": "car", "name": "Car", "emoji": "🚗", "correct": false },
-      { "id": "glasses", "name": "Glasses", "emoji": "👓", "correct": true },
-      { "id": "scarf", "name": "Scarf", "emoji": "🧣", "correct": true }
+      {
+        "id": "shoes",
+        "name": "Shoes",
+        "emoji": "👟",
+        "correct": true
+      },
+      {
+        "id": "apple",
+        "name": "Apple",
+        "emoji": "🍎",
+        "correct": false
+      },
+      {
+        "id": "hat",
+        "name": "Hat",
+        "emoji": "👒",
+        "correct": true
+      },
+      {
+        "id": "pants",
+        "name": "Pants",
+        "emoji": "👖",
+        "correct": true
+      },
+      {
+        "id": "car",
+        "name": "Car",
+        "emoji": "🚗",
+        "correct": false
+      },
+      {
+        "id": "glasses",
+        "name": "Glasses",
+        "emoji": "👓",
+        "correct": true
+      },
+      {
+        "id": "scarf",
+        "name": "Scarf",
+        "emoji": "🧣",
+        "correct": true
+      }
     ]
   }
 };

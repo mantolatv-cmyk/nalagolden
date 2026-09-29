@@ -361,7 +361,7 @@
       ? moduleData.truefalse.map(q => ({
           statement: q.statement || q.question,
           translation: q.translation || '',
-          answer: typeof q.answer !== 'undefined' ? q.answer : (q.correct === 0),
+          answer: typeof q.answer !== 'undefined' ? q.answer : (typeof q.isTrue !== 'undefined' ? q.isTrue : (q.correct === 0)),
           explanation: q.explanation || '',
           nalaMsg: q.nalaMsg || ''
         }))
@@ -374,7 +374,7 @@
           tfData = gameData[key].truefalse.map(q => ({
             statement: q.statement || q.question,
             translation: q.translation || '',
-            answer: typeof q.answer !== 'undefined' ? q.answer : (q.correct === 0),
+            answer: typeof q.answer !== 'undefined' ? q.answer : (typeof q.isTrue !== 'undefined' ? q.isTrue : (q.correct === 0)),
             explanation: q.explanation || '',
             nalaMsg: q.nalaMsg || ''
           }));
