@@ -6523,13 +6523,13 @@ const gameData = {
         "text": "Exactly! Oh, and my Crayon to draw beautiful pictures."
       },
       {
-        "text": "Will you learn math? You might need a Calculator!"
+        "text": "Do you learn math today? You need a calculator!"
       },
       {
         "text": "Yes, and a Ruler to measure things."
       },
       {
-        "text": "Your Teacher will be so happy to see you!"
+        "text": "Your teacher is always happy to see you!"
       },
       {
         "text": "I can't wait to sit at my Desk and meet every Student."
@@ -10133,19 +10133,34 @@ const gameData = {
     "emoji": "🐶",
     "story": [
       {
-        "text": "I adopted a stray cat from the animal shelter."
+        "text": "Hi Laís! Yesterday, my friend visited the animal shelter."
       },
       {
-        "text": "His behavior is very calm and obedient."
+        "text": "Really, Nala? Did she adopt a new pet?"
       },
       {
-        "text": "He wears a shiny red collar."
+        "text": "Yes! She adopted a cute stray cat with long whiskers."
       },
       {
-        "text": "I take him to the veterinary for check-ups."
+        "text": "That is wonderful! Adoption gives homeless animals love."
       },
       {
-        "text": "We share a strong bond of loyalty and affection."
+        "text": "He wears a pretty blue collar now, and his behavior is very calm."
+      },
+      {
+        "text": "Did she take him to the veterinary for a check-up?"
+      },
+      {
+        "text": "Yes, the doctor gave him medicine and checked his health."
+      },
+      {
+        "text": "Cats also need grooming to keep their soft fur clean."
+      },
+      {
+        "text": "He shows so much affection and loyalty to his new family!"
+      },
+      {
+        "text": "Pets are the best companions in the whole world, Nala."
       }
     ],
     "matching": [
@@ -10519,19 +10534,34 @@ const gameData = {
     "emoji": "🧁",
     "story": [
       {
-        "text": "Let's read the recipe to bake a dessert."
+        "text": "Laís, what is that delicious smell in the kitchen?"
       },
       {
-        "text": "First, measure all the ingredients carefully."
+        "text": "I baked chocolate cupcakes for our afternoon snack, Nala!"
       },
       {
-        "text": "Use a whisk to stir the delicious mixture."
+        "text": "Yum! Did you follow a special recipe?"
       },
       {
-        "text": "Melt some chocolate and add it to the dough."
+        "text": "Yes, I measured all the ingredients with mom's help."
       },
       {
-        "text": "Sprinkle sugar on top before putting it in the oven."
+        "text": "Did you use a whisk to mix the eggs and milk?"
+      },
+      {
+        "text": "I did! Then I melted dark chocolate and added it to the dough."
+      },
+      {
+        "text": "The mixture looks smooth and chocolate is my favorite flavor."
+      },
+      {
+        "text": "I sprinkled colorful sugar stars on top of each cupcake."
+      },
+      {
+        "text": "You are a fantastic baker! Baking is such a fun hobby."
+      },
+      {
+        "text": "Thank you, Nala! Homemade dessert always tastes delicious."
       }
     ],
     "matching": [
@@ -10904,19 +10934,34 @@ const gameData = {
     "emoji": "🛏️",
     "story": [
       {
-        "text": "I got new furniture to decorate my room."
+        "text": "Wow, Laís! Your bedroom looks completely different today!"
       },
       {
-        "text": "My new mattress is so cozy with this warm blanket."
+        "text": "I cleaned and decorated my room all morning, Nala."
       },
       {
-        "text": "I organized all my clothes in the wardrobe and drawer."
+        "text": "You organized all your clothes inside the wardrobe and drawers!"
       },
       {
-        "text": "I put my favorite books on the shelves."
+        "text": "Yes! A tidy room makes me feel relaxed and happy."
       },
       {
-        "text": "The carpet and the curtains match perfectly. It is very tidy!"
+        "text": "I love this soft pink carpet on the floor near your desk."
+      },
+      {
+        "text": "Yesterday, my dad helped me arrange the new wooden shelves."
+      },
+      {
+        "text": "You placed your favorite books and picture frames on them."
+      },
+      {
+        "text": "Look at my bed! The mattress is soft and the blanket is so cozy."
+      },
+      {
+        "text": "And the purple curtains match the mirror on the wall!"
+      },
+      {
+        "text": "My bedroom is my favorite place in the whole house."
       }
     ],
     "matching": [
@@ -11292,19 +11337,34 @@ const gameData = {
     "emoji": "💖",
     "story": [
       {
-        "text": "True friendship is very important."
+        "text": "Laís, you look so cheerful today! Did something nice happen?"
       },
       {
-        "text": "We always share laughter and support each other."
+        "text": "Yes, Nala! My best friend Julia planned a surprise for me."
       },
       {
-        "text": "We create beautiful memories together."
+        "text": "A surprise? What did she do?"
       },
       {
-        "text": "I promise I will keep your secret safe."
+        "text": "She brought me a friendship bracelet and a funny card."
       },
       {
-        "text": "We can trust each other, we are best friends."
+        "text": "True friendship brings so much laughter into our lives!"
+      },
+      {
+        "text": "We talked for hours and shared our secrets and dreams."
+      },
+      {
+        "text": "Trust and support are very important between friends."
+      },
+      {
+        "text": "She always gives me good advice when I feel sad."
+      },
+      {
+        "text": "You two made wonderful memories together this afternoon."
+      },
+      {
+        "text": "We promised to always stay close friends forever!"
       }
     ],
     "matching": [
@@ -11679,19 +11739,34 @@ const gameData = {
     "emoji": "🔮",
     "story": [
       {
-        "text": "Once upon a time in a far away kingdom..."
+        "text": "Laís, what book did you read last night under the blanket?"
       },
       {
-        "text": "A brave hero went on a dangerous quest."
+        "text": "I read an amazing fantasy legend about a magical kingdom!"
       },
       {
-        "text": "They had to fight a giant dragon."
+        "text": "Tell me the story! Did it have wizards and dragons?"
       },
       {
-        "text": "A fairy gave them a magic wand and a potion."
+        "text": "Yes! An old wizard lived in a tall stone castle."
       },
       {
-        "text": "They saved the castle using a powerful spell!"
+        "text": "Did a brave hero go on an exciting quest?"
+      },
+      {
+        "text": "A young hero traveled across the dark mountains."
+      },
+      {
+        "text": "How did the hero face the giant dragon?"
+      },
+      {
+        "text": "A friendly fairy gave the hero a glowing wand and a potion."
+      },
+      {
+        "text": "Did the magic wand cast a peaceful spell?"
+      },
+      {
+        "text": "Yes! The dragon became friendly and protected the castle."
       }
     ],
     "matching": [
@@ -12069,19 +12144,34 @@ const gameData = {
     "emoji": "🎨",
     "story": [
       {
-        "text": "I want to paint a beautiful masterpiece today."
+        "text": "What a creative mess on your table, Laís! What did you paint?"
       },
       {
-        "text": "First, I will make a quick sketch on the canvas."
+        "text": "I painted a portrait of you on this white canvas, Nala!"
       },
       {
-        "text": "I use my imagination to find inspiration."
+        "text": "A portrait of me? Wow, look at my golden fur!"
       },
       {
-        "text": "My palette has many bright colors."
+        "text": "First, I made a light pencil sketch of your cute face."
       },
       {
-        "text": "We will show this portrait at the art exhibit."
+        "text": "Then you mixed warm yellow and brown paints on your palette."
+      },
+      {
+        "text": "I used my imagination to create a starry pattern in the background."
+      },
+      {
+        "text": "Where did you find the inspiration for the starry sky?"
+      },
+      {
+        "text": "I saw a beautiful painting at the art exhibit last Saturday."
+      },
+      {
+        "text": "Your talent is incredible! This portrait is a real masterpiece."
+      },
+      {
+        "text": "Thank you, Nala! Art makes me feel inspired and happy."
       }
     ],
     "matching": [
@@ -12459,19 +12549,34 @@ const gameData = {
     "emoji": "👗",
     "story": [
       {
-        "text": "I love your new dress!"
+        "text": "Laís, you look so stylish today! Where did you go?"
       },
       {
-        "text": "Thank you! I bought it yesterday."
+        "text": "I went to the shopping mall with my mom, Nala."
       },
       {
-        "text": "Are those new shoes too?"
+        "text": "Did you buy any new clothes for the winter?"
       },
       {
-        "text": "Yes, they are very comfortable for running."
+        "text": "Yes, I bought a warm purple jacket and comfortable brown boots."
       },
       {
-        "text": "Don't forget your jacket, it's getting cold outside."
+        "text": "That jacket matches your woolen scarf and striped socks!"
+      },
+      {
+        "text": "I also tried on a pretty yellow dress and a sunny hat."
+      },
+      {
+        "text": "Did you like the dress, or do you prefer jeans and a shirt?"
+      },
+      {
+        "text": "I love both! For school, I wear jeans, sneakers, and glasses."
+      },
+      {
+        "text": "Fashion is fun because you express your personality."
+      },
+      {
+        "text": "Exactly, Nala! Clothes keep us comfortable and confident."
       }
     ],
     "matching": [
